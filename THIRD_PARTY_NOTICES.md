@@ -42,14 +42,10 @@ SOFTWARE.
 - The rest come from the companies' own websites, as listed in the credits file.
 
 ## Sky footage (`web/public/video`)
-Clips from Mixkit (https://mixkit.co), trimmed, looped and re-encoded, under the Mixkit Stock Video Free License
-(https://mixkit.co/license/#videoFree) and Mixkit's User Terms. Sources in
+Clips from Mixkit (https://mixkit.co), trimmed, looped and re-encoded, each with a still of its first frame, under the
+Mixkit Stock Video Free License (https://mixkit.co/license/#videoFree) and Mixkit's User Terms. Sources in
 [web/public/video/CREDITS.md](web/public/video/CREDITS.md). They are part of this app; they are not offered as stock
 footage and not covered by the MIT license.
-
-## Sky photos (`web/public/photos`)
-Photos from Unsplash (https://unsplash.com), under the Unsplash License (https://unsplash.com/license). Sources in
-[web/public/photos/CREDITS.md](web/public/photos/CREDITS.md).
 
 ## Recorded responses (`server/fixtures`)
 Responses recorded from the companies' official status pages and news pages, kept only so the tests run offline and

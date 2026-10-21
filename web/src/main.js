@@ -472,7 +472,9 @@ async function poll() {
 }
 
 document.querySelectorAll('[data-mark]').forEach(n => { n.innerHTML = markSvg('currentColor', LEVEL.operational.color, 'aria-hidden="true"'); });
-poll().then(connect);
+// the first snapshot was asked for by index.html while the scripts loaded
+const early = window.__snapshot; delete window.__snapshot;
+(early ? early.then(s => (s ? apply(s) : poll())).catch(() => {}) : poll()).then(connect);
 
 // QA hook, demo mode only: ?strike=claude fires lightning at a station. Never on live data.
 if (q.has('strike')) setTimeout(() => { if (state.demo) react({ type: 'incident_opened', companyId: q.get('strike'), incident: { level: 'major' } }); }, 2500);

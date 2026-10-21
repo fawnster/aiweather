@@ -31,6 +31,17 @@
   k(); addEventListener('resize', k);
 })();
 </script>
+<script>
+/* The sky and the board start loading now, alongside the scripts instead of after them (this sits above the stylesheet,
+   which would hold it back): the board's data, and the first-frame still of the sky the board most often shows (a clear
+   sky for the viewer's time of day, as weather.js picks). */
+(function () {
+  window.__snapshot = fetch('/api/snapshot', { cache: 'no-store' }).then(function (r) { return r.ok ? r.json() : null; }).catch(function () { return null; });
+  var d = new Date(), h = d.getHours() + d.getMinutes() / 60, l = document.createElement('link');
+  l.rel = 'preload'; l.as = 'image'; l.href = h < 5.5 || h >= 20.5 ? '/video/clear-night.jpg' : '/video/clear-day.jpg';
+  document.head.appendChild(l);
+})();
+</script>
 <link rel="stylesheet" href="/src/style.css">
 </head>
 <body data-weather="clear" data-view="grid">

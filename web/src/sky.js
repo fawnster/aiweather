@@ -311,13 +311,14 @@ export class Sky {
     this.texel = [1 / sw, 1 / sh];
   }
 
-  /** A <video> for a clip, shared across scenes; resolves once it has a frame to draw (or null). */
-  async clip(url) {
+  /** The <video> for a clip, shared across scenes; it starts loading the moment it's made. */
+  video(url) {
     let v = this.videoPool.get(url);
     if (!v) {
       v = document.createElement('video');
       Object.assign(v, { muted: true, loop: true, playsInline: true, preload: 'auto', defaultPlaybackRate: this.opts.speed, playbackRate: this.opts.speed });
       v.addEventListener('loadeddata', () => { v.playbackRate = this.opts.speed; }, { once: true });
+      v.addEventListener('error', () => this.videoPool.delete(url), { once: true });
       v.setAttribute('muted', ''); v.setAttribute('playsinline', '');
       v.src = url;
       v._frame = 1;
@@ -325,32 +326,43 @@ export class Sky {
       if (v.requestVideoFrameCallback) v.requestVideoFrameCallback(mark); else v._always = true;
       this.videoPool.set(url, v);
     }
+    return v;
+  }
+  /** Resolves once a clip has a frame to draw (or null after 6 s, or if it fails). */
+  async clip(url) {
+    const v = this.video(url);
     if (v.readyState >= 2) return v;
     return new Promise(res => {
       const done = ok => { clearTimeout(t); res(ok ? v : null); };
       const t = setTimeout(() => done(v.readyState >= 2), 6000);
       v.addEventListener('loadeddata', () => done(true), { once: true });
-      v.addEventListener('error', () => { this.videoPool.delete(url); done(false); }, { once: true });
+      v.addEventListener('error', () => done(false), { once: true });
     });
   }
   /** Fetch clips in the background so a later weather change never waits on the network. */
-  preload(urls) { if (!this.noVideo) for (const u of urls) this.clip(u); }
+  preload(urls) { if (!this.noVideo) for (const u of urls) this.video(u); }
 
   async makeSlot(scene) {
     const gl = this.gl;
     if (!scene.img && !scene.video) return { scene, tex: this.dummy, size: [1, 1] };
-    let video = scene.video && !this.noVideo ? await this.clip(scene.video) : null, size, im;
-    if (video) video.play().catch(() => {}); // low-power mode can refuse autoplay; the first frame still shows
-    else { im = new Image(); im.src = scene.img; await im.decode(); }
+    // A clip that can already play is drawn as it is. Otherwise its still (the clip's own first frame, a few kB) is drawn
+    // at once and the clip takes over in place as soon as it plays (uploadVideo): the sky never waits on the clip, and
+    // the switch can't be seen because the frames match.
+    const video = scene.video && !this.noVideo ? this.video(scene.video) : null;
+    video?.play().catch(() => {}); // low-power mode can refuse autoplay; the still, then the clip's first frame, still show
+    let src = video && video.readyState >= 2 ? video : null;
+    if (!src && scene.img) { const im = new Image(); im.src = scene.img; try { await im.decode(); src = im; } catch {} }
+    if (!src && video) src = await this.clip(scene.video); // no still: wait for the clip itself
+    if (!src) return { scene, tex: this.dummy, size: [1, 1], video };
     // create + bind the texture only now: the render loop binds other textures during the awaits above
     const tex = gl.createTexture(); gl.bindTexture(gl.TEXTURE_2D, tex);
     gl.pixelStorei(gl.UNPACK_FLIP_Y_WEBGL, true);
-    gl.texImage2D(gl.TEXTURE_2D, 0, gl.RGBA, gl.RGBA, gl.UNSIGNED_BYTE, video || im);
+    gl.texImage2D(gl.TEXTURE_2D, 0, gl.RGBA, gl.RGBA, gl.UNSIGNED_BYTE, src);
     gl.pixelStorei(gl.UNPACK_FLIP_Y_WEBGL, false);
-    if (!video) gl.generateMipmap(gl.TEXTURE_2D);
+    if (!video) gl.generateMipmap(gl.TEXTURE_2D); // a still that stays a still
     for (const [k, v] of [[gl.TEXTURE_MIN_FILTER, video ? gl.LINEAR : gl.LINEAR_MIPMAP_LINEAR], [gl.TEXTURE_MAG_FILTER, gl.LINEAR], [gl.TEXTURE_WRAP_S, gl.MIRRORED_REPEAT], [gl.TEXTURE_WRAP_T, gl.MIRRORED_REPEAT]]) gl.texParameteri(gl.TEXTURE_2D, k, v);
-    size = video ? [video.videoWidth, video.videoHeight] : [im.naturalWidth, im.naturalHeight];
-    return { scene, tex, size, video, frame: video?._frame };
+    const size = src === video ? [video.videoWidth, video.videoHeight] : [src.naturalWidth, src.naturalHeight];
+    return { scene, tex, size, video, frame: src === video ? video._frame : 0 };
   }
   dropSlot(slot) {
     if (!slot || slot.tex === this.dummy) return;
@@ -362,10 +374,11 @@ export class Sky {
   uploadVideo() {
     const gl = this.gl;
     for (const slot of this.slots) {
-      const v = slot?.video; if (!v || v.readyState < 2) continue;
+      const v = slot?.video; if (!v || v.readyState < 2 || slot.tex === this.dummy) continue;
       if (v.paused && !document.hidden) v.play().catch(() => {});
       if (!v._always && slot.frame === v._frame) continue; // no new frame since this slot last uploaded
       slot.frame = v._frame;
+      if (slot.size[0] !== v.videoWidth || slot.size[1] !== v.videoHeight) slot.size = [v.videoWidth, v.videoHeight]; // the clip took over from its still
       gl.bindTexture(gl.TEXTURE_2D, slot.tex);
       gl.pixelStorei(gl.UNPACK_FLIP_Y_WEBGL, true);
       gl.texImage2D(gl.TEXTURE_2D, 0, gl.RGBA, gl.RGBA, gl.UNSIGNED_BYTE, v);

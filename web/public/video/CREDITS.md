@@ -1,5 +1,6 @@
 # Sky video (Mixkit Stock Video Free License: free for commercial use, no attribution required)
-Trimmed, crossfade-looped and re-encoded at 1280 px.
+Trimmed, crossfade-looped and re-encoded at 640 px (a dot sky never shows more), each with a still of its first frame
+(the .jpg beside it) that the sky shows while the clip loads.
 - clear.mp4: https://mixkit.co/free-stock-video/blue-sky-background-as-the-clouds-travel-blown-by-the-26108/
 - overcast.mp4: https://mixkit.co/free-stock-video/a-gloomy-and-depressing-overcast-sky-9680/
 - rain.mp4: https://mixkit.co/free-stock-video/storm-clouds-moving-in-the-sky-9624/

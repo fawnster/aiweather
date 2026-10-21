@@ -339,9 +339,20 @@ function hideTileParts(els, ms = 0) {
 }
 function showTileParts() { tileHolds.forEach(a => a.cancel()); tileHolds = []; }
 
-/** A flier's colour and glow on its page (read while nothing is animating it) and in its tile. */
-const pageLook = el => ({ color: css(el).color, textShadow: css(el).textShadow });
-const tileLook = el => ({ color: css(el).color, textShadow: css(el).textShadow });
+/** A flier's colour (read while nothing is animating it). */
+const colorOf = el => css(el).color;
+/** Readies a flier. Its move is a transform-only animation, which the browser runs off the main thread (smooth however
+ *  busy the page is), so the origin goes inline, not into the keyframes; the colour runs as its own animation. Its glow
+ *  is off while it flies (.flying): redrawing a glow on every frame is what made phones stutter. */
+function lift(el, origin) { el.style.transformOrigin = origin; el.classList.add('flying'); }
+/** Puts fliers back; after an open, their glow fades back in. */
+function settleFliers(els, glow = false) {
+  for (const el of els) {
+    el.style.transformOrigin = ''; el.classList.remove('flying');
+    const g = glow && css(el).textShadow;
+    if (g && g !== 'none') el.animate([{ textShadow: 'none' }, { textShadow: g }], { duration: 260, easing: 'ease-out' });
+  }
+}
 
 let flight = null; // what's in the air: { dir: 'open' | 'close', id, anims, watch: elements, timer, hero }
 /** Stops the flight in the air and says how each of its parts looks on screen at this moment. */
@@ -356,6 +367,7 @@ function grab() {
     look.set(el, { transform: s.transform, opacity: +s.opacity, color: s.color, textShadow: s.textShadow });
   }
   f.anims.forEach(a => a.cancel());
+  settleFliers(f.fliers ?? []);
   releaseHero(f.hero);
   return { ...f, look };
 }
@@ -418,9 +430,10 @@ export function open(id, { push = true } = {}) {
     const ms = S.settle?.ms ?? 560, ease = S.settle?.ease ?? 'cubic-bezier(.2, .8, .2, 1)';
     const anims = [];
     for (const [from, to, text] of pairs) {
-      const k = over(from, to, text), was = back?.look.get(to);
-      const start = was ? { transform: was.transform, transformOrigin: k.transformOrigin, color: was.color, textShadow: was.textShadow } : { ...k, ...tileLook(from) };
-      anims.push(to.animate([start, { transform: 'none', transformOrigin: k.transformOrigin, ...pageLook(to) }], { duration: ms, easing: ease }));
+      const k = over(from, to, text), was = back?.look.get(to), color = colorOf(to);
+      lift(to, k.transformOrigin);
+      anims.push(to.animate([{ transform: was ? was.transform : k.transform }, { transform: 'none' }], { duration: ms, easing: ease }));
+      anims.push(to.animate([{ color: was ? was.color : colorOf(from) }, { color }], { duration: ms, easing: ease }));
       // it starts exactly on the tile's own text (same place, size and colour), so the two swap in one frame
       if (was && was.opacity < 1) anims.push(to.animate([{ opacity: was.opacity }, { opacity: 1 }], { duration: 90, easing: 'linear' }));
       if (to.classList.contains('cp-roll')) numberFlew = true;
@@ -434,13 +447,13 @@ export function open(id, { push = true } = {}) {
     }
     const rootWas = back?.look.get(root)?.opacity ?? 1;
     if (rootWas < 1) anims.push(root.animate([{ opacity: rootWas }, { opacity: 1 }], { duration: 200, easing: 'ease-out' }));
-    const me = flight = { dir: 'open', id, anims, watch: [...fliers, ...parts, root], timer: 0, hero: null };
+    const me = flight = { dir: 'open', id, anims, watch: [...fliers, ...parts, root], timer: 0, hero: null, fliers };
     if (!turning) {
       // the arrows, dots bar and Back fade in (CSS) once the flight is under way
       root.classList.add('leaving');
       requestAnimationFrame(() => requestAnimationFrame(() => { if (flight === me) root.classList.remove('leaving'); }));
     }
-    landed(me, () => { if (isOpen() && !built.has(id)) build(id); }); // news that came in while it flew
+    landed(me, () => { settleFliers(fliers, true); if (isOpen() && !built.has(id)) build(id); }); // news that came in while it flew
   }
   if (!numberFlew) rollHero(id);
   pages.get(id)?.focus({ preventScroll: true });
@@ -473,15 +486,17 @@ export async function close({ push = true } = {}) {
     const anims = [];
     root.classList.add('leaving'); // arrows, dots bar, Back and the bottom shade fade out (CSS)
     for (const [from, to, text] of pairs) {
-      const k = over(from, to, text), was = back?.look.get(to);
-      let start = was ? { transform: was.transform, transformOrigin: k.transformOrigin, color: was.color, textShadow: was.textShadow }
-        : { transform: 'translate(0px, 0px) scale(1)', transformOrigin: k.transformOrigin, ...pageLook(to) };
+      const k = over(from, to, text), was = back?.look.get(to), color = was ? was.color : colorOf(to);
+      let move = was ? was.transform : 'translate(0px, 0px) scale(1)';
       if (!was) {
         // scrolled far down: the name and number come in from just above the window, not from far off
         const r = to.getBoundingClientRect(), top = -r.height - 12;
-        if (r.top < top) start = { ...start, transform: `translate(0px, ${(top - r.top).toFixed(1)}px) scale(1)` };
+        if (r.top < top) move = `translate(0px, ${(top - r.top).toFixed(1)}px) scale(1)`;
       }
-      anims.push(to.animate([start, { ...k, ...tileLook(from) }], { duration: MOVE, easing: 'cubic-bezier(.32, .72, 0, 1)', fill: 'forwards' }));
+      lift(to, k.transformOrigin);
+      const glide = { duration: MOVE, easing: 'cubic-bezier(.32, .72, 0, 1)', fill: 'forwards' };
+      anims.push(to.animate([{ transform: move }, { transform: k.transform }], glide));
+      anims.push(to.animate([{ color }, { color: colorOf(from) }], glide));
       if (was && was.opacity < 1) anims.push(to.animate([{ opacity: was.opacity }, { opacity: 1 }], { duration: 90, easing: 'linear', fill: 'forwards' }));
       anims.push(to.animate([{ opacity: 1 }, { opacity: 0 }], { duration: FADE, delay: MOVE + SHOW, easing: 'linear', fill: 'forwards' }));
       anims.push(from.animate([{ opacity: 0 }, { opacity: 1 }], { duration: SHOW, delay: MOVE, easing: 'linear', fill: 'both' }));
@@ -490,13 +505,14 @@ export async function close({ push = true } = {}) {
     if (hero && pairs.length) anims.push(hero.animate([{ opacity: +hero.style.opacity }, { opacity: 1 }], { duration: 160, easing: 'ease-out', fill: 'forwards' }));
     if (!pairs.length) anims.push(root.animate([{ opacity: 1 }, { opacity: 0 }], { duration: 220, easing: 'ease-in', fill: 'forwards' }));
     // the list fades in once the page's cards are nearly gone, so the two never sit on top of each other
-    const me = flight = { dir: 'close', id, anims, watch: [...fliers, ...parts, root], timer: setTimeout(() => document.body.classList.remove('paging'), 100), hero };
+    const me = flight = { dir: 'close', id, anims, watch: [...fliers, ...parts, root], timer: setTimeout(() => document.body.classList.remove('paging'), 100), hero, fliers };
     await Promise.all(anims.map(x => x.finished.catch(() => {})));
     if (flight !== me) return; // turned round (or replaced) meanwhile
     flight = null;
     root.hidden = true;
     root.classList.remove('leaving');
     anims.forEach(x => x.cancel());
+    settleFliers(fliers);
     releaseHero(hero);
   }
   document.body.classList.remove('paging');

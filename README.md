@@ -97,5 +97,5 @@ PORT=8788 node server/scripts/live-check.mjs # five minutes of real polling with
 
 ## License
 
-The code is [MIT](LICENSE). Fonts, company logos, sky footage, photos and recorded test responses keep their own
+The code is [MIT](LICENSE). Fonts, company logos, sky footage and recorded test responses keep their own
 licenses: see [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).

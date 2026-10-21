@@ -234,6 +234,8 @@ body.arranging .st, body.arranging .row { cursor: grab; }
 .dp { display: inline-block; position: relative; width: .2em; height: 1em; line-height: 1; -webkit-text-fill-color: transparent; text-shadow: none; }
 .dp::after { content: ''; position: absolute; left: .005em; top: .755em; width: .09em; height: .09em; background: currentColor; }
 .cp-hero .dp::after { box-shadow: var(--sky-shadow); } /* the same shadow the digits cast on the sky */
+/* a name or number in flight between its tile and its page has no glow: redrawing one each frame made phones stutter */
+.flying, .flying * { text-shadow: none !important; } .flying .dp::after { box-shadow: none !important; }
 
 /* ── latest changes ─────────────────────────────────────────────────────── */
 .feed { margin-top: calc(28px * var(--k)); max-width: calc(560px * var(--k)); padding: calc(14px * var(--k)) calc(18px * var(--k)) calc(4px * var(--k)); border-radius: calc(18px * var(--k)); background: var(--surface); box-shadow: inset 0 0 0 1px rgba(255, 255, 255, .06); text-shadow: none; }
@@ -429,6 +431,11 @@ canvas.bars { display: block; } .bars.big { --bar-gap: 2.5; } .bars.mini { --bar
 }
 @media (max-width: 640px) {
   .brand .word { font-size: 21px; } .brand .mark { width: 34px; height: 28px; }
+  /* the header sits right under the status bar, where an iPhone app's own bar would (it was 18px further down), and a
+     company page's Back and name bar line up with it */
+  .top { padding-top: calc(env(safe-area-inset-top) + 8px); }
+  .pg-back { top: calc(env(safe-area-inset-top) + 4px); }
+  .cp-col { padding-top: calc(env(safe-area-inset-top) + 56px); }
   .top-right { gap: 14px; }
   .home { padding: 0 14px 40px; gap: 22px; }
   /* the Weather app's top: where the weather is, the big count under it, centred; Latest changes stays at the bottom of the screen */
@@ -472,7 +479,7 @@ canvas.bars { display: block; } .bars.big { --bar-gap: 2.5; } .bars.mini { --bar
   .cp-col { width: calc(100% - 28px); }
   /* the compact header on a scrolled company page: the name, with the figure and the sky under it (on one line they
      were all cut short between Back and the edge) */
-  .cp-mini { flex-wrap: wrap; align-content: center; gap: 1px 8px; font-size: 13px; }
+  .cp-mini { flex-wrap: wrap; align-content: center; gap: 1px 8px; font-size: 13px; height: calc(env(safe-area-inset-top) + 64px); margin-top: calc(-1 * (env(safe-area-inset-top) + 64px)); }
   .cp-mini b { flex: 0 0 100%; text-align: center; font-size: 16px; }
   .cp-mini span::before { margin-right: 8px; }
   .cp-mini b + span::before { content: none; }

@@ -20,7 +20,9 @@ function build() {
   cpSync(here + 'public', dist, { recursive: true, filter: s => !s.endsWith('CREDITS.md') });
   cpSync(here + 'src', `${dist}/${tag}`, { recursive: true });
   cpSync(here + 'public/wx', `${dist}/${tag}/wx`, { recursive: true, filter: s => !s.endsWith('CREDITS.md') });
-  writeFileSync(`${dist}/index.html`, readFileSync(here + 'index.html', 'utf8').replaceAll('/src/', `/${tag}/`));
+  // every module is fetched at once (no waterfall of imports found one level at a time)
+  const preload = readdirSync(here + 'src').filter(f => f.endsWith('.js')).sort().map(f => `<link rel="modulepreload" href="/src/${f}">`).join('\n');
+  writeFileSync(`${dist}/index.html`, readFileSync(here + 'index.html', 'utf8').replace('</head>', `${preload}\n</head>`).replaceAll('/src/', `/${tag}/`));
   console.log(`web built → ${dist} (${tag})`);
 }
 build();

@@ -38,17 +38,19 @@ export function phaseOf(date = new Date()) {
 }
 
 // --- footage --------------------------------------------------------------------------------
-// Real clips (web/public/video, Mixkit free licence). contrast/lift map each clip's measured 10th–90th
-// luminance percentiles (ffmpeg signalstats) onto the dot palette; night clips stay dark on purpose.
+// Real clips (web/public/video, Mixkit free licence), 640 px: a dot sky never shows more. Each clip's still (`img`) is
+// its own first frame, shown the moment a scene is needed while the clip loads, so the clip takes over unseen.
+// contrast/lift map each clip's measured 10th–90th luminance percentiles (ffmpeg signalstats) onto the dot palette;
+// night clips stay dark on purpose.
 const CLIP = {
-  'clear-day':      { video: 'video/clear-day.mp4', img: 'photos/fair.jpg', contrast: 2.18, lift: -.30, sun: [.8, .83, 1, .078] },
-  fair:             { video: 'video/clear.mp4', img: 'photos/clear.jpg', contrast: 1.7, lift: .02, sun: [.8, .83, .5, .07] },
-  overcast:         { video: 'video/overcast.mp4', img: 'photos/overcast.jpg', contrast: 1.7, lift: -.08 },
-  rain:             { video: 'video/rain.mp4', img: 'photos/rain.jpg', contrast: 1.85, lift: .04 },
-  storm:            { video: 'video/storm.mp4', img: 'photos/storm.jpg', contrast: 1.77, lift: .146 },
-  'clear-night':    { video: 'video/clear-night.mp4', img: 'photos/fair.jpg', contrast: 3.74, lift: 1.224, night: true },
-  'overcast-night': { video: 'video/overcast-night.mp4', img: 'photos/overcast.jpg', contrast: 3.7, lift: 1.14, night: true },
-  'storm-night':    { video: 'video/storm-night.mp4', img: 'photos/storm.jpg', contrast: 4, lift: 1.284, night: true },
+  'clear-day':      { video: 'video/clear-day.mp4', img: 'video/clear-day.jpg', contrast: 2.18, lift: -.30, sun: [.8, .83, 1, .078] },
+  fair:             { video: 'video/clear.mp4', img: 'video/clear.jpg', contrast: 1.7, lift: .02, sun: [.8, .83, .5, .07] },
+  overcast:         { video: 'video/overcast.mp4', img: 'video/overcast.jpg', contrast: 1.7, lift: -.08 },
+  rain:             { video: 'video/rain.mp4', img: 'video/rain.jpg', contrast: 1.85, lift: .04 },
+  storm:            { video: 'video/storm.mp4', img: 'video/storm.jpg', contrast: 1.77, lift: .146 },
+  'clear-night':    { video: 'video/clear-night.mp4', img: 'video/clear-night.jpg', contrast: 3.74, lift: 1.224, night: true },
+  'overcast-night': { video: 'video/overcast-night.mp4', img: 'video/overcast-night.jpg', contrast: 3.7, lift: 1.14, night: true },
+  'storm-night':    { video: 'video/storm-night.mp4', img: 'video/storm-night.jpg', contrast: 4, lift: 1.284, night: true },
 };
 const DAY = { clear: 'clear-day', fair: 'fair', fog: 'overcast', overcast: 'overcast', rain: 'rain', storm: 'storm' };
 const NIGHT = { clear: 'clear-night', fair: 'clear-night', fog: 'overcast-night', overcast: 'overcast-night', rain: 'overcast-night', storm: 'storm-night' };
@@ -178,7 +180,7 @@ export class WeatherController {
       this.phase = phaseOf();
       const scene = sceneFor(id, this.phase);
       document.querySelector('.veil')?.classList.toggle('sunny', !!scene.sun); // the veil opens around the sun (style.css)
-      this.sky.setScene(scene, { origin, reveal: first, fast });
+      this.sky.setScene(scene, { origin, reveal: first, fast: fast || first }); // the first sky comes in quickly
     }
   }
   step(dt) {
