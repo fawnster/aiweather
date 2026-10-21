@@ -62,9 +62,18 @@ body.paging .top, body.editing .top { opacity: 0; pointer-events: none; }
 /* the page behind a company page or the list editor doesn't scroll */
 html:has(body.paging), html:has(body.editing), body.paging, body.editing { overflow: hidden; }
 /* once the page scrolls, the header gets a solid backing so the list never runs under the logo */
-.top::before { content: ''; position: absolute; z-index: -1; left: 0; right: 0; top: 0; bottom: -22px; pointer-events: none; opacity: 0; transition: opacity .2s;
-  background: linear-gradient(180deg, rgb(4, 8, 24) 0, rgb(4, 8, 24) calc(100% - 30px), rgba(4, 8, 24, 0) 100%); }
+.top::before { content: ''; position: absolute; z-index: -1; left: 0; right: 0; top: 0; bottom: -28px; pointer-events: none; opacity: 0; transition: opacity .2s;
+  background: linear-gradient(180deg, #050A1E 0, #050A1E calc(100% - 28px), rgba(5, 10, 30, 0) 100%); }
 body.scrolled .top::before { opacity: 1; }
+/* phones: Safari paints the strip behind the status bar in the page's background colour (#050A1E) and the page starts
+   below it, so the dot sky used to meet that strip in a hard edge of dot squares. The top of the page now starts in the
+   same colour and melts into a soft blur of the sky that sharpens again below the header, so strip and page read as one.
+   It sits over the sky and the list but under the header, and under a company page and its Back button. */
+.edge { display: none; }
+/* phones, the bottom: Safari fills the strip behind its toolbar with a flat colour sampled from the page, which sliced
+   the list off in a hard line. The page now fades into the page colour at its bottom edge, so Safari samples that
+   colour and the list dissolves into the toolbar strip instead (whether the toolbar is open or shrunk). */
+.edge-foot { display: none; }
 .brand { display: flex; align-items: center; gap: calc(10px * var(--k)); text-decoration: none; }
 .brand .mark { width: calc(40px * var(--k)); height: calc(32px * var(--k)); }
 .brand .mark svg { width: 100%; height: 100%; }
@@ -102,7 +111,7 @@ body.menu-open .controls { opacity: 1; visibility: visible; transform: none;
 .link.strong { font-weight: 700; color: var(--ink); padding: 0; font-size: calc(16px * var(--k)); }
 .top-right { grid-column: 3; justify-self: end; display: grid; align-items: center; gap: calc(22px * var(--k)); }
 .top-right .link { padding-bottom: 0; color: var(--ink); font-weight: 600; }
-.live { display: flex; align-items: center; gap: calc(8px * var(--k)); font-size: calc(13px * var(--k)); color: var(--ink); }
+.live { display: flex; align-items: center; gap: calc(8px * var(--k)); font-size: calc(14px * var(--k)); color: var(--ink); } /* the same size as Menu beside it */
 .beat { width: calc(8px * var(--k)); height: calc(8px * var(--k)); border-radius: 50%; background: var(--ok); animation: beat 2.4s infinite; }
 body.demo-data .beat { background: var(--warn); animation: none; }
 body.demo-data .live { color: var(--warn); }
@@ -245,7 +254,7 @@ body.arranging .st, body.arranging .row { cursor: grab; }
 .pages { position: fixed; inset: 0; z-index: 10; transform-origin: 50% 50%; }
 /* content fades out under the bottom bar instead of running into it */
 .pages::after { content: ''; position: absolute; left: 0; right: 0; bottom: 0; height: calc(env(safe-area-inset-bottom) + calc(104px * var(--k))); pointer-events: none; z-index: 1;
-  background: linear-gradient(to top, rgba(4, 8, 24, .94) 0%, rgba(4, 8, 24, .78) 45%, rgba(4, 8, 24, 0) 100%); }
+  background: linear-gradient(to top, #050A1E 0%, rgba(5, 10, 30, .78) 45%, rgba(5, 10, 30, 0) 100%); }
 .pg-bar { z-index: 2; }
 /* the page's chrome comes and goes with the page (arrows, dots bar, Back, the bottom shade), never lingers */
 .pages .side, .pages .pg-bar, .pages .pg-back { transition: opacity .16s ease-out; }
@@ -281,7 +290,7 @@ body.arranging .st, body.arranging .row { cursor: grab; }
 .cp-cond { margin-top: calc(2px * var(--k)); font-size: calc(21px * var(--k)); font-weight: 600; color: var(--ink-2); }
 .cp-hl { margin-top: calc(4px * var(--k)); font-size: calc(18px * var(--k)); font-weight: 600; white-space: pre; }
 .cp-mini { position: sticky; top: 0; z-index: 2; height: calc(56px * var(--k)); margin: calc(-56px * var(--k)) calc(-16px * var(--k)) 0; display: flex; align-items: center; justify-content: center; gap: calc(10px * var(--k)); font-size: calc(16px * var(--k)); color: var(--ink-2); opacity: 0; pointer-events: none;
-  background: linear-gradient(180deg, rgb(4, 8, 24) 0, rgb(4, 8, 24) 68%, rgba(4, 8, 24, 0) 100%); height: calc(76px * var(--k)); margin-top: calc(-76px * var(--k)); padding-bottom: calc(12px * var(--k));
+  background: linear-gradient(180deg, #050A1E 0, #050A1E calc(100% - calc(24px * var(--k))), rgba(5, 10, 30, 0) 100%); height: calc(env(safe-area-inset-top) + calc(76px * var(--k))); margin-top: calc(-1 * (env(safe-area-inset-top) + calc(76px * var(--k)))); padding-top: env(safe-area-inset-top); padding-bottom: calc(12px * var(--k));
   margin-left: calc(50% - 50vw); margin-right: calc(50% - 50vw); } /* a full-width bar, not a box over the column */
 .cp-mini { padding-left: calc(104px * var(--k)); padding-right: calc(104px * var(--k)); }
 .cp-mini > * { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; min-width: 0; }
@@ -435,6 +444,14 @@ canvas.bars { display: block; } .bars.big { --bar-gap: 2.5; } .bars.mini { --bar
   .feed { margin-top: 44px; align-self: stretch; text-align: left; }
   /* decluttered header: logo, Live, Menu. The options live in one panel under the header. */
   .live .ago { display: none; }
+  .edge { display: block; position: fixed; z-index: 5; left: 0; right: 0; top: 0; height: calc(var(--top-h, 60px) + 40px); pointer-events: none;
+    -webkit-backdrop-filter: blur(12px); backdrop-filter: blur(12px);
+    background: linear-gradient(180deg, #050A1E 0, rgba(5, 10, 30, .82) 14%, rgba(5, 10, 30, .55) 36%, rgba(5, 10, 30, .28) 62%, rgba(5, 10, 30, .1) 84%, rgba(5, 10, 30, 0) 100%);
+    -webkit-mask: linear-gradient(180deg, #000 0, #000 45%, transparent 100%); mask: linear-gradient(180deg, #000 0, #000 45%, transparent 100%); }
+  .edge-foot { display: block; position: fixed; z-index: 5; left: 0; right: 0; bottom: 0; height: 44px; pointer-events: none;
+    -webkit-backdrop-filter: blur(8px); backdrop-filter: blur(8px);
+    background: linear-gradient(0deg, #050A1E 0, rgba(5, 10, 30, .72) 22%, rgba(5, 10, 30, .32) 58%, rgba(5, 10, 30, 0) 100%);
+    -webkit-mask: linear-gradient(0deg, #000 0, #000 30%, transparent 100%); mask: linear-gradient(0deg, #000 0, #000 30%, transparent 100%); }
   .controls { right: 12px; width: min(272px, calc(100vw - 24px)); }
   .controls .view-row { display: none; }
   body.menu-open:not(.paging):not(.editing) .home { opacity: .35; transition: opacity .2s; }
@@ -453,6 +470,12 @@ canvas.bars { display: block; } .bars.big { --bar-gap: 2.5; } .bars.mini { --bar
   .feed-row .who { grid-area: who; }
   .feed-row .what { grid-area: what; white-space: normal; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; line-height: 1.35; }
   .cp-col { width: calc(100% - 28px); }
+  /* the compact header on a scrolled company page: the name, with the figure and the sky under it (on one line they
+     were all cut short between Back and the edge) */
+  .cp-mini { flex-wrap: wrap; align-content: center; gap: 1px 8px; font-size: 13px; }
+  .cp-mini b { flex: 0 0 100%; text-align: center; font-size: 16px; }
+  .cp-mini span::before { margin-right: 8px; }
+  .cp-mini b + span::before { content: none; }
   .card { padding: 14px 16px; border-radius: 20px; }
   .tile { min-height: 108px; padding: 12px 14px; }
   .t-num { font-size: 24px; }

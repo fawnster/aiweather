@@ -267,7 +267,7 @@ function hoverCompany(id, on) {
 }
 
 phoneQ.addEventListener('change', () => { document.body.dataset.view = viewNow(); closeMenuSheet(); render(); document.querySelectorAll('.opt').forEach(placeRule); });
-new ResizeObserver(([e]) => document.documentElement.style.setProperty('--top-h', `${Math.round(e.target.getBoundingClientRect().bottom)}px`)).observe($('.top'));
+new ResizeObserver(([e]) => document.documentElement.style.setProperty('--top-h', `${Math.round(e.target.getBoundingClientRect().bottom)}px`)).observe($('.top'), { box: 'border-box' }); // border box: the status bar's inset is padding
 // the headline column (desktop): never moves while the list scrolls; only when it's taller than the window does it
 // scroll up, just far enough to show its last line, and then stay
 const forecastEl = $('.forecast');
