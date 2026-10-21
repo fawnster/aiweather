@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>https://modal.com/blog</id>
+  <title>Modal Blog</title>
+  <updated>2026-10-21T02:04:51.630Z</updated>
+  <link rel="self" href="https://modal.com/blog/atom.xml"/>
+  <link rel="alternate" href="https://modal.com/blog"/>
+  <entry>
+    <id>https://modal.com/blog/serverless-routing-made-sticky</id>
+    <title>Serverless routing made sticky</title>
+    <updated>2026-10-20T00:00:00.000Z</updated>
+    <link href="https://modal.com/blog/serverless-routing-made-sticky"/>
+    <summary type="text"><![CDATA[Voice agents, multiplayer games, and other workloads can now build on Sticky Sessions. Achieve strong affinity without losing autoscaling. Here’s how we built this on Modal Servers. ]]></summary>
+  </entry>
+  <entry>
+    <id>https://modal.com/blog/nvidia-vera-sandboxes</id>
+    <title>NVIDIA Vera CPUs double throughput for Modal Sandboxes</title>
+    <updated>2026-10-19T14:01:00.000Z</updated>
+    <link href="https://modal.com/blog/nvidia-vera-sandboxes"/>
+    <summary type="text"><![CDATA[We benchmarked NVIDIA's new Arm-based Vera CPU on agentic Sandbox workloads. Under heavy load, it completes far more tasks than the x86 and Graviton alternatives, without sacrificing latency.]]></summary>
+    <author>
+      <name>Erik Dunteman</name>
+    </author>
+  </entry>
+  <entry>
+    <id>https://modal.com/blog/vm-sandbox-filesystem</id>
+    <title>Building fast filesystems for VMs</title>
+    <updated>2026-10-16T12:00:00.000Z</updated>
+    <link href="https://modal.com/blog/vm-sandbox-filesystem"/>
+    <summary type="text"><![CDATA[How we made VM Sandbox filesystems fast by speaking in blocks instead of files.]]></summary>
+    <author>
+      <name>Nitin Maddi</name>
+    </author>
+    <author>
+      <name>Amit Prasad</name>
+    </author>
+  </entry>
+  <entry>
+    <id>https://modal.com/blog/meta-muse-spark-open-now-available-on-modal</id>
+    <title>Muse Spark Open is now available on Modal</title>
+    <updated>2026-10-15T00:00:00.000Z</updated>
+    <link href="https://modal.com/blog/meta-muse-spark-open-now-available-on-modal"/>
+    <summary type="text"><![CDATA[Muse Spark Open, a coding-optimized multimodal model from Meta, is now available on Modal Auto Endpoints.]]></summary>
+  </entry>
+  <entry>
+    <id>https://modal.com/blog/1-billion-annualized-run-rate-series-d</id>
+    <title>Modal crosses &#x24;1B in Annualized Run Rate and raises &#x24;750M Series D</title>
+    <updated>2026-10-14T00:00:00.000Z</updated>
+    <link href="https://modal.com/blog/1-billion-annualized-run-rate-series-d"/>
+    <summary type="text"><![CDATA[Modal has crossed $1B in annualized run rate and raised a $750M Series D led by Accel to build new infrastructure for AI applications.
+
+We can't think of a better time to be building software.]]></summary>
+  </entry>
+  <entry>
+    <id>https://modal.com/blog/toward-rl-on-mixed-precision-mixed-accelerator-samplers</id>
+    <title>Toward RL on mixed-precision, mixed-accelerator samplers</title>
+    <updated>2026-10-13T12:00:00.000Z</updated>
+    <link href="https://modal.com/blog/toward-rl-on-mixed-precision-mixed-accelerator-samplers"/>
+    <summary type="text"><![CDATA[We trained a model on agentic coding tasks using fully asynchronous RL and mixed-precision, mixed-accelerator samplers. With off-policy correction, training stayed stable through convergence, on par with homogeneous samplers, at a lower cost.]]></summary>
+    <author>
+      <name>Nan Jiang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>https://modal.com/blog/endpoint-candidates</id>
+    <title>Endpoint Candidates: evaluate and promote inference endpoints</title>
+    <updated>2026-10-12T00:00:00.000Z</updated>
+    <link href="https://modal.com/blog/endpoint-candidates"/>
+    <summary type="text"><![CDATA[Test and promote inference endpoints to evaluate quality, latency, throughput, and cost.]]></summary>
+  </entry>
+  <entry>
+    <id>https://modal.com/blog/typesafeai-case-study</id>
+    <title>TypeSafe AI scales Jev to trillions of tokens in three days on Modal</title>
+    <updated>2026-10-05T00:00:00.000Z</updated>
+    <link href="https://modal.com/blog/typesafeai-case-study"/>
+    <summary type="text"><![CDATA[TypeSafe AI launched Jev, a new class of AI model built for automation, and scaled to trillions of tokens over a weekend on Modal.]]></summary>
+  </entry>
+  <entry>
+    <id>https://modal.com/blog/modal-clusters-generally-available</id>
+    <title>Modal Clusters are generally available</title>
+    <updated>2026-10-01T12:00:00.000Z</updated>
+    <link href="https://modal.com/blog/modal-clusters-generally-available"/>
+    <summary type="text"><![CDATA[Multi-node GPU clusters with RDMA, gang scheduled from Modal's shared capacity pool and billed by the second, behind a single decorator.]]></summary>
+    <author>
+      <name>Peyton Walters</name>
+    </author>
+  </entry>
+  <entry>
+    <id>https://modal.com/blog/vm-sandboxes-agent-computers</id>
+    <title>VM Sandboxes: Full computers for agents</title>
+    <updated>2026-10-01T00:00:00.000Z</updated>
+    <link href="https://modal.com/blog/vm-sandboxes-agent-computers"/>
+    <summary type="text"><![CDATA[VM Sandboxes are built for those who need to give their agents the power of a full computer.]]></summary>
+  </entry>
+  <entry>
+    <id>https://modal.com/blog/runtime-product-update-sandbox-endpoints</id>
+    <title>Runtime Roundup: VM Sandboxes, Multi-node clusters, and more</title>
+    <updated>2026-10-01T00:00:00.000Z</updated>
+    <link href="https://modal.com/blog/runtime-product-update-sandbox-endpoints"/>
+    <summary type="text"><![CDATA[Everything announced live at Modal's inaugural conference, Runtime.]]></summary>
+  </entry>
+  <entry>
+    <id>https://modal.com/blog/introducing-sandbox-sidecars-trust-boundary</id>
+    <title>Sidecars: A low-latency trust boundary for Sandboxes</title>
+    <updated>2026-10-01T00:00:00.000Z</updated>
+    <link href="https://modal.com/blog/introducing-sandbox-sidecars-trust-boundary"/>
+    <summary type="text"><![CDATA[Sidecars are isolated containers that run alongside your main Sandbox on the same host.]]></summary>
+  </entry>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+</feed>

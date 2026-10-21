@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Blog on Qwen</title>
+    <link>https://qwenlm.github.io/blog/</link>
+    <description>Recent content in Blog on Qwen</description>
+    <image>
+      <url>https://qwenlm.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://qwenlm.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 23 Sep 2025 04:00:00 +0800</lastBuildDate><atom:link href="https://qwenlm.github.io/blog/index.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Qwen3Guard: Real-time Safety for Your Token Stream</title>
+      <link>https://qwenlm.github.io/blog/qwen3guard/</link>
+      <pubDate>Tue, 23 Sep 2025 04:00:00 +0800</pubDate>
+      
+      <guid>https://qwenlm.github.io/blog/qwen3guard/</guid>
+      <description>Tech Report GitHub Hugging Face ModelScope DISCORD
+Introduction We are excited to introduce Qwen3Guard, the first safety guardrail model in the Qwen family. Built upon the powerful Qwen3 foundation models and fine-tuned specifically for safety classificatoin, Qwen3Guard ensures responsible AI interactions by delivering precise safety detection for both prompts and responses, complete with risk levels and categorized classifications for accurate moderation.
+Qwen3Guard achieves state-of-the-art performance on major safety benchmarks, demonstrating strong capabilities in both prompt and response classification tasks across English, Chinese, and multilingual environments.</description>
+    </item>
+    
+    <item>
+      <title>Qwen-Image-Edit: Image Editing with Higher Quality and Efficiency</title>
+      <link>https://qwenlm.github.io/blog/qwen-image-edit/</link>
+      <pubDate>Tue, 19 Aug 2025 01:30:00 +0800</pubDate>
+      
+      <guid>https://qwenlm.github.io/blog/qwen-image-edit/</guid>
+      <description>QWEN CHAT GITHUB HUGGING FACE MODELSCOPE DISCORD
+We are excited to introduce Qwen-Image-Edit, the image editing version of Qwen-Image. Built upon our 20B Qwen-Image model, Qwen-Image-Edit successfully extends Qwen-Image&amp;rsquo;s unique text rendering capabilities to image editing tasks, enabling precise text editing. Furthermore, Qwen-Image-Edit simultaneously feeds the input image into Qwen2.5-VL (for visual semantic control) and the VAE Encoder (for visual appearance control), achieving capabilities in both semantic and appearance editing.</description>
+    </item>
+    
+    <item>
+      <title>Qwen-Image: Crafting with Native Text Rendering</title>
+      <link>https://qwenlm.github.io/blog/qwen-image/</link>
+      <pubDate>Mon, 04 Aug 2025 22:08:30 +0800</pubDate>
+      
+      <guid>https://qwenlm.github.io/blog/qwen-image/</guid>
+      <description>GITHUB HUGGING FACE MODELSCOPE DEMO DISCORD
+We are thrilled to release Qwen-Image, a 20B MMDiT image foundation model that achieves significant advances in complex text rendering and precise image editing. To try the latest model, feel free to visit Qwen Chat and choose &#x201c;Image Generation&#x201d;.
+The key features include:
+Superior Text Rendering: Qwen-Image excels at complex text rendering, including multi-line layouts, paragraph-level semantics, and fine-grained details. It supports both alphabetic languages (e.</description>
+    </item>
+    
+    <item>
+      <title>GSPO: Towards Scalable Reinforcement Learning for Language Models</title>
+      <link>https://qwenlm.github.io/blog/gspo/</link>
+      <pubDate>Sun, 27 Jul 2025 15:00:00 +0800</pubDate>
+      
+      <guid>https://qwenlm.github.io/blog/gspo/</guid>
+      <description>PAPER DISCORD
+Introduction Reinforcement Learning (RL) has emerged as a pivotal paradigm for scaling language models and enhancing their deep reasoning and problem-solving capabilities. To scale RL, the foremost prerequisite is maintaining stable and robust training dynamics. However, we observe that existing RL algorithms (such as GRPO) exhibit severe instability issues during long training and lead to irreversible model collapse, hindering further performance improvements with increased compute.
+To enable successful RL scaling, we propose the Group Sequence Policy Optimization (GSPO) algorithm.</description>
+    </item>
+    
+    <item>
+      <title>Qwen-MT: Where Speed Meets Smart Translation</title>
+      <link>https://qwenlm.github.io/blog/qwen-mt/</link>
+      <pubDate>Thu, 24 Jul 2025 22:00:00 +0800</pubDate>
+      
+      <guid>https://qwenlm.github.io/blog/qwen-mt/</guid>
+      <description>DEMO API DISCORD
+Introduction Here we introduce the latest update of Qwen-MT (qwen-mt-turbo) via Qwen API. This update builds upon the powerful Qwen3, leveraging trillions multilingual and translation tokens to comprehensively enhance the model&#x2019;s multilingual understanding and translation capabilities. By integrating reinforcement learning techniques, the model achieves significant improvements in translation accuracy and linguistic fluency.
+Key Features:
+Multilingual Support for 92 Languages: Qwen-MT enables high-quality translation across 92 major official languages and prominent dialects, covering over 95% of the global population to meet diverse cross-lingual communication needs.</description>
+    </item>
+    
+    <item>
+      <title>Qwen3-Coder: Agentic Coding in the World</title>
+      <link>https://qwenlm.github.io/blog/qwen3-coder/</link>
+      <pubDate>Tue, 22 Jul 2025 21:00:00 +0800</pubDate>
+      
+      <guid>https://qwenlm.github.io/blog/qwen3-coder/</guid>
+      <description>GITHUB HUGGING FACE MODELSCOPE DISCORD
+Today, we&amp;rsquo;re announcing Qwen3-Coder, our most agentic code model to date. Qwen3-Coder is available in multiple sizes, but we&amp;rsquo;re excited to introduce its most powerful variant first: Qwen3-Coder-480B-A35B-Instruct &#x2014; a 480B-parameter Mixture-of-Experts model with 35B active parameters which supports the context length of 256K tokens natively and 1M tokens with extrapolation methods, offering exceptional performance in both coding and agentic tasks. Qwen3-Coder-480B-A35B-Instruct sets new state-of-the-art results among open models on Agentic Coding, Agentic Browser-Use, and Agentic Tool-Use, comparable to Claude Sonnet 4.</description>
+    </item>
+    
+    <item>
+      <title>Time to Speak Some Dialects, Qwen-TTS!</title>
+      <link>https://qwenlm.github.io/blog/qwen-tts/</link>
+      <pubDate>Fri, 27 Jun 2025 15:01:30 +0800</pubDate>
+      
+      <guid>https://qwenlm.github.io/blog/qwen-tts/</guid>
+      <description>API DISCORD
+Introduction Here we introduce the latest update of Qwen-TTS (qwen-tts-latest or qwen-tts-2025-05-22) through Qwen API . Trained on a large-scale dataset encompassing over millions of hours of speech, Qwen-TTS achieves human-level naturalness and expressiveness. Notably, Qwen-TTS automatically adjusts prosody, pacing, and emotional inflections in response to the input text. Notably, Qwen-TTS supports the generation of 3 Chinese dialects, including Pekingese, Shanghainese, and Sichuanese.
+As of now, Qwen-TTS supports 7 Chinese-English bilingual voices, including Cherry, Ethan, Chelsie, Serena, Dylan (Pekingese), Jada (Shanghainese) and Sunny (Sichuanese).</description>
+    </item>
+    
+    <item>
+      <title>Qwen VLo: From &quot;Understanding&quot; the World to &quot;Depicting&quot; It</title>
+      <link>https://qwenlm.github.io/blog/qwen-vlo/</link>
+      <pubDate>Thu, 26 Jun 2025 22:00:04 +0800</pubDate>
+      
+      <guid>https://qwenlm.github.io/blog/qwen-vlo/</guid>
+      <description>QWEN CHAT DISCORD
+Introduction The evolution of multimodal large models is continually pushing the boundaries of what we believe technology can achieve. From the initial QwenVL to the latest Qwen2.5 VL, we have made progress in enhancing the model&amp;rsquo;s ability to understand image content. Today, we are excited to introduce a new model, Qwen VLo, a unified multimodal understanding and generation model. This newly upgraded model not only &amp;ldquo;understands&amp;rdquo; the world but also generates high-quality recreations based on that understanding, truly bridging the gap between perception and creation.</description>
+    </item>
+    
+    <item>
+      <title>Qwen3 Embedding: Advancing Text Embedding and Reranking Through Foundation Models</title>
+      <link>https://qwenlm.github.io/blog/qwen3-embedding/</link>
+      <pubDate>Thu, 05 Jun 2025 21:00:00 +0800</pubDate>
+      
+      <guid>https://qwenlm.github.io/blog/qwen3-embedding/</guid>
+      <description>GITHUB HUGGING FACE MODELSCOPE DISCORD
+We release Qwen3 Embedding series, a new proprietary model of the Qwen model family. These models are specifically designed for text embedding, retrieval, and reranking tasks, built on the Qwen3 foundation model. Leveraging Qwen3&#x2019;s robust multilingual text understanding capabilities, the series achieves state-of-the-art performance across multiple benchmarks for text embedding and reranking tasks. We have open-sourced this series of text embedding and reranking models under the Apache 2.</description>
+    </item>
+    
+    <item>
+      <title>Qwen3: Think Deeper, Act Faster</title>
+      <link>https://qwenlm.github.io/blog/qwen3/</link>
+      <pubDate>Tue, 29 Apr 2025 04:00:00 +0800</pubDate>
+      
+      <guid>https://qwenlm.github.io/blog/qwen3/</guid>
+      <description>QWEN CHAT GitHub Hugging Face ModelScope Kaggle DEMO DISCORD
+Introduction Today, we are excited to announce the release of Qwen3, the latest addition to the Qwen family of large language models. Our flagship model, Qwen3-235B-A22B, achieves competitive results in benchmark evaluations of coding, math, general capabilities, etc., when compared to other top-tier models such as DeepSeek-R1, o1, o3-mini, Grok-3, and Gemini-2.5-Pro. Additionally, the small MoE model, Qwen3-30B-A3B, outcompetes QwQ-32B with 10 times of activated parameters, and even a tiny model like Qwen3-4B can rival the performance of Qwen2.</description>
+    </item>
+    
+    <item>
+      <title>QVQ-Max: Think with Evidence</title>
+      <link>https://qwenlm.github.io/blog/qvq-max-preview/</link>
+      <pubDate>Fri, 28 Mar 2025 00:00:04 +0800</pubDate>
+      
+      <guid>https://qwenlm.github.io/blog/qvq-max-preview/</guid>
+      <description>QWEN CHAT GITHUB HUGGING FACE MODELSCOPE DISCORD
+Introduction Last December, we launched QVQ-72B-Preview as an exploratory model, but it had many issues. Today, we are officially releasing the first version of QVQ-Max, our visual reasoning model. This model can not only &amp;ldquo;understand&amp;rdquo; the content in images and videos but also analyze and reason with this information to provide solutions. From math problems to everyday questions, from programming code to artistic creation, QVQ-Max has demonstrated impressive capabilities.</description>
+    </item>
+    
+    <item>
+      <title>Qwen2.5 Omni: See, Hear, Talk, Write, Do It All!</title>
+      <link>https://qwenlm.github.io/blog/qwen2.5-omni/</link>
+      <pubDate>Thu, 27 Mar 2025 00:00:45 +0800</pubDate>
+      
+      <guid>https://qwenlm.github.io/blog/qwen2.5-omni/</guid>
+      <description>QWEN CHAT HUGGING FACE MODELSCOPE DASHSCOPE GITHUB PAPER DEMO DISCORD
+We release Qwen2.5-Omni, the new flagship end-to-end multimodal model in the Qwen series. Designed for comprehensive multimodal perception, it seamlessly processes diverse inputs including text, images, audio, and video, while delivering real-time streaming responses through both text generation and natural speech synthesis. To try the latest model, feel free to visit Qwen Chat and choose Qwen2.5-Omni-7B. The model is now openly available on Hugging Face, ModelScope, DashScope,and GitHub, with technical documentation available in our Paper.</description>
+    </item>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  </channel>
+</rss>

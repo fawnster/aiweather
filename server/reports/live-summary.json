@@ -1,0 +1,259 @@
+{
+  "at": "2026-10-20T22:53:21.568Z",
+  "durationSec": 330,
+  "demo": false,
+  "peakRssBytes": 125730816,
+  "steadyPeakRssBytes": 125730816,
+  "companies": [
+    {
+      "id": "claude",
+      "level": "operational",
+      "sourceKind": "live"
+    },
+    {
+      "id": "openai",
+      "level": "operational",
+      "sourceKind": "live"
+    },
+    {
+      "id": "kimi",
+      "level": "operational",
+      "sourceKind": "live"
+    },
+    {
+      "id": "minimax",
+      "level": "operational",
+      "sourceKind": "live"
+    },
+    {
+      "id": "perplexity",
+      "level": "operational",
+      "sourceKind": "live"
+    },
+    {
+      "id": "cohere",
+      "level": "operational",
+      "sourceKind": "live"
+    },
+    {
+      "id": "manus",
+      "level": "operational",
+      "sourceKind": "live"
+    },
+    {
+      "id": "elevenlabs",
+      "level": "operational",
+      "sourceKind": "live"
+    },
+    {
+      "id": "stability",
+      "level": "operational",
+      "sourceKind": "live"
+    },
+    {
+      "id": "ideogram",
+      "level": "operational",
+      "sourceKind": "live"
+    },
+    {
+      "id": "runway",
+      "level": "operational",
+      "sourceKind": "live"
+    },
+    {
+      "id": "heygen",
+      "level": "operational",
+      "sourceKind": "live"
+    },
+    {
+      "id": "gamma",
+      "level": "operational",
+      "sourceKind": "live"
+    },
+    {
+      "id": "cartesia",
+      "level": "operational",
+      "sourceKind": "live"
+    },
+    {
+      "id": "deepgram",
+      "level": "operational",
+      "sourceKind": "live"
+    },
+    {
+      "id": "groq",
+      "level": "operational",
+      "sourceKind": "live"
+    },
+    {
+      "id": "cerebras",
+      "level": "operational",
+      "sourceKind": "live"
+    },
+    {
+      "id": "fireworks",
+      "level": "operational",
+      "sourceKind": "live"
+    },
+    {
+      "id": "lambda",
+      "level": "operational",
+      "sourceKind": "live"
+    },
+    {
+      "id": "poe",
+      "level": "operational",
+      "sourceKind": "live"
+    },
+    {
+      "id": "cursor",
+      "level": "operational",
+      "sourceKind": "live"
+    },
+    {
+      "id": "copilot",
+      "level": "operational",
+      "sourceKind": "live"
+    },
+    {
+      "id": "windsurf",
+      "level": "operational",
+      "sourceKind": "live"
+    },
+    {
+      "id": "amp",
+      "level": "operational",
+      "sourceKind": "live"
+    },
+    {
+      "id": "factory",
+      "level": "operational",
+      "sourceKind": "live"
+    },
+    {
+      "id": "devin",
+      "level": "operational",
+      "sourceKind": "live"
+    },
+    {
+      "id": "lovable",
+      "level": "operational",
+      "sourceKind": "live"
+    },
+    {
+      "id": "bolt",
+      "level": "operational",
+      "sourceKind": "live"
+    },
+    {
+      "id": "v0",
+      "level": "operational",
+      "sourceKind": "live"
+    },
+    {
+      "id": "zed",
+      "level": "operational",
+      "sourceKind": "live"
+    },
+    {
+      "id": "synteq",
+      "level": "operational",
+      "sourceKind": "live"
+    },
+    {
+      "id": "grok",
+      "level": "operational",
+      "sourceKind": "incident-feed"
+    },
+    {
+      "id": "deepseek",
+      "level": "operational",
+      "sourceKind": "incident-feed"
+    },
+    {
+      "id": "gemini",
+      "level": "operational",
+      "sourceKind": "incident-feed"
+    },
+    {
+      "id": "qwen",
+      "level": "operational",
+      "sourceKind": "live"
+    },
+    {
+      "id": "together",
+      "level": "operational",
+      "sourceKind": "live"
+    },
+    {
+      "id": "huggingface",
+      "level": "operational",
+      "sourceKind": "live"
+    },
+    {
+      "id": "luma",
+      "level": "operational",
+      "sourceKind": "live"
+    },
+    {
+      "id": "novita",
+      "level": "operational",
+      "sourceKind": "live"
+    },
+    {
+      "id": "modal",
+      "level": "operational",
+      "sourceKind": "live"
+    },
+    {
+      "id": "udio",
+      "level": "operational",
+      "sourceKind": "live"
+    },
+    {
+      "id": "higgsfield",
+      "level": "operational",
+      "sourceKind": "live"
+    },
+    {
+      "id": "replit",
+      "level": "operational",
+      "sourceKind": "incident-feed"
+    },
+    {
+      "id": "raycast",
+      "level": "operational",
+      "sourceKind": "live"
+    },
+    {
+      "id": "writer",
+      "level": "operational",
+      "sourceKind": "incident-feed"
+    },
+    {
+      "id": "anyscale",
+      "level": "operational",
+      "sourceKind": "incident-feed"
+    },
+    {
+      "id": "midjourney",
+      "level": "operational",
+      "sourceKind": "live"
+    },
+    {
+      "id": "glm",
+      "level": "no-page",
+      "sourceKind": "none"
+    },
+    {
+      "id": "mistral",
+      "level": "no-page",
+      "sourceKind": "none"
+    },
+    {
+      "id": "meta",
+      "level": "no-page",
+      "sourceKind": "none"
+    }
+  ]
+}

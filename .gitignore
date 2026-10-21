@@ -1,0 +1,17 @@
+node_modules/
+dist/
+.env
+.env.*
+*.log
+.DS_Store
+design/**/out/tmp/
+refs/
+.codex-run/
+
+# working material that stays private (design QA, plans, briefs and build reports)
+design/
+PLAN.md
+scripts/*-brief.md
+scripts/run-codex-backend.sh
+server/*REPORT*.md
+server/CONTRACT-NOTES.md

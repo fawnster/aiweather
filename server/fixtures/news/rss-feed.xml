@@ -1,0 +1,7 @@
+<?xml version="1.0"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>Synthetic official RSS</title>
+<item><title><![CDATA[Original & unchanged — “title”]]></title><link>/posts/old</link><pubDate>Mon, 19 Oct 2026 16:00:00 GMT</pubDate><description><![CDATA[<p>Source <b>description</b> &amp; detail.</p><script>never display</script>]]></description></item>
+<item><title>New &amp; verbatim</title><link>https://official.example/posts/new</link><dc:date>2026-10-20T10:00:00Z</dc:date></item>
+<item><title>Undated</title><link>/posts/undated</link></item>
+<item><title>No link</title></item><item><link>/posts/empty</link></item>
+<item><title>Mirror</title><link>https://mirror.example/news</link></item>
+</channel></rss>

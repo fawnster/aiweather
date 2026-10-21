@@ -1,0 +1,24 @@
+{
+  "userAgent": "aiweather/1.0 (+https://aiweather.synteq.app)",
+  "appVersion": "35.146178534",
+  "records": [
+    {
+      "url": "https://status.openrouter.ai/config.json",
+      "recordedAt": "2026-10-21T03:18:35.542141+00:00",
+      "status": 200,
+      "bytes": 43755,
+      "sha256": "555027d19fb77d65f8452213e8eb81d4d1b8b9970454f9d5cd7cd7ccaeca2f97",
+      "file": "config.json"
+    },
+    {
+      "url": "https://status.openrouter.ai/src/status-pages-site-CDKF376M.min.js",
+      "recordedAt": "2026-10-21T03:18:35.321040+00:00",
+      "status": 200,
+      "bytes": 2675028,
+      "sha256": "488ed4912d3dcd26323c21c5b815a0d14bd4f327eaf52f4cdf736e8527c8e2e4",
+      "excerptFile": "page-logic.js",
+      "excerptSha256": "c502e2d04cc80dcd5f234d6acc7beb783d46876341b5862c22fefced783add9c",
+      "bodyOmitted": "Full UI bundle omitted; only status/uptime functions retained, with no credentials or network code."
+    }
+  ]
+}

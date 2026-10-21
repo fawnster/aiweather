@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title><![CDATA[Zed Industries - Blog]]></title>
+        <description><![CDATA[Zed Industries - Blog]]></description>
+        <link>https://zed.dev/blog</link>
+        <generator>Zed Blog</generator>
+        <lastBuildDate>Tue, 13 Oct 2026 11:37:28 GMT</lastBuildDate>
+        <atom:link href="https://zed.dev/blog.rss" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[Replace PRs with Delta – Now in Public Beta]]></title>
+            <description><![CDATA[Delta is now in public beta. Replacing pull requests is our first step toward replacing GitHub.]]></description>
+            <link>https://zed.dev/blog/delta-public-beta</link>
+            <guid isPermaLink="true">https://zed.dev/blog/delta-public-beta</guid>
+            <dc:creator><![CDATA[Nathan Sobo]]></dc:creator>
+            <pubDate>Wed, 16 Sep 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Xanadu Was Waiting for Agents]]></title>
+            <description><![CDATA[Ted Nelson specified the docuverse sixty years ago. The technology finally arrived, and so did its native users.]]></description>
+            <link>https://zed.dev/blog/agentic-xanadu</link>
+            <guid isPermaLink="true">https://zed.dev/blog/agentic-xanadu</guid>
+            <dc:creator><![CDATA[Nathan Sobo]]></dc:creator>
+            <pubDate>Tue, 01 Sep 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Introducing Delta]]></title>
+            <description><![CDATA[A multiplayer environment for coding with agents, from the creators of Zed.]]></description>
+            <link>https://zed.dev/blog/introducing-delta</link>
+            <guid isPermaLink="true">https://zed.dev/blog/introducing-delta</guid>
+            <dc:creator><![CDATA[Nathan Sobo]]></dc:creator>
+            <pubDate>Wed, 12 Aug 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Sandboxing]]></title>
+            <description><![CDATA[Zed supports sandboxing to restrict what agents can do while using the terminal and fetch tools.]]></description>
+            <link>https://zed.dev/blog/sandboxing</link>
+            <guid isPermaLink="true">https://zed.dev/blog/sandboxing</guid>
+            <dc:creator><![CDATA[Cameron Mcloughlin]]></dc:creator>
+            <pubDate>Wed, 05 Aug 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Hidden Gems: Part 4]]></title>
+            <description><![CDATA[Favorite workflows and hidden features from the Zed team and community.]]></description>
+            <link>https://zed.dev/blog/hidden-gems-part-4</link>
+            <guid isPermaLink="true">https://zed.dev/blog/hidden-gems-part-4</guid>
+            <dc:creator><![CDATA[Joseph Lyons]]></dc:creator>
+            <pubDate>Tue, 23 Jun 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Zed Guild: What We Built, What We Learned]]></title>
+            <description><![CDATA[A retrospective on the Zed Guild - what we built with our community contributors, what we learned, and what comes next.]]></description>
+            <link>https://zed.dev/blog/zed-guild-retrospective</link>
+            <guid isPermaLink="true">https://zed.dev/blog/zed-guild-retrospective</guid>
+            <dc:creator><![CDATA[Esther Trapadoux]]></dc:creator>
+            <pubDate>Tue, 16 Jun 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Software Is Made Between Commits]]></title>
+            <description><![CDATA[Agents turned the conversation into the real source of our software. DeltaDB is the version control built for it.]]></description>
+            <link>https://zed.dev/blog/introducing-deltadb</link>
+            <guid isPermaLink="true">https://zed.dev/blog/introducing-deltadb</guid>
+            <dc:creator><![CDATA[Nathan Sobo]]></dc:creator>
+            <pubDate>Thu, 11 Jun 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[The Community Champions Program]]></title>
+            <description><![CDATA[How we recognize our frequent contributors.]]></description>
+            <link>https://zed.dev/blog/community-champions</link>
+            <guid isPermaLink="true">https://zed.dev/blog/community-champions</guid>
+            <dc:creator><![CDATA[Joseph Lyons]]></dc:creator>
+            <pubDate>Tue, 02 Jun 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[What GitHub Copilot's Usage-Based Billing Means for Zed Users]]></title>
+            <description><![CDATA[Copilot Chat is now metered with GitHub AI Credits. Copilot edit predictions are not.]]></description>
+            <link>https://zed.dev/blog/github-copilot-usage-based-billing</link>
+            <guid isPermaLink="true">https://zed.dev/blog/github-copilot-usage-based-billing</guid>
+            <dc:creator><![CDATA[Morgan Krey]]></dc:creator>
+            <pubDate>Mon, 01 Jun 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Terminal Threads Are Live in Zed]]></title>
+            <description><![CDATA[Run Claude Code, Amp, or any terminal agent as threads in Zed's sidebar.]]></description>
+            <link>https://zed.dev/blog/terminal-threads</link>
+            <guid isPermaLink="true">https://zed.dev/blog/terminal-threads</guid>
+            <dc:creator><![CDATA[Ben Brandt]]></dc:creator>
+            <pubDate>Wed, 20 May 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Why and How to Run Local Models in Zed]]></title>
+            <description><![CDATA[You can run local AI models in Zed to get better performance and control over your data. Here's how.]]></description>
+            <link>https://zed.dev/blog/local-ai-in-zed</link>
+            <guid isPermaLink="true">https://zed.dev/blog/local-ai-in-zed</guid>
+            <dc:creator><![CDATA[Cameron Mcloughlin]]></dc:creator>
+            <pubDate>Tue, 19 May 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Use Your ChatGPT Subscription in Zed]]></title>
+            <description><![CDATA[Sign in with your ChatGPT account and use OpenAI's models in Zed.]]></description>
+            <link>https://zed.dev/blog/chatgpt-subscription-in-zed</link>
+            <guid isPermaLink="true">https://zed.dev/blog/chatgpt-subscription-in-zed</guid>
+            <dc:creator><![CDATA[Morgan Krey]]></dc:creator>
+            <pubDate>Fri, 15 May 2026 00:00:00 GMT</pubDate>
+        </item>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    </channel>
+</rss>

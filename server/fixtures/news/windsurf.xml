@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title><![CDATA[Devin Desktop changelog]]></title>
+        <description><![CDATA[Release notes for every Devin Desktop (Windsurf) stable release: new features, improvements, and fixes in each version of the agent-native editor.]]></description>
+        <link>https://docs.devin.ai</link>
+        <generator>Mintlify</generator>
+        <lastBuildDate>Wed, 21 Oct 2026 02:05:39 GMT</lastBuildDate>
+        <atom:link href="https://docs.devin.ai/desktop/changelog/rss.xml" rel="self" type="application/rss+xml"/>
+        <copyright><![CDATA[Devin Docs]]></copyright>
+        <docs>https://docs.devin.ai</docs>
+        <item>
+            <title><![CDATA[v3.10.67]]></title>
+            <link>https://docs.devin.ai/desktop/changelog#v3-10-67</link>
+            <guid isPermaLink="false">4a1a0aeec201138e</guid>
+            <pubDate>Thu, 15 Oct 2026 00:23:10 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v3.10.48]]></title>
+            <link>https://docs.devin.ai/desktop/changelog#v3-10-48</link>
+            <guid isPermaLink="false">26ac6731d9efdced</guid>
+            <pubDate>Tue, 29 Sep 2026 06:57:27 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v3.10.35]]></title>
+            <link>https://docs.devin.ai/desktop/changelog#v3-10-35</link>
+            <guid isPermaLink="false">47b7f8ef09aac76a</guid>
+            <pubDate>Thu, 24 Sep 2026 05:13:24 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v3.10.31]]></title>
+            <link>https://docs.devin.ai/desktop/changelog#v3-10-31</link>
+            <guid isPermaLink="false">e099dddc3a3c15bd</guid>
+            <pubDate>Wed, 16 Sep 2026 20:18:03 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v3.10.27]]></title>
+            <link>https://docs.devin.ai/desktop/changelog#v3-10-27</link>
+            <guid isPermaLink="false">db94d80378347afe</guid>
+            <pubDate>Tue, 15 Sep 2026 06:38:39 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v3.10.23]]></title>
+            <link>https://docs.devin.ai/desktop/changelog#v3-10-23</link>
+            <guid isPermaLink="false">755bb2b7bd9660b0</guid>
+            <pubDate>Fri, 11 Sep 2026 15:55:30 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v3.9.19]]></title>
+            <link>https://docs.devin.ai/desktop/changelog#v3-9-19</link>
+            <guid isPermaLink="false">56076ae504db40ac</guid>
+            <pubDate>Wed, 09 Sep 2026 02:23:09 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v3.8.20]]></title>
+            <link>https://docs.devin.ai/desktop/changelog#v3-8-20</link>
+            <guid isPermaLink="false">4095277440d7ec99</guid>
+            <pubDate>Sat, 22 Aug 2026 05:18:52 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v3.7.25]]></title>
+            <link>https://docs.devin.ai/desktop/changelog#v3-7-25</link>
+            <guid isPermaLink="false">0fcbdb44275ace51</guid>
+            <pubDate>Fri, 14 Aug 2026 06:53:16 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v3.7.16]]></title>
+            <link>https://docs.devin.ai/desktop/changelog#v3-7-16</link>
+            <guid isPermaLink="false">38d39a9913b2fb74</guid>
+            <pubDate>Tue, 11 Aug 2026 01:29:25 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v3.6.27]]></title>
+            <link>https://docs.devin.ai/desktop/changelog#v3-6-27</link>
+            <guid isPermaLink="false">4b474316c37491c5</guid>
+            <pubDate>Sat, 01 Aug 2026 06:26:19 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v3.6.22]]></title>
+            <link>https://docs.devin.ai/desktop/changelog#v3-6-22</link>
+            <guid isPermaLink="false">4c93ec911aba400b</guid>
+            <pubDate>Wed, 29 Jul 2026 23:17:53 GMT</pubDate>
+        </item>
+        
+        
+        
+    </channel>
+</rss>

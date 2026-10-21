@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lovable Blog</title>
+    <link>https://lovable.dev/blog</link>
+    <description>News, guides, and announcements from Lovable.</description>
+    <language>en</language>
+    <atom:link href="https://lovable.dev/blog/rss.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Enterprise features October roundup</title>
+      <link>https://lovable.dev/blog/enterprise-features-october-roundup</link>
+      <guid isPermaLink="true">https://lovable.dev/blog/enterprise-features-october-roundup</guid>
+      <pubDate>Tue, 20 Oct 2026 11:30:00 GMT</pubDate>
+      <description>This month&apos;s Enterprise releases help central teams take AI-built apps to production: deploy in your own AWS or Azure account, EU inference, Organizations, workspace policies and approvals, the Action center, the Lovable API, and audit log exports.</description>
+      <category>Announcements</category>
+      <dc:creator>Rohan Ranjan</dc:creator>
+    </item>
+    <item>
+      <title>The AI you already use, now powering the apps you create</title>
+      <link>https://lovable.dev/blog/ai-models-and-tools-in-lovable</link>
+      <guid isPermaLink="true">https://lovable.dev/blog/ai-models-and-tools-in-lovable</guid>
+      <pubDate>Thu, 15 Oct 2026 15:30:00 GMT</pubDate>
+      <description>GPT-Live, the latest Claude models, Gemini 4 Argon, Gemini Omni, Lyria, Perplexity, Firecrawl, Parallel and Jev are now in Lovable. Describe what you want to build and add voice, reasoning, video, music and live web research to your app.</description>
+      <category>Announcements</category>
+      <dc:creator>Gemma Casey-Swift</dc:creator>
+    </item>
+    <item>
+      <title>Deploy on Azure: keep your Lovable apps in your own subscription</title>
+      <link>https://lovable.dev/blog/deploy-on-azure</link>
+      <guid isPermaLink="true">https://lovable.dev/blog/deploy-on-azure</guid>
+      <pubDate>Thu, 15 Oct 2026 12:45:00 GMT</pubDate>
+      <description>Deploy on Azure is now in private preview, so your apps and their data can run in your own Azure subscription. Here&apos;s every way to build with Lovable on Microsoft today, from fully inside your Microsoft environment to fully managed by Lovable.</description>
+      <category>Announcements</category>
+      <dc:creator>Malavika Balachandran Tadeusz &amp; Rohan Ranjan</dc:creator>
+    </item>
+    <item>
+      <title>What financial services marketing teams need to know about data, access, and security before publishing</title>
+      <link>https://lovable.dev/blog/financial-services-marketing-data-access-and-security</link>
+      <guid isPermaLink="true">https://lovable.dev/blog/financial-services-marketing-data-access-and-security</guid>
+      <pubDate>Thu, 15 Oct 2026 11:00:00 GMT</pubDate>
+      <description>How financial services marketing teams can assess the risk of an app, control who sees which data, and check what matters before publishing with Lovable.</description>
+      <category>Inside Lovable</category>
+      <dc:creator>Talia Moyal</dc:creator>
+    </item>
+    <item>
+      <title>From building your app to growing it: Lovable now helps you find customers</title>
+      <link>https://lovable.dev/blog/introducing-growth-tools</link>
+      <guid isPermaLink="true">https://lovable.dev/blog/introducing-growth-tools</guid>
+      <pubDate>Wed, 14 Oct 2026 12:50:00 GMT</pubDate>
+      <description>Ask Lovable how to grow your app, and it creates a growth plan and helps you carry it out across Google Search, YouTube, Google Maps, Google Ads, Facebook, and Instagram.</description>
+      <category>Announcements</category>
+      <dc:creator>Lovable</dc:creator>
+    </item>
+    <item>
+      <title>Deploy your Lovable apps in your own AWS account</title>
+      <link>https://lovable.dev/blog/deploy-on-aws</link>
+      <guid isPermaLink="true">https://lovable.dev/blog/deploy-on-aws</guid>
+      <pubDate>Wed, 14 Oct 2026 11:45:00 GMT</pubDate>
+      <description>Your teams keep building with Lovable. The apps they create, and the data behind them, can now run inside your own AWS account. Available in private preview for Enterprise customers.</description>
+      <category>Announcements</category>
+      <dc:creator>Malavika Balachandran Tadeusz &amp; Rohan Ranjan</dc:creator>
+    </item>
+    <item>
+      <title>EU inference: control where AI processes your requests</title>
+      <link>https://lovable.dev/blog/eu-inference</link>
+      <guid isPermaLink="true">https://lovable.dev/blog/eu-inference</guid>
+      <pubDate>Mon, 12 Oct 2026 08:30:00 GMT</pubDate>
+      <description>Enterprise teams can route supported AI model requests to European endpoints, both while building in Lovable and in the AI features of their published apps.</description>
+      <category>Announcements</category>
+      <dc:creator>Talia Moyal</dc:creator>
+    </item>
+    <item>
+      <title>A vulnerability in TanStack Start: what we found and what we did to protect your apps</title>
+      <link>https://lovable.dev/blog/how-lovable-protects-your-app-from-a-tanstack-start-vulnerability</link>
+      <guid isPermaLink="true">https://lovable.dev/blog/how-lovable-protects-your-app-from-a-tanstack-start-vulnerability</guid>
+      <pubDate>Wed, 30 Sep 2026 15:45:00 GMT</pubDate>
+      <description>Our security team found a vulnerability (CVE-2026-102989) in TanStack Start, reported it to the maintainers, and protected hosted apps with firewall rules while a fix was prepared. Here is what it means for your app.</description>
+      <category>Announcements</category>
+      <dc:creator>Talia Moyal</dc:creator>
+    </item>
+    <item>
+      <title>Lovable + Microsoft: run the apps you build inside your company&apos;s Microsoft tenant</title>
+      <link>https://lovable.dev/blog/microsoft-partnership</link>
+      <guid isPermaLink="true">https://lovable.dev/blog/microsoft-partnership</guid>
+      <pubDate>Mon, 28 Sep 2026 15:00:00 GMT</pubDate>
+      <description>Lovable now works with Microsoft so the apps your team builds run inside your company&apos;s Microsoft tenant, with Entra sign-in and IT controls.</description>
+      <category>Announcements</category>
+      <dc:creator>Stephanie Toh</dc:creator>
+    </item>
+    <item>
+      <title>You can now chat with Lovable for free</title>
+      <link>https://lovable.dev/blog/chat-for-free</link>
+      <guid isPermaLink="true">https://lovable.dev/blog/chat-for-free</guid>
+      <pubDate>Thu, 24 Sep 2026 08:40:00 GMT</pubDate>
+      <description>You can now chat with Lovable for free. Ask it which idea is worth building. Have it turn customer feedback into a plan. Put it to work on an app you&#x2019;ve already launched.</description>
+      <category>Announcements</category>
+    </item>
+    <item>
+      <title>Inside Chats: How Lovable&apos;s Agents Work Together</title>
+      <link>https://lovable.dev/blog/how-lovable-agents-work-together</link>
+      <guid isPermaLink="true">https://lovable.dev/blog/how-lovable-agents-work-together</guid>
+      <pubDate>Thu, 24 Sep 2026 08:40:00 GMT</pubDate>
+      <description>How Lovable&apos;s agents work together through trajectories, inboxes, and activations&#x2014;the Git-inspired event log and Agent Control Plane behind Chats, streaming, forking, and agents that survive deploys.</description>
+      <category>Technical blog</category>
+      <dc:creator>Rouzbeh Delavari</dc:creator>
+    </item>
+    <item>
+      <title>Faster builds, same quality: Opus 5.5 now in Lovable</title>
+      <link>https://lovable.dev/blog/opus-5-5-now-in-lovable</link>
+      <guid isPermaLink="true">https://lovable.dev/blog/opus-5-5-now-in-lovable</guid>
+      <pubDate>Tue, 22 Sep 2026 16:30:00 GMT</pubDate>
+      <category>Announcements</category>
+    </item>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  </channel>
+</rss>

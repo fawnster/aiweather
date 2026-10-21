@@ -1,0 +1,15 @@
+{
+  "name": "aiweather",
+  "private": true,
+  "license": "MIT",
+  "type": "module",
+  "workspaces": ["server", "web"],
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "dev": "npm -w server run dev",
+    "demo": "npm -w server run demo",
+    "build": "node scripts/build.mjs",
+    "start": "npm -w server start",
+    "test": "npm -w server test"
+  }
+}

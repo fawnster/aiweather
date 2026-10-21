@@ -1,0 +1,10 @@
+{
+  "url": "https://status.cursor.com",
+  "recordedAt": "2026-10-20T23:34:17.532Z",
+  "note": "Public page inline uptime tooltip code. Only relevant excerpts retained; no HTML/auth material.",
+  "snippets": [
+    "ields\n    if (this.activeDay.isGroup) {\n      this.updateGroupOutageFields()\n    } else {\n      this.updateOutageFields(day.outages.p, day.outages.m, day.related_events, beforeStartDate);\n    }\n  }\n\n  UptimeTooltipHandler.prototype.hoursFromSeconds = function(s) {\n    return Math.floor(s / 3600);\n  }\n\n  UptimeTooltipHandler.prototype.minutesFromSeconds = function(s) {\n    // If less than a minute, round up to 1 minute to show that some outage existed\n    if (s > 0 && s < 60) {\n      return 1;\n    }\n\n    // Otherwise use floor\n    return Math.floor((s % 3600) / 60);\n  }\n\n  UptimeTooltipHandler.prototype.updateGroupOutageFields = function() {\n    // Hide time info",
+    "UptimeTooltipHandler.prototype.updateOutageFields = function(partial, major, relatedEvents, beforeStartDate) {",
+    "ndler.prototype.hoursFromSeconds = function(s) {\n    return Math.floor(s / 3600);\n  }\n\n  UptimeTooltipHandler.prototype.minutesFromSeconds = function(s) {\n    // If less than a minute, round up to 1 minute to show that some outage existed\n    if (s > 0 && s < 60) {\n      return 1;\n    }\n\n    // Otherwise use floor\n    return Math.floor((s % 3600) / 60);\n  }\n\n  UptimeTooltipHandler.prototype.updateGroupOutageFields = function() {\n    // Hide time info\n    document.querySelector('#uptime-tooltip .outage-field.major').style.display = 'none';\n    document.querySelector('#uptime-tooltip .outage-field.partial').style.display = 'none';\n    document.querySelector(\".rela"
+  ]
+}

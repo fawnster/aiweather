@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
+  <channel>
+    <title>The Lambda deep learning blog</title>
+    <link>https://lambda.ai/blog</link>
+    <description>The Lambda deep learning blog</description>
+    <language>en</language>
+    <pubDate>Tue, 13 Oct 2026 17:58:35 GMT</pubDate>
+    <dc:date>2026-10-13T17:58:35Z</dc:date>
+    <dc:language>en</dc:language>
+    <item>
+      <title>Lambda to integrate open-source NVIDIA Run:ai with its Managed Kubernetes Service</title>
+      <link>https://lambda.ai/blog/runai-on-lambda-kubernetes-service</link>
+      <description>&lt;div class=&quot;hs-featured-image-wrapper&quot;&gt; 
+ &lt;a href=&quot;https://lambda.ai/blog/runai-on-lambda-kubernetes-service&quot; title=&quot;&quot; class=&quot;hs-featured-image-link&quot;&gt; &lt;img src=&quot;https://lambda.ai/hubfs/NVIDIA%20Run_ai%20open%20source%20announcement%20-%20Blog%20Grid%20-%201600x860.png&quot; alt=&quot;Lambda blog header for &apos;Run:ai open source comes to Lambda Kubernetes Service,&apos; showing an isometric grid of GPU capacity blocks in blue, orange, and white with utilization percentages (9%, 14%, 38%, 39%) labeled along the edges.&quot; class=&quot;hs-featured-image&quot; style=&quot;width:auto !important; max-width:50%; float:left; margin:0 15px 15px 0;&quot;&gt; &lt;/a&gt; 
+&lt;/div&gt; 
+&lt;p&gt;&lt;strong&gt;&lt;span&gt;We welcome NVIDIA&apos;s decision to release NVIDIA Run:ai as open source, and we&apos;re working to make it a first-class option on Lambda Kubernetes Service (LKS).&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;</description>
+      <content:encoded>&lt;div class=&quot;hs-featured-image-wrapper&quot;&gt; 
+ &lt;a href=&quot;https://lambda.ai/blog/runai-on-lambda-kubernetes-service&quot; title=&quot;&quot; class=&quot;hs-featured-image-link&quot;&gt; &lt;img src=&quot;https://lambda.ai/hubfs/NVIDIA%20Run_ai%20open%20source%20announcement%20-%20Blog%20Grid%20-%201600x860.png&quot; alt=&quot;Lambda blog header for &apos;Run:ai open source comes to Lambda Kubernetes Service,&apos; showing an isometric grid of GPU capacity blocks in blue, orange, and white with utilization percentages (9%, 14%, 38%, 39%) labeled along the edges.&quot; class=&quot;hs-featured-image&quot; style=&quot;width:auto !important; max-width:50%; float:left; margin:0 15px 15px 0;&quot;&gt; &lt;/a&gt; 
+&lt;/div&gt; 
+&lt;p&gt;&lt;strong&gt;&lt;span&gt;We welcome NVIDIA&apos;s decision to release NVIDIA Run:ai as open source, and we&apos;re working to make it a first-class option on Lambda Kubernetes Service (LKS).&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;  
+&lt;img src=&quot;https://track.hubspot.com/__ptq.gif?a=21998649&amp;amp;k=14&amp;amp;r=https%3A%2F%2Flambda.ai%2Fblog%2Frunai-on-lambda-kubernetes-service&amp;amp;bu=https%253A%252F%252Flambda.ai%252Fblog&amp;amp;bvt=rss&quot; alt=&quot;&quot; width=&quot;1&quot; height=&quot;1&quot; style=&quot;min-height:1px!important;width:1px!important;border-width:0!important;margin-top:0!important;margin-bottom:0!important;margin-right:0!important;margin-left:0!important;padding-top:0!important;padding-bottom:0!important;padding-right:0!important;padding-left:0!important; &quot;&gt;</content:encoded>
+      <category>kubernetes</category>
+      <category>KAI scheduler</category>
+      <category>GPU scheduling</category>
+      <category>Lambda Kubernetes Service</category>
+      <category>managed Kubernetes</category>
+      <category>NVIDIA Run:ai</category>
+      <category>GPU sharing</category>
+      <category>cloud native AI infrastructure</category>
+      <pubDate>Tue, 13 Oct 2026 14:32:00 GMT</pubDate>
+      <guid>https://lambda.ai/blog/runai-on-lambda-kubernetes-service</guid>
+      <dc:date>2026-10-13T14:32:00Z</dc:date>
+      <dc:creator>Lambda</dc:creator>
+    </item>
+    <item>
+      <title>ReLearn at CVPR 2026: can AI still learn from humans?</title>
+      <link>https://lambda.ai/blog/relearn-cvpr-2026</link>
+      <description>&lt;div class=&quot;hs-featured-image-wrapper&quot;&gt; 
+ &lt;a href=&quot;https://lambda.ai/blog/relearn-cvpr-2026&quot; title=&quot;&quot; class=&quot;hs-featured-image-link&quot;&gt; &lt;img src=&quot;https://lambda.ai/hubfs/lambda-blog_insights-from-cvpr-2026-relearn-workshop-1.png&quot; alt=&quot;Lambda blog header reading &amp;quot;Insights from CVPR 2026 ReLearn Workshop&amp;quot; in black text on cream highlight bars, beside a dotted funnel-shaped wireframe with an upward arrow on a black background.&quot; class=&quot;hs-featured-image&quot; style=&quot;width:auto !important; max-width:50%; float:left; margin:0 15px 15px 0;&quot;&gt; &lt;/a&gt; 
+&lt;/div&gt; 
+&lt;p&gt;AI has advanced fast by scaling models, data, and compute. As foundation models get more capable, an old question is coming back...&lt;/p&gt;</description>
+      <content:encoded>&lt;div class=&quot;hs-featured-image-wrapper&quot;&gt; 
+ &lt;a href=&quot;https://lambda.ai/blog/relearn-cvpr-2026&quot; title=&quot;&quot; class=&quot;hs-featured-image-link&quot;&gt; &lt;img src=&quot;https://lambda.ai/hubfs/lambda-blog_insights-from-cvpr-2026-relearn-workshop-1.png&quot; alt=&quot;Lambda blog header reading &amp;quot;Insights from CVPR 2026 ReLearn Workshop&amp;quot; in black text on cream highlight bars, beside a dotted funnel-shaped wireframe with an upward arrow on a black background.&quot; class=&quot;hs-featured-image&quot; style=&quot;width:auto !important; max-width:50%; float:left; margin:0 15px 15px 0;&quot;&gt; &lt;/a&gt; 
+&lt;/div&gt; 
+&lt;p&gt;AI has advanced fast by scaling models, data, and compute. As foundation models get more capable, an old question is coming back...&lt;/p&gt;  
+&lt;img src=&quot;https://track.hubspot.com/__ptq.gif?a=21998649&amp;amp;k=14&amp;amp;r=https%3A%2F%2Flambda.ai%2Fblog%2Frelearn-cvpr-2026&amp;amp;bu=https%253A%252F%252Flambda.ai%252Fblog&amp;amp;bvt=rss&quot; alt=&quot;&quot; width=&quot;1&quot; height=&quot;1&quot; style=&quot;min-height:1px!important;width:1px!important;border-width:0!important;margin-top:0!important;margin-bottom:0!important;margin-right:0!important;margin-left:0!important;padding-top:0!important;padding-bottom:0!important;padding-right:0!important;padding-left:0!important; &quot;&gt;</content:encoded>
+      <category>research</category>
+      <category>physical AI</category>
+      <category>computer vision</category>
+      <category>CVPR 2026</category>
+      <category>events</category>
+      <pubDate>Wed, 07 Oct 2026 22:14:56 GMT</pubDate>
+      <guid>https://lambda.ai/blog/relearn-cvpr-2026</guid>
+      <dc:date>2026-10-07T22:14:56Z</dc:date>
+      <dc:creator>Jianwen Xie</dc:creator>
+    </item>
+    <item>
+      <title>Lambda closes &#x24;1 billion senior secured fixed rate financing</title>
+      <link>https://lambda.ai/blog/lambda-closes-1-billion-senior-secured-fixed-rate-financing</link>
+      <description>&lt;div class=&quot;hs-featured-image-wrapper&quot;&gt; 
+ &lt;a href=&quot;https://lambda.ai/blog/lambda-closes-1-billion-senior-secured-fixed-rate-financing&quot; title=&quot;&quot; class=&quot;hs-featured-image-link&quot;&gt; &lt;img src=&quot;https://lambda.ai/hubfs/lambda_blog_fiji-funding_1600x860%20%281%29.png&quot; alt=&quot;Lambda closes &#x24;1 billion senior secured fixed rate financing&quot; class=&quot;hs-featured-image&quot; style=&quot;width:auto !important; max-width:50%; float:left; margin:0 15px 15px 0;&quot;&gt; &lt;/a&gt; 
+&lt;/div&gt; 
+&lt;p style=&quot;text-align: left;&quot;&gt;&lt;em&gt;&lt;span&gt;Marks Lambda&#x2019;s first &#x24;1 billion-plus institutional debt financing marketed to insurance companies &lt;/span&gt;&lt;/em&gt;&lt;em&gt;&lt;span&gt;and fixed income investors, and second institutional credit facility, expanding &lt;/span&gt;&lt;/em&gt;&lt;em&gt;&lt;span&gt;access to capital to support committed AI infrastructure deployments&lt;/span&gt;&lt;/em&gt;&lt;/p&gt;</description>
+      <content:encoded>&lt;div class=&quot;hs-featured-image-wrapper&quot;&gt; 
+ &lt;a href=&quot;https://lambda.ai/blog/lambda-closes-1-billion-senior-secured-fixed-rate-financing&quot; title=&quot;&quot; class=&quot;hs-featured-image-link&quot;&gt; &lt;img src=&quot;https://lambda.ai/hubfs/lambda_blog_fiji-funding_1600x860%20%281%29.png&quot; alt=&quot;Lambda closes &#x24;1 billion senior secured fixed rate financing&quot; class=&quot;hs-featured-image&quot; style=&quot;width:auto !important; max-width:50%; float:left; margin:0 15px 15px 0;&quot;&gt; &lt;/a&gt; 
+&lt;/div&gt; 
+&lt;p style=&quot;text-align: left;&quot;&gt;&lt;em&gt;&lt;span&gt;Marks Lambda&#x2019;s first &#x24;1 billion-plus institutional debt financing marketed to insurance companies &lt;/span&gt;&lt;/em&gt;&lt;em&gt;&lt;span&gt;and fixed income investors, and second institutional credit facility, expanding &lt;/span&gt;&lt;/em&gt;&lt;em&gt;&lt;span&gt;access to capital to support committed AI infrastructure deployments&lt;/span&gt;&lt;/em&gt;&lt;/p&gt;  
+&lt;img src=&quot;https://track.hubspot.com/__ptq.gif?a=21998649&amp;amp;k=14&amp;amp;r=https%3A%2F%2Flambda.ai%2Fblog%2Flambda-closes-1-billion-senior-secured-fixed-rate-financing&amp;amp;bu=https%253A%252F%252Flambda.ai%252Fblog&amp;amp;bvt=rss&quot; alt=&quot;&quot; width=&quot;1&quot; height=&quot;1&quot; style=&quot;min-height:1px!important;width:1px!important;border-width:0!important;margin-top:0!important;margin-bottom:0!important;margin-right:0!important;margin-left:0!important;padding-top:0!important;padding-bottom:0!important;padding-right:0!important;padding-left:0!important; &quot;&gt;</content:encoded>
+      <category>announcements</category>
+      <category>company</category>
+      <category>superintelligence</category>
+      <category>AI infrastructure</category>
+      <category>GPU infrastructure</category>
+      <category>financing</category>
+      <pubDate>Thu, 01 Oct 2026 23:08:14 GMT</pubDate>
+      <guid>https://lambda.ai/blog/lambda-closes-1-billion-senior-secured-fixed-rate-financing</guid>
+      <dc:date>2026-10-01T23:08:14Z</dc:date>
+      <dc:creator>Lambda</dc:creator>
+    </item>
+    <item>
+      <title>From world models to active agents: the next step for physical AI</title>
+      <link>https://lambda.ai/blog/world-models-active-agents-physical-ai</link>
+      <description>&lt;div class=&quot;hs-featured-image-wrapper&quot;&gt; 
+ &lt;a href=&quot;https://lambda.ai/blog/world-models-active-agents-physical-ai&quot; title=&quot;&quot; class=&quot;hs-featured-image-link&quot;&gt; &lt;img src=&quot;https://lambda.ai/hubfs/WMAS%20@%20CVPR%202026%20-%20Blog%20Grid%20-%201600x860.png&quot; alt=&quot;Lambda blog card on black: &amp;quot;Insights from CVPR 2026 WMAS,&amp;quot; with a CVPR 2026 Denver badge and overlapping bell-curve graphs in the background.&quot; class=&quot;hs-featured-image&quot; style=&quot;width:auto !important; max-width:50%; float:left; margin:0 15px 15px 0;&quot;&gt; &lt;/a&gt; 
+&lt;/div&gt; 
+&lt;p&gt;Generative AI has made remarkable progress in creating increasingly realistic representations of the world. Image models can synthesize photorealistic scenes, video models can generate complex dynamics over time, and emerging world models are beginning to capture geometry, motion, and interaction.&lt;/p&gt;</description>
+      <content:encoded>&lt;div class=&quot;hs-featured-image-wrapper&quot;&gt; 
+ &lt;a href=&quot;https://lambda.ai/blog/world-models-active-agents-physical-ai&quot; title=&quot;&quot; class=&quot;hs-featured-image-link&quot;&gt; &lt;img src=&quot;https://lambda.ai/hubfs/WMAS%20@%20CVPR%202026%20-%20Blog%20Grid%20-%201600x860.png&quot; alt=&quot;Lambda blog card on black: &amp;quot;Insights from CVPR 2026 WMAS,&amp;quot; with a CVPR 2026 Denver badge and overlapping bell-curve graphs in the background.&quot; class=&quot;hs-featured-image&quot; style=&quot;width:auto !important; max-width:50%; float:left; margin:0 15px 15px 0;&quot;&gt; &lt;/a&gt; 
+&lt;/div&gt; 
+&lt;p&gt;Generative AI has made remarkable progress in creating increasingly realistic representations of the world. Image models can synthesize photorealistic scenes, video models can generate complex dynamics over time, and emerging world models are beginning to capture geometry, motion, and interaction.&lt;/p&gt;  
+&lt;img src=&quot;https://track.hubspot.com/__ptq.gif?a=21998649&amp;amp;k=14&amp;amp;r=https%3A%2F%2Flambda.ai%2Fblog%2Fworld-models-active-agents-physical-ai&amp;amp;bu=https%253A%252F%252Flambda.ai%252Fblog&amp;amp;bvt=rss&quot; alt=&quot;&quot; width=&quot;1&quot; height=&quot;1&quot; style=&quot;min-height:1px!important;width:1px!important;border-width:0!important;margin-top:0!important;margin-bottom:0!important;margin-right:0!important;margin-left:0!important;padding-top:0!important;padding-bottom:0!important;padding-right:0!important;padding-left:0!important; &quot;&gt;</content:encoded>
+      <category>physical AI</category>
+      <category>world models</category>
+      <category>embodied AI</category>
+      <category>CVPR 2026</category>
+      <category>robotics</category>
+      <category>active sensing</category>
+      <category>closed-loop planning</category>
+      <pubDate>Thu, 01 Oct 2026 22:37:02 GMT</pubDate>
+      <guid>https://lambda.ai/blog/world-models-active-agents-physical-ai</guid>
+      <dc:date>2026-10-01T22:37:02Z</dc:date>
+      <dc:creator>Jianwen Xie</dc:creator>
+    </item>
+    <item>
+      <title>Open Jarvis: making local LLMs work as agents</title>
+      <link>https://lambda.ai/blog/open-jarvis-local-llm-agents</link>
+      <description>&lt;div class=&quot;hs-featured-image-wrapper&quot;&gt; 
+ &lt;a href=&quot;https://lambda.ai/blog/open-jarvis-local-llm-agents&quot; title=&quot;&quot; class=&quot;hs-featured-image-link&quot;&gt; &lt;img src=&quot;https://lambda.ai/hubfs/image%20%281%29-1.png&quot; alt=&quot;Lambda header image with the title &amp;quot;Open Jarvis: making local LLMs work as agents&amp;quot; beside a line-and-circle graphic.&quot; class=&quot;hs-featured-image&quot; style=&quot;width:auto !important; max-width:50%; float:left; margin:0 15px 15px 0;&quot;&gt; &lt;/a&gt; 
+&lt;/div&gt; 
+&lt;p style=&quot;line-height: 1.2;&quot;&gt;&lt;strong&gt;&lt;span&gt;Running an open-weight model is only half the job. The other half is the harness: what tells the model what to do, which tools it can use, and how to learn from its mistakes.&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;</description>
+      <content:encoded>&lt;div class=&quot;hs-featured-image-wrapper&quot;&gt; 
+ &lt;a href=&quot;https://lambda.ai/blog/open-jarvis-local-llm-agents&quot; title=&quot;&quot; class=&quot;hs-featured-image-link&quot;&gt; &lt;img src=&quot;https://lambda.ai/hubfs/image%20%281%29-1.png&quot; alt=&quot;Lambda header image with the title &amp;quot;Open Jarvis: making local LLMs work as agents&amp;quot; beside a line-and-circle graphic.&quot; class=&quot;hs-featured-image&quot; style=&quot;width:auto !important; max-width:50%; float:left; margin:0 15px 15px 0;&quot;&gt; &lt;/a&gt; 
+&lt;/div&gt; 
+&lt;p style=&quot;line-height: 1.2;&quot;&gt;&lt;strong&gt;&lt;span&gt;Running an open-weight model is only half the job. The other half is the harness: what tells the model what to do, which tools it can use, and how to learn from its mistakes.&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;  
+&lt;img src=&quot;https://track.hubspot.com/__ptq.gif?a=21998649&amp;amp;k=14&amp;amp;r=https%3A%2F%2Flambda.ai%2Fblog%2Fopen-jarvis-local-llm-agents&amp;amp;bu=https%253A%252F%252Flambda.ai%252Fblog&amp;amp;bvt=rss&quot; alt=&quot;&quot; width=&quot;1&quot; height=&quot;1&quot; style=&quot;min-height:1px!important;width:1px!important;border-width:0!important;margin-top:0!important;margin-bottom:0!important;margin-right:0!important;margin-left:0!important;padding-top:0!important;padding-bottom:0!important;padding-right:0!important;padding-left:0!important; &quot;&gt;</content:encoded>
+      <category>agentic AI</category>
+      <category>open-weight models</category>
+      <category>LLM agents</category>
+      <category>agent harness</category>
+      <category>local inference</category>
+      <category>Kimi K2.6</category>
+      <category>PinchBench</category>
+      <category>Lambda GPU cloud</category>
+      <pubDate>Wed, 30 Sep 2026 14:49:50 GMT</pubDate>
+      <author>caia.costello@lambdal.com (Caia Costello)</author>
+      <guid>https://lambda.ai/blog/open-jarvis-local-llm-agents</guid>
+      <dc:date>2026-09-30T14:49:50Z</dc:date>
+    </item>
+    <item>
+      <title>Lambda to build new data center in Mayes County, Oklahoma, generating half a billion dollars in tax revenue over next decade</title>
+      <link>https://lambda.ai/blog/new-lambda-data-center-in-oklahoma</link>
+      <description>&lt;div class=&quot;hs-featured-image-wrapper&quot;&gt; 
+ &lt;a href=&quot;https://lambda.ai/blog/new-lambda-data-center-in-oklahoma&quot; title=&quot;&quot; class=&quot;hs-featured-image-link&quot;&gt; &lt;img src=&quot;https://lambda.ai/hubfs/Lambda_blog_data-center-mayes-county-oklahoma_1600x860%20%281%29.png&quot; alt=&quot;New Lambda data center in Oklahoma to generate &#x24;500M in tax revenue&quot; class=&quot;hs-featured-image&quot; style=&quot;width:auto !important; max-width:50%; float:left; margin:0 15px 15px 0;&quot;&gt; &lt;/a&gt; 
+&lt;/div&gt; 
+&lt;p style=&quot;line-height: 1.2; text-align: center;&quot;&gt;&lt;em&gt;&lt;span&gt;Facility will be built in MidAmerica Industrial Park &amp;amp; deploy closed-loop cooling technology to preserve and recycle water; all energy costs paid in compliance with Oklahoma&#x2019;s ratepayer protections&lt;/span&gt;&lt;/em&gt;&lt;/p&gt;</description>
+      <content:encoded>&lt;div class=&quot;hs-featured-image-wrapper&quot;&gt; 
+ &lt;a href=&quot;https://lambda.ai/blog/new-lambda-data-center-in-oklahoma&quot; title=&quot;&quot; class=&quot;hs-featured-image-link&quot;&gt; &lt;img src=&quot;https://lambda.ai/hubfs/Lambda_blog_data-center-mayes-county-oklahoma_1600x860%20%281%29.png&quot; alt=&quot;New Lambda data center in Oklahoma to generate &#x24;500M in tax revenue&quot; class=&quot;hs-featured-image&quot; style=&quot;width:auto !important; max-width:50%; float:left; margin:0 15px 15px 0;&quot;&gt; &lt;/a&gt; 
+&lt;/div&gt; 
+&lt;p style=&quot;line-height: 1.2; text-align: center;&quot;&gt;&lt;em&gt;&lt;span&gt;Facility will be built in MidAmerica Industrial Park &amp;amp; deploy closed-loop cooling technology to preserve and recycle water; all energy costs paid in compliance with Oklahoma&#x2019;s ratepayer protections&lt;/span&gt;&lt;/em&gt;&lt;/p&gt;  
+&lt;img src=&quot;https://track.hubspot.com/__ptq.gif?a=21998649&amp;amp;k=14&amp;amp;r=https%3A%2F%2Flambda.ai%2Fblog%2Fnew-lambda-data-center-in-oklahoma&amp;amp;bu=https%253A%252F%252Flambda.ai%252Fblog&amp;amp;bvt=rss&quot; alt=&quot;&quot; width=&quot;1&quot; height=&quot;1&quot; style=&quot;min-height:1px!important;width:1px!important;border-width:0!important;margin-top:0!important;margin-bottom:0!important;margin-right:0!important;margin-left:0!important;padding-top:0!important;padding-bottom:0!important;padding-right:0!important;padding-left:0!important; &quot;&gt;</content:encoded>
+      <category>announcements</category>
+      <category>company</category>
+      <category>data center</category>
+      <category>superintelligence</category>
+      <category>AI infrastructure</category>
+      <category>data centers</category>
+      <pubDate>Sun, 27 Sep 2026 14:01:36 GMT</pubDate>
+      <guid>https://lambda.ai/blog/new-lambda-data-center-in-oklahoma</guid>
+      <dc:date>2026-09-27T14:01:36Z</dc:date>
+      <dc:creator>Lambda</dc:creator>
+    </item>
+    <item>
+      <title>Building multimodal models for spatial reasoning</title>
+      <link>https://lambda.ai/blog/cvp-spatial-reasoning</link>
+      <description>&lt;div class=&quot;hs-featured-image-wrapper&quot;&gt; 
+ &lt;a href=&quot;https://lambda.ai/blog/cvp-spatial-reasoning&quot; title=&quot;&quot; class=&quot;hs-featured-image-link&quot;&gt; &lt;img src=&quot;https://lambda.ai/hubfs/Lambda_blog_building-multimodal-models_1600x860.png&quot; alt=&quot;Isometric 3D shapes, a box, cylinder, and pyramid, floating above a dark grid floor with glitch-style outlines, and the Lambda logo and blog title overlaid.&quot; class=&quot;hs-featured-image&quot; style=&quot;width:auto !important; max-width:50%; float:left; margin:0 15px 15px 0;&quot;&gt; &lt;/a&gt; 
+&lt;/div&gt; 
+&lt;h2&gt;&lt;strong&gt;What is spatial reasoning?&lt;/strong&gt;&lt;/h2&gt; 
+&lt;p&gt;AI is moving beyond the digital world. The next generation of AI systems needs to understand and interact with physical environments, from robots to autonomous systems navigating complex spaces.&lt;/p&gt;</description>
+      <content:encoded>&lt;div class=&quot;hs-featured-image-wrapper&quot;&gt; 
+ &lt;a href=&quot;https://lambda.ai/blog/cvp-spatial-reasoning&quot; title=&quot;&quot; class=&quot;hs-featured-image-link&quot;&gt; &lt;img src=&quot;https://lambda.ai/hubfs/Lambda_blog_building-multimodal-models_1600x860.png&quot; alt=&quot;Isometric 3D shapes, a box, cylinder, and pyramid, floating above a dark grid floor with glitch-style outlines, and the Lambda logo and blog title overlaid.&quot; class=&quot;hs-featured-image&quot; style=&quot;width:auto !important; max-width:50%; float:left; margin:0 15px 15px 0;&quot;&gt; &lt;/a&gt; 
+&lt;/div&gt; 
+&lt;h2&gt;&lt;strong&gt;What is spatial reasoning?&lt;/strong&gt;&lt;/h2&gt; 
+&lt;p&gt;AI is moving beyond the digital world. The next generation of AI systems needs to understand and interact with physical environments, from robots to autonomous systems navigating complex spaces.&lt;/p&gt;  
+&lt;img src=&quot;https://track.hubspot.com/__ptq.gif?a=21998649&amp;amp;k=14&amp;amp;r=https%3A%2F%2Flambda.ai%2Fblog%2Fcvp-spatial-reasoning&amp;amp;bu=https%253A%252F%252Flambda.ai%252Fblog&amp;amp;bvt=rss&quot; alt=&quot;&quot; width=&quot;1&quot; height=&quot;1&quot; style=&quot;min-height:1px!important;width:1px!important;border-width:0!important;margin-top:0!important;margin-bottom:0!important;margin-right:0!important;margin-left:0!important;padding-top:0!important;padding-bottom:0!important;padding-right:0!important;padding-left:0!important; &quot;&gt;</content:encoded>
+      <category>physical AI</category>
+      <category>computer vision</category>
+      <category>3D scene understanding</category>
+      <category>multimodal models</category>
+      <category>vision-language models</category>
+      <category>computer vision research</category>
+      <category>spacial reasoning</category>
+      <pubDate>Thu, 24 Sep 2026 19:58:32 GMT</pubDate>
+      <guid>https://lambda.ai/blog/cvp-spatial-reasoning</guid>
+      <dc:date>2026-09-24T19:58:32Z</dc:date>
+      <dc:creator>Jianwen Xie</dc:creator>
+    </item>
+    <item>
+      <title>From structures to dynamics: scaling AI for molecular dynamics in drug discovery</title>
+      <link>https://lambda.ai/blog/eginterpolator-molecular-dynamics-drug-discovery</link>
+      <description>&lt;div class=&quot;hs-featured-image-wrapper&quot;&gt; 
+ &lt;a href=&quot;https://lambda.ai/blog/eginterpolator-molecular-dynamics-drug-discovery&quot; title=&quot;&quot; class=&quot;hs-featured-image-link&quot;&gt; &lt;img src=&quot;https://lambda.ai/hubfs/lambda-blog_from-structures-to-dynamics-scaling-ai-f-1.png&quot; alt=&quot;Lambda blog header for &amp;quot;From structures to dynamics: scaling AI for molecular dynamics in drug discovery,&amp;quot; with an abstract orbital sphere illustration on a black background.&quot; class=&quot;hs-featured-image&quot; style=&quot;width:auto !important; max-width:50%; float:left; margin:0 15px 15px 0;&quot;&gt; &lt;/a&gt; 
+&lt;/div&gt; 
+&lt;h2&gt;Why molecular dynamics matters for drug discovery&lt;/h2&gt; 
+&lt;p&gt;Molecular dynamics (MD) is an important tool in modern drug discovery. While structure prediction and molecular docking can show how a potential drug might fit into a protein, they provide only a snapshot. Molecules are constantly moving. MD simulations allow researchers to see how a drug and its target behave over time: whether the interaction remains stable, how the protein changes shape, and how the molecular system evolves.&lt;/p&gt;</description>
+      <content:encoded>&lt;div class=&quot;hs-featured-image-wrapper&quot;&gt; 
+ &lt;a href=&quot;https://lambda.ai/blog/eginterpolator-molecular-dynamics-drug-discovery&quot; title=&quot;&quot; class=&quot;hs-featured-image-link&quot;&gt; &lt;img src=&quot;https://lambda.ai/hubfs/lambda-blog_from-structures-to-dynamics-scaling-ai-f-1.png&quot; alt=&quot;Lambda blog header for &amp;quot;From structures to dynamics: scaling AI for molecular dynamics in drug discovery,&amp;quot; with an abstract orbital sphere illustration on a black background.&quot; class=&quot;hs-featured-image&quot; style=&quot;width:auto !important; max-width:50%; float:left; margin:0 15px 15px 0;&quot;&gt; &lt;/a&gt; 
+&lt;/div&gt; 
+&lt;h2&gt;Why molecular dynamics matters for drug discovery&lt;/h2&gt; 
+&lt;p&gt;Molecular dynamics (MD) is an important tool in modern drug discovery. While structure prediction and molecular docking can show how a potential drug might fit into a protein, they provide only a snapshot. Molecules are constantly moving. MD simulations allow researchers to see how a drug and its target behave over time: whether the interaction remains stable, how the protein changes shape, and how the molecular system evolves.&lt;/p&gt;  
+&lt;img src=&quot;https://track.hubspot.com/__ptq.gif?a=21998649&amp;amp;k=14&amp;amp;r=https%3A%2F%2Flambda.ai%2Fblog%2Feginterpolator-molecular-dynamics-drug-discovery&amp;amp;bu=https%253A%252F%252Flambda.ai%252Fblog&amp;amp;bvt=rss&quot; alt=&quot;&quot; width=&quot;1&quot; height=&quot;1&quot; style=&quot;min-height:1px!important;width:1px!important;border-width:0!important;margin-top:0!important;margin-bottom:0!important;margin-right:0!important;margin-left:0!important;padding-top:0!important;padding-bottom:0!important;padding-right:0!important;padding-left:0!important; &quot;&gt;</content:encoded>
+      <category>diffusion models</category>
+      <category>MD trajectories</category>
+      <category>structure pretraining</category>
+      <category>biotech</category>
+      <category>GPU computing</category>
+      <category>molecular dynamics</category>
+      <category>AI for drug discovery</category>
+      <category>molecular structure prediction</category>
+      <category>generative AI</category>
+      <category>molecular simulation</category>
+      <pubDate>Mon, 21 Sep 2026 17:26:34 GMT</pubDate>
+      <guid>https://lambda.ai/blog/eginterpolator-molecular-dynamics-drug-discovery</guid>
+      <dc:date>2026-09-21T17:26:34Z</dc:date>
+      <dc:creator>Jianwen Xie</dc:creator>
+    </item>
+    <item>
+      <title>Closing the loop: agentic evaluation for image editing foundation models</title>
+      <link>https://lambda.ai/blog/edival-agent-agentic-evaluation-image-editing</link>
+      <description>&lt;div class=&quot;hs-featured-image-wrapper&quot;&gt; 
+ &lt;a href=&quot;https://lambda.ai/blog/edival-agent-agentic-evaluation-image-editing&quot; title=&quot;&quot; class=&quot;hs-featured-image-link&quot;&gt; &lt;img src=&quot;https://lambda.ai/hubfs/lambda-blog_closing-the-loop-agentic-evaluation-for.png&quot; alt=&quot;Closing the loop: agentic evaluation for image editing foundation models&quot; class=&quot;hs-featured-image&quot; style=&quot;width:auto !important; max-width:50%; float:left; margin:0 15px 15px 0;&quot;&gt; &lt;/a&gt; 
+&lt;/div&gt; 
+&lt;h2&gt;Why evaluating image editing models is both critical and challenging&lt;/h2&gt; 
+&lt;p&gt;Instruction-based image editing is becoming a core capability of multimodal foundation models. Users can increasingly edit images simply by describing what they want: &#x201c;remove the person in the background,&#x201d; &#x201c;make the car red,&#x201d; or &#x201c;move the chair next to the table.&#x201d;&lt;/p&gt;</description>
+      <content:encoded>&lt;div class=&quot;hs-featured-image-wrapper&quot;&gt; 
+ &lt;a href=&quot;https://lambda.ai/blog/edival-agent-agentic-evaluation-image-editing&quot; title=&quot;&quot; class=&quot;hs-featured-image-link&quot;&gt; &lt;img src=&quot;https://lambda.ai/hubfs/lambda-blog_closing-the-loop-agentic-evaluation-for.png&quot; alt=&quot;Closing the loop: agentic evaluation for image editing foundation models&quot; class=&quot;hs-featured-image&quot; style=&quot;width:auto !important; max-width:50%; float:left; margin:0 15px 15px 0;&quot;&gt; &lt;/a&gt; 
+&lt;/div&gt; 
+&lt;h2&gt;Why evaluating image editing models is both critical and challenging&lt;/h2&gt; 
+&lt;p&gt;Instruction-based image editing is becoming a core capability of multimodal foundation models. Users can increasingly edit images simply by describing what they want: &#x201c;remove the person in the background,&#x201d; &#x201c;make the car red,&#x201d; or &#x201c;move the chair next to the table.&#x201d;&lt;/p&gt;  
+&lt;img src=&quot;https://track.hubspot.com/__ptq.gif?a=21998649&amp;amp;k=14&amp;amp;r=https%3A%2F%2Flambda.ai%2Fblog%2Fedival-agent-agentic-evaluation-image-editing&amp;amp;bu=https%253A%252F%252Flambda.ai%252Fblog&amp;amp;bvt=rss&quot; alt=&quot;&quot; width=&quot;1&quot; height=&quot;1&quot; style=&quot;min-height:1px!important;width:1px!important;border-width:0!important;margin-top:0!important;margin-bottom:0!important;margin-right:0!important;margin-left:0!important;padding-top:0!important;padding-bottom:0!important;padding-right:0!important;padding-left:0!important; &quot;&gt;</content:encoded>
+      <category>agentic AI</category>
+      <category>GPU infrastructure</category>
+      <category>ICLR 2026</category>
+      <category>AI evaluation</category>
+      <category>foundation models</category>
+      <category>image editing</category>
+      <category>model development</category>
+      <category>multi-turn editing</category>
+      <category>benchmarking</category>
+      <pubDate>Thu, 17 Sep 2026 16:29:33 GMT</pubDate>
+      <guid>https://lambda.ai/blog/edival-agent-agentic-evaluation-image-editing</guid>
+      <dc:date>2026-09-17T16:29:33Z</dc:date>
+      <dc:creator>Jianwen Xie</dc:creator>
+    </item>
+    <item>
+      <title>MLPerf Inference v6.1:&#xa0;pioneering agent, VLM benchmarks</title>
+      <link>https://lambda.ai/blog/mlperf-inference-v6.1</link>
+      <description>&lt;div class=&quot;hs-featured-image-wrapper&quot;&gt; 
+ &lt;a href=&quot;https://lambda.ai/blog/mlperf-inference-v6.1&quot; title=&quot;&quot; class=&quot;hs-featured-image-link&quot;&gt; &lt;img src=&quot;https://lambda.ai/hubfs/lambda_blog-image_MLPerf-Inference-v61_1600x860.png&quot; alt=&quot;Dark abstract starburst graphic with the Lambda logo and the title &apos;MLPerf Inference v6.1&quot; class=&quot;hs-featured-image&quot; style=&quot;width:auto !important; max-width:50%; float:left; margin:0 15px 15px 0;&quot;&gt; &lt;/a&gt; 
+&lt;/div&gt; 
+&lt;p style=&quot;text-align: left;&quot;&gt;&lt;em&gt;&lt;span&gt;First agentic workload on datacenter hardware in MLPerf, and the first model over a trillion parameters. Plus 8.85% more throughput on identical hardware since v6.0.&lt;/span&gt;&lt;/em&gt;&lt;/p&gt;</description>
+      <content:encoded>&lt;div class=&quot;hs-featured-image-wrapper&quot;&gt; 
+ &lt;a href=&quot;https://lambda.ai/blog/mlperf-inference-v6.1&quot; title=&quot;&quot; class=&quot;hs-featured-image-link&quot;&gt; &lt;img src=&quot;https://lambda.ai/hubfs/lambda_blog-image_MLPerf-Inference-v61_1600x860.png&quot; alt=&quot;Dark abstract starburst graphic with the Lambda logo and the title &apos;MLPerf Inference v6.1&quot; class=&quot;hs-featured-image&quot; style=&quot;width:auto !important; max-width:50%; float:left; margin:0 15px 15px 0;&quot;&gt; &lt;/a&gt; 
+&lt;/div&gt; 
+&lt;p style=&quot;text-align: left;&quot;&gt;&lt;em&gt;&lt;span&gt;First agentic workload on datacenter hardware in MLPerf, and the first model over a trillion parameters. Plus 8.85% more throughput on identical hardware since v6.0.&lt;/span&gt;&lt;/em&gt;&lt;/p&gt;  
+&lt;img src=&quot;https://track.hubspot.com/__ptq.gif?a=21998649&amp;amp;k=14&amp;amp;r=https%3A%2F%2Flambda.ai%2Fblog%2Fmlperf-inference-v6.1&amp;amp;bu=https%253A%252F%252Flambda.ai%252Fblog&amp;amp;bvt=rss&quot; alt=&quot;&quot; width=&quot;1&quot; height=&quot;1&quot; style=&quot;min-height:1px!important;width:1px!important;border-width:0!important;margin-top:0!important;margin-bottom:0!important;margin-right:0!important;margin-left:0!important;padding-top:0!important;padding-bottom:0!important;padding-right:0!important;padding-left:0!important; &quot;&gt;</content:encoded>
+      <category>Qwen3-VL inference</category>
+      <category>MLPerf Inference v6.1</category>
+      <category>agentic inference benchmark</category>
+      <category>trillion parameter inference</category>
+      <category>GPT-OSS 120B throughput</category>
+      <pubDate>Wed, 16 Sep 2026 15:02:49 GMT</pubDate>
+      <guid>https://lambda.ai/blog/mlperf-inference-v6.1</guid>
+      <dc:date>2026-09-16T15:02:49Z</dc:date>
+      <dc:creator>Lambda</dc:creator>
+    </item>
+  </channel>
+</rss>

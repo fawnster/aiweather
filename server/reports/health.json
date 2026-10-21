@@ -1,0 +1,306 @@
+{
+  "ok": true,
+  "uptimeSec": 330,
+  "sources": [
+    {
+      "id": "claude",
+      "lastOkAt": "2026-10-20T22:52:59.159Z",
+      "lastError": null,
+      "latencyMs": 135
+    },
+    {
+      "id": "openai",
+      "lastOkAt": "2026-10-20T22:52:50.500Z",
+      "lastError": null,
+      "latencyMs": 275
+    },
+    {
+      "id": "kimi",
+      "lastOkAt": "2026-10-20T22:52:53.792Z",
+      "lastError": null,
+      "latencyMs": 297
+    },
+    {
+      "id": "minimax",
+      "lastOkAt": "2026-10-20T22:53:12.629Z",
+      "lastError": null,
+      "latencyMs": 278
+    },
+    {
+      "id": "perplexity",
+      "lastOkAt": "2026-10-20T22:53:05.722Z",
+      "lastError": null,
+      "latencyMs": 413
+    },
+    {
+      "id": "cohere",
+      "lastOkAt": "2026-10-20T22:53:00.944Z",
+      "lastError": null,
+      "latencyMs": 412
+    },
+    {
+      "id": "manus",
+      "lastOkAt": "2026-10-20T22:52:53.484Z",
+      "lastError": null,
+      "latencyMs": 242
+    },
+    {
+      "id": "elevenlabs",
+      "lastOkAt": "2026-10-20T22:52:51.968Z",
+      "lastError": null,
+      "latencyMs": 234
+    },
+    {
+      "id": "stability",
+      "lastOkAt": "2026-10-20T22:52:57.522Z",
+      "lastError": null,
+      "latencyMs": 508
+    },
+    {
+      "id": "ideogram",
+      "lastOkAt": "2026-10-20T22:53:07.723Z",
+      "lastError": null,
+      "latencyMs": 150
+    },
+    {
+      "id": "runway",
+      "lastOkAt": "2026-10-20T22:52:44.313Z",
+      "lastError": null,
+      "latencyMs": 128
+    },
+    {
+      "id": "heygen",
+      "lastOkAt": "2026-10-20T22:52:51.234Z",
+      "lastError": null,
+      "latencyMs": 254
+    },
+    {
+      "id": "gamma",
+      "lastOkAt": "2026-10-20T22:53:10.970Z",
+      "lastError": null,
+      "latencyMs": 127
+    },
+    {
+      "id": "cartesia",
+      "lastOkAt": "2026-10-20T22:53:14.276Z",
+      "lastError": null,
+      "latencyMs": 418
+    },
+    {
+      "id": "deepgram",
+      "lastOkAt": "2026-10-20T22:52:59.510Z",
+      "lastError": null,
+      "latencyMs": 236
+    },
+    {
+      "id": "groq",
+      "lastOkAt": "2026-10-20T22:52:53.996Z",
+      "lastError": null,
+      "latencyMs": 251
+    },
+    {
+      "id": "cerebras",
+      "lastOkAt": "2026-10-20T22:52:58.418Z",
+      "lastError": null,
+      "latencyMs": 148
+    },
+    {
+      "id": "fireworks",
+      "lastOkAt": "2026-10-20T22:52:57.959Z",
+      "lastError": null,
+      "latencyMs": 443
+    },
+    {
+      "id": "lambda",
+      "lastOkAt": "2026-10-20T22:53:07.999Z",
+      "lastError": null,
+      "latencyMs": 425
+    },
+    {
+      "id": "poe",
+      "lastOkAt": "2026-10-20T22:53:00.978Z",
+      "lastError": null,
+      "latencyMs": 445
+    },
+    {
+      "id": "cursor",
+      "lastOkAt": "2026-10-20T22:53:04.944Z",
+      "lastError": null,
+      "latencyMs": 138
+    },
+    {
+      "id": "copilot",
+      "lastOkAt": "2026-10-20T22:52:54.632Z",
+      "lastError": null,
+      "latencyMs": 134
+    },
+    {
+      "id": "windsurf",
+      "lastOkAt": "2026-10-20T22:53:11.482Z",
+      "lastError": null,
+      "latencyMs": 136
+    },
+    {
+      "id": "amp",
+      "lastOkAt": "2026-10-20T22:52:43.508Z",
+      "lastError": null,
+      "latencyMs": 330
+    },
+    {
+      "id": "factory",
+      "lastOkAt": "2026-10-20T22:52:52.884Z",
+      "lastError": null,
+      "latencyMs": 145
+    },
+    {
+      "id": "devin",
+      "lastOkAt": "2026-10-20T22:52:59.753Z",
+      "lastError": null,
+      "latencyMs": 228
+    },
+    {
+      "id": "lovable",
+      "lastOkAt": "2026-10-20T22:53:04.474Z",
+      "lastError": null,
+      "latencyMs": 422
+    },
+    {
+      "id": "bolt",
+      "lastOkAt": "2026-10-20T22:52:56.262Z",
+      "lastError": null,
+      "latencyMs": 255
+    },
+    {
+      "id": "v0",
+      "lastOkAt": "2026-10-20T22:52:53.122Z",
+      "lastError": null,
+      "latencyMs": 130
+    },
+    {
+      "id": "zed",
+      "lastOkAt": "2026-10-20T22:53:01.912Z",
+      "lastError": null,
+      "latencyMs": 125
+    },
+    {
+      "id": "synteq",
+      "lastOkAt": "2026-10-20T22:52:48.844Z",
+      "lastError": null,
+      "latencyMs": 127
+    },
+    {
+      "id": "grok",
+      "lastOkAt": "2026-10-20T22:52:58.846Z",
+      "lastError": null,
+      "latencyMs": 74
+    },
+    {
+      "id": "deepseek",
+      "lastOkAt": "2026-10-20T22:52:57.703Z",
+      "lastError": null,
+      "latencyMs": 688
+    },
+    {
+      "id": "gemini",
+      "lastOkAt": "2026-10-20T22:52:50.092Z",
+      "lastError": null,
+      "latencyMs": 119
+    },
+    {
+      "id": "qwen",
+      "lastOkAt": "2026-10-20T22:53:07.272Z",
+      "lastError": null,
+      "latencyMs": 1209
+    },
+    {
+      "id": "together",
+      "lastOkAt": "2026-10-20T22:53:03.219Z",
+      "lastError": null,
+      "latencyMs": 425
+    },
+    {
+      "id": "huggingface",
+      "lastOkAt": "2026-10-20T22:52:48.157Z",
+      "lastError": null,
+      "latencyMs": 447
+    },
+    {
+      "id": "luma",
+      "lastOkAt": "2026-10-20T22:52:48.456Z",
+      "lastError": null,
+      "latencyMs": 494
+    },
+    {
+      "id": "novita",
+      "lastOkAt": "2026-10-20T22:53:06.494Z",
+      "lastError": null,
+      "latencyMs": 430
+    },
+    {
+      "id": "modal",
+      "lastOkAt": "2026-10-20T22:53:06.583Z",
+      "lastError": null,
+      "latencyMs": 518
+    },
+    {
+      "id": "udio",
+      "lastOkAt": "2026-10-20T22:53:16.804Z",
+      "lastError": null,
+      "latencyMs": 427
+    },
+    {
+      "id": "higgsfield",
+      "lastOkAt": "2026-10-20T22:52:48.886Z",
+      "lastError": null,
+      "latencyMs": 420
+    },
+    {
+      "id": "replit",
+      "lastOkAt": "2026-10-20T22:53:19.389Z",
+      "lastError": null,
+      "latencyMs": 246
+    },
+    {
+      "id": "raycast",
+      "lastOkAt": "2026-10-20T22:52:59.443Z",
+      "lastError": null,
+      "latencyMs": 420
+    },
+    {
+      "id": "writer",
+      "lastOkAt": "2026-10-20T22:52:54.182Z",
+      "lastError": null,
+      "latencyMs": 187
+    },
+    {
+      "id": "anyscale",
+      "lastOkAt": "2026-10-20T22:52:51.986Z",
+      "lastError": null,
+      "latencyMs": 250
+    },
+    {
+      "id": "midjourney",
+      "lastOkAt": "2026-10-20T22:52:57.357Z",
+      "lastError": null,
+      "latencyMs": 92
+    },
+    {
+      "id": "glm",
+      "lastOkAt": null,
+      "lastError": "No official readable status source found in Z.ai / BigModel documentation",
+      "latencyMs": null
+    },
+    {
+      "id": "mistral",
+      "lastOkAt": null,
+      "lastError": "Official status page is challenge-blocked; public feed candidates return 401/404. No bypass attempted.",
+      "latencyMs": null
+    },
+    {
+      "id": "meta",
+      "lastOkAt": null,
+      "lastError": "Meta Status covers business products, not Meta AI / Llama; no relevant official source found",
+      "latencyMs": null
+    }
+  ]
+}

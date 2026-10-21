@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Status updates | Together AI</title>
+    <description>Incidents and maintenance reported on status page for Together AI</description>
+    <link>https://status.together.ai/</link>
+    <image>
+      <url>https://d1lppblt9t2x15.cloudfront.net/logos/88f97476a7a036f53d24f512ae21e5e4.png</url>
+      <title>Status updates | Together AI</title>
+      <link>https://status.together.ai/</link>
+    </image>
+    <language>en</language>
+    <atom:link rel="self" type="application/rss+xml" href="https://status.together.ai/feed"/>
+    <item>
+      <title>Maintenance: Scheduled network maintenance</title>
+      <link>https://status.together.ai/maintenance/941865</link>
+      <pubDate>Thu, 02 Jul 2026 18:21:43 -0000</pubDate>
+      <guid isPermaLink="false">https://status.together.ai/incident/941865#2652c391a6f71ca491da55a6ca5ffbdbce31f482ff1c07a993fb06a02ffaac62</guid>
+      <category>Maintenance</category>
+      <description>We will be performing scheduled network maintenance on July 2nd, 9 PM – midnight.
+
+During this window, some serverless models may experience degraded performance or be temporary unavailability. 
+Check status.together.ai for per-model updates.
+
+We appreciate your patience as we work through this. The goal remains the same — meaningfully more stable and performant models on the other side of this work.</description>
+    </item>
+    <item>
+      <title>Maintenance: Scheduled Network Maintenance</title>
+      <link>https://status.together.ai/maintenance/876784</link>
+      <pubDate>Tue, 21 Apr 2026 22:03:02 -0000</pubDate>
+      <guid isPermaLink="false">https://status.together.ai/incident/876784#b9d2c2e70668913dcb6a70d6ae1729816a3914dd7dc979d40278116e48903d44</guid>
+      <category>Maintenance</category>
+      <description>We will be performing scheduled network maintenance from April 25, 5:00 AM – April 27, 8:00 AM PDT. 
+
+During this window, some serverless models may experience degraded performance or be temporary unavailability. 
+Check status.together.ai for per-model updates.
+
+We appreciate your patience as we work through this. The goal remains the same — meaningfully more stable and performant models on the other side of this work.</description>
+    </item>
+    <item>
+      <title>Investigating backend provider issues</title>
+      <link>https://status.together.ai/incident/491653</link>
+      <pubDate>Mon, 06 Jan 2025 23:33:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.together.ai/incident/491653#0cca41e51e8a7092e56ea2c7edf88bc2d2511881bebb11d0b88e4ee468038cde</guid>
+      <category>Incident</category>
+      <description>We’re back! All models should be back up and running. Thanks for bearing with us.</description>
+    </item>
+    <item>
+      <title>Investigating backend provider issues</title>
+      <link>https://status.together.ai/incident/491653</link>
+      <pubDate>Mon, 06 Jan 2025 23:13:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.together.ai/incident/491653#da1bdb7391a5dc8ea3b405fd49e2b1dd5f20c9bf335a03fbbda056263eb2ba7a</guid>
+      <category>Incident</category>
+      <description>We are investigating backend provider issues related to our serverless models. We are working to fix the problem as quickly as possible and will share another update shortly.</description>
+    </item>
+  </channel>
+</rss>

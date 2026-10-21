@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Baseten Changelog</title>
+        <link>https://www.baseten.co/resources/changelog/</link>
+        <description>The latest updates and improvements from Baseten</description>
+        <lastBuildDate>Wed, 21 Oct 2026 18:45:05 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>Baseten</generator>
+        <language>en</language>
+        <image>
+            <title>Baseten Changelog</title>
+            <url>https://www.baseten.co/img/og-bg-2025.png</url>
+            <link>https://www.baseten.co/resources/changelog/</link>
+        </image>
+        <atom:link href="https://www.baseten.co/feeds/changelog.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[elephant-1 and mammoth-1 available on Baseten]]></title>
+            <link>https://www.baseten.co/resources/changelog/elephant-1-and-mammoth-1-available-on-baseten/</link>
+            <guid>https://www.baseten.co/resources/changelog/elephant-1-and-mammoth-1-available-on-baseten/</guid>
+            <pubDate>Wed, 21 Oct 2026 17:10:09 GMT</pubDate>
+            <description><![CDATA[elephant-1 and mammoth-1 are now available through Baseten Model APIs. Classify text, route requests, and score content against a rubric. Send one or more questions in a single request to get...]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Beam-1.0 available on Baseten]]></title>
+            <link>https://www.baseten.co/resources/changelog/beam-10-available-on-baseten/</link>
+            <guid>https://www.baseten.co/resources/changelog/beam-10-available-on-baseten/</guid>
+            <pubDate>Fri, 16 Oct 2026 16:37:38 GMT</pubDate>
+            <description><![CDATA[Reflection's Beam is now available through Baseten Model APIs as reflection/Beam-1.0. It supports a 1M-token context window, tool calling, and always-on reasoning. Set reasoning_effort from minimal...]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Muse Spark Open and Nemotron 3.5 Super VL available on Baseten]]></title>
+            <link>https://www.baseten.co/resources/changelog/muse-spark-open-and-nemotron-35-super-vl-available-on-baseten/</link>
+            <guid>https://www.baseten.co/resources/changelog/muse-spark-open-and-nemotron-35-super-vl-available-on-baseten/</guid>
+            <pubDate>Thu, 15 Oct 2026 18:15:13 GMT</pubDate>
+            <description><![CDATA[Meta Muse Spark Open and NVIDIA Nemotron 3.5 Super VL are now available through Baseten Model APIs. Send requests through the OpenAI-compatible endpoint with your Baseten API key.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Egress restrictions]]></title>
+            <link>https://www.baseten.co/resources/changelog/egress-restrictions/</link>
+            <guid>https://www.baseten.co/resources/changelog/egress-restrictions/</guid>
+            <pubDate>Mon, 12 Oct 2026 21:32:12 GMT</pubDate>
+            <description><![CDATA[Baseten now supports restricting a deployment’s outbound network traffic to an allow list of IP ranges and domains. Add egress_restrictions under runtime in your Truss config to lock down a sensitive...]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Rolling deployments enabled by default]]></title>
+            <link>https://www.baseten.co/resources/changelog/rolling-deployments-enabled-by-default/</link>
+            <guid>https://www.baseten.co/resources/changelog/rolling-deployments-enabled-by-default/</guid>
+            <pubDate>Mon, 12 Oct 2026 18:28:59 GMT</pubDate>
+            <description><![CDATA[Baseten enables rolling deployments by default for newly created model environments. Promotions replace replicas incrementally and shift traffic in steps. Existing environments keep their settings,...]]></description>
+        </item>
+        <item>
+            <title><![CDATA[DeepSeek V4.1 Flash Fast available on Baseten]]></title>
+            <link>https://www.baseten.co/resources/changelog/deepseek-v41-flash-fast-available-on-baseten/</link>
+            <guid>https://www.baseten.co/resources/changelog/deepseek-v41-flash-fast-available-on-baseten/</guid>
+            <pubDate>Thu, 08 Oct 2026 21:27:16 GMT</pubDate>
+            <description><![CDATA[DeepSeek V4.1 Flash Fast is now available through Baseten Model APIs. It serves the same 552B-parameter multimodal model as DeepSeek V4.1 Flash at full precision, on dedicated Fast capacity for...]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Baseten CLI 1.1.0]]></title>
+            <link>https://www.baseten.co/resources/changelog/baseten-cli-110/</link>
+            <guid>https://www.baseten.co/resources/changelog/baseten-cli-110/</guid>
+            <pubDate>Fri, 02 Oct 2026 16:18:56 GMT</pubDate>
+            <description><![CDATA[You can now rename a model from the terminal with baseten model rename.. The model keeps its ID, endpoints, and deployments, so only the name in config.yaml needs updating.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Upcoming change to Baseten API key format]]></title>
+            <link>https://www.baseten.co/resources/changelog/upcoming-change-to-baseten-api-key-format/</link>
+            <guid>https://www.baseten.co/resources/changelog/upcoming-change-to-baseten-api-key-format/</guid>
+            <pubDate>Fri, 25 Sep 2026 01:54:18 GMT</pubDate>
+            <description><![CDATA[Starting Thursday, October 1 at 15:00 UTC, newly created Baseten API keys will add a b10_  prefix, making them easier to identify in code, logs, and secret scanners.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Web search with Baseten Hosted Tools]]></title>
+            <link>https://www.baseten.co/resources/changelog/web-search-with-baseten-hosted-tools/</link>
+            <guid>https://www.baseten.co/resources/changelog/web-search-with-baseten-hosted-tools/</guid>
+            <pubDate>Wed, 16 Sep 2026 20:55:32 GMT</pubDate>
+            <description><![CDATA[Baseten Hosted Tools now brings server-side web search to Model APIs through Baseten Grounded Inference. Models can search and fetch current web content through Exa, Keenable, Parallel, or You.com...]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Baseten CLI 1.0.0]]></title>
+            <link>https://www.baseten.co/resources/changelog/baseten-cli-100/</link>
+            <guid>https://www.baseten.co/resources/changelog/baseten-cli-100/</guid>
+            <pubDate>Tue, 15 Sep 2026 18:30:04 GMT</pubDate>
+            <description><![CDATA[The Baseten CLI is now generally available. Version 1.0.0 marks the command surface as stable.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Model API Deprecation (GLM 4.7, Kimi K2.7, Kimi K2.6, Inkling, Inkling Small, DeepSeek v4 Pro)]]></title>
+            <link>https://www.baseten.co/resources/changelog/model-api-deprecation-glm-47-kimi-k27-kimi-k26-inkling-inkling-small-deepseek-v4/</link>
+            <guid>https://www.baseten.co/resources/changelog/model-api-deprecation-glm-47-kimi-k27-kimi-k26-inkling-inkling-small-deepseek-v4/</guid>
+            <pubDate>Sun, 13 Sep 2026 03:54:25 GMT</pubDate>
+            <description><![CDATA[GLM 4.7, Kimi K2.7, Kimi K2.6, Inkling, Inkling Small, and DeepSeek v4 Pro will be deprecated at 5pm PT September 25th.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[OIDC and AWS AssumeRole for training jobs]]></title>
+            <link>https://www.baseten.co/resources/changelog/oidc-and-aws-assumerole-for-training-jobs/</link>
+            <guid>https://www.baseten.co/resources/changelog/oidc-and-aws-assumerole-for-training-jobs/</guid>
+            <pubDate>Fri, 11 Sep 2026 21:53:45 GMT</pubDate>
+            <description><![CDATA[Training jobs can now use OIDC or AWS AssumeRole during setup to pull private container images and download model weights or training data without storing long-lived cloud credentials in Baseten.]]></description>
+        </item>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    </channel>
+</rss>

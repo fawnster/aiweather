@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>ElevenLabs Blog</title>
+    <link>https://elevenlabs.io/blog</link>
+    <description>Read the latest research, product, and company updates from ElevenLabs - provider of the most realistic and versatile AI audio tools</description>
+    <language>en</language>
+    <lastBuildDate>Wed, 21 Oct 2026 00:26:39 GMT</lastBuildDate>
+    <atom:link href="https://elevenlabs.io/blog/rss.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>How to transcribe a podcast: A step-by-step guide</title>
+      <link>https://elevenlabs.io/blog/how-to-transcribe-a-podcast</link>
+      <guid isPermaLink="true">https://elevenlabs.io/blog/how-to-transcribe-a-podcast</guid>
+      <pubDate>Tue, 20 Oct 2026 12:00:00 GMT</pubDate>
+      <description>Learn how to transcribe a podcast with AI in five steps, format the transcript as SRT or VTT, and publish it on podcast platforms and your website.</description>
+      <category>Resources</category>
+      <dc:creator>Jack Limebear</dc:creator>
+    </item>
+    <item>
+      <title>Introducing Eleven Realtime: a simpler way to build natural voice agents</title>
+      <link>https://elevenlabs.io/blog/realtime</link>
+      <guid isPermaLink="true">https://elevenlabs.io/blog/realtime</guid>
+      <pubDate>Tue, 20 Oct 2026 12:00:00 GMT</pubDate>
+      <description>Eleven Realtime is a new class of Speech to Speech models for voice agents that sound natural. Available in ElevenAgents and the Realtime API.</description>
+      <category>Product</category>
+      <dc:creator>Min Kim</dc:creator>
+    </item>
+    <item>
+      <title>4,830 candidate prequalifications completed in three weeks, with data processed in Europe </title>
+      <link>https://elevenlabs.io/blog/hippolyte</link>
+      <guid isPermaLink="true">https://elevenlabs.io/blog/hippolyte</guid>
+      <pubDate>Tue, 20 Oct 2026 12:00:00 GMT</pubDate>
+      <description>Une voix naturelle pour les candidats, conforme pour les clients grands comptes.</description>
+      <category>Customer Stories</category>
+      <dc:creator>Emmanuelle Benoliel</dc:creator>
+      <dc:creator>Lenaig Guilleux</dc:creator>
+    </item>
+    <item>
+      <title>Trinity Logistics gets 25% higher margins on shipments booked with ElevenAgents</title>
+      <link>https://elevenlabs.io/blog/trinity-logistics</link>
+      <guid isPermaLink="true">https://elevenlabs.io/blog/trinity-logistics</guid>
+      <pubDate>Tue, 20 Oct 2026 12:00:00 GMT</pubDate>
+      <description>How 3PL Trinity Logistics used ElevenAgents to automate 30,000 inbound carrier calls/month, lift margins 25% on automated bookings, and cut costs 40%.</description>
+      <category>Customer Stories</category>
+      <dc:creator>Jess Day</dc:creator>
+      <dc:creator>Juan Castellanos</dc:creator>
+      <dc:creator>Caroline Plonski</dc:creator>
+    </item>
+    <item>
+      <title>Speech to text for content creators: A workflow guide for captions and repurposing</title>
+      <link>https://elevenlabs.io/blog/speech-to-text-for-content-creators</link>
+      <guid isPermaLink="true">https://elevenlabs.io/blog/speech-to-text-for-content-creators</guid>
+      <pubDate>Mon, 19 Oct 2026 12:00:00 GMT</pubDate>
+      <description>See how speech to text for content creators improves their workflows and accelerates production across captions, show notes, clips, LLM analysis, and more</description>
+      <category>Resources</category>
+      <dc:creator>Jack Limebear</dc:creator>
+    </item>
+    <item>
+      <title>Announcing the Chroma Awards Season 2</title>
+      <link>https://elevenlabs.io/blog/chroma-awards-season-two-announcement</link>
+      <guid isPermaLink="true">https://elevenlabs.io/blog/chroma-awards-season-two-announcement</guid>
+      <pubDate>Mon, 19 Oct 2026 12:00:00 GMT</pubDate>
+      <description>Today we&#x2019;re opening the Chroma Awards Season 2, a global competition to find the world&#x2019;s catchiest ad.</description>
+      <dc:creator>Matty Shimura</dc:creator>
+      <dc:creator>Andi Bucescu</dc:creator>
+    </item>
+    <item>
+      <title>AI voice agent integrations: CRM and help desk guide</title>
+      <link>https://elevenlabs.io/blog/ai-voice-agent-integrations</link>
+      <guid isPermaLink="true">https://elevenlabs.io/blog/ai-voice-agent-integrations</guid>
+      <pubDate>Fri, 16 Oct 2026 12:00:00 GMT</pubDate>
+      <description>Learn about AI voice agent integrations with Salesforce, HubSpot, Zendesk, and more. Discover how agents read and update records mid-call and set up tools.</description>
+      <category>Resources</category>
+      <dc:creator>Jack Limebear</dc:creator>
+    </item>
+    <item>
+      <title>ElevenLabs&#x2019; commitment to security, privacy, and responsible AI: certified and renewed</title>
+      <link>https://elevenlabs.io/blog/certification-renewals</link>
+      <guid isPermaLink="true">https://elevenlabs.io/blog/certification-renewals</guid>
+      <pubDate>Fri, 16 Oct 2026 12:00:00 GMT</pubDate>
+      <description>ElevenLabs renewed its ISO, SOC 2, and PCI DSS certifications and added SOC 2 Type I and FedRAMP 20x Class A for enterprise trust.</description>
+      <category>Company</category>
+    </item>
+    <item>
+      <title>NTT Docomo Business trials conversational AI in Aizuwakamatsu with ElevenLabs</title>
+      <link>https://elevenlabs.io/blog/ntt-docomo-conversational-ai</link>
+      <guid isPermaLink="true">https://elevenlabs.io/blog/ntt-docomo-conversational-ai</guid>
+      <pubDate>Fri, 16 Oct 2026 12:00:00 GMT</pubDate>
+      <description>NTT Docomo Business is piloting an ElevenAgents voice platform in Fukushima to support older residents with natural Japanese speech. (137 characters)</description>
+      <category>Customer Stories</category>
+    </item>
+    <item>
+      <title>SSML tags explained: How to control pauses, pronunciation, and pacing in text to speech</title>
+      <link>https://elevenlabs.io/blog/ssml-tags-explained</link>
+      <guid isPermaLink="true">https://elevenlabs.io/blog/ssml-tags-explained</guid>
+      <pubDate>Thu, 15 Oct 2026 12:00:00 GMT</pubDate>
+      <description>SSML is the markup that controls pauses and pronunciation in text to speech. See key tags, code examples, and ElevenLabs support, including Eleven v4.</description>
+      <category>Resources</category>
+      <dc:creator>Jack Limebear</dc:creator>
+    </item>
+    <item>
+      <title>Introducing Instant Soundtracks</title>
+      <link>https://elevenlabs.io/blog/introducing-instant-soundtracks</link>
+      <guid isPermaLink="true">https://elevenlabs.io/blog/introducing-instant-soundtracks</guid>
+      <pubDate>Thu, 15 Oct 2026 12:00:00 GMT</pubDate>
+      <description>Introducing Instant Soundtracks, convert video to music and sound effects automatically. </description>
+      <category>Product</category>
+      <dc:creator>Renee Zhang</dc:creator>
+    </item>
+    <item>
+      <title>Audio deepfake detection: How it works &amp; how to verify ElevenLabs audio</title>
+      <link>https://elevenlabs.io/blog/audio-deepfake-detection-guide</link>
+      <guid isPermaLink="true">https://elevenlabs.io/blog/audio-deepfake-detection-guide</guid>
+      <pubDate>Wed, 14 Oct 2026 12:00:00 GMT</pubDate>
+      <description>Learn how audio deepfake detection works, how watermarking differs from statistical classifiers, and how to check whether audio came from ElevenLabs.</description>
+      <category>Resources</category>
+      <dc:creator>Jack Limebear</dc:creator>
+    </item>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  </channel>
+</rss>

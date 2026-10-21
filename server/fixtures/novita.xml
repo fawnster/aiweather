@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Status updates | Novita AI</title>
+    <description>Incidents and maintenance reported on status page for Novita AI</description>
+    <link>https://status.novita.ai/</link>
+    <image>
+      <url>https://d1lppblt9t2x15.cloudfront.net/logos/fa4698ac38d161649dd6b54e727ad992.png</url>
+      <title>Status updates | Novita AI</title>
+      <link>https://status.novita.ai/</link>
+    </image>
+    <language>en</language>
+    <atom:link rel="self" type="application/rss+xml" href="https://status.novita.ai/feed"/>
+    <item>
+      <title>Degraded Performance</title>
+      <link>https://status.novita.ai/incident/1091052</link>
+      <pubDate>Thu, 15 Oct 2026 12:00:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.novita.ai/incident/1091052#6d2be55c3e09dab30cfffab8a844bf6e2c07544a5cb8f1429efd95c6bf6d54da</guid>
+      <category>Incident</category>
+      <description>Service has recovered</description>
+    </item>
+    <item>
+      <title>Degraded Performance</title>
+      <link>https://status.novita.ai/incident/1091052</link>
+      <pubDate>Thu, 15 Oct 2026 11:32:50 -0000</pubDate>
+      <guid isPermaLink="false">https://status.novita.ai/incident/1091052#2a5f74e30ffe7fb50926c8a72b3df1f5bbef84fd92614a00abb822327654c0cc</guid>
+      <category>Incident</category>
+      <description>sandbox event success rate check: status=degraded success=27 fail=36 total=63 rate=0.4286 window=180s</description>
+    </item>
+    <item>
+      <title>Degraded Performance</title>
+      <link>https://status.novita.ai/incident/1079579</link>
+      <pubDate>Thu, 01 Oct 2026 21:25:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.novita.ai/incident/1079579#ad34c07a9fe1b340ea904648f7154ba103d495dd63316180f6a1daa03dbbadc2</guid>
+      <category>Incident</category>
+      <description>Service has recovered</description>
+    </item>
+    <item>
+      <title>Degraded Performance</title>
+      <link>https://status.novita.ai/incident/1079579</link>
+      <pubDate>Thu, 01 Oct 2026 21:10:43 -0000</pubDate>
+      <guid isPermaLink="false">https://status.novita.ai/incident/1079579#2ff453d0a5322f4f6f11cf4f814a3e36d03963da40609e7042eaa933e90b9fa8</guid>
+      <category>Incident</category>
+      <description>sandbox event success rate check: status=degraded success=27 fail=36 total=63 rate=0.4286 window=180s</description>
+    </item>
+    <item>
+      <title>MiniMax M3 is down</title>
+      <link>https://status.novita.ai/incident/1034267</link>
+      <pubDate>Wed, 26 Aug 2026 13:43:36 -0000</pubDate>
+      <guid isPermaLink="false">https://status.novita.ai/incident/1034267#d357e56694b2f12f46ca39878cbff8906528f149bb19cb0d6a39d7c1bcb32d03</guid>
+      <category>Incident</category>
+      <description>MiniMax M3 recovered.</description>
+    </item>
+    <item>
+      <title>MiniMax M3 is down</title>
+      <link>https://status.novita.ai/incident/1034267</link>
+      <pubDate>Wed, 26 Aug 2026 13:18:44 -0000</pubDate>
+      <guid isPermaLink="false">https://status.novita.ai/incident/1034267#54ff6224ae40d85114f8d1649e4a6898a8c25ca7c8d633b115d8845c3391cb41</guid>
+      <category>Incident</category>
+      <description>MiniMax M3 went down.</description>
+    </item>
+    <item>
+      <title>Kimi K3 is down</title>
+      <link>https://status.novita.ai/incident/1033269</link>
+      <pubDate>Tue, 25 Aug 2026 23:12:43 -0000</pubDate>
+      <guid isPermaLink="false">https://status.novita.ai/incident/1033269#07d958ae12555b6057ab54f34001834064b8a2acf920a2829f84f51ca980735f</guid>
+      <category>Incident</category>
+      <description>Kimi K3 recovered.</description>
+    </item>
+    <item>
+      <title>Kimi K3 is down</title>
+      <link>https://status.novita.ai/incident/1033269</link>
+      <pubDate>Tue, 25 Aug 2026 22:49:47 -0000</pubDate>
+      <guid isPermaLink="false">https://status.novita.ai/incident/1033269#6cd8f0cc016ce7a5859fe75a08c0cce124cfff09c2312eeb21f75f16ef2da180</guid>
+      <category>Incident</category>
+      <description>Kimi K3 went down.</description>
+    </item>
+    <item>
+      <title>Major Outage</title>
+      <link>https://status.novita.ai/incident/1030183</link>
+      <pubDate>Mon, 24 Aug 2026 08:15:18 -0000</pubDate>
+      <guid isPermaLink="false">https://status.novita.ai/incident/1030183#1ffb8923a94e46d68d5e908600dfe69d19d4e8a6d1938dc5007163716349f48b</guid>
+      <category>Incident</category>
+      <description>sandbox service has recovered</description>
+    </item>
+    <item>
+      <title>Major Outage</title>
+      <link>https://status.novita.ai/incident/1030183</link>
+      <pubDate>Mon, 24 Aug 2026 06:20:11 -0000</pubDate>
+      <guid isPermaLink="false">https://status.novita.ai/incident/1030183#1a8eb4ab303fdc254d5e9fcad1944094eef94ad5ca57dd74c99519325e2b424a</guid>
+      <category>Incident</category>
+      <description>sandbox event success rate check: status=downtime success=26 fail=4351 total=4377 rate=0.0059 window=180s</description>
+    </item>
+    <item>
+      <title>Kimi K3 is down</title>
+      <link>https://status.novita.ai/incident/1028961</link>
+      <pubDate>Sun, 23 Aug 2026 12:42:48 -0000</pubDate>
+      <guid isPermaLink="false">https://status.novita.ai/incident/1028961#6940779fca6e87ce82d2e68f095e439d6ec3131f55ea9bd726bbaa8a02b3b3cb</guid>
+      <category>Incident</category>
+      <description>Kimi K3 recovered.</description>
+    </item>
+    <item>
+      <title>Kimi K3 is down</title>
+      <link>https://status.novita.ai/incident/1028961</link>
+      <pubDate>Sun, 23 Aug 2026 12:17:59 -0000</pubDate>
+      <guid isPermaLink="false">https://status.novita.ai/incident/1028961#93a13338c89e994645d9af732359c687614eba8987ce3ea9674542b793aad9b4</guid>
+      <category>Incident</category>
+      <description>Kimi K3 went down.</description>
+    </item>
+    <item>
+      <title>Kimi K3 is down</title>
+      <link>https://status.novita.ai/incident/1025863</link>
+      <pubDate>Sat, 22 Aug 2026 01:12:48 -0000</pubDate>
+      <guid isPermaLink="false">https://status.novita.ai/incident/1025863#8a9828deeff826f294a259c9ec561ee836c530ff45ade2eceb5720b0cd6829af</guid>
+      <category>Incident</category>
+      <description>Kimi K3 recovered.</description>
+    </item>
+    <item>
+      <title>Kimi K3 is down</title>
+      <link>https://status.novita.ai/incident/1025863</link>
+      <pubDate>Fri, 21 Aug 2026 23:49:44 -0000</pubDate>
+      <guid isPermaLink="false">https://status.novita.ai/incident/1025863#22d676a7b72a25ccbf59b12b5b4d781a8fcfc1c9ef9de2b50a60c6c1abc885a5</guid>
+      <category>Incident</category>
+      <description>Kimi K3 went down.</description>
+    </item>
+    <item>
+      <title>Kimi K3 is down</title>
+      <link>https://status.novita.ai/incident/1025863</link>
+      <pubDate>Fri, 21 Aug 2026 21:12:31 -0000</pubDate>
+      <guid isPermaLink="false">https://status.novita.ai/incident/1025863#adce115fa9923686fdf6aa465e6bd43db9ea009b532929c162f3a35f34df856a</guid>
+      <category>Incident</category>
+      <description>Kimi K3 recovered.</description>
+    </item>
+    <item>
+      <title>Kimi K3 is down</title>
+      <link>https://status.novita.ai/incident/1025863</link>
+      <pubDate>Fri, 21 Aug 2026 20:49:41 -0000</pubDate>
+      <guid isPermaLink="false">https://status.novita.ai/incident/1025863#c9633c4f29629785435a1d8193515ab52b4e6d35f95420451b9d8a810469c4a3</guid>
+      <category>Incident</category>
+      <description>Kimi K3 went down.</description>
+    </item>
+    <item>
+      <title>Kimi K3 is down</title>
+      <link>https://status.novita.ai/incident/1025863</link>
+      <pubDate>Fri, 21 Aug 2026 16:13:06 -0000</pubDate>
+      <guid isPermaLink="false">https://status.novita.ai/incident/1025863#d41ff38fe67fa799fbfffed20cd52c175f1ef0d23320849da68a38e6cd6b8ee2</guid>
+      <category>Incident</category>
+      <description>Kimi K3 recovered.</description>
+    </item>
+    <item>
+      <title>Kimi K3 is down</title>
+      <link>https://status.novita.ai/incident/1025863</link>
+      <pubDate>Fri, 21 Aug 2026 15:19:35 -0000</pubDate>
+      <guid isPermaLink="false">https://status.novita.ai/incident/1025863#bd165cd1ad6421a1a6185b69c9aebfe8a63e99c7f86b25611441bfbf5524d1a3</guid>
+      <category>Incident</category>
+      <description>Kimi K3 went down.</description>
+    </item>
+    <item>
+      <title>Degraded Performance</title>
+      <link>https://status.novita.ai/incident/987759</link>
+      <pubDate>Fri, 24 Jul 2026 15:46:20 -0000</pubDate>
+      <guid isPermaLink="false">https://status.novita.ai/incident/987759#a8c7dcdb11e2cf163bf5637bb21ce2a9470d154f6cc01d1f43598eb5b7e30e30</guid>
+      <category>Incident</category>
+      <description> Service has recovered. Our service was affected by AWS and cloudflare</description>
+    </item>
+    <item>
+      <title>Degraded Performance</title>
+      <link>https://status.novita.ai/incident/987759</link>
+      <pubDate>Fri, 24 Jul 2026 11:03:52 -0000</pubDate>
+      <guid isPermaLink="false">https://status.novita.ai/incident/987759#60663b9114e8a1f8f9d0df98351655867c851033f46653f9ad5b4fe262da1941</guid>
+      <category>Incident</category>
+      <description>status=degraded. success rate bellow 50%</description>
+    </item>
+    <item>
+      <title>Degraded Performance</title>
+      <link>https://status.novita.ai/incident/987758</link>
+      <pubDate>Tue, 21 Jul 2026 17:00:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.novita.ai/incident/987758#679f1e0157f0c5d6c9c6e2a28f55df3dc7459cc853985227b4cc69e6e23a60de</guid>
+      <category>Incident</category>
+      <description> Service has recovered</description>
+    </item>
+    <item>
+      <title>Degraded Performance</title>
+      <link>https://status.novita.ai/incident/987758</link>
+      <pubDate>Tue, 21 Jul 2026 10:48:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.novita.ai/incident/987758#0b156c57f3c4e44be26727e640ff96caa772b6fbe64bcec6dcd512d6eb940f49</guid>
+      <category>Incident</category>
+      <description>backfilled: status=degraded. success rate bellow 50%</description>
+    </item>
+    <item>
+      <title>Major Outage</title>
+      <link>https://status.novita.ai/incident/987753</link>
+      <pubDate>Wed, 24 Jun 2026 17:18:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.novita.ai/incident/987753#00e39ed57f098767bc6bf64ea5764986f43e5a7129aa764827c1c52f6dd5bc4e</guid>
+      <category>Incident</category>
+      <description>Internal error. Service has recovered</description>
+    </item>
+    <item>
+      <title>Major Outage</title>
+      <link>https://status.novita.ai/incident/987753</link>
+      <pubDate>Wed, 24 Jun 2026 16:52:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.novita.ai/incident/987753#1cd8be0136c0a71c6456cedc5fae543950c62b7fd6e89af9e16e0bcd138a46f6</guid>
+      <category>Incident</category>
+      <description>backfilled: status=downtime success rate: 0%</description>
+    </item>
+  </channel>
+</rss>

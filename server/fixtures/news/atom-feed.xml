@@ -1,0 +1,6 @@
+<?xml version="1.0"?><feed xmlns="http://www.w3.org/2005/Atom" xml:base="https://official.example/">
+<title>Official Atom (synthetic)</title>
+<entry><title>Published title — exactly</title><link rel="self" href="/api/old"/><link rel="alternate" href="posts/old"/><published>2026-10-19T12:00:00-04:00</published><updated>2026-10-21T00:00:00Z</updated><summary type="html">&lt;p&gt;Source &lt;b&gt;summary&lt;/b&gt; &amp;amp; details.&lt;/p&gt;</summary></entry>
+<entry><title type="html">New &amp;amp; original</title><link href="/posts/new"/><updated>2026-10-20T01:00:00Z</updated><content>Do not generate a summary from content.</content></entry>
+<entry><title>Missing link</title></entry><entry><link href="/posts/no-title"/></entry>
+</feed>

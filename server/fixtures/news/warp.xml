@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Warp Blog</title>
+    <link>https://www.warp.dev/blog</link>
+    <description>Stories from the Warp team on building the agentic development environment &#x2014; engineering deep-dives, product launches, terminal performance, AI agents, and how developers use Warp.</description>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 15 Oct 2026 16:29:52 GMT</lastBuildDate>
+    <atom:link href="https://www.warp.dev/blog/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Tactics for rolling out software factories: human and organizational changes</title>
+      <link>https://www.warp.dev/blog/rolling-out-software-factories</link>
+      <guid isPermaLink="true">https://www.warp.dev/blog/rolling-out-software-factories</guid>
+      <pubDate>Thu, 15 Oct 2026 16:29:52 GMT</pubDate>
+      <description>How to roll out software factories across an engineering org: start with chore automations, meet engineers in their tools, and track factory adoption.</description>
+      <dc:creator>Zach Lloyd</dc:creator>
+      <category>Engineering</category>
+      <enclosure url="https://cdn.sanity.io/images/1ygbk6d0/production/bd86c678961bcfd82692abb7cea3c70d76b164c4-3200x1600.png?w=1200&amp;q=80&amp;auto=format" type="image/jpeg" length="0"/>
+    </item>
+    <item>
+      <title>The road to self-improving software</title>
+      <link>https://www.warp.dev/blog/self-improving-software-proactive-agents</link>
+      <guid isPermaLink="true">https://www.warp.dev/blog/self-improving-software-proactive-agents</guid>
+      <pubDate>Thu, 15 Oct 2026 11:24:12 GMT</pubDate>
+      <description>Let agents decide what to build next: self-improving software factories that proactively fix bugs, refine their own skills, and mine user feedback for roadmap work.</description>
+      <dc:creator>Ben Holmes</dc:creator>
+      <category>Engineering</category>
+      <enclosure url="https://cdn.sanity.io/images/1ygbk6d0/production/ad363322ae9f130d5347b5ed4a643ca639ff397d-1608x840.png?w=1200&amp;q=80&amp;auto=format" type="image/jpeg" length="0"/>
+    </item>
+    <item>
+      <title>Warp Factories now works across Microsoft Teams and Azure DevOps</title>
+      <link>https://www.warp.dev/blog/warp-factories-microsoft-teams-azure-devops</link>
+      <guid isPermaLink="true">https://www.warp.dev/blog/warp-factories-microsoft-teams-azure-devops</guid>
+      <pubDate>Wed, 07 Oct 2026 17:57:42 GMT</pubDate>
+      <description>Warp Factories now integrates natively with Microsoft Teams and Azure DevOps. Delegate work to your agent software factory from Teams threads, Azure DevOps work items, and pull requests.</description>
+      <category>Product</category>
+      <enclosure url="https://cdn.sanity.io/images/1ygbk6d0/production/1334d2a9644c3e02088255351cd2b7236032e56b-1600x800.png?w=1200&amp;q=80&amp;auto=format" type="image/jpeg" length="0"/>
+    </item>
+    <item>
+      <title>Build the factory. Let it run. Go kayaking.</title>
+      <link>https://www.warp.dev/blog/warp-team-offsite-fall-2026</link>
+      <guid isPermaLink="true">https://www.warp.dev/blog/warp-team-offsite-fall-2026</guid>
+      <pubDate>Sat, 03 Oct 2026 22:12:33 GMT</pubDate>
+      <description>During Warp team&apos;s Savannah off-site, we focused on making Warp Factories reliable, fast, and cost-effective. Then, we let the agents run while we went kayaking.</description>
+      <dc:creator>Ben Holmes</dc:creator>
+      <category>Company</category>
+      <enclosure url="https://cdn.sanity.io/images/1ygbk6d0/production/86a0df039946dc54ef90460bc96f1be8488c2202-3600x2400.jpg?w=1200&amp;q=80&amp;auto=format" type="image/jpeg" length="0"/>
+    </item>
+    <item>
+      <title>Terraform for agents: how we define our software factory in code</title>
+      <link>https://www.warp.dev/blog/software-factory-as-code</link>
+      <guid isPermaLink="true">https://www.warp.dev/blog/software-factory-as-code</guid>
+      <pubDate>Wed, 30 Sep 2026 16:00:00 GMT</pubDate>
+      <description>We define every agent in our software factory as code: orchestration, secrets, MCP servers, automations, runners, scorers, and benchmarks. Here&#x2019;s a walkthrough of each part of the factory config.</description>
+      <dc:creator>Ben Holmes</dc:creator>
+      <category>Product</category>
+      <enclosure url="https://cdn.sanity.io/images/1ygbk6d0/production/44803c4219235908730e56575a4556147196a877-1600x800.png?w=1200&amp;q=80&amp;auto=format" type="image/jpeg" length="0"/>
+    </item>
+    <item>
+      <title>Sign in to Warp with ChatGPT</title>
+      <link>https://www.warp.dev/blog/sign-in-to-warp-with-chatgpt</link>
+      <guid isPermaLink="true">https://www.warp.dev/blog/sign-in-to-warp-with-chatgpt</guid>
+      <pubDate>Tue, 29 Sep 2026 17:50:11 GMT</pubDate>
+      <description>Use your ChatGPT subscription for AI requests in Warp Terminal and Warp Agent CLI.</description>
+      <category>Product</category>
+      <enclosure url="https://cdn.sanity.io/images/1ygbk6d0/production/c5ddfcdf729a03068e6c65b8254145487ab891e0-2699x1797.png?w=1200&amp;q=80&amp;auto=format" type="image/jpeg" length="0"/>
+    </item>
+    <item>
+      <title>Adapting for a world of software factories</title>
+      <link>https://www.warp.dev/blog/adapting-for-a-world-of-software-factories</link>
+      <guid isPermaLink="true">https://www.warp.dev/blog/adapting-for-a-world-of-software-factories</guid>
+      <pubDate>Mon, 28 Sep 2026 20:42:54 GMT</pubDate>
+      <description>Software factories change what engineers do. At Warp, engineers now have two jobs: building the product, and building the factory that builds the product.</description>
+      <dc:creator>Zach Lloyd</dc:creator>
+      <category>Company</category>
+      <enclosure url="https://cdn.sanity.io/images/1ygbk6d0/production/522a5873d008d76905173955c99c5869c94d47f6-1600x800.png?w=1200&amp;q=80&amp;auto=format" type="image/jpeg" length="0"/>
+    </item>
+    <item>
+      <title>Using LLM-as-a-judge scoring to measure your software factory</title>
+      <link>https://www.warp.dev/blog/using-llm-as-a-judge-scoring-to-measure-your-software-factory</link>
+      <guid isPermaLink="true">https://www.warp.dev/blog/using-llm-as-a-judge-scoring-to-measure-your-software-factory</guid>
+      <pubDate>Fri, 18 Sep 2026 00:00:00 GMT</pubDate>
+      <description>If you want to get the most out of coding agents in your organization, you need to stop guessing how well your agents are performing and start measuring.</description>
+      <dc:creator>Zach Lloyd</dc:creator>
+      <category>Product</category>
+      <enclosure url="https://cdn.sanity.io/images/1ygbk6d0/production/a08ee6f16e11a1a409bf2aeba0f216053ec261f0-3456x1728.png?w=1200&amp;q=80&amp;auto=format" type="image/jpeg" length="0"/>
+    </item>
+    <item>
+      <title>Adopting the software factory model: crawl, walk, run</title>
+      <link>https://www.warp.dev/blog/adopting-the-software-factory-model-crawl-walk-run</link>
+      <guid isPermaLink="true">https://www.warp.dev/blog/adopting-the-software-factory-model-crawl-walk-run</guid>
+      <pubDate>Tue, 15 Sep 2026 12:00:00 GMT</pubDate>
+      <description>A crawl, walk, run path for adopting the software factory model: start with point automations, stand up an end-to-end cloud development loop, then scale to a closed-loop factory stack.</description>
+      <dc:creator>Zach Lloyd</dc:creator>
+      <category>Engineering</category>
+      <enclosure url="https://cdn.sanity.io/images/1ygbk6d0/production/1e62c6d04f6c022901208bff33b95dce451d916d-2048x1152.png?w=1200&amp;q=80&amp;auto=format" type="image/jpeg" length="0"/>
+    </item>
+    <item>
+      <title>The Factory Stack</title>
+      <link>https://www.warp.dev/blog/the-factory-stack</link>
+      <guid isPermaLink="true">https://www.warp.dev/blog/the-factory-stack</guid>
+      <pubDate>Sat, 05 Sep 2026 15:00:00 GMT</pubDate>
+      <description>Software factories should be built on an infrastructure stack that is open, composable and defined in code.</description>
+      <dc:creator>Zach Lloyd</dc:creator>
+      <category>Product</category>
+      <enclosure url="https://cdn.sanity.io/images/1ygbk6d0/production/5b49c139c5741237af488c3a40c30d25f70d2412-3200x1600.png?w=1200&amp;q=80&amp;auto=format" type="image/jpeg" length="0"/>
+    </item>
+    <item>
+      <title>Introducing Factory Benchmarks</title>
+      <link>https://www.warp.dev/blog/warp-factory-benchmarks</link>
+      <guid isPermaLink="true">https://www.warp.dev/blog/warp-factory-benchmarks</guid>
+      <pubDate>Thu, 03 Sep 2026 15:00:00 GMT</pubDate>
+      <description>Today we are launching Benchmarks in Warp Factories early access: agent benchmarks on your own code that drive direct improvements in software factory performance. Rather than guessing at what model and skill configurations are best, you can now easily test, measure, and put your findings into practice.</description>
+      <dc:creator>Zach Lloyd</dc:creator>
+      <category>Product</category>
+      <enclosure url="https://cdn.sanity.io/images/1ygbk6d0/production/e025ecda73e191557a39748e4038249e99bc06d5-3200x1600.png?w=1200&amp;q=80&amp;auto=format" type="image/jpeg" length="0"/>
+    </item>
+    <item>
+      <title>WarpBench: How we reduced our cost-per-PR 75%</title>
+      <link>https://www.warp.dev/blog/warpbench-case-study-reduce-cost-per-pr</link>
+      <guid isPermaLink="true">https://www.warp.dev/blog/warpbench-case-study-reduce-cost-per-pr</guid>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 GMT</pubDate>
+      <description>With Warp Factories Benchmarking, it&#x2019;s now possible to build custom coding agent benchmarks on your team&#x2019;s real data and workflows with a few clicks.</description>
+      <dc:creator>Zach Lloyd</dc:creator>
+      <category>Engineering</category>
+      <enclosure url="https://cdn.sanity.io/images/1ygbk6d0/production/4ab081dead2bb8f3b170c92d6a6b79d7d6f73c7e-3200x1600.png?w=1200&amp;q=80&amp;auto=format" type="image/jpeg" length="0"/>
+    </item>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  </channel>
+</rss>

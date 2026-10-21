@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Status updates | Hugging Face</title>
+    <description>Incidents and maintenance reported on status page for Hugging Face</description>
+    <link>https://status.huggingface.co/</link>
+    <image>
+      <url>https://d1lppblt9t2x15.cloudfront.net/logos/d32f5c39b694f3e64d29fc2c9b988cdd.png</url>
+      <title>Status updates | Hugging Face</title>
+      <link>https://status.huggingface.co/</link>
+    </image>
+    <language>en</language>
+    <atom:link rel="self" type="application/rss+xml" href="https://status.huggingface.co/feed"/>
+    <item>
+      <title>Maintenance: Scheduled maintenance: Inference Endpoints (H200)</title>
+      <link>https://status.huggingface.co/maintenance/1083838</link>
+      <pubDate>Wed, 07 Oct 2026 12:30:39 -0000</pubDate>
+      <guid isPermaLink="false">https://status.huggingface.co/incident/1083838#9559706030ac79bc030d5ba37c205a2538935dd36dbd48b27a5d485dc1870c99</guid>
+      <category>Maintenance</category>
+      <description>Maintenance completed</description>
+    </item>
+    <item>
+      <title>Maintenance: Scheduled maintenance: Inference Endpoints (H200)</title>
+      <link>https://status.huggingface.co/maintenance/1083838</link>
+      <pubDate>Wed, 07 Oct 2026 07:33:39 -0000</pubDate>
+      <guid isPermaLink="false">https://status.huggingface.co/incident/1083838#49869702f56628d788eccbde90569110acbf03de96dd8f1318d76793fa5e6856</guid>
+      <category>Maintenance</category>
+      <description>We're performing infrastructure maintenance on H200 Inference Endpoints today until around 12:30 UTC. Creating new H200 endpoints may be temporarily limited.</description>
+    </item>
+    <item>
+      <title>Slower downloads in the Asia-Pacific region</title>
+      <link>https://status.huggingface.co/incident/1071500</link>
+      <pubDate>Fri, 25 Sep 2026 18:42:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.huggingface.co/incident/1071500#850704e5e04f5c9ec0b9b45b4df29ad805705bce4605f35784afdc2facdeeeba</guid>
+      <category>Incident</category>
+      <description>The upstream network capacity issue affecting our Singapore CDN location has been resolved, and download performance for Asia-Pacific users is back to normal. 
+
+We've returned traffic routing to its usual configuration. Thank you for your patience.</description>
+    </item>
+    <item>
+      <title>Slower downloads in the Asia-Pacific region</title>
+      <link>https://status.huggingface.co/incident/1071500</link>
+      <pubDate>Fri, 25 Sep 2026 12:18:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.huggingface.co/incident/1071500#e471a5187c63b7e5907a8870f7ed9e061a99e71a32132773299f582b2a575a9b</guid>
+      <category>Incident</category>
+      <description>The Asia Pacific region continues to experience degraded performance due to impaired underlying network capacity. The root cause is identified as the rupture of a subsea cable between China and Japan, rerouting traffic onto the remaining capacity. We continue to monitor the situation and are diverting part of traffic to healthy regions.</description>
+    </item>
+    <item>
+      <title>Some GPU Jobs and Spaces failing to start</title>
+      <link>https://status.huggingface.co/incident/1073772</link>
+      <pubDate>Fri, 25 Sep 2026 09:57:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.huggingface.co/incident/1073772#060a1e61b1efce922f88267950a5284cbd2f97bc4177d7f16d60c13d3434b07f</guid>
+      <category>Incident</category>
+      <description>The issue is resolved. If your job failed between 18:00 UTC on September 24 and 09:10 UTC on September 25, please resubmit it. If your Space is still showing a Runtime error, restart it from the Space settings.</description>
+    </item>
+    <item>
+      <title>Some GPU Jobs and Spaces failing to start</title>
+      <link>https://status.huggingface.co/incident/1073772</link>
+      <pubDate>Thu, 24 Sep 2026 18:00:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.huggingface.co/incident/1073772#68c94b5c2e835997ef73779205147ccd9c8001b6fa842999c18f21f51ff06b1a</guid>
+      <category>Incident</category>
+      <description>Between 18:00 UTC on September 24 and 09:10 UTC on September 25, some GPU Jobs and GPU Spaces failed to start. Affected jobs ended with an ERROR status before the container started.</description>
+    </item>
+    <item>
+      <title>Slower downloads in the Asia-Pacific region</title>
+      <link>https://status.huggingface.co/incident/1071500</link>
+      <pubDate>Tue, 22 Sep 2026 18:48:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.huggingface.co/incident/1071500#638fc5492d7cf35a406ffde98b25c827e94094d711fa73eaee79af906e0c35b0</guid>
+      <category>Incident</category>
+      <description>We're seeing slower download speeds for some users in the Asia-Pacific region who are served by our Singapore CDN location. Reduced network capacity between cloud regions is impacting our ability to download files that aren't already cached in the region. We are not seeing an increased error rate, so downloads should complete successfully.
+
+To reduce the impact, we're sending some Asia-Pacific traffic to our other CDN locations. Some users may see higher latency while this is in place.
+
+We're monitoring this closely and will post updates as things change.</description>
+    </item>
+    <item>
+      <title>Maintenance: Scheduled maintenance: Hub</title>
+      <link>https://status.huggingface.co/maintenance/1063027</link>
+      <pubDate>Wed, 16 Sep 2026 09:00:20 -0000</pubDate>
+      <guid isPermaLink="false">https://status.huggingface.co/incident/1063027#d3118621b9a3fd851b53a90a5b8ed8d7d818f5562039f228c9c2e9ce79c8ea3e</guid>
+      <category>Maintenance</category>
+      <description>Maintenance completed</description>
+    </item>
+    <item>
+      <title>Maintenance: Scheduled maintenance: Hub</title>
+      <link>https://status.huggingface.co/maintenance/1063027</link>
+      <pubDate>Mon, 14 Sep 2026 14:19:08 -0000</pubDate>
+      <guid isPermaLink="false">https://status.huggingface.co/incident/1063027#6896e42f8a60b73d1299890ff7f479fe86a5651166a39c5ab59c233648f56f25</guid>
+      <category>Maintenance</category>
+      <description>During a short window inside this period (roughly 20 minutes) write operations on the Hub may fail while we migrate database infrastructure. This includes creating repositories, pushing commits and uploading files, opening or commenting on pull requests and discussions, and changing account, organization or billing settings. It affects both the UI and the API.
+
+Reads are not affected: browsing the Hub, downloading models and datasets, and inference requests continue to work as usual. No action is needed on your end: any write that fails during the window can simply be retried afterwards.</description>
+    </item>
+    <item>
+      <title>Maintenance: Scheduled maintenance: Hub</title>
+      <link>https://status.huggingface.co/maintenance/1042883</link>
+      <pubDate>Mon, 31 Aug 2026 11:14:20 -0000</pubDate>
+      <guid isPermaLink="false">https://status.huggingface.co/incident/1042883#f3b5c80f947d459f87017b5e0c951e6cecd402fde57b5e4cde6d8563d8986f89</guid>
+      <category>Maintenance</category>
+      <description>During a brief window (approximately 5–10 minutes), uploads and commits to repositories may temporarily fail or need to be retried while we upgrade database infrastructure. This affects both the UI and the API. Downloads, reads, and browsing are not affected, and no action is needed on your end.</description>
+    </item>
+    <item>
+      <title>Maintenance: Scheduled maintenance: Spaces</title>
+      <link>https://status.huggingface.co/maintenance/1009673</link>
+      <pubDate>Wed, 12 Aug 2026 14:40:20 -0000</pubDate>
+      <guid isPermaLink="false">https://status.huggingface.co/incident/1009673#3ca05fc0744305333c5ae0ada12526de2491e1b8640a11c32d72ebdb25a48823</guid>
+      <category>Maintenance</category>
+      <description>During a brief window (approximately 5–10 minutes), write and management operations on Spaces (creating or duplicating a Space, changing hardware or settings, pausing/restarting, and updating secrets and variables) may temporarily return a 503 error while we upgrade infrastructure. This affects both the UI and the API. Reads and already-running Spaces are not affected, and no action is needed on your end.</description>
+    </item>
+    <item>
+      <title>Elevated error rate - AWS CDN (Singapore)</title>
+      <link>https://status.huggingface.co/incident/1004901</link>
+      <pubDate>Fri, 07 Aug 2026 23:14:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.huggingface.co/incident/1004901#6fee1c0dfe4dad9a41fe3af7260d0dbefdc1876a3c347b5334c506c9cdbf68d6</guid>
+      <category>Incident</category>
+      <description>Our fix is now in place and this incident is resolved. Applying it caused one final short period of failed downloads between 23:00 and 23:14 UTC, as we noted could happen. Downloads from the Singapore region have been stable since, and we have added capacity to prevent this from recurring. We are sorry for the disruption.</description>
+    </item>
+    <item>
+      <title>Elevated error rate - AWS CDN (Singapore)</title>
+      <link>https://status.huggingface.co/incident/1004901</link>
+      <pubDate>Fri, 07 Aug 2026 15:14:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.huggingface.co/incident/1004901#075639cfde44b31c17f67841c9ea7671b21946f26cdc4efe7f0f9c67aadbbe9f</guid>
+      <category>Incident</category>
+      <description>Some file downloads from our Singapore region (ap-southeast-1) failed with 500 errors during two short periods, starting at 15:14 UTC. Downloads are normal again now. The cause is not fully resolved, so short bursts of errors can return until our fix is in place. Other CDN regions are not affected. We are sorry for the disruption.</description>
+    </item>
+    <item>
+      <title>Maintenance: Scheduled maintenance: Inference Endpoints</title>
+      <link>https://status.huggingface.co/maintenance/982437</link>
+      <pubDate>Tue, 28 Jul 2026 10:07:27 -0000</pubDate>
+      <guid isPermaLink="false">https://status.huggingface.co/incident/982437#2f4328546ab97afb1f027e6db7bfd440f1de1533db6fb6800b8facf42bbdd864</guid>
+      <category>Maintenance</category>
+      <description>During a short window within this period (roughly 5–10 minutes), endpoint management operations (creating, updating, pausing, or resuming endpoints) may briefly return a 503 ("temporarily unavailable due to maintenance") while we complete infrastructure upgrades. Running endpoints and inference requests are not affected, and no action is needed on your end.</description>
+    </item>
+    <item>
+      <title>Hub unavailable</title>
+      <link>https://status.huggingface.co/incident/965809</link>
+      <pubDate>Thu, 16 Jul 2026 10:07:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.huggingface.co/incident/965809#b33f5802e3613a882f2d167d3f6d1c03b511b5fec1ca250bd476b7e51565dfc2</guid>
+      <category>Incident</category>
+      <description>Services are back to nominal operations.
+
+Root cause confirmed to global Amazon Web Services outage.</description>
+    </item>
+    <item>
+      <title>Hub unavailable</title>
+      <link>https://status.huggingface.co/incident/965809</link>
+      <pubDate>Thu, 16 Jul 2026 08:43:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.huggingface.co/incident/965809#7d71d08267d20e2f629de3aa3124d0021a9c77c6be06e35127c24632a5263eaf</guid>
+      <category>Incident</category>
+      <description>We are mitigating the issue, and services are coming back up.</description>
+    </item>
+    <item>
+      <title>Hub unavailable</title>
+      <link>https://status.huggingface.co/incident/965809</link>
+      <pubDate>Thu, 16 Jul 2026 08:30:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.huggingface.co/incident/965809#0919c39dac7b1f7b249915f67b2f66e8d24807425aac6809155748fedbe2c804</guid>
+      <category>Incident</category>
+      <description>Hugging Face platform is unavailable from most regions in the world due following a global outage from Amazon Web Services. We are working on a mitigation.</description>
+    </item>
+    <item>
+      <title>Maintenance: Scheduled maintenance: Inference Endpoints</title>
+      <link>https://status.huggingface.co/maintenance/961899</link>
+      <pubDate>Mon, 13 Jul 2026 10:27:26 -0000</pubDate>
+      <guid isPermaLink="false">https://status.huggingface.co/incident/961899#5a471545c09a39e0b2783927993ace5bcf4277cb73d48606c32da4dd637888a8</guid>
+      <category>Maintenance</category>
+      <description>During a short window inside this period (roughly 5–10 minutes) endpoint management operations (creating, updating, pausing, or resuming endpoints) may briefly return a 503 ("temporarily unavailable due to maintenance") while we complete upgrades to infrastructure. Running endpoints and inference requests are not affected, and no action is needed on your end.</description>
+    </item>
+    <item>
+      <title>Maintenance: Scheduled maintenance: Jobs</title>
+      <link>https://status.huggingface.co/maintenance/946090</link>
+      <pubDate>Tue, 07 Jul 2026 13:18:25 -0000</pubDate>
+      <guid isPermaLink="false">https://status.huggingface.co/incident/946090#a03b88a8bc9753454d76ce27065f184b6a2d5bcbf0a4196f46dae4f7d67199fa</guid>
+      <category>Maintenance</category>
+      <description>During a short window inside this period (roughly 5–10 minutes) write operations may briefly return a 503 ("temporarily unavailable due to maintenance") while we complete upgrades to infrastructure. Reads and already-running jobs are not affected, and no action is needed on your end.</description>
+    </item>
+    <item>
+      <title>Elevated error rate – AWS CDN (Singapore)</title>
+      <link>https://status.huggingface.co/incident/939240</link>
+      <pubDate>Tue, 30 Jun 2026 08:05:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.huggingface.co/incident/939240#b2b71338b6dba201d2a3497b1784c981e320c22decb1521add5195db92ff1cd0</guid>
+      <category>Incident</category>
+      <description>Resolved. Error rates returned to normal at 08:05 UTC and the CDN is operating normally. The disruption lasted approximately 7 minutes. We apologize for any inconvenience.</description>
+    </item>
+    <item>
+      <title>Elevated error rate – AWS CDN (Singapore)</title>
+      <link>https://status.huggingface.co/incident/939240</link>
+      <pubDate>Tue, 30 Jun 2026 07:58:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.huggingface.co/incident/939240#3c97443b5b5c62a6894d2a3ed7e14e1d53cba1565da2ab0cd604683de7b57b6a</guid>
+      <category>Incident</category>
+      <description>Between 07:58 and 08:05 UTC, the AWS CDN returned an elevated rate of HTTP 500 errors for a portion of requests in the Asia-Pacific (Singapore / ap-southeast-1) region. The cause was a transient internal service disruption, which has been mitigated.</description>
+    </item>
+    <item>
+      <title>Data serving slowness in Asia region</title>
+      <link>https://status.huggingface.co/incident/919822</link>
+      <pubDate>Wed, 10 Jun 2026 10:50:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.huggingface.co/incident/919822#9229f20f2da5de0e901c01d7fe50a33539fc4b8d3699f0470e666e3ebbecdef1</guid>
+      <category>Incident</category>
+      <description>Issue is solved, Asia traffic back to nominal bandwidth performances.</description>
+    </item>
+    <item>
+      <title>Data serving slowness in Asia region</title>
+      <link>https://status.huggingface.co/incident/919822</link>
+      <pubDate>Wed, 10 Jun 2026 07:00:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.huggingface.co/incident/919822#5373e8e2d3ac1436fd34c0e6de53ad866f3140aa61335594e99c11e7d469034d</guid>
+      <category>Incident</category>
+      <description>We are experiencing slowness on large file downloads in Asia region since 7AM UTC. This only affects downloads via the huggingface CLI. Root cause identified and mitigation in progress.</description>
+    </item>
+  </channel>
+</rss>

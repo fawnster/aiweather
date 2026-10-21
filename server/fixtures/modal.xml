@@ -1,0 +1,2084 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Status updates | Modal Labs</title>
+    <description>Incidents and maintenance reported on status page for Modal Labs</description>
+    <link>https://status.modal.com/</link>
+    <image>
+      <url>https://d1lppblt9t2x15.cloudfront.net/logos/4aed1028d24910fc147a2962adc30011.png</url>
+      <title>Status updates | Modal Labs</title>
+      <link>https://status.modal.com/</link>
+    </image>
+    <language>en</language>
+    <atom:link rel="self" type="application/rss+xml" href="https://status.modal.com/feed"/>
+    <item>
+      <title>Web functions degraded</title>
+      <link>https://status.modal.com/incident/1096037</link>
+      <pubDate>Mon, 19 Oct 2026 16:50:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/1096037#a72fd954b6161d3bee6b7384a0bbaab913e739354ae588432edcf0c0ce29c976</guid>
+      <category>Incident</category>
+      <description>The degradation is resolved and web functions are operating normally. We will be implementing mechanisms to protect against a recurrence of this issue in future.</description>
+    </item>
+    <item>
+      <title>Web functions degraded</title>
+      <link>https://status.modal.com/incident/1096037</link>
+      <pubDate>Mon, 19 Oct 2026 16:48:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/1096037#6de6c43af1dff86ac69c0bbd834006316891b82c4dfa15edd5b40b023f9379c8</guid>
+      <category>Incident</category>
+      <description>We observed a 2 minute period where 30-40% of web function requests failed. This was due to an infrastructure change that left our proxies unable to handle new requests.</description>
+    </item>
+    <item>
+      <title>Kimi K3 shared endpoint downtime</title>
+      <link>https://status.modal.com/incident/1090505</link>
+      <pubDate>Wed, 14 Oct 2026 22:23:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/1090505#edde7739d28e7b8544f7624e0eb2886218c42ef0927084f19234c55efead38aa</guid>
+      <category>Incident</category>
+      <description>We identified the issue affecting the Kimi K3 shared endpoint and applied a mitigation. The endpoint is now fully operational.</description>
+    </item>
+    <item>
+      <title>Kimi K3 shared endpoint downtime</title>
+      <link>https://status.modal.com/incident/1090505</link>
+      <pubDate>Wed, 14 Oct 2026 22:17:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/1090505#38177142fdb1d95036476c89b2840b68bd4201c73181786b68710b6ddd59eae6</guid>
+      <category>Incident</category>
+      <description>We are actively investigating an issue with the Kimi K3 shared endpoint which is returning an elevated level of 5xx errors.</description>
+    </item>
+    <item>
+      <title>Kimi K3 shared endpoint is degraded</title>
+      <link>https://status.modal.com/incident/1089996</link>
+      <pubDate>Wed, 14 Oct 2026 07:07:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/1089996#c29be62e9ba0d70524cae653c976a6ef2287b963f5238b159bd6c73d831fce48</guid>
+      <category>Incident</category>
+      <description>We identified the issue affecting the Kimi K3 shared endpoint and applied a mitigation. The endpoint is now fully operational.</description>
+    </item>
+    <item>
+      <title>Kimi K3 shared endpoint is degraded</title>
+      <link>https://status.modal.com/incident/1089996</link>
+      <pubDate>Wed, 14 Oct 2026 06:33:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/1089996#e3dd410f186010199d625da60c71f20043fe3cc494589eab51fbbdb0befa4617</guid>
+      <category>Incident</category>
+      <description>We are actively investigating an issue with the Kimi K3 shared endpoint which is returning an elevated level of 5xx errors.</description>
+    </item>
+    <item>
+      <title>Function and Sandbox execution degraded</title>
+      <link>https://status.modal.com/incident/1082502</link>
+      <pubDate>Mon, 05 Oct 2026 23:09:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/1082502#13c810b1f6deaf1e7ba4295fa5ad126cf7fbdd230e15fa2b2bac2bd2dbad3995</guid>
+      <category>Incident</category>
+      <description>We're seeing recovery for function and sandbox execution, worker networking has been restored</description>
+    </item>
+    <item>
+      <title>Function and Sandbox execution degraded</title>
+      <link>https://status.modal.com/incident/1082502</link>
+      <pubDate>Mon, 05 Oct 2026 23:02:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/1082502#dd81fcfae950b6ed066c66a5954e269819244c6ede302f561fece6e9ace142d8</guid>
+      <category>Incident</category>
+      <description>Workers responsible for function and sandbox execution have degraded networking.</description>
+    </item>
+    <item>
+      <title>Dashboard and sandbox outage</title>
+      <link>https://status.modal.com/incident/1065907</link>
+      <pubDate>Wed, 16 Sep 2026 18:43:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/1065907#cb1683b88230ca656dfb23aa32d0af88c58927729fdf255d0aebc2c58eb62fa0</guid>
+      <category>Incident</category>
+      <description>We're observing recovery of impacted services and will continue to monitor.</description>
+    </item>
+    <item>
+      <title>Dashboard and sandbox outage</title>
+      <link>https://status.modal.com/incident/1065907</link>
+      <pubDate>Wed, 16 Sep 2026 18:39:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/1065907#f5a6f9e0ab0bb8119a5277f7b3d43495726f0262962204288f9ee2f2fcc32dfe</guid>
+      <category>Incident</category>
+      <description>We've identified the source of the issue and remediated.</description>
+    </item>
+    <item>
+      <title>Dashboard and sandbox outage</title>
+      <link>https://status.modal.com/incident/1065907</link>
+      <pubDate>Wed, 16 Sep 2026 18:29:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/1065907#fbf466654dbb3b108bd8a717116867663e0fc512947fdca8c9d01a02d3f77528</guid>
+      <category>Incident</category>
+      <description>We're currently tracking an outage for our customer dashboard and sandboxes. We will update as we have more information.</description>
+    </item>
+    <item>
+      <title>Storage is degraded</title>
+      <link>https://status.modal.com/incident/1051373</link>
+      <pubDate>Fri, 04 Sep 2026 22:51:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/1051373#a66a34a6119f9bcbfc2351482a215ac62abf7d097a49eaaafce0ab9b98bdc8c5</guid>
+      <category>Incident</category>
+      <description>Error rates on the impacted volume endpoint have subsided. We will continue to monitor.</description>
+    </item>
+    <item>
+      <title>Storage is degraded</title>
+      <link>https://status.modal.com/incident/1051373</link>
+      <pubDate>Fri, 04 Sep 2026 20:43:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/1051373#dcad16f017e0c2e83917cb050035719ec3b5958943507272326e6b9ee1ea1a67</guid>
+      <category>Incident</category>
+      <description>We are observing an elevated error rate on an endpoint used to read application and volume contents. Many requests are retried by clients, but this may result in task failures or failures in direct reads.</description>
+    </item>
+    <item>
+      <title>Increased function latency</title>
+      <link>https://status.modal.com/incident/1034953</link>
+      <pubDate>Wed, 26 Aug 2026 23:02:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/1034953#4915a9800e805bb2eaf91a1942fe5116c01251be5df8e429b28fa82ee0119432</guid>
+      <category>Incident</category>
+      <description>We are seeing full recovery</description>
+    </item>
+    <item>
+      <title>Increased function latency</title>
+      <link>https://status.modal.com/incident/1034953</link>
+      <pubDate>Wed, 26 Aug 2026 22:57:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/1034953#6a8238de0127c2ed9a7e70190039ad7e9483483896156ac50841532039b1c0dc</guid>
+      <category>Incident</category>
+      <description>Functions are seeing recovery</description>
+    </item>
+    <item>
+      <title>Increased function latency</title>
+      <link>https://status.modal.com/incident/1034953</link>
+      <pubDate>Wed, 26 Aug 2026 22:51:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/1034953#4154ed0d2eb0b98f9ffdb81a2897dcefe809356a8d91a977104c3f628824ac27</guid>
+      <category>Incident</category>
+      <description>We are experiencing increased load that caused latencies to rise.</description>
+    </item>
+    <item>
+      <title>Degraded latency on .spawn() calls</title>
+      <link>https://status.modal.com/incident/1022108</link>
+      <pubDate>Thu, 20 Aug 2026 00:00:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/1022108#a7653b33b6f5136e7c6fae94e866c3a6a82d5e24c5608d8d61546ad7312214be</guid>
+      <category>Incident</category>
+      <description>We have recovered.</description>
+    </item>
+    <item>
+      <title>Degraded latency on .spawn() calls</title>
+      <link>https://status.modal.com/incident/1022108</link>
+      <pubDate>Wed, 19 Aug 2026 23:45:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/1022108#2e7b87b9ffbbb9ea4b6e302940956a6419d95928f1a6f2800243267c72830153</guid>
+      <category>Incident</category>
+      <description>Some percentage of .spawn() calls experienced elevated latency.</description>
+    </item>
+    <item>
+      <title>Some services are down</title>
+      <link>https://status.modal.com/incident/987288</link>
+      <pubDate>Thu, 30 Jul 2026 15:31:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/987288#b8da97073b23fa8f7d5d5719ce34a104c2b84119e0b086ba070463bff92020ec</guid>
+      <category>Incident</category>
+      <description>We're seeing recovery</description>
+    </item>
+    <item>
+      <title>modal.com is degraded</title>
+      <link>https://status.modal.com/incident/974469</link>
+      <pubDate>Thu, 23 Jul 2026 04:50:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/974469#0aea86455fe7b63442023a392f7b5867c9f055d34cce37a6d6cd71956709b419</guid>
+      <category>Incident</category>
+      <description>We identified the cause and deployed a fix and seeing recovery.</description>
+    </item>
+    <item>
+      <title>modal.com is degraded</title>
+      <link>https://status.modal.com/incident/974469</link>
+      <pubDate>Thu, 23 Jul 2026 04:19:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/974469#4f50ef6fc5537acd38e1ba0ec2ac9c2d79c5941518641623eec38816fe8c52eb</guid>
+      <category>Incident</category>
+      <description>We are investigating elevated rates of 5xx errors on modal.com</description>
+    </item>
+    <item>
+      <title>Storage degraded - impacting app creation</title>
+      <link>https://status.modal.com/incident/938811</link>
+      <pubDate>Mon, 29 Jun 2026 21:02:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/938811#b8a635b5f0556d51288482896d9098d60f0c6c954b00af43599db783ba21b328</guid>
+      <category>Incident</category>
+      <description>We're tracking errors in our storage subsystem which is causing issues with volumes and app deploys.
+
+At 9:03 UTC we applied a mitigation and have observed recovery.</description>
+    </item>
+    <item>
+      <title>Container scheduling /  app deploys down</title>
+      <link>https://status.modal.com/incident/925781</link>
+      <pubDate>Tue, 16 Jun 2026 17:18:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/925781#c311388124744c898f1d1550d8399c4c30ce8fe81d4299379d2d56d9ad23bf54</guid>
+      <category>Incident</category>
+      <description>We've recovered operation</description>
+    </item>
+    <item>
+      <title>Container scheduling /  app deploys down</title>
+      <link>https://status.modal.com/incident/925781</link>
+      <pubDate>Tue, 16 Jun 2026 16:52:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/925781#5c62c0b8d9775c8078429c90ef2f43a0217fbd9c80fd50494d85e866caac00ff</guid>
+      <category>Incident</category>
+      <description>Container scheduling and some misc operations (e.g. app deploys) are down. We are actively working on mitigating.</description>
+    </item>
+    <item>
+      <title>CLI volume operations disrupted</title>
+      <link>https://status.modal.com/incident/925699</link>
+      <pubDate>Tue, 16 Jun 2026 15:20:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/925699#c61fa16f632cfd0b8ab2c96d327a9c622adf199f6731d0fea3716a071e849236</guid>
+      <category>Incident</category>
+      <description>Volume CLI operations are no longer degraded.</description>
+    </item>
+    <item>
+      <title>auth subsystem failures causing multiple issues</title>
+      <link>https://status.modal.com/incident/912021</link>
+      <pubDate>Wed, 03 Jun 2026 13:52:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/912021#f359486ed18ba30b53e880cdecdea664f23e82302c4402b9b9af07082ab2bcd5</guid>
+      <category>Incident</category>
+      <description>Seeing recovery.</description>
+    </item>
+    <item>
+      <title>auth subsystem failures causing multiple issues</title>
+      <link>https://status.modal.com/incident/912021</link>
+      <pubDate>Wed, 03 Jun 2026 13:03:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/912021#cc861b90f020303c1b1e72d45705e5adbb0f837cb74027f500dd42baeac26315</guid>
+      <category>Incident</category>
+      <description>A failure in our auth subsystem is causing failures affecting several services.</description>
+    </item>
+    <item>
+      <title>Web endpoints and Image builds are down</title>
+      <link>https://status.modal.com/incident/910161</link>
+      <pubDate>Mon, 01 Jun 2026 16:53:09 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/910161#14cc87c7a892b60adc472cdead07377aaf48c32943f25158e2c612399eb22092</guid>
+      <category>Incident</category>
+      <description>Web endpoints recovered.</description>
+    </item>
+    <item>
+      <title>Web endpoints and Image builds are down</title>
+      <link>https://status.modal.com/incident/910161</link>
+      <pubDate>Mon, 01 Jun 2026 16:45:20 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/910161#c4bb66408f27d683ea30dada22450953b96a87f7908ca880d411d6ef23354407</guid>
+      <category>Incident</category>
+      <description>Web endpoints went down.</description>
+    </item>
+    <item>
+      <title>Web endpoints and Image builds are down</title>
+      <link>https://status.modal.com/incident/910161</link>
+      <pubDate>Mon, 01 Jun 2026 15:42:56 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/910161#7e0328b3474e18a3b4b388c557ce781ffa21bd22e2d4f02f9ca79e33d1bb0079</guid>
+      <category>Incident</category>
+      <description>Web endpoints recovered.</description>
+    </item>
+    <item>
+      <title>Web endpoints and Image builds are down</title>
+      <link>https://status.modal.com/incident/910161</link>
+      <pubDate>Mon, 01 Jun 2026 15:40:35 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/910161#118873e04614d1a9b772c227b8ac23e3fd2ce989365dc22ad993fd4c998973e7</guid>
+      <category>Incident</category>
+      <description>Web endpoints went down.</description>
+    </item>
+    <item>
+      <title>Maintenance: Authorization System Restart</title>
+      <link>https://status.modal.com/maintenance/908255</link>
+      <pubDate>Fri, 29 May 2026 17:26:46 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/908255#85802c6c1a0f5fea4f42931fe013a0da43a1a2783ee2bd28768a6c2f68311867</guid>
+      <category>Maintenance</category>
+      <description>## Impact
+
+Our authorization system will be briefly unavailable during the restart. Any request that requires a permission check will fail with an error for approximately **30–60 seconds**.
+
+This affects all API operations, including calling functions, accessing apps and storage, and managing resources such as volumes and environments. An increase in failure rates will occur during the restart window for a period of ~30 seconds, affecting approximately ~15% of requests, as the majority of requests are served from cache or will be retried by the Modal client.
+
+## Recovery
+Once the restart is complete, all operations resume normally with no action required on your end.
+</description>
+    </item>
+    <item>
+      <title>CPU functions, GPU functions, and 5 other services are down</title>
+      <link>https://status.modal.com/incident/899713</link>
+      <pubDate>Tue, 19 May 2026 14:04:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/899713#a88081bb30f3b35e3d1df25d0bb20a418032ee7cc947ef0d99ab861b379c8dff</guid>
+      <category>Incident</category>
+      <description>All services are back. </description>
+    </item>
+    <item>
+      <title>CPU functions, GPU functions, and 5 other services are down</title>
+      <link>https://status.modal.com/incident/899713</link>
+      <pubDate>Tue, 19 May 2026 13:57:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/899713#b73512565caf5046c09c955c4c9b4baf43e4cecb3198e9c0b82c21a93962baa3</guid>
+      <category>Incident</category>
+      <description>Our team is monitoring the remediation we've made to our system that are going out. Services have recovered.</description>
+    </item>
+    <item>
+      <title>CPU functions, GPU functions, and 5 other services are down</title>
+      <link>https://status.modal.com/incident/899713</link>
+      <pubDate>Tue, 19 May 2026 13:40:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/899713#8ac2e9fa3f9eb145f5543996cf8d098efbca6f70e6711b3e400c3212e69a599f</guid>
+      <category>Incident</category>
+      <description>We are actively looking into remediating this issue.
+
+In the mean time, Modal dashboard log in is not available, and we are keeping tabs on any other services that are affected.</description>
+    </item>
+    <item>
+      <title>CPU functions, GPU functions, and 5 other services are down</title>
+      <link>https://status.modal.com/incident/899713</link>
+      <pubDate>Tue, 19 May 2026 13:31:23 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/899713#1fefa5a24200af18971d5df6508b0dc38e67e622e7a2e30ecc58c18db591880a</guid>
+      <category>Incident</category>
+      <description>Volumes went down.</description>
+    </item>
+    <item>
+      <title>CPU functions, GPU functions, and 5 other services are down</title>
+      <link>https://status.modal.com/incident/899713</link>
+      <pubDate>Tue, 19 May 2026 13:29:39 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/899713#feb279eef3bab6649427c6131727497052110889d84856f3dd4083153a8a8377</guid>
+      <category>Incident</category>
+      <description>CPU functions, Snapshot restores (beta), and Image builds went down.</description>
+    </item>
+    <item>
+      <title>Internal data stores are failing</title>
+      <link>https://status.modal.com/incident/890542</link>
+      <pubDate>Fri, 08 May 2026 02:30:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/890542#8b0c957bbf3d7b4b4d13647c2fcab2028b0a06ff3341de21a86d26316e4d97d0</guid>
+      <category>Incident</category>
+      <description>All services except queues have recovered. Queues are currently seeing recovery, and fully recovered as of 11:50pm EDT.</description>
+    </item>
+    <item>
+      <title>Internal data stores are failing</title>
+      <link>https://status.modal.com/incident/890542</link>
+      <pubDate>Fri, 08 May 2026 02:30:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/890542#f50d152aa99790fbb66dde7d1ca0b510feff80c9cf8782ae35f7517d21cafff4</guid>
+      <category>Incident</category>
+      <description>All data stores are recovered</description>
+    </item>
+    <item>
+      <title>Internal data stores are failing</title>
+      <link>https://status.modal.com/incident/890542</link>
+      <pubDate>Fri, 08 May 2026 01:12:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/890542#58cf6341c910b25594f0310d632a44fa97ff6659abe19638ea42aa09aa39354b</guid>
+      <category>Incident</category>
+      <description>We are continuing to work toward mitigation and will share updates as we have them</description>
+    </item>
+    <item>
+      <title>Internal data stores are failing</title>
+      <link>https://status.modal.com/incident/890542</link>
+      <pubDate>Fri, 08 May 2026 00:40:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/890542#aff49f4142598d1c631fcafbe28846954a9c8c8d389d42e0b1e8f9ecc9ae82f7</guid>
+      <category>Incident</category>
+      <description>AWS us-east-1 EC2 is currently experiencing an outage, affecting our internal data stores</description>
+    </item>
+    <item>
+      <title>Internal data stores are failing</title>
+      <link>https://status.modal.com/incident/890542</link>
+      <pubDate>Fri, 08 May 2026 00:22:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/890542#a710a4bfd4bc000b8cce0a20a786ec77dd414bb6445396b43032ab54448de20a</guid>
+      <category>Incident</category>
+      <description>We are seeing a lot of internal data stores failing right now and are actively working on fixing them.</description>
+    </item>
+    <item>
+      <title>Container Scheduling and RPC errors</title>
+      <link>https://status.modal.com/incident/890522</link>
+      <pubDate>Fri, 08 May 2026 00:03:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/890522#a29869279304ae895585cc8d749864f8c42e9206b8b698a5c152025478ef27c8</guid>
+      <category>Incident</category>
+      <description>We've recovered</description>
+    </item>
+    <item>
+      <title>Container Scheduling and RPC errors</title>
+      <link>https://status.modal.com/incident/890522</link>
+      <pubDate>Thu, 07 May 2026 23:50:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/890522#f4231199dc94770303e86bb23fa0d1b50fb8cb40bad5cfcf1c4d5e48ad9a744c</guid>
+      <category>Incident</category>
+      <description>We're experiencing container scheduling failures and some RPC errors due to a storage failure. We're working on mitigating now.</description>
+    </item>
+    <item>
+      <title>Container scheduling degraded</title>
+      <link>https://status.modal.com/incident/881445</link>
+      <pubDate>Tue, 28 Apr 2026 02:20:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/881445#b4c06f148432619c90effd902eba8dd09cfbbca3ecaaa0572081c2ca610c2d2b</guid>
+      <category>Incident</category>
+      <description>The issue has been resolved</description>
+    </item>
+    <item>
+      <title>Container scheduling degraded</title>
+      <link>https://status.modal.com/incident/881445</link>
+      <pubDate>Tue, 28 Apr 2026 00:45:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/881445#3acf0a8325366e9c439d4d651a3e36f6b8d5a3a533f271fbac0f80093b538b82</guid>
+      <category>Incident</category>
+      <description>Due to a DNS change, container scheduling was degraded</description>
+    </item>
+    <item>
+      <title>Function execution is degraded</title>
+      <link>https://status.modal.com/incident/877404</link>
+      <pubDate>Wed, 22 Apr 2026 18:38:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/877404#2421ebda6df74d5c22c704ec5625e1db79c1d8042ac6c423c008b14b093b91f4</guid>
+      <category>Incident</category>
+      <description>Function execution is recovered</description>
+    </item>
+    <item>
+      <title>Function execution is degraded</title>
+      <link>https://status.modal.com/incident/877404</link>
+      <pubDate>Wed, 22 Apr 2026 18:17:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/877404#4ae085567f7d1842fb8e11b43733759d3f8b13f6e977104c4d2a2707efe18ce6</guid>
+      <category>Incident</category>
+      <description>We're seeing recovery on function execution, still monitoring</description>
+    </item>
+    <item>
+      <title>Function execution is degraded</title>
+      <link>https://status.modal.com/incident/877404</link>
+      <pubDate>Wed, 22 Apr 2026 18:03:19 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/877404#490e45200fe59dc1791f36843eb2fc267b34d1105976e38ba179b725f63bec39</guid>
+      <category>Incident</category>
+      <description>Web endpoints recovered.</description>
+    </item>
+    <item>
+      <title>Function execution is degraded</title>
+      <link>https://status.modal.com/incident/877404</link>
+      <pubDate>Wed, 22 Apr 2026 17:55:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/877404#327359dc61e84d3e75aeba412f4370aae6c3086158c7122649f40b076006977e</guid>
+      <category>Incident</category>
+      <description>Function execution is currently degrated</description>
+    </item>
+    <item>
+      <title>us-west input plane down</title>
+      <link>https://status.modal.com/incident/873857</link>
+      <pubDate>Fri, 17 Apr 2026 14:16:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/873857#b4137e69c6c90cf54cdff070e723e128a0c55866747f200f2dec4c3382db7e0b</guid>
+      <category>Incident</category>
+      <description>us-west input plane has now recovered</description>
+    </item>
+    <item>
+      <title>us-west input plane down</title>
+      <link>https://status.modal.com/incident/873857</link>
+      <pubDate>Fri, 17 Apr 2026 14:00:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/873857#a56ba7274fc0d68ff2e6342b231abb2f651957b00803342a6121d712fa7e3697</guid>
+      <category>Incident</category>
+      <description>Functions running in us-west input plane are down.</description>
+    </item>
+    <item>
+      <title>Web endpoint latency degradation</title>
+      <link>https://status.modal.com/incident/866379</link>
+      <pubDate>Tue, 07 Apr 2026 17:00:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/866379#06133bc4f56888008c2aa166d04bf5ebecfa6645e315a231880cfc2281375d54</guid>
+      <category>Incident</category>
+      <description>Web endpoints are now recovered</description>
+    </item>
+    <item>
+      <title>Web endpoint latency degradation</title>
+      <link>https://status.modal.com/incident/866379</link>
+      <pubDate>Tue, 07 Apr 2026 13:16:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/866379#170c565a3d57eb61f2bf1b69102db5702b74d3f1b688e57f62f996a563aa02c4</guid>
+      <category>Incident</category>
+      <description>We're noticing increased latency for web endpoints affecting some requests</description>
+    </item>
+    <item>
+      <title>Container creation degraded for Functions</title>
+      <link>https://status.modal.com/incident/866056</link>
+      <pubDate>Tue, 07 Apr 2026 05:36:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/866056#1c68620da72f5db91648c533f85373fff656359f58223899263b8a0d92e95e14</guid>
+      <category>Incident</category>
+      <description>We've rolled back a problematic change which caused the issue, and are seeing recovery. </description>
+    </item>
+    <item>
+      <title>Container creation degraded for Functions</title>
+      <link>https://status.modal.com/incident/866056</link>
+      <pubDate>Tue, 07 Apr 2026 04:01:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/866056#6c4c59f760041d4f1fa1c4bcd3275c4b8e806a12687fb9da860eaf00260aa4a1</guid>
+      <category>Incident</category>
+      <description>A small percentage of Function containers failing to start up</description>
+    </item>
+    <item>
+      <title>Modal.com dashboards are degraded </title>
+      <link>https://status.modal.com/incident/863661</link>
+      <pubDate>Thu, 02 Apr 2026 22:13:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/863661#ad09c981dc2153c5aabcd7c8151a7e28a6477a4a92c69afcdaddfe23125ef879</guid>
+      <category>Incident</category>
+      <description>We have seen the service recover after the deploy. </description>
+    </item>
+    <item>
+      <title>Modal.com dashboards are degraded </title>
+      <link>https://status.modal.com/incident/863661</link>
+      <pubDate>Thu, 02 Apr 2026 21:42:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/863661#4a16e2fff5d57385e5e93d2eee10d4ef98803f95cf35eeef616c611c27e06699</guid>
+      <category>Incident</category>
+      <description>Modal.com web dashboard degraded. Metrics are slower to load. </description>
+    </item>
+    <item>
+      <title>us-east input plane web endpoint degradation</title>
+      <link>https://status.modal.com/incident/863632</link>
+      <pubDate>Thu, 02 Apr 2026 21:03:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/863632#5a145c9085829be31196f29de23ccb966b60d545f0595937291ae2ceaf276fe1</guid>
+      <category>Incident</category>
+      <description>Things have recovered.</description>
+    </item>
+    <item>
+      <title>us-east input plane web endpoint degradation</title>
+      <link>https://status.modal.com/incident/863632</link>
+      <pubDate>Thu, 02 Apr 2026 19:36:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/863632#7ca71198032a54c2ddcfbbf423a83c7dca89af19f89e112935ada33d91d03dfa</guid>
+      <category>Incident</category>
+      <description>Some web endpoint requests that are proxied through our us-east input plane are failing.</description>
+    </item>
+    <item>
+      <title>function call, container scheduling, and web endpoint latencies degraded </title>
+      <link>https://status.modal.com/incident/847742</link>
+      <pubDate>Thu, 12 Mar 2026 13:23:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/847742#f9c8681106b66d0d8968dc9240d99350a94148e9b092af1447b96875e7744761</guid>
+      <category>Incident</category>
+      <description>We've mostly recovered but closely monitoring to figure out the cause and mitigations. Will post more updates soon.</description>
+    </item>
+    <item>
+      <title>function call, container scheduling, and web endpoint latencies degraded </title>
+      <link>https://status.modal.com/incident/847742</link>
+      <pubDate>Thu, 12 Mar 2026 12:43:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/847742#a785db358fdcac7c273ddfeff5062f31eca4f267c17d24356f74eb54a5e57709</guid>
+      <category>Incident</category>
+      <description>We're investigating an issue where function call, container scheduling, and web endpoint latencies are degraded.</description>
+    </item>
+    <item>
+      <title>Issues with container scheduling</title>
+      <link>https://status.modal.com/incident/833623</link>
+      <pubDate>Thu, 26 Feb 2026 02:17:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/833623#3428cb323b20737c629baace27a6609e27e857c9f0f4083e0632a37aa106c38e</guid>
+      <category>Incident</category>
+      <description>We have recovered</description>
+    </item>
+    <item>
+      <title>Issues with container scheduling</title>
+      <link>https://status.modal.com/incident/833623</link>
+      <pubDate>Thu, 26 Feb 2026 01:59:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/833623#459086b4843b0b233d3de498e19cabfea07a85516f45438554ff7a8ab83e1035</guid>
+      <category>Incident</category>
+      <description>We're looking into an issue scheduling containers</description>
+    </item>
+    <item>
+      <title>A fraction of new containers are experiencing errors</title>
+      <link>https://status.modal.com/incident/829624</link>
+      <pubDate>Fri, 20 Feb 2026 18:43:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/829624#6efa3b219b8198ed004713ab21b5a9bfc590a20d560736da628c4083c5ed6c8f</guid>
+      <category>Incident</category>
+      <description>All issues have been resolved.</description>
+    </item>
+    <item>
+      <title>A fraction of new containers are experiencing errors</title>
+      <link>https://status.modal.com/incident/829624</link>
+      <pubDate>Fri, 20 Feb 2026 18:01:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/829624#b65316b33fb253cf7be983b5f7b739bb9b21dd86a376b1669b59b56066af5388</guid>
+      <category>Incident</category>
+      <description>Functions are fully restored. We are still investigating possible lingering effects for a small number of Sandboxes that were launched between 13:30-14:44 UTC.</description>
+    </item>
+    <item>
+      <title>A fraction of new containers are experiencing errors</title>
+      <link>https://status.modal.com/incident/829624</link>
+      <pubDate>Fri, 20 Feb 2026 17:01:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/829624#3ebaeca4b11e65c3f80d602dad34ece21d7a0f00b26f3a6f44c1e8ff87ea4c4a</guid>
+      <category>Incident</category>
+      <description>New containers are working normally. We are continuing to investigate possible lingering effects for recently started containers.
+
+At 13:30 UTC a bad change went out causing new containers to potentially get stuck or experience errors. At 14:44 UTC a the bad change was fully reverted and the disruption mitigated.
+
+We experienced a secondary, lesser problem with similar symptoms between approximately 16:00 and 16:15 UTC as part of the mitigations put in place during the response.</description>
+    </item>
+    <item>
+      <title>A fraction of new containers are experiencing errors</title>
+      <link>https://status.modal.com/incident/829624</link>
+      <pubDate>Fri, 20 Feb 2026 14:44:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/829624#e4c91bcf9ee911b2f7467acf70fcc85e3518b5eff319c67a413dee0020fdf861</guid>
+      <category>Incident</category>
+      <description>Issues with some image builds getting stuck have been resolved.</description>
+    </item>
+    <item>
+      <title>A fraction of new containers are experiencing errors</title>
+      <link>https://status.modal.com/incident/829624</link>
+      <pubDate>Fri, 20 Feb 2026 13:30:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/829624#106ce648a94a5a8cb20b54505f46d04b8a3aa26a1d58807705890463c4c979eb</guid>
+      <category>Incident</category>
+      <description>We have identified the root cause and are taking action to mitigate.</description>
+    </item>
+    <item>
+      <title>Web endpoint latency degradation</title>
+      <link>https://status.modal.com/incident/823392</link>
+      <pubDate>Wed, 11 Feb 2026 14:45:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/823392#93171485b1d30476b203e55a4ea7ed71af9508f014b828897587f1c2889576bd</guid>
+      <category>Incident</category>
+      <description>Web endpoints are healthy again.</description>
+    </item>
+    <item>
+      <title>Web endpoint latency degradation</title>
+      <link>https://status.modal.com/incident/823392</link>
+      <pubDate>Wed, 11 Feb 2026 13:40:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/823392#132dd07e598c9d8b9573d42c0707c92d55017aed48644a19961d54ba69ae437c</guid>
+      <category>Incident</category>
+      <description>Web endpoint requests were experiencing elevated latency and errors.</description>
+    </item>
+    <item>
+      <title>Regional input planes are down</title>
+      <link>https://status.modal.com/incident/822551</link>
+      <pubDate>Tue, 10 Feb 2026 15:27:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/822551#ad58c950d1a51e873ef21daa8e324b30be2d43f05abf357455c292febe3a46af</guid>
+      <category>Incident</category>
+      <description>All other input planes are now recovered.</description>
+    </item>
+    <item>
+      <title>Regional input planes are down</title>
+      <link>https://status.modal.com/incident/822551</link>
+      <pubDate>Tue, 10 Feb 2026 15:22:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/822551#8aae9efd99c5ff9be3bc432a54a08e593467c08580e69d07731f73edec92c080</guid>
+      <category>Incident</category>
+      <description>us-west input plane is recovered.</description>
+    </item>
+    <item>
+      <title>Regional input planes are down</title>
+      <link>https://status.modal.com/incident/822551</link>
+      <pubDate>Tue, 10 Feb 2026 15:03:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/822551#332aea1e7c78eeaaa48c0fb42f90b9fefcabb52c4a9714c4eb12eef9c2e6f2f3</guid>
+      <category>Incident</category>
+      <description>We are working on recovery.</description>
+    </item>
+    <item>
+      <title>Function input retrievable and output publishing degraded</title>
+      <link>https://status.modal.com/incident/821245</link>
+      <pubDate>Sun, 08 Feb 2026 20:08:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/821245#d8c09fbca43bd2eda8abce7a3ed8f2cdf3d53dab694a2d259ec2c71d3e3f8313</guid>
+      <category>Incident</category>
+      <description>Error rate is back to zero and service is fully restored. </description>
+    </item>
+    <item>
+      <title>Function input retrievable and output publishing degraded</title>
+      <link>https://status.modal.com/incident/821245</link>
+      <pubDate>Sun, 08 Feb 2026 19:25:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/821245#097c316171e1d994e845894584ff03c5d6769ada6807a69d38536113463f1953</guid>
+      <category>Incident</category>
+      <description>Due to a Redis cluster node becoming saturated Function input fetching and output publishing has an elevated failure rate. 
+
+We're actively working on remediation to bring down error rates to zero. </description>
+    </item>
+    <item>
+      <title>Dashboard is degraded</title>
+      <link>https://status.modal.com/incident/816199</link>
+      <pubDate>Sun, 01 Feb 2026 09:41:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/816199#ee7ffa32eb495fc703bf9f4a8e2bed4cbc05581042d6ca63851a384cbf65c1df</guid>
+      <category>Incident</category>
+      <description>The dashboard is recovered.</description>
+    </item>
+    <item>
+      <title>Dashboard is degraded</title>
+      <link>https://status.modal.com/incident/816199</link>
+      <pubDate>Sun, 01 Feb 2026 09:03:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/816199#51fe8a233646454102c2cc893feb1228b2bfb9a9499c83090bd7d21d6f24a853</guid>
+      <category>Incident</category>
+      <description>Our observability data storage provider is having an outage. Dashboard is severely degraded for all users, function execution should not be affected.</description>
+    </item>
+    <item>
+      <title>Volume degradation</title>
+      <link>https://status.modal.com/incident/809116</link>
+      <pubDate>Wed, 21 Jan 2026 05:40:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/809116#dfea39673344699c10ec9b11b937028bcd49aa71af3aa6ebf08c85891bb370d7</guid>
+      <category>Incident</category>
+      <description>We mitigated and are no longer getting bandwidth throttled.</description>
+    </item>
+    <item>
+      <title>Volume degradation</title>
+      <link>https://status.modal.com/incident/809116</link>
+      <pubDate>Wed, 21 Jan 2026 02:00:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/809116#4443274aa0054e7247289b64ffd430574f2ee47127a45f0a392c08cec349e592</guid>
+      <category>Incident</category>
+      <description>Our storage backend began bandwidth throttling us, resulting in some errors / degraded Modal Volume performance.</description>
+    </item>
+    <item>
+      <title>Intermittent problems accessing Volumes via CLI and dashboard</title>
+      <link>https://status.modal.com/incident/805726</link>
+      <pubDate>Thu, 15 Jan 2026 22:27:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/805726#069ba904eb7ebadd3cb28d349cfdf0fae0ae242af130608cbafd18d13fdca2f2</guid>
+      <category>Incident</category>
+      <description>The issue has been mitigated and normal access to Volumes via CLI, API and the dashboard is restored.</description>
+    </item>
+    <item>
+      <title>Intermittent problems accessing Volumes via CLI and dashboard</title>
+      <link>https://status.modal.com/incident/805726</link>
+      <pubDate>Thu, 15 Jan 2026 01:15:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/805726#488103431d94f795dd63ad6f0a6249ac41a152ddc8dfe38745fb6cab12585a6f</guid>
+      <category>Incident</category>
+      <description>We are experiencing intermittent issues with accessing Volumes via CLI, API and the Modal dashboard. Access to Volumes from containers is not affected.</description>
+    </item>
+    <item>
+      <title>Capacity Loss</title>
+      <link>https://status.modal.com/incident/804701</link>
+      <pubDate>Thu, 15 Jan 2026 00:00:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/804701#64c77ade6b4a4c3392c0363664127d0a44003d5ac1dfb604fb222ed7c97de85b</guid>
+      <category>Incident</category>
+      <description>All capacity is back.</description>
+    </item>
+    <item>
+      <title>Capacity Loss</title>
+      <link>https://status.modal.com/incident/804701</link>
+      <pubDate>Wed, 14 Jan 2026 23:45:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/804701#e34be9d9116ea3e50897f47865893493f872921fb47d329b23976f1765281b07</guid>
+      <category>Incident</category>
+      <description>Our GPU capacity is back.</description>
+    </item>
+    <item>
+      <title>Capacity Loss</title>
+      <link>https://status.modal.com/incident/804701</link>
+      <pubDate>Wed, 14 Jan 2026 23:18:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/804701#1217fe3111d2e886cb859fb81408f80e000e785ed0949154f7a9e25c85cb9015</guid>
+      <category>Incident</category>
+      <description>We stopped the capacity loss and are beginning bringing back capacity.</description>
+    </item>
+    <item>
+      <title>Capacity Loss</title>
+      <link>https://status.modal.com/incident/804701</link>
+      <pubDate>Wed, 14 Jan 2026 23:04:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/804701#1c82944a68738d85f90847af6cca0c3a868cb2e19e3e6e903552a956958337b2</guid>
+      <category>Incident</category>
+      <description>We experienced a drop in capacity across our fleet.</description>
+    </item>
+    <item>
+      <title>Some services are down due to Database</title>
+      <link>https://status.modal.com/incident/795061</link>
+      <pubDate>Sun, 28 Dec 2025 11:06:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/795061#e267f5368e6e9d5978e3199bd1f02975c217117269c4fdb6a7b18541a964e632</guid>
+      <category>Incident</category>
+      <description>All services operational as of 11:06 UTC.</description>
+    </item>
+    <item>
+      <title>Some services are down due to Database</title>
+      <link>https://status.modal.com/incident/795061</link>
+      <pubDate>Sun, 28 Dec 2025 11:01:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/795061#d054104a603490da0398f25a73b432594149e750de094a95a5aa2f3ff9f33d0d</guid>
+      <category>Incident</category>
+      <description>We have just finished spinning up a new database instance from backup and pointing traffic to it. We are seeing recovery for users, and are actively keeping a close eye on metrics.</description>
+    </item>
+    <item>
+      <title>Some services are down due to Database</title>
+      <link>https://status.modal.com/incident/795061</link>
+      <pubDate>Sun, 28 Dec 2025 10:24:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/795061#1de9f55fea9fff9b82d6db52ce92c5b80713b6fbbee6106d004a8ff80f07e7e2</guid>
+      <category>Incident</category>
+      <description>We have escalated this issue to AWS, and also are working on restoring a copy of the database in parallel.</description>
+    </item>
+    <item>
+      <title>Some services are down due to Database</title>
+      <link>https://status.modal.com/incident/795061</link>
+      <pubDate>Sun, 28 Dec 2025 10:08:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/795061#9188e4065962407af1ad2476964a44031bc6a735d3eac6b201942ec2ea40c812</guid>
+      <category>Incident</category>
+      <description>We are currently in the process of figuring out the best mitigation plan that will minimize risk and downtime once it is complete.</description>
+    </item>
+    <item>
+      <title>Some services are down due to Database</title>
+      <link>https://status.modal.com/incident/795061</link>
+      <pubDate>Sun, 28 Dec 2025 09:15:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/795061#8f3d21721a6f6a6b470759f30d49326b9ea4db87f80cc17d9d8a521bf402639b</guid>
+      <category>Incident</category>
+      <description>We are investigating and believe we have diagnosed the problem: we are having an active incident with our database and are actively working on mitigating. 
+</description>
+    </item>
+    <item>
+      <title>Some services are down due to Database</title>
+      <link>https://status.modal.com/incident/795061</link>
+      <pubDate>Sun, 28 Dec 2025 09:12:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/795061#97a55db278826030b0e026fa3d7472f064c5b9cbb2fe8c1c1ee73ebcbce2e8b3</guid>
+      <category>Incident</category>
+      <description>CPU functions, GPU functions, Snapshot restores (beta), and 2 other resources went down.</description>
+    </item>
+    <item>
+      <title>Scheduling of new containers failing</title>
+      <link>https://status.modal.com/incident/793332</link>
+      <pubDate>Wed, 24 Dec 2025 02:47:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/793332#67c536fef2ef1f2c1db8b4a71f813395d789704b9d03968a5cceb07170a0cbed</guid>
+      <category>Incident</category>
+      <description>Indicators of scheduling latency have recovered. 
+
+Apologies for the disruption. </description>
+    </item>
+    <item>
+      <title>Scheduling of new containers failing</title>
+      <link>https://status.modal.com/incident/793332</link>
+      <pubDate>Wed, 24 Dec 2025 02:40:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/793332#36f3bbf036bd83c5367683d542635413f18910a3ec3791a5ec7dfe9705e25b0f</guid>
+      <category>Incident</category>
+      <description>The change has been rolled back and we are monitoring recovery. </description>
+    </item>
+    <item>
+      <title>Scheduling of new containers failing</title>
+      <link>https://status.modal.com/incident/793332</link>
+      <pubDate>Wed, 24 Dec 2025 02:31:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/793332#e8d631b7645eda65c76b58eb0627f542baf29450be3b381ba2b7081252adc14d</guid>
+      <category>Incident</category>
+      <description>We're currently rolling back a change which caused scheduling to fail for Functions and Sandboxes.</description>
+    </item>
+    <item>
+      <title>Issue with volumes</title>
+      <link>https://status.modal.com/incident/787536</link>
+      <pubDate>Tue, 16 Dec 2025 13:37:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/787536#204ed66d8026071283c25aec62bf77f97ca21c2e8a9a9018c3ae2f6bf027873c</guid>
+      <category>Incident</category>
+      <description>Volume operations appear to be stable for now, we are actively monitoring and working on the underlying issue.</description>
+    </item>
+    <item>
+      <title>Issue with volumes</title>
+      <link>https://status.modal.com/incident/787536</link>
+      <pubDate>Tue, 16 Dec 2025 12:25:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/787536#ece920ce25648ecb28d32e927be4e8b55f20103a37c9895534295dfa1f44344a</guid>
+      <category>Incident</category>
+      <description>We are having an issue with volumes, we are investigating.</description>
+    </item>
+    <item>
+      <title>Frontend website is down</title>
+      <link>https://status.modal.com/incident/779305</link>
+      <pubDate>Fri, 05 Dec 2025 01:10:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/779305#647605be05b4fb42e05e4dcd5ffe581d6669e1fa1a4e41707ef04af598e753fb</guid>
+      <category>Incident</category>
+      <description>modal.com website is unavailable</description>
+    </item>
+    <item>
+      <title>CPU functions, GPU functions, and 4 other services are down</title>
+      <link>https://status.modal.com/incident/774911</link>
+      <pubDate>Thu, 27 Nov 2025 00:21:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/774911#967124559fe5d241a41b9412bd19b8532c816c24dd53352a3faf695fa43a4369</guid>
+      <category>Incident</category>
+      <description>This is a false alarm. Sorry for the noise!</description>
+    </item>
+    <item>
+      <title>Config change causes container filesystem IO errors</title>
+      <link>https://status.modal.com/incident/774016</link>
+      <pubDate>Tue, 25 Nov 2025 15:25:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/774016#f3571ba5018cf3e98fe06b8bea926814ed65d0ab6f3ef3c712e55449a9e32fb8</guid>
+      <category>Incident</category>
+      <description>The rollback has completed and errors have subsided.</description>
+    </item>
+    <item>
+      <title>Config change causes container filesystem IO errors</title>
+      <link>https://status.modal.com/incident/774016</link>
+      <pubDate>Tue, 25 Nov 2025 15:08:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/774016#81a766f45c8c0182db1bcc791d978496c472cfc39e39c8ecc23fc917b0ad8048</guid>
+      <category>Incident</category>
+      <description>An incorrect configuration change applies aggressive throttling on container filesystem bandwidth and is causing downtime. 
+
+We have reverted the configuration and are managing recovery. </description>
+    </item>
+    <item>
+      <title>Web endpoints incurring degradation</title>
+      <link>https://status.modal.com/incident/770667</link>
+      <pubDate>Thu, 20 Nov 2025 03:08:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/770667#7318c5681a87fbe8c0bc057a88b7890d1452fd2e9aac8f4e2fe19f6bee711913</guid>
+      <category>Incident</category>
+      <description>Our web endpoints infrastructure is having spikes of degradation tied to the traffic pattern of a specific tenant.
+
+We are in contact and cooperating with the customer and putting in place mitigations. </description>
+    </item>
+    <item>
+      <title>Maintenance: Volume version 2 maintenance</title>
+      <link>https://status.modal.com/maintenance/764951</link>
+      <pubDate>Fri, 14 Nov 2025 14:12:39 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/764951#e1829ef14a656ca4171feef53149fcea20ab46e6c659e7c6fe7613dee4e10c96</guid>
+      <category>Maintenance</category>
+      <description>We are upgrading core systems used for version 2 volumes. Version 1 volumes are not affected.
+
+Volumes will remain available during the maintenance but latency and failure rates are expected to be slightly elevated.</description>
+    </item>
+    <item>
+      <title>Database issue affected the service</title>
+      <link>https://status.modal.com/incident/750831</link>
+      <pubDate>Fri, 24 Oct 2025 20:43:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/750831#43162321981b1ee41a509b13e94e21dc0c80b87a24c4507cbf26cd16ebebbbda</guid>
+      <category>Incident</category>
+      <description>Database up and service is back to normal.</description>
+    </item>
+    <item>
+      <title>Database issue affected the service</title>
+      <link>https://status.modal.com/incident/750831</link>
+      <pubDate>Fri, 24 Oct 2025 20:29:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/750831#b2bf8133c1c94c8869eae767a19f773d93bb50684de9d4ad4b0aec06a7206df5</guid>
+      <category>Incident</category>
+      <description>We hit a scaling limit on our primary database. Configuration was updated and the database restarted.
+</description>
+    </item>
+    <item>
+      <title>Some services are down</title>
+      <link>https://status.modal.com/incident/746748</link>
+      <pubDate>Mon, 20 Oct 2025 23:30:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/746748#6ad4512a0274d3eff2b4ca14c645645723b5721b252d27bbdd458e7dc09f6fea</guid>
+      <category>Incident</category>
+      <description>AWS has marked the underlying incident us-east-1 as recovered, and we've seen recovery across our affected services.</description>
+    </item>
+    <item>
+      <title>Some services are down</title>
+      <link>https://status.modal.com/incident/746748</link>
+      <pubDate>Mon, 20 Oct 2025 22:02:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/746748#672073beaf2cfb8a34464e25bde025628f798fc3dfac63f2a13e2cb58ecc320c</guid>
+      <category>Incident</category>
+      <description>We have mostly recovered alongside the recovery in AWS us-east-1, but continue to have sporadic connection issues against Redis (AWS Elasticache).</description>
+    </item>
+    <item>
+      <title>Some services are down</title>
+      <link>https://status.modal.com/incident/746748</link>
+      <pubDate>Mon, 20 Oct 2025 17:20:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/746748#cf3046d986d9ae017a1e6512641c4a871b6816b0ab594c0b9d2ba6d090c4ea5c</guid>
+      <category>Incident</category>
+      <description>A number of AWS services are still degraded in us-east-1 and causing issues.</description>
+    </item>
+    <item>
+      <title>Some services are down</title>
+      <link>https://status.modal.com/incident/746748</link>
+      <pubDate>Mon, 20 Oct 2025 16:18:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/746748#1da6777208eab1051b0f4ddf4f3e8e1caf9c72413889f672d75ce32f371bcf5b</guid>
+      <category>Incident</category>
+      <description>AWS us-east-1 is experiencing an outage and many of our services are affected. We're looking at mitigating the impact.</description>
+    </item>
+    <item>
+      <title>Some services are down</title>
+      <link>https://status.modal.com/incident/746748</link>
+      <pubDate>Mon, 20 Oct 2025 09:23:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/746748#050d9f207f6e8980de74c34a56ecda78d4410268251a9946beee0949d27fb9fc</guid>
+      <category>Incident</category>
+      <description>Our dashboard is now recovered and service errors are going down.</description>
+    </item>
+    <item>
+      <title>Some services are down</title>
+      <link>https://status.modal.com/incident/746748</link>
+      <pubDate>Mon, 20 Oct 2025 07:12:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/746748#6d5232afe1b9f1fc687e2beeedf1faed371c2855d96af1c3b45cde3c61376006</guid>
+      <category>Incident</category>
+      <description>CPU functions, GPU functions, Snapshot restores (beta), and 3 other resources went down.</description>
+    </item>
+    <item>
+      <title>Some services are down</title>
+      <link>https://status.modal.com/incident/746748</link>
+      <pubDate>Mon, 20 Oct 2025 07:12:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/746748#97760223287fa106adb7affbeb15d7f9f5a043496720eb2015481b8fc55f2d97</guid>
+      <category>Incident</category>
+      <description>AWS us-east-1 is experiencing an outage and many of our services are affected. We're looking at mitigating the impact.</description>
+    </item>
+    <item>
+      <title>Web endpoints is down</title>
+      <link>https://status.modal.com/incident/734703</link>
+      <pubDate>Tue, 30 Sep 2025 03:26:57 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/734703#fbcc6ad1a96a7a0cd694394707a310f5c0bbb93fc2c66ac4f4736f29ace3953c</guid>
+      <category>Incident</category>
+      <description>Web endpoints recovered.</description>
+    </item>
+    <item>
+      <title>Web endpoints is down</title>
+      <link>https://status.modal.com/incident/734703</link>
+      <pubDate>Tue, 30 Sep 2025 03:18:05 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/734703#b5da25fe15f2c24cec4275768c8da9ce0e3a69063e1b0993ebaffa009f1d5e77</guid>
+      <category>Incident</category>
+      <description>Web endpoints recovered.</description>
+    </item>
+    <item>
+      <title>Web endpoints is down</title>
+      <link>https://status.modal.com/incident/734703</link>
+      <pubDate>Tue, 30 Sep 2025 03:13:29 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/734703#dc5807f99c4c98063f723947e70e10925ac573cad5104d5492c6ca1763a2e120</guid>
+      <category>Incident</category>
+      <description>Web endpoints recovered.</description>
+    </item>
+    <item>
+      <title>Emails from modal.com are not sending</title>
+      <link>https://status.modal.com/incident/728913</link>
+      <pubDate>Mon, 22 Sep 2025 15:55:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/728913#df49a6fb053c288b08ebdab904aae5658268df141e0bd2627a80b07500b7e7d7</guid>
+      <category>Incident</category>
+      <description>Invite emails, notification emails and others aren't sending. We're currently investigating the issue.</description>
+    </item>
+    <item>
+      <title>Modal.com dashboards and image builds are degraded </title>
+      <link>https://status.modal.com/incident/712851</link>
+      <pubDate>Tue, 26 Aug 2025 15:10:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/712851#1dee8080c3f3b885a8c3817b8f1aeecf325f5a8d4af1dc6488e697a2b93f707f</guid>
+      <category>Incident</category>
+      <description>We identified the issue and we're starting to see recovery for the dashboards and image build times.</description>
+    </item>
+    <item>
+      <title>Modal.com dashboards and image builds are degraded </title>
+      <link>https://status.modal.com/incident/712851</link>
+      <pubDate>Tue, 26 Aug 2025 14:31:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/712851#73e6583623d730fa19458fd0bd8e252c1fe271f999b2b542ff03069905bdeeb5</guid>
+      <category>Incident</category>
+      <description>Metrics dashboards on Modal.com are degraded: requests for metrics, logs, etc., are either slow or failing. Image build performance is also degraded.
+
+We are working with a vendor to resolve downstream performance issues. The Modal runtime environment, including function execution, is unaffected.</description>
+    </item>
+    <item>
+      <title>Degraded task startup / volume operations</title>
+      <link>https://status.modal.com/incident/710139</link>
+      <pubDate>Thu, 21 Aug 2025 19:24:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/710139#7f99d1769b1342161d20a266be57390af180753ec824368513839151b92b58ef</guid>
+      <category>Incident</category>
+      <description>Task startup / volume operations back to normal operation</description>
+    </item>
+    <item>
+      <title>Degraded task startup / volume operations</title>
+      <link>https://status.modal.com/incident/710139</link>
+      <pubDate>Thu, 21 Aug 2025 18:47:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/710139#2d5fca631c3cb10bda7e8258b8e798375e1bfc645e44513ec87e9de4677f8349</guid>
+      <category>Incident</category>
+      <description>Task startup / volume operations mostly recovered</description>
+    </item>
+    <item>
+      <title>Degraded task startup / volume operations</title>
+      <link>https://status.modal.com/incident/710139</link>
+      <pubDate>Thu, 21 Aug 2025 18:33:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/710139#8c4de84c11c701c2328135ba059bcc2252ae19c8c30fa47973aec906b8dfeae2</guid>
+      <category>Incident</category>
+      <description>Some volume operations and task startup saw errors / degraded performance.</description>
+    </item>
+    <item>
+      <title>All services are online</title>
+      <link>https://status.modal.com/incident/709291</link>
+      <pubDate>Wed, 20 Aug 2025 15:39:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/709291#e3c7820f1c86d0db247de07c96a0b6f3ca315bab2ad52535eed72736771f4ed5</guid>
+      <category>Incident</category>
+      <description>A false alarm triggered downtime notifications. All services are online and there was no production impact.</description>
+    </item>
+    <item>
+      <title>Image builds / volumes experiencing issues</title>
+      <link>https://status.modal.com/incident/708569</link>
+      <pubDate>Tue, 19 Aug 2025 15:24:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/708569#8369623b579ae18d8f215bdd5645d2f34b6d99327962e4970a7ac17b25ffc317</guid>
+      <category>Incident</category>
+      <description>Image builds and Volume file fetches have now recovered</description>
+    </item>
+    <item>
+      <title>Image builds / volumes experiencing issues</title>
+      <link>https://status.modal.com/incident/708569</link>
+      <pubDate>Tue, 19 Aug 2025 15:01:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/708569#3a80111a37e2e121598134bcbe2aab57ecaa0b0abb28614cdbed228c35eb2b28</guid>
+      <category>Incident</category>
+      <description>Images are failing to build and Volumes are experiencing issues fetching some files.</description>
+    </item>
+    <item>
+      <title>Degraded container scheduling</title>
+      <link>https://status.modal.com/incident/705524</link>
+      <pubDate>Tue, 12 Aug 2025 06:30:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/705524#6edc5142bcfb30f62dbed759b478e330fcbf74de7741fa07c643904b645bb21a</guid>
+      <category>Incident</category>
+      <description>Container scheduling degradation was resolved.</description>
+    </item>
+    <item>
+      <title>Degraded container scheduling</title>
+      <link>https://status.modal.com/incident/705524</link>
+      <pubDate>Tue, 12 Aug 2025 05:38:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/705524#cfeb455298b5add0c5b76536034ecb77d9c4e47968c38b6837e2c5ada97403e8</guid>
+      <category>Incident</category>
+      <description>Due to an internal service issue we observed degraded container scheduling during 8/12 5:38 UTC to 6:30 UTC. Containers took much longer than typical to come up, affecting new inputs. Existing containers continued serving traffic. This was resolved by 8/12 6:30 UTC.</description>
+    </item>
+    <item>
+      <title>Dashboard and tasks logs are slow to update</title>
+      <link>https://status.modal.com/incident/624762</link>
+      <pubDate>Wed, 23 Jul 2025 23:40:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/624762#6f815e8f1c77fa6a8209768dd527af06bc6208a2ab499ed962a8b5441527007b</guid>
+      <category>Incident</category>
+      <description>We have pushed a fix for the issue and performance is back to normal.</description>
+    </item>
+    <item>
+      <title>Dashboard and tasks logs are slow to update</title>
+      <link>https://status.modal.com/incident/624762</link>
+      <pubDate>Wed, 23 Jul 2025 23:20:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/624762#dcc78ee403c4a0c0b5b82eaf5d50de5f93ccddf6d9b124f3ad018ddd929866c1</guid>
+      <category>Incident</category>
+      <description>We are investigating a performance issue with the dashboard and logging.</description>
+    </item>
+    <item>
+      <title>Investigating reports of dashboard unavailability</title>
+      <link>https://status.modal.com/incident/623979</link>
+      <pubDate>Tue, 22 Jul 2025 16:20:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/623979#74bc9b21ec9b2ea900fc2279a9b8d82e7bbe5325d6656349966588031a70104e</guid>
+      <category>Incident</category>
+      <description>We restarted a web server. The issue is resolved.</description>
+    </item>
+    <item>
+      <title>Investigating reports of dashboard unavailability</title>
+      <link>https://status.modal.com/incident/623979</link>
+      <pubDate>Tue, 22 Jul 2025 16:18:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/623979#104bc8225b03cf20616f8f5d1947ba125f593085eadd4f708a0bd5b4f26a68f4</guid>
+      <category>Incident</category>
+      <description>We are investigating reports that the dashboard may not be loading.</description>
+    </item>
+    <item>
+      <title>TLS issue with web endpoints on new, custom domains</title>
+      <link>https://status.modal.com/incident/623584</link>
+      <pubDate>Tue, 22 Jul 2025 02:32:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/623584#ff0da1ffbba0a3d15f2b8ac5b847445a2f9f65ce0919e5de658b51b5c5e85b06</guid>
+      <category>Incident</category>
+      <description>We have added a backup provider for SSL certificates, and issuance has resumed successfully.</description>
+    </item>
+    <item>
+      <title>TLS issue with web endpoints on new, custom domains</title>
+      <link>https://status.modal.com/incident/623584</link>
+      <pubDate>Tue, 22 Jul 2025 01:09:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/623584#b2a77d87871e7ade1c845d020097eb6b0b307219cc264ca360ae62316d50ee70</guid>
+      <category>Incident</category>
+      <description>Due to an [active incident at Let's Encrypt](https://letsencrypt.status.io/), we are unable to issue SSL certificates for web endpoints on new, custom domains (eg., `yourwebsite.com`).
+
+* New web endpoints using our default `modal.run` domain are unaffected.
+* Existing web endpoints for which we have already issued certificates are unaffected.
+* We renew certificates 30 days in advance, so we do not expect any certificates to expire.
+
+We are actively testing a backup provider which we may bring online if the incident continues.</description>
+    </item>
+    <item>
+      <title>CPU functions, GPU functions, and 3 other services are down</title>
+      <link>https://status.modal.com/incident/619480</link>
+      <pubDate>Mon, 14 Jul 2025 18:42:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/619480#cc6c37eb294081b5d354182fd57630df6dc27e48d888a8c68a9fb9b1525e6792</guid>
+      <category>Incident</category>
+      <description>CPU functions, GPU functions, Volumes, and 1 other resource recovered.</description>
+    </item>
+    <item>
+      <title>CPU functions, GPU functions, and 3 other services are down</title>
+      <link>https://status.modal.com/incident/619480</link>
+      <pubDate>Mon, 14 Jul 2025 18:26:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/619480#372eddc42f4dcf9e69fb26c1af34c1fdce31aaf2a892634dd4a6805f0c766692</guid>
+      <category>Incident</category>
+      <description>CPU functions, GPU functions, Sandboxes, and 1 other resource went down.</description>
+    </item>
+    <item>
+      <title>Maintenance: Infrastructure Upgrade</title>
+      <link>https://status.modal.com/maintenance/616977</link>
+      <pubDate>Wed, 09 Jul 2025 21:00:04 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/616977#83914c89304f7f61f731e15d341c294f893130ea174c045860125dd2baa0ee1a</guid>
+      <category>Maintenance</category>
+      <description>We're performing a version upgrade to a critical infrastructure component. We do not expect any downtime for Function or existing Sandbox execution. There will be a brief period of web UI downtime and a pause in new container creation and scheduling (including Sandboxes) lasting ~2 minutes. Apologies in advance for any inconvenience, and please let us know if you have any questions.</description>
+    </item>
+    <item>
+      <title>Service incident</title>
+      <link>https://status.modal.com/incident/609942</link>
+      <pubDate>Fri, 27 Jun 2025 03:08:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/609942#72292064395e879fd271e28477378a591483c54a93ef75774e335e6acd3333cf</guid>
+      <category>Incident</category>
+      <description>We have rolled back the affected component and services have recovered.</description>
+    </item>
+    <item>
+      <title>Web endpoints and Web API are down</title>
+      <link>https://status.modal.com/incident/609934</link>
+      <pubDate>Fri, 27 Jun 2025 03:06:14 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/609934#919ef97c210791c292882844321cf56f9d3cba860ce3c114e7ba164fc3e90560</guid>
+      <category>Incident</category>
+      <description>Web endpoints recovered.</description>
+    </item>
+    <item>
+      <title>Web endpoints and Web API are down</title>
+      <link>https://status.modal.com/incident/609934</link>
+      <pubDate>Fri, 27 Jun 2025 02:57:16 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/609934#f1d58d982eff54e6e4cad85f73256f2108af69df17505a0c0ed7d5809e0c8b25</guid>
+      <category>Incident</category>
+      <description>Web endpoints went down.</description>
+    </item>
+    <item>
+      <title>Service incident</title>
+      <link>https://status.modal.com/incident/609942</link>
+      <pubDate>Fri, 27 Jun 2025 02:51:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/609942#3890bc20bf2fe03dc6b2133c02a348f1f3ab9709a3755e542cd3fb16165ea405</guid>
+      <category>Incident</category>
+      <description>Multiple services are unavailable.</description>
+    </item>
+    <item>
+      <title>Maintenance: Infrastructure Upgrade</title>
+      <link>https://status.modal.com/maintenance/597829</link>
+      <pubDate>Thu, 05 Jun 2025 21:47:58 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/597829#ffb6ca123dd16abf89389d1b4bf0519581c5c6930b68fd7cfa25e82f3dadae23</guid>
+      <category>Maintenance</category>
+      <description>We're performing a scaling update to a critical infrastructure component. There may be a short window (estimated 2 minutes) of downtime. We don't anticipate that workloads (i.e. functions, webhooks) will be affected. However, there may be UI issues and task scheduling delay.</description>
+    </item>
+    <item>
+      <title>Maintenance: Internal networking update</title>
+      <link>https://status.modal.com/maintenance/575767</link>
+      <pubDate>Thu, 22 May 2025 15:52:17 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/575767#1e500f850b9e735ebff37a9174deb7a91f6a0f908bca8c1dd679368a40ec0772</guid>
+      <category>Maintenance</category>
+      <description>We will be conducting internal networking updates that affect our main API server. </description>
+    </item>
+    <item>
+      <title>Web Functions is down</title>
+      <link>https://status.modal.com/incident/566071</link>
+      <pubDate>Thu, 15 May 2025 15:09:26 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/566071#07ee3e88fafc54e4e9b21da03a93c29029ea06fcfe76d8de641b42b0150727cd</guid>
+      <category>Incident</category>
+      <description>Web endpoints recovered.</description>
+    </item>
+    <item>
+      <title>Web Functions is down</title>
+      <link>https://status.modal.com/incident/566071</link>
+      <pubDate>Thu, 15 May 2025 15:04:35 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/566071#cb127589cd2d455056ae57b6591a441fe9a042f0c690b277497b65d6faffe7b0</guid>
+      <category>Incident</category>
+      <description>Web endpoints went down.</description>
+    </item>
+    <item>
+      <title>Cloudflare outage in us-east-1 causing Modal degradation in us-east-1</title>
+      <link>https://status.modal.com/incident/535641</link>
+      <pubDate>Thu, 27 Mar 2025 20:03:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/535641#1952ec8f8799ddf0ac6c75a9caa32dc84762330d6397a820420ed0e49a2ea033</guid>
+      <category>Incident</category>
+      <description>Update: The incident is now resolved. 
+
+Cloudflare incident: https://www.cloudflarestatus.com/incidents/t8mq7d1yjqm4
+
+We are remediating this by shifting Modal Workers away from us-east-1. </description>
+    </item>
+    <item>
+      <title>Networking problems in Oracle Cloud</title>
+      <link>https://status.modal.com/incident/535052</link>
+      <pubDate>Wed, 26 Mar 2025 19:45:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/535052#7445b80ea4dfa7230ccdb453bcfabfbbbc2b903175556624a987c0bebaeb400f</guid>
+      <category>Incident</category>
+      <description>We have scaled up capacity successfully and redirected traffic to work around the Oracle Cloud regional networking outage in Ashburn, VA.
+
+Newly created sandboxes are fully operational. Some sandboxes created during the incident may not have been able to spin up.</description>
+    </item>
+    <item>
+      <title>Networking problems in Oracle Cloud</title>
+      <link>https://status.modal.com/incident/535052</link>
+      <pubDate>Wed, 26 Mar 2025 19:26:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/535052#ea9ce3ffd33de16985dbb6202f107f1f8d25e3d82af5c6443a9a52eff3d805a3</guid>
+      <category>Incident</category>
+      <description>Oracle Cloud is mitigating the issue.
+
+In the meantime, we're trying to help the autoscaler scale up instances as fast as possible in other clouds.</description>
+    </item>
+    <item>
+      <title>Networking problems in Oracle Cloud</title>
+      <link>https://status.modal.com/incident/535052</link>
+      <pubDate>Wed, 26 Mar 2025 19:19:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/535052#0503719bfd267185eb2bb7269d1fb6cde48bc0edf23495737a6b5b85121fa9b1</guid>
+      <category>Incident</category>
+      <description>We have identified the cause of the networking issue in Oracle Cloud. Oracle Cloud has confirmed an ongoing NOC outage in Oracle Cloud in us-ashburn-1. We are moving capacity to other cloud providers right now.</description>
+    </item>
+    <item>
+      <title>Networking problems in Oracle Cloud</title>
+      <link>https://status.modal.com/incident/535052</link>
+      <pubDate>Wed, 26 Mar 2025 19:04:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/535052#f41c7ac044098f284131f6d1819c41491e72addad6fb734b6464379878948f12</guid>
+      <category>Incident</category>
+      <description>We have identified networking issues with generalized user impact</description>
+    </item>
+    <item>
+      <title>Volumes and Image builds are down</title>
+      <link>https://status.modal.com/incident/532418</link>
+      <pubDate>Fri, 21 Mar 2025 22:45:14 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/532418#c60073c7203d2d366f08832bc7da04e7573b2f063fd1ea420b6e4fe1623a28ba</guid>
+      <category>Incident</category>
+      <description>Volumes and Image builds recovered.</description>
+    </item>
+    <item>
+      <title>Volumes and Image builds are down</title>
+      <link>https://status.modal.com/incident/532418</link>
+      <pubDate>Fri, 21 Mar 2025 21:52:57 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/532418#fdf8a907930593089cd49e1f59edc06f78b36622b8a0a5dcab478748381d8efd</guid>
+      <category>Incident</category>
+      <description>Volumes went down.</description>
+    </item>
+    <item>
+      <title>CPU functions, GPU functions, and 1 other service are down</title>
+      <link>https://status.modal.com/incident/514631</link>
+      <pubDate>Tue, 18 Feb 2025 03:37:48 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/514631#7767e45b8aaabbfae457ca1c6a506493ebfe2b81cd37f6ceaad56a48ef1f0cd1</guid>
+      <category>Incident</category>
+      <description>CPU functions, GPU functions, and Image builds recovered.</description>
+    </item>
+    <item>
+      <title>CPU functions, GPU functions, and 1 other service are down</title>
+      <link>https://status.modal.com/incident/514631</link>
+      <pubDate>Tue, 18 Feb 2025 03:35:27 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/514631#d7f3e5d8d7d7add48067777b250969f334527b56b280e1050417fe5353a5add8</guid>
+      <category>Incident</category>
+      <description>CPU functions went down.</description>
+    </item>
+    <item>
+      <title>Web endpoints, Frontend, and 2 other services are down</title>
+      <link>https://status.modal.com/incident/511178</link>
+      <pubDate>Tue, 11 Feb 2025 18:16:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/511178#24b2f296ecf2c0e9ec852d304a231f3880911e6b28b12a8e49254b28793d75d7</guid>
+      <category>Incident</category>
+      <description>Web endpoints, Frontend, Web API, and 1 other resource recovered.</description>
+    </item>
+    <item>
+      <title>Modal services are offline </title>
+      <link>https://status.modal.com/incident/511180</link>
+      <pubDate>Tue, 11 Feb 2025 18:13:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/511180#fe0874fa7b50462cd5974cc5ad0bb0d4cd7f0d2a13bc5ddf9fb9b6dbea1f9c07</guid>
+      <category>Incident</category>
+      <description>Modal systems are back up. We're monitoring closely. </description>
+    </item>
+    <item>
+      <title>Web endpoints, Frontend, and 2 other services are down</title>
+      <link>https://status.modal.com/incident/511178</link>
+      <pubDate>Tue, 11 Feb 2025 18:09:53 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/511178#f56aa733f70e0afd2a6679aaa84a315ae7ba3f65f660481eb3b79702cc49b73d</guid>
+      <category>Incident</category>
+      <description>Frontend and Web API went down.</description>
+    </item>
+    <item>
+      <title>Web endpoints, Frontend, and 2 other services are down</title>
+      <link>https://status.modal.com/incident/511178</link>
+      <pubDate>Tue, 11 Feb 2025 18:09:22 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/511178#7fa53413a8c3af0f6cf17306b6d45e84cda610ab09da7d94eb01b4a55147cdde</guid>
+      <category>Incident</category>
+      <description>Web endpoints went down.</description>
+    </item>
+    <item>
+      <title>Modal services are offline </title>
+      <link>https://status.modal.com/incident/511180</link>
+      <pubDate>Tue, 11 Feb 2025 18:09:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/511180#507e98f84d510595ca2789a136b785dd30f361c344f391e7d86cb59a49c95216</guid>
+      <category>Incident</category>
+      <description>All Modal services are affected. We're working on rolling back the change. </description>
+    </item>
+    <item>
+      <title>Maintenance: Network infrastructure change</title>
+      <link>https://status.modal.com/maintenance/508457</link>
+      <pubDate>Thu, 06 Feb 2025 17:46:27 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/508457#6db191a5e4d8bd835e7c585c2714933e5e2c406718bd0022c2d4b52ebe51b6be</guid>
+      <category>Maintenance</category>
+      <description>During this time, Modal is expected to work. There may be potential degraded performance (hopefully short-lived).</description>
+    </item>
+    <item>
+      <title>Dashboard is unavailable</title>
+      <link>https://status.modal.com/incident/501380</link>
+      <pubDate>Fri, 24 Jan 2025 18:50:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/501380#76310c5fea622a43d6eb5aa32e8ff736319eeedf768671d30caad1602aa621af</guid>
+      <category>Incident</category>
+      <description>We have resolved the issue. The modal.com dashboard has been back online since about 1:40 PM ET, 10 minutes ago. Deployments are stable again. We are continuing to monitor.</description>
+    </item>
+    <item>
+      <title>Dashboard is unavailable</title>
+      <link>https://status.modal.com/incident/501380</link>
+      <pubDate>Fri, 24 Jan 2025 18:16:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/501380#9774060e8e6b161b965028880be33fd211def8d877934aba47f1dd19c614a375</guid>
+      <category>Incident</category>
+      <description>The modal.com web dashboard is unavailable and returning 502s. We are investigating and believe we have diagnosed the problem.</description>
+    </item>
+    <item>
+      <title>Web Functions is down</title>
+      <link>https://status.modal.com/incident/495966</link>
+      <pubDate>Wed, 15 Jan 2025 01:27:22 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/495966#20f5b92241e5eecbbf5f3b7c6e621971e119f7e280c096e3afe21faff5337c4f</guid>
+      <category>Incident</category>
+      <description>Web endpoints recovered.</description>
+    </item>
+    <item>
+      <title>Web Functions is down</title>
+      <link>https://status.modal.com/incident/495966</link>
+      <pubDate>Wed, 15 Jan 2025 01:08:27 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/495966#799b138de5157043f19d207ad9cf3355136561090d375bce4da3af9e8a7ddb2e</guid>
+      <category>Incident</category>
+      <description>Web endpoints went down.</description>
+    </item>
+    <item>
+      <title>Performance degradation across Functions, Sandboxes, and web endpoints</title>
+      <link>https://status.modal.com/incident/493416</link>
+      <pubDate>Thu, 09 Jan 2025 19:35:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/493416#85513c2b80fc600f0b634c8147c06e4841c52a8b5523f38ea6a132fcbc137d97</guid>
+      <category>Incident</category>
+      <description>Systems have fully recovered.</description>
+    </item>
+    <item>
+      <title>Performance degradation across Functions, Sandboxes, and web endpoints</title>
+      <link>https://status.modal.com/incident/493416</link>
+      <pubDate>Thu, 09 Jan 2025 19:00:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/493416#99b0d8dac3190a63edf78d99dc8888e13509beb5fcb3e72f0ef0827388a72baa</guid>
+      <category>Incident</category>
+      <description>We are experiencing performance degradation across all Functions and web endpoint calls. </description>
+    </item>
+    <item>
+      <title>Maintenance: Upgrading system components</title>
+      <link>https://status.modal.com/maintenance/462246</link>
+      <pubDate>Fri, 15 Nov 2024 20:36:19 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/462246#0fd064f54fd807dc30b225c6b61d9c37387dd0055b48bc1934c535f8c7425f75</guid>
+      <category>Maintenance</category>
+      <description>We will be performing a scheduled upgrade.</description>
+    </item>
+    <item>
+      <title>Volumes is down</title>
+      <link>https://status.modal.com/incident/453967</link>
+      <pubDate>Thu, 31 Oct 2024 14:52:01 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/453967#e3f5564cc58b678ff56700b8c31d9c62fff336949cc07f3059ffd55fae5e38d1</guid>
+      <category>Incident</category>
+      <description>Volumes recovered.</description>
+    </item>
+    <item>
+      <title>Volumes is down</title>
+      <link>https://status.modal.com/incident/453967</link>
+      <pubDate>Thu, 31 Oct 2024 14:30:37 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/453967#e5e8ab8db7d0ba242839c167bf0b07b095d9f92bd2aaff362bb1771ea5f1a9ca</guid>
+      <category>Incident</category>
+      <description>Volumes went down.</description>
+    </item>
+    <item>
+      <title>Maintenance: modal.com DNS updates</title>
+      <link>https://status.modal.com/maintenance/453461</link>
+      <pubDate>Wed, 30 Oct 2024 19:10:26 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/453461#2e4bb5317e460618c4c5b0cec71e277d96d193ebd29f825c8bc8040f66ecc818</guid>
+      <category>Maintenance</category>
+      <description>We are updating the DNS records of our website at modal.com to point to a new CDN deployment. We expect this to be a seamless transition with no observable downtime, but we are declaring a maintenance window as a precaution. (Your website will just get faster!)</description>
+    </item>
+    <item>
+      <title>CPU container performance degradation from over-scheduling on GCE n1-standard instance class</title>
+      <link>https://status.modal.com/incident/435873</link>
+      <pubDate>Tue, 24 Sep 2024 17:51:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/435873#ed7dcb28e0259bcfeca74e18db56dd36486c5474811e906794d9cf97bd6a503f</guid>
+      <category>Incident</category>
+      <description>Between Monday 23rd 15:54 UTC and 15:36 UTC a change was made to make GCP workers poll more quickly for containers and this caused them to pick up more CPU-only containers.
+
+Between 13:48 UTC and 16:18 UTC on September 24th CPU containers were allowed to be scheduled on GCP NVIDIA T4 workers which are the `n1` class of GCE VMs.
+
+Both of these changes combined to cause over-scheduling of CPU work onto GCP T4 workers and significantly degrade the performance of the hosted containers (whether CPU-only or T4 GPU-enabled).</description>
+    </item>
+    <item>
+      <title>Container filesystem 'file not found' bug</title>
+      <link>https://status.modal.com/incident/428812</link>
+      <pubDate>Fri, 13 Sep 2024 17:59:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/428812#900c60fffe241a3d019100cc00a95775712007ce7dd4608bdf8350c7f335fb68</guid>
+      <category>Incident</category>
+      <description>At 12:57 UTC a container filesystem change rolled out across workers which caused spurious 'file not found' (ENOENT) errors against the container's rootfs filesystem. 
+
+We identified the bad commit and rolled back to prevent new workers from picking up the bug. 
+
+We then worked to roll over all running production workers which were affected by the bad change and scale up new workers.
+
+All affected workers have been quarantined and thus new containers will start on new, healthy workers. 
+
+We apologize for the disruption.
+</description>
+    </item>
+    <item>
+      <title>Ephemeral apps and image builds are degraded.</title>
+      <link>https://status.modal.com/incident/403407</link>
+      <pubDate>Thu, 25 Jul 2024 06:50:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/403407#f80f17e70dd761e03b779899c356178392246e169b67b81b618c58ea9b9c78c7</guid>
+      <category>Incident</category>
+      <description>Trigger processing issues have caused issues in ephemeral Apps and modal.Image builds. We're investigating. </description>
+    </item>
+    <item>
+      <title>Modal function executions are degraded</title>
+      <link>https://status.modal.com/incident/399044</link>
+      <pubDate>Tue, 16 Jul 2024 18:43:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/399044#9c5278190d01f0fa78ce0813c0c185ab566dc171188bb7ad1a126c3c5066594f</guid>
+      <category>Incident</category>
+      <description>The system has recovered, and function executions should be proceeding as normal. The team is on standby for any further issues.</description>
+    </item>
+    <item>
+      <title>Modal function executions are degraded</title>
+      <link>https://status.modal.com/incident/399044</link>
+      <pubDate>Tue, 16 Jul 2024 18:42:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/399044#0539c22c8abe20caaf6acc34aa91106cfcd506684f496dc334eb74b07081b060</guid>
+      <category>Incident</category>
+      <description>We have identified the problem and are recovering at the moment.</description>
+    </item>
+    <item>
+      <title>Modal function executions are degraded</title>
+      <link>https://status.modal.com/incident/399044</link>
+      <pubDate>Tue, 16 Jul 2024 17:53:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/399044#3a901b892d4e6aad1f0b172096c7ef535210679d570b5746ce4b7aa225d0ab71</guid>
+      <category>Incident</category>
+      <description>We are seeing degraded performance on Modal function executions and are investigating.</description>
+    </item>
+    <item>
+      <title>CPU functions on GCP, Web endpoints, and 1 other service are down</title>
+      <link>https://status.modal.com/incident/397339</link>
+      <pubDate>Fri, 12 Jul 2024 23:35:09 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/397339#b3634f16065029d0cd8a2db5ad9454be4b1c17eb4bf0401ebc54c6c37f8bdd4b</guid>
+      <category>Incident</category>
+      <description>Web endpoints recovered.</description>
+    </item>
+    <item>
+      <title>CPU functions on GCP, Web endpoints, and 1 other service are down</title>
+      <link>https://status.modal.com/incident/397339</link>
+      <pubDate>Fri, 12 Jul 2024 23:29:58 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/397339#9620b91bdaedde3c63229ec065147658982849401caebe6ce02f1c0d43d063ea</guid>
+      <category>Incident</category>
+      <description>CPU functions on GCP and Volumes recovered.</description>
+    </item>
+    <item>
+      <title>CPU functions on GCP, Web endpoints, and 1 other service are down</title>
+      <link>https://status.modal.com/incident/397339</link>
+      <pubDate>Fri, 12 Jul 2024 23:29:42 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/397339#07706af992b9dfc3b020323accc702991ab370062a774b4bf81c8e7ff90fb810</guid>
+      <category>Incident</category>
+      <description>Volumes went down.</description>
+    </item>
+    <item>
+      <title>CPU functions on GCP, Web endpoints, and 1 other service are down</title>
+      <link>https://status.modal.com/incident/397339</link>
+      <pubDate>Fri, 12 Jul 2024 23:28:41 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/397339#1d58c510c17c3423d1cd4aaf519967762713e952f3cbcbb08ae5ebcebfc1e7ca</guid>
+      <category>Incident</category>
+      <description>Web endpoints went down.</description>
+    </item>
+    <item>
+      <title>CPU functions on GCP, Web endpoints, and 1 other service are down</title>
+      <link>https://status.modal.com/incident/397339</link>
+      <pubDate>Fri, 12 Jul 2024 16:56:13 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/397339#49cb8b61cc9f150e04f6884924031c8de1bd59756e8e66db81e804b97fddf0a1</guid>
+      <category>Incident</category>
+      <description>Web endpoints recovered.</description>
+    </item>
+    <item>
+      <title>CPU functions on GCP, Web endpoints, and 1 other service are down</title>
+      <link>https://status.modal.com/incident/397339</link>
+      <pubDate>Fri, 12 Jul 2024 16:50:11 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/397339#c6f9add039a8c2def062c27555dd17f73e411ab3f94b0161421d8bfc381a4721</guid>
+      <category>Incident</category>
+      <description>Web endpoints went down.</description>
+    </item>
+    <item>
+      <title>CPU functions on AWS, CPU functions on GCP, and 4 other services are down</title>
+      <link>https://status.modal.com/incident/384368</link>
+      <pubDate>Fri, 14 Jun 2024 14:46:47 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/384368#ae932190df420d12678e43edd66e396bebdcaabe3ab48a111ab054186a729910</guid>
+      <category>Incident</category>
+      <description>Web endpoints recovered.</description>
+    </item>
+    <item>
+      <title>CPU functions on AWS, CPU functions on GCP, and 4 other services are down</title>
+      <link>https://status.modal.com/incident/384368</link>
+      <pubDate>Fri, 14 Jun 2024 14:41:15 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/384368#35101176735e17cd71c9bcbdae693651c490a345abdf31cae11fd7aab9f72621</guid>
+      <category>Incident</category>
+      <description>Volumes recovered.</description>
+    </item>
+    <item>
+      <title>CPU functions on AWS, CPU functions on GCP, and 4 other services are down</title>
+      <link>https://status.modal.com/incident/384368</link>
+      <pubDate>Fri, 14 Jun 2024 14:40:18 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/384368#7f16eccb7c3ab2d244c2ecfed2cfdf34301e0f03c8d39c721363ade985511626</guid>
+      <category>Incident</category>
+      <description>CPU functions on AWS recovered.</description>
+    </item>
+    <item>
+      <title>CPU functions on AWS, CPU functions on GCP, and 4 other services are down</title>
+      <link>https://status.modal.com/incident/384368</link>
+      <pubDate>Fri, 14 Jun 2024 14:39:13 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/384368#07136e9099192a1341fd77b90ce6771730b85fa3311fed4ea7a82e78c6e3d197</guid>
+      <category>Incident</category>
+      <description>CPU functions on AWS, CPU functions on OCI, and Volumes went down.</description>
+    </item>
+    <item>
+      <title>CPU functions on AWS, CPU functions on GCP, and 4 other services are down</title>
+      <link>https://status.modal.com/incident/384368</link>
+      <pubDate>Fri, 14 Jun 2024 14:21:57 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/384368#0aef0635cb9e173df0f80033ef143785f95a92f3d6406a4454ec70717a509766</guid>
+      <category>Incident</category>
+      <description>CPU functions on AWS and Volumes recovered.</description>
+    </item>
+    <item>
+      <title>CPU functions on AWS, CPU functions on GCP, and 4 other services are down</title>
+      <link>https://status.modal.com/incident/384368</link>
+      <pubDate>Fri, 14 Jun 2024 14:21:37 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/384368#41e332dc4fa3f3fb1a928dfc9b2db6c2159d7aa1edd945e12dd7a54039b535a2</guid>
+      <category>Incident</category>
+      <description>CPU functions on AWS went down.</description>
+    </item>
+    <item>
+      <title>CPU functions on AWS, CPU functions on GCP, and 4 other services are down</title>
+      <link>https://status.modal.com/incident/384368</link>
+      <pubDate>Fri, 14 Jun 2024 14:20:48 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/384368#3a50c791a09e9cc0c6dc1358424aee386237a07d8552ee0ef887eda663689338</guid>
+      <category>Incident</category>
+      <description>Volumes went down.</description>
+    </item>
+    <item>
+      <title>CPU functions on AWS, CPU functions on GCP, and 4 other services are down</title>
+      <link>https://status.modal.com/incident/384368</link>
+      <pubDate>Fri, 14 Jun 2024 14:17:57 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/384368#a76eaed96f78a7cd6d6d37b9538e08f857997f9d7a10fbb788cb54cf646c0d65</guid>
+      <category>Incident</category>
+      <description>Web endpoints went down.</description>
+    </item>
+    <item>
+      <title>GPU functions on GCP and Web endpoints are down</title>
+      <link>https://status.modal.com/incident/379898</link>
+      <pubDate>Wed, 05 Jun 2024 22:44:34 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/379898#0bdcdd6f4ef09b9554e9571dadf640a7ec711e9c8b2d540023209a0699e06787</guid>
+      <category>Incident</category>
+      <description>Web endpoints recovered.</description>
+    </item>
+    <item>
+      <title>GPU functions on GCP and Web endpoints are down</title>
+      <link>https://status.modal.com/incident/379898</link>
+      <pubDate>Wed, 05 Jun 2024 22:44:14 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/379898#874808f46c89f2bccfc697680884eb57f260bf2286dede4e5a559c6bac13c369</guid>
+      <category>Incident</category>
+      <description>Web endpoints went down.</description>
+    </item>
+    <item>
+      <title>GPU functions on GCP and Web endpoints are down</title>
+      <link>https://status.modal.com/incident/379898</link>
+      <pubDate>Wed, 05 Jun 2024 22:41:04 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/379898#e430380395c72dc143fc4dfeefb1acf5ddb92b0c37d085475dbcbf0b9c49da4e</guid>
+      <category>Incident</category>
+      <description>Web endpoints recovered.</description>
+    </item>
+    <item>
+      <title>GPU functions on GCP and Web endpoints are down</title>
+      <link>https://status.modal.com/incident/379898</link>
+      <pubDate>Wed, 05 Jun 2024 22:36:40 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/379898#96d3b3fe383fb1263563bd450a47caf5f7873ac5b620f7caf18bdc8d02a27f43</guid>
+      <category>Incident</category>
+      <description>Web endpoints went down.</description>
+    </item>
+    <item>
+      <title>Maintenance: modal.com network ingress rollover</title>
+      <link>https://status.modal.com/maintenance/377009</link>
+      <pubDate>Thu, 30 May 2024 14:44:43 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/377009#2ff6722f0aa027456a643d8ebf80638eeefdcc412cae3335811edb2f35af212b</guid>
+      <category>Maintenance</category>
+      <description>We're performing an infrastructure change on our website (modal.com). The dashboard may be inaccessible to some users for up to a minute.</description>
+    </item>
+    <item>
+      <title>CPU functions on AWS, CPU functions on GCP, and 4 other services are down</title>
+      <link>https://status.modal.com/incident/371971</link>
+      <pubDate>Mon, 20 May 2024 07:42:07 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/371971#a888776a29d52c183297c091f9e0cae90ce8c4b6f9394573914b070752e70e71</guid>
+      <category>Incident</category>
+      <description>Web endpoints recovered.</description>
+    </item>
+    <item>
+      <title>CPU functions on AWS, CPU functions on GCP, and 4 other services are down</title>
+      <link>https://status.modal.com/incident/371971</link>
+      <pubDate>Mon, 20 May 2024 07:40:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/371971#ea7487272cf4010570080222c454a8401a897a1bebd48d7447cbbb72d775812a</guid>
+      <category>Incident</category>
+      <description>Volumes recovered.</description>
+    </item>
+    <item>
+      <title>CPU functions on AWS, CPU functions on GCP, and 4 other services are down</title>
+      <link>https://status.modal.com/incident/371971</link>
+      <pubDate>Mon, 20 May 2024 07:39:40 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/371971#f1d59632c91913741f9401f1a34ef921863cf571d5aa6eff8625ec48e3e5b2ca</guid>
+      <category>Incident</category>
+      <description>CPU functions on AWS recovered.</description>
+    </item>
+    <item>
+      <title>CPU functions on AWS, CPU functions on GCP, and 4 other services are down</title>
+      <link>https://status.modal.com/incident/371971</link>
+      <pubDate>Mon, 20 May 2024 07:37:26 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/371971#43022979242338f8f95598dbf2625b4358d2eee711d0a284f75a723b1461c9ac</guid>
+      <category>Incident</category>
+      <description>CPU functions on AWS, CPU functions on GCP, CPU functions on OCI, and 2 other resources went down.</description>
+    </item>
+    <item>
+      <title>Database I/O load</title>
+      <link>https://status.modal.com/incident/359140</link>
+      <pubDate>Mon, 22 Apr 2024 15:41:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/359140#1a6faa8de85fcc2f99f4bb41d00b98c5cd72de56ba0fc85325747f6704285662</guid>
+      <category>Incident</category>
+      <description>We have resolved the issue. Thank you for your patience!
+
+We are continuing to monitor.</description>
+    </item>
+    <item>
+      <title>Database I/O load</title>
+      <link>https://status.modal.com/incident/359140</link>
+      <pubDate>Mon, 22 Apr 2024 15:36:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/359140#667cf6524fe166e4e78ac5c4f4aacc41229310d39e60a0461300bade58379d70</guid>
+      <category>Incident</category>
+      <description>We are rebooting the database to apply an urgent configuration change. Minor disruption for up to 1 minute is expected.</description>
+    </item>
+    <item>
+      <title>Database I/O load</title>
+      <link>https://status.modal.com/incident/359140</link>
+      <pubDate>Mon, 22 Apr 2024 15:14:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/359140#87f71548af4da8b932800e679726988e224eba828631a962914e3370711d21d8</guid>
+      <category>Incident</category>
+      <description>We are still experiencing degraded performance and reliability due to database load. However, we have found the root cause of the issue and are continuing to work toward resolution.</description>
+    </item>
+    <item>
+      <title>Database I/O load</title>
+      <link>https://status.modal.com/incident/359140</link>
+      <pubDate>Mon, 22 Apr 2024 14:02:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/359140#a827ca6227a5f80c5468b3f96def2a1260e44583355584d72ccc1caaf90b8f84</guid>
+      <category>Incident</category>
+      <description>We’re experiencing database I/O load issues at the moment, which is affecting responsiveness on the modal.com dashboard and execution of function calls. We’re actively working on resolving the issue.</description>
+    </item>
+    <item>
+      <title>False alerts for downtime</title>
+      <link>https://status.modal.com/incident/352145</link>
+      <pubDate>Sun, 07 Apr 2024 16:50:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/352145#766c399ed867c146ade7c413a403c81dc3d734139ff14150a2ee16ad212affd7</guid>
+      <category>Incident</category>
+      <description>We hit a limit on our internal workspace used to run synthetic monitors, which caused our downtime alerts to fire inaccurately. We have raised the limits now. 
+
+No users were affected. We're sorry for all the spam for status page subscribers!</description>
+    </item>
+    <item>
+      <title>Maintenance: Database migration</title>
+      <link>https://status.modal.com/maintenance/351005</link>
+      <pubDate>Thu, 04 Apr 2024 21:16:49 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/351005#b60083880152e9f54358ed05de27e48736e4a25d6015ccbbe5ff2938cc155c18</guid>
+      <category>Maintenance</category>
+      <description>We will upgrade one of our databases to reduce latency and improve reliability.</description>
+    </item>
+    <item>
+      <title>Maintenance: Database migration</title>
+      <link>https://status.modal.com/maintenance/343672</link>
+      <pubDate>Wed, 20 Mar 2024 16:44:02 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/343672#b9ab3ac77f43ceaae843d8c6e0076ef0fc56cc57931ea21bc04d8bf63b59d168</guid>
+      <category>Maintenance</category>
+      <description>We are migrating a database for better performance and reliability.</description>
+    </item>
+    <item>
+      <title>Maintenance: Database upgrade</title>
+      <link>https://status.modal.com/maintenance/343666</link>
+      <pubDate>Wed, 20 Mar 2024 16:36:17 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/343666#fd9fee505341f832c7b8a9c57be2011191aed09a570d2e4ac8bc61c6cfe07340</guid>
+      <category>Maintenance</category>
+      <description>We will be upgrading one of our databases to improve performance and reliability.</description>
+    </item>
+    <item>
+      <title>Web Functions is down</title>
+      <link>https://status.modal.com/incident/337389</link>
+      <pubDate>Thu, 07 Mar 2024 04:02:29 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/337389#193da43e76c4c92450378e9aeff979eb549bb2c065cd3fb791bf8c9ef2e21729</guid>
+      <category>Incident</category>
+      <description>Web endpoints recovered.</description>
+    </item>
+    <item>
+      <title>Web Functions is down</title>
+      <link>https://status.modal.com/incident/337389</link>
+      <pubDate>Thu, 07 Mar 2024 03:57:23 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/337389#180c43fd88f96ec797f1037b6a4621cebdaa49ef0a7426f76ccb746512905761</guid>
+      <category>Incident</category>
+      <description>Web endpoints went down.</description>
+    </item>
+    <item>
+      <title>Web Functions is down</title>
+      <link>https://status.modal.com/incident/332362</link>
+      <pubDate>Tue, 27 Feb 2024 00:39:51 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/332362#83feecb0b29fb8b6cf9be6f999d62b7cd7d949a0ff6c00d70b3bf09c5e292829</guid>
+      <category>Incident</category>
+      <description>Web endpoints recovered.</description>
+    </item>
+    <item>
+      <title>Web Functions is down</title>
+      <link>https://status.modal.com/incident/332362</link>
+      <pubDate>Tue, 27 Feb 2024 00:32:39 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/332362#ab88e123d335ee203fa1478cb85dc94e88cfb00525a6c887d3052eb52beac604</guid>
+      <category>Incident</category>
+      <description>Web endpoints went down.</description>
+    </item>
+    <item>
+      <title>DNS issues causing website downtime and degradation of the service</title>
+      <link>https://status.modal.com/incident/326722</link>
+      <pubDate>Wed, 14 Feb 2024 12:20:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/326722#42b25bc4d52f8ed004f81bda75e8492fdb14573f06fd773e8d5c0aad32c1fdce</guid>
+      <category>Incident</category>
+      <description>We experienced a problem with our DNS records for modal.com and modal.run, meaning that the website and webpoints were unreachable for a period, unless DNS records were cached by your local resolver.
+
+This also affected workloads running on modal to some degree, as some workloads were failing to communicate with our API server.
+
+The issue has been resolved but there might be lingering effects due to negative DNS caches in your local DNS resolver (e.g. your ISP resolvers).</description>
+    </item>
+    <item>
+      <title>Maintenance: Database upgrade</title>
+      <link>https://status.modal.com/maintenance/320535</link>
+      <pubDate>Wed, 31 Jan 2024 21:36:40 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/320535#80be12c3078e8f8ca469843d39cb95536cda914535f8f1ba6579453dcbbba126</guid>
+      <category>Maintenance</category>
+      <description>We are upgrading an internal database. The Modal service should remain available during this time, although response latencies and error rates might be somewhat elevated.</description>
+    </item>
+    <item>
+      <title>Frontend and Web API are down</title>
+      <link>https://status.modal.com/incident/314550</link>
+      <pubDate>Thu, 18 Jan 2024 23:07:56 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/314550#a9912f924dd156beb917af6d963682069c409afab981dbd502079ff92587fa5d</guid>
+      <category>Incident</category>
+      <description>Frontend recovered.</description>
+    </item>
+    <item>
+      <title>Frontend and Web API are down</title>
+      <link>https://status.modal.com/incident/314550</link>
+      <pubDate>Thu, 18 Jan 2024 23:06:39 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/314550#592b3174d51ee8735848aa1251bb468db684a28060e807036a7f2bb9ca6363e6</guid>
+      <category>Incident</category>
+      <description>Frontend went down.</description>
+    </item>
+    <item>
+      <title>Frontend and Web API are down</title>
+      <link>https://status.modal.com/incident/314550</link>
+      <pubDate>Thu, 18 Jan 2024 22:55:02 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/314550#264ad9817cada0afcf0a89c88c33d3fa7434b6a765a33792da63ea0f4cb55516</guid>
+      <category>Incident</category>
+      <description>Frontend recovered.</description>
+    </item>
+    <item>
+      <title>Frontend and Web API are down</title>
+      <link>https://status.modal.com/incident/314550</link>
+      <pubDate>Thu, 18 Jan 2024 22:49:41 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/314550#abe9d717fc5359360ee875bca6e8f692b44a667b54137a8a6822136e7381163c</guid>
+      <category>Incident</category>
+      <description>Frontend went down.</description>
+    </item>
+    <item>
+      <title>Frontend, Web API, and 1 other service are down</title>
+      <link>https://status.modal.com/incident/314230</link>
+      <pubDate>Thu, 18 Jan 2024 08:52:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/314230#7e83790d5041ce0ae2c2a3de06ad5fdaad755daa774f899f0e30219f4b06ccb2</guid>
+      <category>Incident</category>
+      <description>According to our investigation this was a false positive. Independent internal monitoring reports no issues and we failed to reproduce any problems. We're continuing to investigate the root cause.</description>
+    </item>
+    <item>
+      <title>Frontend, Web API, and 1 other service are down</title>
+      <link>https://status.modal.com/incident/314230</link>
+      <pubDate>Thu, 18 Jan 2024 08:34:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/314230#dd43eac832a250405a64d2c0dd226b64020fd2cadaf5fa5f1372d1c781403a4f</guid>
+      <category>Incident</category>
+      <description>Frontend recovered.</description>
+    </item>
+    <item>
+      <title>Frontend, Web API, and 1 other service are down</title>
+      <link>https://status.modal.com/incident/314230</link>
+      <pubDate>Thu, 18 Jan 2024 07:10:48 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/314230#b195ee758ac18fd889eccf195020dbbc0957a08ced77840922e929ea0bab98d7</guid>
+      <category>Incident</category>
+      <description>Frontend went down.</description>
+    </item>
+    <item>
+      <title>Frontend, Web API, and 1 other service are down</title>
+      <link>https://status.modal.com/incident/314230</link>
+      <pubDate>Thu, 18 Jan 2024 03:07:12 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/314230#5ee90e22382f6d2f4ccc9310e38783e4ef9be888dfeac32789ba4a44b17a0362</guid>
+      <category>Incident</category>
+      <description>Web endpoints recovered.</description>
+    </item>
+    <item>
+      <title>Frontend, Web API, and 1 other service are down</title>
+      <link>https://status.modal.com/incident/314230</link>
+      <pubDate>Thu, 18 Jan 2024 02:44:44 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/314230#7c09066ee3a3c19cb403a1631ec99ef9d25601fd27c42bf65519ee445a6307e5</guid>
+      <category>Incident</category>
+      <description>Web endpoints went down.</description>
+    </item>
+    <item>
+      <title>Maintenance: Database upgrades</title>
+      <link>https://status.modal.com/maintenance/311846</link>
+      <pubDate>Fri, 12 Jan 2024 15:14:07 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/311846#f45233cbe1e038dfbc8ba09f821c164b682f8d21932678a73558fb42acb9eeb5</guid>
+      <category>Maintenance</category>
+      <description>We'll conduct database upgrades for improved performance, stability, and security.</description>
+    </item>
+    <item>
+      <title>Web API and Web endpoints are down</title>
+      <link>https://status.modal.com/incident/310464</link>
+      <pubDate>Tue, 09 Jan 2024 20:52:47 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/310464#b2cda63669022cd0d9950f83d4ffef6f126a00799e9d77101a8041435dff83e4</guid>
+      <category>Incident</category>
+      <description>Web endpoints recovered.</description>
+    </item>
+    <item>
+      <title>Web API and Web endpoints are down</title>
+      <link>https://status.modal.com/incident/310464</link>
+      <pubDate>Tue, 09 Jan 2024 20:49:49 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/310464#5741555f6f80aa4499bfda8a2b311f3f90fa446b2410c7339bbf3bb0e718367a</guid>
+      <category>Incident</category>
+      <description>Web endpoints went down and Web API recovered.</description>
+    </item>
+    <item>
+      <title>Web API and Web endpoints are down</title>
+      <link>https://status.modal.com/incident/310464</link>
+      <pubDate>Tue, 09 Jan 2024 18:36:06 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/310464#f25a5aa9354e72c90d2ab3c646529713a24c14c420ff6693f6dedc13208a8304</guid>
+      <category>Incident</category>
+      <description>Web endpoints recovered.</description>
+    </item>
+    <item>
+      <title>Web API and Web endpoints are down</title>
+      <link>https://status.modal.com/incident/310464</link>
+      <pubDate>Tue, 09 Jan 2024 18:29:27 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/310464#f493c58c276561037685e4877fc987578cc77156c171d3feca6b4aa84ebb9773</guid>
+      <category>Incident</category>
+      <description>Web endpoints went down.</description>
+    </item>
+    <item>
+      <title>Web Functions is down</title>
+      <link>https://status.modal.com/incident/310037</link>
+      <pubDate>Mon, 08 Jan 2024 19:38:32 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/310037#b1bf0dd7f96d5ea32347ca88fde630884edd606d76ac1e6392bdbd963b4f2807</guid>
+      <category>Incident</category>
+      <description>Web endpoints recovered.</description>
+    </item>
+    <item>
+      <title>Web Functions is down</title>
+      <link>https://status.modal.com/incident/310037</link>
+      <pubDate>Mon, 08 Jan 2024 19:04:53 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/310037#b514051f1c34c9901df23476ce32e3447b1fe64384084f1cb4d2f98a3b53969c</guid>
+      <category>Incident</category>
+      <description>Web endpoints went down.</description>
+    </item>
+    <item>
+      <title>Web Functions is down</title>
+      <link>https://status.modal.com/incident/304923</link>
+      <pubDate>Tue, 26 Dec 2023 15:48:16 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/304923#c4007ba195540938dfc2259600289ccf851443f1d39a4ae2ffbd88745dc0d7a4</guid>
+      <category>Incident</category>
+      <description>Web endpoints recovered.</description>
+    </item>
+    <item>
+      <title>Web Functions is down</title>
+      <link>https://status.modal.com/incident/304923</link>
+      <pubDate>Tue, 26 Dec 2023 15:34:34 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/304923#ca71fd291c01d276096f92d73c63ae67c9ca8b0392e1799a5d62d427a2f77949</guid>
+      <category>Incident</category>
+      <description>Web endpoints went down.</description>
+    </item>
+    <item>
+      <title>Web endpoint incident resolved</title>
+      <link>https://status.modal.com/incident/304971</link>
+      <pubDate>Tue, 26 Dec 2023 01:40:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/304971#61fe8a00e8812d9df94254f84e60688a0f4781a71c6ef7c3c329a3d7fc168502</guid>
+      <category>Incident</category>
+      <description>From 23:30 UTC - 01:40 UTC, web endpoints deployed on Modal had degraded performance and transient "400 Bad Request" status codes. We responded to the issue and published a fix.
+
+The root cause was increased load on our web endpoint system from user traffic, which tripped an internal rate limit.</description>
+    </item>
+    <item>
+      <title>Web Functions is down</title>
+      <link>https://status.modal.com/incident/304923</link>
+      <pubDate>Tue, 26 Dec 2023 01:29:16 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/304923#61d1d0506e0dafe34f8286b3290d613c6abdc2438de66e69bdf783d5fc81fd55</guid>
+      <category>Incident</category>
+      <description>Web endpoints recovered.</description>
+    </item>
+    <item>
+      <title>Web Functions is down</title>
+      <link>https://status.modal.com/incident/304923</link>
+      <pubDate>Tue, 26 Dec 2023 01:25:08 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/304923#9f640c87454f4b304a7548da692088a697647dfc230a9572cb1c36a5c3c10549</guid>
+      <category>Incident</category>
+      <description>Web endpoints went down.</description>
+    </item>
+    <item>
+      <title>Web Functions is down</title>
+      <link>https://status.modal.com/incident/304923</link>
+      <pubDate>Tue, 26 Dec 2023 01:05:24 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/304923#d95f761571b4b303c02f13e84e924261bb9677eb6bf18fe1a36b86e90462f450</guid>
+      <category>Incident</category>
+      <description>Web endpoints recovered.</description>
+    </item>
+    <item>
+      <title>Web Functions is down</title>
+      <link>https://status.modal.com/incident/304923</link>
+      <pubDate>Tue, 26 Dec 2023 00:55:04 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/304923#abf4a2ca4b6adf1336dcb410ce5c82447aa59f2d82d8d432f63828d442e54134</guid>
+      <category>Incident</category>
+      <description>Web endpoints went down.</description>
+    </item>
+    <item>
+      <title>Web Functions is down</title>
+      <link>https://status.modal.com/incident/304923</link>
+      <pubDate>Tue, 26 Dec 2023 00:04:47 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/304923#8962734724a81cd1495e0ccd499f97ca5188938da84440ec9ef418c71c7d294a</guid>
+      <category>Incident</category>
+      <description>Web endpoints recovered.</description>
+    </item>
+    <item>
+      <title>Web Functions is down</title>
+      <link>https://status.modal.com/incident/304923</link>
+      <pubDate>Mon, 25 Dec 2023 23:56:22 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/304923#a6dd5780cf1b3f5d06927e5e3cecc6f6ce7351ead0e09a0c6fdc81043d5b5daa</guid>
+      <category>Incident</category>
+      <description>Web endpoints went down.</description>
+    </item>
+    <item>
+      <title>CPU functions on AWS, CPU functions on GCP, CPU functions on OCI, Web endpoints, and 2 other services are down</title>
+      <link>https://status.modal.com/incident/287108</link>
+      <pubDate>Tue, 14 Nov 2023 16:46:52 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/287108#f6880f571f7a902fb6ac9900a152f8be0f63f32dc7c60894a1142cc8d21ee8f1</guid>
+      <category>Incident</category>
+      <description>Web endpoints recovered.</description>
+    </item>
+    <item>
+      <title>CPU functions on AWS, CPU functions on GCP, CPU functions on OCI, Web endpoints, and 2 other services are down</title>
+      <link>https://status.modal.com/incident/287108</link>
+      <pubDate>Tue, 14 Nov 2023 16:41:59 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/287108#8bb05180a3303b14263a05af95dacd9425a0a5c60f74f1a64baed7b720fa26a7</guid>
+      <category>Incident</category>
+      <description>CPU functions on AWS, CPU functions on GCP, and CPU functions on OCI recovered.</description>
+    </item>
+    <item>
+      <title>CPU functions on AWS, CPU functions on GCP, CPU functions on OCI, Web endpoints, and 2 other services are down</title>
+      <link>https://status.modal.com/incident/287108</link>
+      <pubDate>Tue, 14 Nov 2023 16:39:30 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/287108#c9f726afead35689147f4441905d6b102900f10e744d50e413734568f950d53d</guid>
+      <category>Incident</category>
+      <description>CPU functions on AWS and Web endpoints went down.</description>
+    </item>
+    <item>
+      <title>CPU functions on GCP, CPU functions on OCI, Web endpoints, and 1 other service are down</title>
+      <link>https://status.modal.com/incident/285072</link>
+      <pubDate>Fri, 10 Nov 2023 02:44:22 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/285072#4f04b098c0023085c26f21d67f8edc9383939b6c48c97299140e8ed5d3ea62dc</guid>
+      <category>Incident</category>
+      <description>Web endpoints recovered.</description>
+    </item>
+    <item>
+      <title>Maintenance: Upgrading system components</title>
+      <link>https://status.modal.com/maintenance/271843</link>
+      <pubDate>Thu, 12 Oct 2023 14:39:29 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/271843#a3a858124dbe5cd94d74a8dee2f7d9f4d9675a2215a4c61cf170ca193cde2869</guid>
+      <category>Maintenance</category>
+      <description>We will be performing a scheduled upgrade.</description>
+    </item>
+    <item>
+      <title>Maintenance: Network maintenance</title>
+      <link>https://status.modal.com/maintenance/265716</link>
+      <pubDate>Thu, 28 Sep 2023 21:06:52 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/265716#dd313821b4881f587846f038c79fe29c22295c8b061be5d06b9ede8acc7702f9</guid>
+      <category>Maintenance</category>
+      <description>We are performing scheduled network maintenance related to web endpoint handlers. This is to improve overall stability of our web ingress system, and to prepare for a new system that will reduce the amount of "Bad Gateway" and "Internal Server Errors" that users experience.
+
+We don't anticipate any downtime during this maintenance window, but we will stay alert and track any issues as they occur.</description>
+    </item>
+    <item>
+      <title>Maintenance: Network maintenance</title>
+      <link>https://status.modal.com/maintenance/243415</link>
+      <pubDate>Wed, 09 Aug 2023 10:13:41 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/243415#32ee7eb65b13691f87e35498042d6d54eb069358f5406ecb6dc105b402605c7d</guid>
+      <category>Maintenance</category>
+      <description>We are removing resources that are no longer needed. </description>
+    </item>
+    <item>
+      <title>Maintenance: Network maintenance</title>
+      <link>https://status.modal.com/maintenance/238669</link>
+      <pubDate>Fri, 28 Jul 2023 18:30:16 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/238669#656333f752961e75663b3fb19a1912feebf2cbb081424b94197e3c1b6b1559e9</guid>
+      <category>Maintenance</category>
+      <description>We don't expect downtime and only minimal API instability, but we're making some performance related network changes and are declaring this window out of caution.</description>
+    </item>
+    <item>
+      <title>Maintenance: Upgrading databases</title>
+      <link>https://status.modal.com/maintenance/221163</link>
+      <pubDate>Fri, 16 Jun 2023 19:45:23 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/221163#ad579e4cd76416224f3c7070d7d4f48f30950d27418a7d82199d6073e9f20b38</guid>
+      <category>Maintenance</category>
+      <description>We'll be conducting a security upgrade to our databases. We expect minimal API instability. </description>
+    </item>
+    <item>
+      <title>Maintenance: Database upgrade</title>
+      <link>https://status.modal.com/maintenance/217635</link>
+      <pubDate>Thu, 08 Jun 2023 13:02:18 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/217635#b940a7e883e0dd9259a059237f56a482bffbdd8119115f1ddb13b451f335956e</guid>
+      <category>Maintenance</category>
+      <description>We are upgrading one of our databases to improve performance and security.</description>
+    </item>
+    <item>
+      <title>Maintenance: Updating networking configuration</title>
+      <link>https://status.modal.com/maintenance/211576</link>
+      <pubDate>Wed, 24 May 2023 17:29:39 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/211576#08046c5818e9bb95b8733db08e2ebc5f62f86960aed081d4419f84cf4809854e</guid>
+      <category>Maintenance</category>
+      <description>We'll conduct security updates to our networking stack.</description>
+    </item>
+    <item>
+      <title>Maintenance: Upgrading network stack</title>
+      <link>https://status.modal.com/maintenance/208165</link>
+      <pubDate>Tue, 16 May 2023 14:15:14 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/208165#3fc00c3c625e2f496857cffa0e5c90264bf4e532c8345e34e735f043164c8bd2</guid>
+      <category>Maintenance</category>
+      <description>An upgrade to our networking stack may cause slight API instability and slowness fora few minutes, but no downtime is expected.</description>
+    </item>
+    <item>
+      <title>Maintenance: Updates logging system and main database</title>
+      <link>https://status.modal.com/maintenance/197659</link>
+      <pubDate>Tue, 18 Apr 2023 15:46:13 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/197659#1744f399d508356f7b646b96d761108bc6acf089b8191613f99572c520ae7414</guid>
+      <category>Maintenance</category>
+      <description>We will be updating our logging backend to encrypt all logging cache at rest. We will also be updating our main application database to improve reliability and performance. </description>
+    </item>
+    <item>
+      <title>Maintenance: Upgrading file-system encryption</title>
+      <link>https://status.modal.com/maintenance/188809</link>
+      <pubDate>Fri, 24 Mar 2023 18:19:24 -0000</pubDate>
+      <guid isPermaLink="false">https://status.modal.com/incident/188809#9f62999526d5dafe319eb548ce4334443fd4808b6aa09918b02837f60339837a</guid>
+      <category>Maintenance</category>
+      <description>We are upgrading file-system encryption in our API servers to more robust encryption at-rest. </description>
+    </item>
+  </channel>
+</rss>

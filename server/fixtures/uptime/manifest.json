@@ -1,0 +1,548 @@
+[
+  {
+    "key": "claude",
+    "url": "https://status.claude.com/uptime_showcase?components=rwppv331jlwc,0qbwn08sd68x,k8w3r06qmzrp,yyzkbfz2thpt,bpp5gb3hpjcl,0scnb50nvy53",
+    "recordedAt": "2026-10-20T23:36:58.076Z",
+    "file": "claude.json",
+    "bytes": 171111,
+    "sha256": "0baa9fd57c91e0273fb904b121c017a14963a7197928e9a45adb5b7ff513b319"
+  },
+  {
+    "key": "cursor",
+    "url": "https://status.cursor.com/uptime_showcase?components=k0trcq273dr6,2x2chyqwmkzl,vsny1qv7v86c,mwv1g9sc7kdh,jh0714rgjgt4,rflc60xp5jp2,xwjpvdf81qh9,sm5wkcnqkvr9",
+    "recordedAt": "2026-10-20T23:36:58.099Z",
+    "file": "cursor.json",
+    "bytes": 227304,
+    "sha256": "bd8c57b32f1ead7eaf8b8eb2d9b0bab19e263850e08c5cd4df04b1387d01505a"
+  },
+  {
+    "key": "openai",
+    "url": "https://status.openai.com/proxy/status.openai.com/component_impacts?start_at=2026-07-22T23:32:34.639Z&end_at=2026-10-20T23:32:34.639Z",
+    "recordedAt": "2026-10-20T23:32:35.103Z",
+    "status": 200,
+    "file": "openai.json",
+    "bytes": 97710,
+    "sha256": "6e8eb1a2651e20020687b593624c881dbf04b8b32b86e8f782c7b76fbb6891ec"
+  },
+  {
+    "key": "openai-summary",
+    "url": "https://status.openai.com/proxy/status.openai.com",
+    "recordedAt": "2026-10-20T23:32:35.021Z",
+    "status": 200,
+    "file": "openai-summary.json",
+    "bytes": 11604,
+    "sha256": "01d6b3b33cc342ceca53e829dc17f1d4a04c5a18cbb7c59c2d391e5911b2bdcd"
+  },
+  {
+    "key": "minimax-summary",
+    "url": "https://status.minimax.io/api/v2/summary.json",
+    "recordedAt": "2026-10-20T23:33:44.116Z",
+    "file": "minimax-summary.json",
+    "bytes": 1415,
+    "sha256": "a024c744114fb6cbdb3b66f345352b8d916a34628628b63ee423e0f78eff8a26"
+  },
+  {
+    "key": "kimi-summary",
+    "url": "https://status.moonshot.cn/api/v2/summary.json",
+    "recordedAt": "2026-10-20T23:33:44.103Z",
+    "file": "kimi-summary.json",
+    "bytes": 6682,
+    "sha256": "1fbfc7cbe09905d463954198c8c6a85f269c0100971a37dec1fd628a70312106"
+  },
+  {
+    "key": "perplexity-summary",
+    "url": "https://status.perplexity.com/proxy/status.perplexity.com",
+    "recordedAt": "2026-10-20T23:33:44.116Z",
+    "file": "perplexity-summary.json",
+    "bytes": 2271,
+    "sha256": "a1d85adfdea56e94222045d6c1abdb7e0d7b69366ac1910128f0b4a1dea62e0f"
+  },
+  {
+    "key": "perplexity",
+    "url": "https://status.perplexity.com/proxy/status.perplexity.com/component_impacts?start_at=2026-07-22T23:33:44.103Z&end_at=2026-10-20T23:33:44.103Z",
+    "recordedAt": "2026-10-20T23:33:44.378Z",
+    "file": "perplexity.json",
+    "bytes": 5478,
+    "sha256": "0f989a4460c3c374ebdc96c6fd54df1affd1723f99a17891e8cbcb103f341e05"
+  },
+  {
+    "key": "minimax",
+    "url": "https://status.minimax.io/uptime_showcase?components=pr0d8qr59svt,jqd3xqhk9v7j,zvwy77wxk251",
+    "recordedAt": "2026-10-20T23:33:44.195Z",
+    "file": "minimax.json",
+    "bytes": 96432,
+    "sha256": "95a319798691f4f1f76d324551503d5fffaad752dba8fa7959ebd9d169e36879"
+  },
+  {
+    "key": "kimi",
+    "url": "https://status.moonshot.cn/uptime_showcase?components=01l1n50g13g6,8psr5dfdld0s,rf64wcbxt3r2,cyrtlddz0q8c",
+    "recordedAt": "2026-10-20T23:33:44.203Z",
+    "file": "kimi.json",
+    "bytes": 172651,
+    "sha256": "b32c1746e3cddc1209512e03aca969fc95a802eec33e967bef9993dec8cdf80e"
+  },
+  {
+    "key": "manus-summary",
+    "url": "https://status.manus.im/api/v2/summary.json",
+    "recordedAt": "2026-10-20T23:33:44.802Z",
+    "file": "manus-summary.json",
+    "bytes": 1225,
+    "sha256": "1fdd4d1867733f76a27784b18c05d18ef7f3fcd53f4459896f7e3c92a7175795"
+  },
+  {
+    "key": "cohere-summary",
+    "url": "https://status.cohere.com/proxy/status.cohere.com",
+    "recordedAt": "2026-10-20T23:33:44.697Z",
+    "file": "cohere-summary.json",
+    "bytes": 15787,
+    "sha256": "14d4b207eda853b3183e1e6c856a78092e5643083d7a8567d013b012c2422b77"
+  },
+  {
+    "key": "minimax-cn-summary",
+    "url": "https://status.minimaxi.com/api/v2/summary.json",
+    "recordedAt": "2026-10-20T23:33:44.724Z",
+    "file": "minimax-cn-summary.json",
+    "bytes": 1431,
+    "sha256": "1efdc3f81bd81f052cf476491d108fe8a8b2dd65b0c86e68926b2ab96d844fc4"
+  },
+  {
+    "key": "cohere",
+    "url": "https://status.cohere.com/proxy/status.cohere.com/component_impacts?start_at=2026-07-22T23:33:44.103Z&end_at=2026-10-20T23:33:44.103Z",
+    "recordedAt": "2026-10-20T23:33:44.937Z",
+    "file": "cohere.json",
+    "bytes": 6427,
+    "sha256": "5f23ab3dbdf5cf7fca3ddc514b959bbbdc8386c6ad3c74186ae59b26f7144b1a"
+  },
+  {
+    "key": "manus",
+    "url": "https://status.manus.im/uptime_showcase?components=vtjj0hzp4gy8,r6pg5ktb00j5,lplkkmm75tn3",
+    "recordedAt": "2026-10-20T23:33:44.874Z",
+    "file": "manus.json",
+    "bytes": 78285,
+    "sha256": "8877b31fd7293ad2d366438f45499915a5722dafddd2eb8f116e546e6909e20e"
+  },
+  {
+    "key": "elevenlabs-summary",
+    "url": "https://status.elevenlabs.io/proxy/status.elevenlabs.io",
+    "recordedAt": "2026-10-20T23:33:45.133Z",
+    "file": "elevenlabs-summary.json",
+    "bytes": 5178,
+    "sha256": "f0b92e3324a468849912cdba5decf16c365100a3ef54fb8c8f1177c5cff41fb6"
+  },
+  {
+    "key": "minimax-cn",
+    "url": "https://status.minimaxi.com/uptime_showcase?components=vwp8mgy34fck,l2v3lc0pz3ns,r79vyjh1mxt3",
+    "recordedAt": "2026-10-20T23:33:45.089Z",
+    "file": "minimax-cn.json",
+    "bytes": 85984,
+    "sha256": "8269fae798da552e77add79a60813ad2da283813de5b51f88a56e0fcc64fecbe"
+  },
+  {
+    "key": "ideogram-summary",
+    "url": "https://status.ideogram.ai/api/v2/summary.json",
+    "recordedAt": "2026-10-20T23:33:45.395Z",
+    "file": "ideogram-summary.json",
+    "bytes": 904,
+    "sha256": "670ec1b57cab6f380cf35f677f35928a0017cafdb53788c84cc25c4a248b8178"
+  },
+  {
+    "key": "elevenlabs",
+    "url": "https://status.elevenlabs.io/proxy/status.elevenlabs.io/component_impacts?start_at=2026-07-22T23:33:44.103Z&end_at=2026-10-20T23:33:44.103Z",
+    "recordedAt": "2026-10-20T23:33:45.371Z",
+    "file": "elevenlabs.json",
+    "bytes": 17236,
+    "sha256": "3570a7611487ad5fb86709677542843f7e47b4a1a5c8699021e0ca139fd59bf2"
+  },
+  {
+    "key": "stability-summary",
+    "url": "https://status.stability.ai/proxy/status.stability.ai",
+    "recordedAt": "2026-10-20T23:33:45.291Z",
+    "file": "stability-summary.json",
+    "bytes": 1643,
+    "sha256": "cf87da339ef39fe63df7dd65d0ed005fe45a4e34dbab88b12db522cb4068b58f"
+  },
+  {
+    "key": "runway-summary",
+    "url": "https://status.runwayml.com/api/v2/summary.json",
+    "recordedAt": "2026-10-20T23:33:45.566Z",
+    "file": "runway-summary.json",
+    "bytes": 1823,
+    "sha256": "d67b42469f29114f13946a1eab0796a4a59fa7a8562c16a3c5bc90ba2e4e6ed8"
+  },
+  {
+    "key": "ideogram",
+    "url": "https://status.ideogram.ai/uptime_showcase?components=bq17jnbsbjsy,qy9wb0gk1ych",
+    "recordedAt": "2026-10-20T23:33:45.465Z",
+    "file": "ideogram.json",
+    "bytes": 52902,
+    "sha256": "43783f98f54461be99a2ddee75fa52e9c10db45dd9986f2e258ae5a985f9509d"
+  },
+  {
+    "key": "stability",
+    "url": "https://status.stability.ai/proxy/status.stability.ai/component_impacts?start_at=2026-07-22T23:33:44.103Z&end_at=2026-10-20T23:33:44.103Z",
+    "recordedAt": "2026-10-20T23:33:45.569Z",
+    "file": "stability.json",
+    "bytes": 628,
+    "sha256": "55a173657c9631810fd8de7206189b9511cd8d56adefea756b49b7b788040fe2"
+  },
+  {
+    "key": "heygen-summary",
+    "url": "https://status.heygen.com/proxy/status.heygen.com",
+    "recordedAt": "2026-10-20T23:33:45.691Z",
+    "file": "heygen-summary.json",
+    "bytes": 3301,
+    "sha256": "88e4f41fd24b661c216dbc58879bb137f7e3f90bfe1b73544428bbb949b76cc3"
+  },
+  {
+    "key": "cartesia-summary",
+    "url": "https://status.cartesia.ai/proxy/status.cartesia.ai",
+    "recordedAt": "2026-10-20T23:33:45.802Z",
+    "file": "cartesia-summary.json",
+    "bytes": 6411,
+    "sha256": "4af426bf41aad9c11e0d3ff8ce6916a6e4aa2e0dec01e2e1cd3eb7b480d231de"
+  },
+  {
+    "key": "runway",
+    "url": "https://status.runwayml.com/uptime_showcase?components=2fr8tksxj5ns,hl94rh0mg6xt,pxc5jjl6wty0,f8yl6htsys9v,w3jcq3dwljp4",
+    "recordedAt": "2026-10-20T23:33:45.634Z",
+    "file": "runway.json",
+    "bytes": 132324,
+    "sha256": "d37ff9845d05b4cd91a4c51ebc1e361e4fa1e41d69f4eea2a9f93f682103c95f"
+  },
+  {
+    "key": "heygen",
+    "url": "https://status.heygen.com/proxy/status.heygen.com/component_impacts?start_at=2026-07-22T23:33:44.103Z&end_at=2026-10-20T23:33:44.103Z",
+    "recordedAt": "2026-10-20T23:33:46.037Z",
+    "file": "heygen.json",
+    "bytes": 4400,
+    "sha256": "dfc1bda8f5d098a3fc71ed1c5008d983cc382e85973fe9297a41a34ea9d12f68"
+  },
+  {
+    "key": "cartesia",
+    "url": "https://status.cartesia.ai/proxy/status.cartesia.ai/component_impacts?start_at=2026-07-22T23:33:44.103Z&end_at=2026-10-20T23:33:44.103Z",
+    "recordedAt": "2026-10-20T23:33:46.074Z",
+    "file": "cartesia.json",
+    "bytes": 22141,
+    "sha256": "927b578b4fb1119456f7a4c09d8d32fe32f09708c5786857a5692bc8e955bd07"
+  },
+  {
+    "key": "cerebras-summary",
+    "url": "https://status.cerebras.ai/api/v2/summary.json",
+    "recordedAt": "2026-10-20T23:33:46.273Z",
+    "file": "cerebras-summary.json",
+    "bytes": 1206,
+    "sha256": "7e5f2ecceb5ba9bd48b7388c50e4cf4c99c692211932395c4ce649a8b2e11e2e"
+  },
+  {
+    "key": "groq-summary",
+    "url": "https://groqstatus.com/proxy/groqstatus.com",
+    "recordedAt": "2026-10-20T23:33:46.232Z",
+    "file": "groq-summary.json",
+    "bytes": 10713,
+    "sha256": "9482e3bef2d486dff5b5ebcb948d00c1fac830688325ab3c1a48925e77a803dd"
+  },
+  {
+    "key": "fireworks-summary",
+    "url": "https://status.fireworks.ai/proxy/status.fireworks.ai",
+    "recordedAt": "2026-10-20T23:33:46.373Z",
+    "file": "fireworks-summary.json",
+    "bytes": 7119,
+    "sha256": "444c3d20d11279e90e74c5b450ca238f589c78d40b55d30c34db9b6f91ed5ab1"
+  },
+  {
+    "key": "groq",
+    "url": "https://groqstatus.com/proxy/groqstatus.com/component_impacts?start_at=2026-07-22T23:33:44.103Z&end_at=2026-10-20T23:33:44.103Z",
+    "recordedAt": "2026-10-20T23:33:46.482Z",
+    "file": "groq.json",
+    "bytes": 4493,
+    "sha256": "5037bb8b1d86b2a13a6cc7f332a296766c1dfcd7f12f8963ae83340c2db2559a"
+  },
+  {
+    "key": "cerebras",
+    "url": "https://status.cerebras.ai/uptime_showcase?components=hgfykfsb36gn,83h1cchw4vs4,s9j1yrfjvn64",
+    "recordedAt": "2026-10-20T23:33:46.347Z",
+    "file": "cerebras.json",
+    "bytes": 78573,
+    "sha256": "1ec4e648912fac5603ae724c744366a4b5522b9a28b8908119404849cfff3079"
+  },
+  {
+    "key": "fireworks",
+    "url": "https://status.fireworks.ai/proxy/status.fireworks.ai/component_impacts?start_at=2026-07-22T23:33:44.103Z&end_at=2026-10-20T23:33:44.103Z",
+    "recordedAt": "2026-10-20T23:33:46.625Z",
+    "file": "fireworks.json",
+    "bytes": 64918,
+    "sha256": "c3f4e338e4b72effbb4c5aba8bbbf2a6d01e40dd9303c9d4181ce4a10d14bc44"
+  },
+  {
+    "key": "lambda-summary",
+    "url": "https://status.lambda.ai/proxy/status.lambda.ai",
+    "recordedAt": "2026-10-20T23:33:46.667Z",
+    "file": "lambda-summary.json",
+    "bytes": 4883,
+    "sha256": "54bd57ff3549e4511378fbf9c59a624d5825bf3659ff807e514669fe3174e9dc"
+  },
+  {
+    "key": "copilot-summary",
+    "url": "https://www.githubstatus.com/api/v2/summary.json",
+    "recordedAt": "2026-10-20T23:33:46.931Z",
+    "file": "copilot-summary.json",
+    "bytes": 4310,
+    "sha256": "4f2f6fb274c869b4d41624597f87432c4a9ea0f5600730b65bd1419b0bd0a9cb"
+  },
+  {
+    "key": "poe-summary",
+    "url": "https://status.poe.com/proxy/status.poe.com",
+    "recordedAt": "2026-10-20T23:33:46.785Z",
+    "file": "poe-summary.json",
+    "bytes": 1609,
+    "sha256": "fae39e920eda6fded8b1e3d2befe49f92e3cc22a03c81e0654ea71af0dff146f"
+  },
+  {
+    "key": "lambda",
+    "url": "https://status.lambda.ai/proxy/status.lambda.ai/component_impacts?start_at=2026-07-22T23:33:44.103Z&end_at=2026-10-20T23:33:44.103Z",
+    "recordedAt": "2026-10-20T23:33:46.938Z",
+    "file": "lambda.json",
+    "bytes": 5628,
+    "sha256": "c2bcefb8fc977baddb1c27cc54a6a435768b24547f78c240a7322ba464cb8d96"
+  },
+  {
+    "key": "copilot",
+    "url": "https://www.githubstatus.com/uptime_showcase?components=pjmpxvq2cmr2",
+    "recordedAt": "2026-10-20T23:33:46.970Z",
+    "file": "copilot.json",
+    "bytes": 26307,
+    "sha256": "7f92ac7c1fcf9bd29ea19c6af3126b92c0a9d8913cacfb4df45156dcfb6d4f2d"
+  },
+  {
+    "key": "windsurf-summary",
+    "url": "https://status.windsurf.com/api/v2/summary.json",
+    "recordedAt": "2026-10-20T23:33:47.139Z",
+    "file": "windsurf-summary.json",
+    "bytes": 3204,
+    "sha256": "9a5c5665cff7b5f509be307e5fa77b4a407291ff735c1df996185ee114e2c940"
+  },
+  {
+    "key": "poe",
+    "url": "https://status.poe.com/proxy/status.poe.com/component_impacts?start_at=2026-07-22T23:33:44.103Z&end_at=2026-10-20T23:33:44.103Z",
+    "recordedAt": "2026-10-20T23:33:47.093Z",
+    "file": "poe.json",
+    "bytes": 287,
+    "sha256": "cebef0fabe58741106eb6234ebb2d9ff7aec5ed26a8e2fcf3abd80f6f28c94f8"
+  },
+  {
+    "key": "factory-summary",
+    "url": "https://status.factory.ai/api/v2/summary.json",
+    "recordedAt": "2026-10-20T23:33:47.292Z",
+    "file": "factory-summary.json",
+    "bytes": 5032,
+    "sha256": "2d23eb70fe16e1fdba449896c5e6759fbfdff2d8736e74bf1cb859c273e09afc"
+  },
+  {
+    "key": "amp-summary",
+    "url": "https://ampcodestatus.com/proxy/ampcodestatus.com",
+    "recordedAt": "2026-10-20T23:33:47.188Z",
+    "file": "amp-summary.json",
+    "bytes": 9971,
+    "sha256": "f30dd355df3426061b1f41687a8b849695d40c623df9bbbf9c5d3589fff0430b"
+  },
+  {
+    "key": "windsurf",
+    "url": "https://status.windsurf.com/uptime_showcase?components=935x7ygqkvtc,9lsqgl60vs9j,r5wf1ykd7y1m,skjkzg08zvns,yjn6vzbx4rkr,8q19cygxvshj,k1sy38n3ktcq,5634qqpxl30c,2m701hqcdw1f",
+    "recordedAt": "2026-10-20T23:33:47.220Z",
+    "file": "windsurf.json",
+    "bytes": 52200,
+    "sha256": "77bfba16a7e8f68b8df048aae5c2069eca69b89c43b3bf85a66b3ff45088783c"
+  },
+  {
+    "key": "devin-summary",
+    "url": "https://devinstatus.com/api/v2/summary.json",
+    "recordedAt": "2026-10-20T23:33:47.588Z",
+    "file": "devin-summary.json",
+    "bytes": 5209,
+    "sha256": "c043e18c7b584301a824369664b0f2944eba1c01c265be7840db95816861b2bb"
+  },
+  {
+    "key": "amp",
+    "url": "https://ampcodestatus.com/proxy/ampcodestatus.com/component_impacts?start_at=2026-07-22T23:33:44.103Z&end_at=2026-10-20T23:33:44.103Z",
+    "recordedAt": "2026-10-20T23:33:47.485Z",
+    "file": "amp.json",
+    "bytes": 11284,
+    "sha256": "4e253ebcf1b4cc19745d1b7de8e95b1741f8d14045831d7734360e63d3627da1"
+  },
+  {
+    "key": "lovable-summary",
+    "url": "https://status.lovable.dev/proxy/status.lovable.dev",
+    "recordedAt": "2026-10-20T23:33:47.745Z",
+    "file": "lovable-summary.json",
+    "bytes": 4366,
+    "sha256": "94c4cf2a303faf0e76f6dd190ea61de89a5a7cd18a6e467938a912d7532cf55c"
+  },
+  {
+    "key": "factory",
+    "url": "https://status.factory.ai/uptime_showcase?components=kfqc4mfdkrqx,8j6062wq4cl6,m3m0vdtgtfwv,r06b64mgx3fx,06hkh9ffb4l2,jfcmwr3grbyc,f1rrp7q0347f,z1frly8fm1l5,jnvwmd4fv57n,w5hflrhnd717,c9sjq8nsz2kq,j10vb27rt143,2vqf4gx25mg5,qzf53gldr8s5,3rsz2xndmrhp",
+    "recordedAt": "2026-10-20T23:33:47.362Z",
+    "file": "factory.json",
+    "bytes": 390427,
+    "sha256": "f214558634d0dbd4827ec34e03d3fb059e0969dd90fd9a10be8d42f89a7ea0e8"
+  },
+  {
+    "key": "lovable",
+    "url": "https://status.lovable.dev/proxy/status.lovable.dev/component_impacts?start_at=2026-07-22T23:33:44.103Z&end_at=2026-10-20T23:33:44.103Z",
+    "recordedAt": "2026-10-20T23:33:48.024Z",
+    "file": "lovable.json",
+    "bytes": 15896,
+    "sha256": "1d15801dea05bf145667d56ca8d185e02212077873373c66de269902025df584"
+  },
+  {
+    "key": "devin",
+    "url": "https://devinstatus.com/uptime_showcase?components=d87cp5jknh1c,y4zznb49vqqy,dcwvkrgpzxkl,q72cy1kjpk4r,c20stk646s0v,767fhhcg1xh6,h6z52njyz22z,n7v68h5h9010,q604f8cp8q9q,170m7l75sh6m,jmr17mx1kt4c,hgmbfbs72ryp,92j5h0ttqxfb,9ydbk2b55pk1",
+    "recordedAt": "2026-10-20T23:33:47.744Z",
+    "file": "devin.json",
+    "bytes": 364626,
+    "sha256": "05af63eafa2055ff41ebf09ccdce6210f8c03168307f6856413d81a4b538db8c"
+  },
+  {
+    "key": "v0-summary",
+    "url": "https://www.vercel-status.com/api/v2/summary.json",
+    "recordedAt": "2026-10-20T23:33:48.230Z",
+    "file": "v0-summary.json",
+    "bytes": 21787,
+    "sha256": "15d16c3ade02ee1f1425bf876a3664f30857d68fd18ebc6cbebf65a9c934abe7"
+  },
+  {
+    "key": "bolt-summary",
+    "url": "https://status.bolt.new/proxy/status.bolt.new",
+    "recordedAt": "2026-10-20T23:33:48.050Z",
+    "file": "bolt-summary.json",
+    "bytes": 2645,
+    "sha256": "b70462432ecfc3e9f7982e2fe0541c9836132e225e44cd7db539fbec18ce5cfb"
+  },
+  {
+    "key": "v0",
+    "url": "https://www.vercel-status.com/uptime_showcase?components=ftq3y4yvmv3t",
+    "recordedAt": "2026-10-20T23:33:48.275Z",
+    "file": "v0.json",
+    "bytes": 34621,
+    "sha256": "2c4e348eddb82cf4dd83cd0308407691b221ae6abeb59df2a06a7b5aa8567bca"
+  },
+  {
+    "key": "bolt",
+    "url": "https://status.bolt.new/proxy/status.bolt.new/component_impacts?start_at=2026-07-22T23:33:44.103Z&end_at=2026-10-20T23:33:44.103Z",
+    "recordedAt": "2026-10-20T23:33:48.335Z",
+    "file": "bolt.json",
+    "bytes": 11570,
+    "sha256": "8b52c0726780a5a6af7e24ee40666edb16a4bc77c8ac0f358753dad59b3a430f"
+  },
+  {
+    "key": "claude-summary",
+    "url": "https://status.claude.com/api/v2/summary.json",
+    "recordedAt": "2026-10-20T23:36:58.018Z",
+    "file": "claude-summary.json",
+    "bytes": 2154,
+    "sha256": "924137bfe9720f40bdf800b83fae1fdd5699fd05a6638d38e5bc417d044d6f08"
+  },
+  {
+    "key": "cursor-summary",
+    "url": "https://status.cursor.com/api/v2/summary.json",
+    "recordedAt": "2026-10-20T23:36:58.031Z",
+    "file": "cursor-summary.json",
+    "bytes": 4567,
+    "sha256": "4e3f3f425503e8aaf7de0afe2e02e34921f9152d453bd2d8971c2083a48f0ef3"
+  },
+  {
+    "key": "ai21-summary",
+    "url": "https://status.ai21.com/api/v2/summary.json",
+    "file": "ai21-summary.json",
+    "recordedAt": "2026-10-21T18:43:26.581Z",
+    "bytes": 4784,
+    "sha256": "781dd2cf8749fc6eb4d3f699cb05992f674042619ef1459130e7b29e2ec41035"
+  },
+  {
+    "key": "augment-summary",
+    "url": "https://status.augmentcode.com/api/v2/summary.json",
+    "file": "augment-summary.json",
+    "recordedAt": "2026-10-21T18:43:26.911Z",
+    "bytes": 1288,
+    "sha256": "795218332f83a48ce9f1a99d3f2e4eb4c34a003a4a72f1f1f36853441402754d"
+  },
+  {
+    "key": "augment",
+    "url": "https://status.augmentcode.com/uptime_showcase?components=hlrv1cfp2f4j,s6p6s5tw7rlm,1k3gvg4j889s",
+    "file": "augment.json",
+    "recordedAt": "2026-10-21T18:43:27.174Z",
+    "bytes": 78985,
+    "sha256": "4095047ff46c75d96169800da9b4cf45e2661532bcc983d1ef9c90afc1bd1403"
+  },
+  {
+    "key": "warp-summary",
+    "url": "https://status.warp.dev/api/v2/summary.json",
+    "file": "warp-summary.json",
+    "recordedAt": "2026-10-21T18:43:27.449Z",
+    "bytes": 4035,
+    "sha256": "aea1f4ccbc9d300495aad5148ed7a2a6b51e6c359ec325a457c7f824763e07ed"
+  },
+  {
+    "key": "warp",
+    "url": "https://status.warp.dev/uptime_showcase?components=hc7bpxblph2k,7z5yq9wznb4f,d2fbrq7mpw3w,z90zfbttkx9f,z7hlxwbqx7ry,nnwsbrfcdycq,9qq4fsstrxr0,z7lnjzhqtty5,3pmvh66950gy",
+    "file": "warp.json",
+    "recordedAt": "2026-10-21T18:43:27.870Z",
+    "bytes": 235077,
+    "sha256": "79a92ba939c4f93ec128425e0dbe53ca24846bc38e09d49135a167bda27a0a2e"
+  },
+  {
+    "key": "baseten-summary",
+    "url": "https://status.baseten.co/api/v2/summary.json",
+    "file": "baseten-summary.json",
+    "recordedAt": "2026-10-21T18:43:28.184Z",
+    "bytes": 2229,
+    "sha256": "d00badb8f9b5540506fa362304966850fde45fc4c6e1355d1955aa5088445ec5"
+  },
+  {
+    "key": "ai21",
+    "url": "https://status.ai21.com/uptime_showcase?components=n4m6bwm01zl9,qvtbxbl2ldk6,hpljzjl9dxdc,19s661s57ltn,n313qpb9pclg,w96r02dyyryj,8byw33cwy620,sh97k0xbymlk,gc3zp03ns94g,4z5m6gx42hql,8234pbcjsvt9,x740x1vccwmz,155kbj9xmxqg",
+    "file": "ai21.json",
+    "recordedAt": "2026-10-21T18:43:28.562Z",
+    "bytes": 128968,
+    "sha256": "a1a0d166f12459f4c08f9f12afb3935dd92278d4da2efee5679d9ecf661bedc7"
+  },
+  {
+    "key": "baseten",
+    "url": "https://status.baseten.co/uptime_showcase?components=pjcnq3hczbph,wlycmbh325fh,7c1wkxhzcxw4,0hmz7b8lt5q0,sz27hf23dpff,3nggnt7xbrfv",
+    "file": "baseten.json",
+    "recordedAt": "2026-10-21T18:43:28.771Z",
+    "bytes": 160178,
+    "sha256": "8aa8395fbe383679b948a627fdad7eaec1a4da16239802818a848263dfb21187"
+  },
+  {
+    "key": "tavus-summary",
+    "url": "https://status.tavus.io/api/v2/summary.json",
+    "file": "tavus-summary.json",
+    "recordedAt": "2026-10-21T18:43:28.812Z",
+    "bytes": 6910,
+    "sha256": "00effa99d6e61150b01ff95d7f04446c6eabd727e1fef81a26d1e1db73412975"
+  },
+  {
+    "key": "assemblyai-summary",
+    "url": "https://status.assemblyai.com/api/v2/summary.json",
+    "file": "assemblyai-summary.json",
+    "recordedAt": "2026-10-21T18:43:29.010Z",
+    "bytes": 6444,
+    "sha256": "d31698361b9c352238cad6d5ed8e5b722078a4dc59d144b4343f93636f5d7060"
+  },
+  {
+    "key": "tavus",
+    "url": "https://status.tavus.io/uptime_showcase?components=l4l2lxxfzmxn,b5cwrm10c5wp,xh90rm94zcxg,kb3cmf06kbsy,q3mhsbdcgv2v,khn145ytg70g,jd1jtkjz4vjv,zgny2pb4xj51,q41xxmq68vsb,y92td40r60ws,0h3r50cyctsn,y51d93614pf1,1d82n4g8fdvp,rk1fq3sw5htc,k4yzfyfw5m55,w6qjj6dgj8vm,p2wnllcl8n6k,44629t2jj1sc,3xvcdn3hf441,scgsh398k7bf,4phkwr5chbh6",
+    "file": "tavus.json",
+    "recordedAt": "2026-10-21T18:43:29.188Z",
+    "bytes": 235542,
+    "sha256": "768e3f9a3d7e53b49c32d95fd2d1415fe1bf38b73c24f57a39b867468a1fa6a6"
+  },
+  {
+    "key": "assemblyai",
+    "url": "https://status.assemblyai.com/uptime_showcase?components=50txf4qfk2kv,kygwc83t1rfg,trxjzz9bwdmc,5hxy7lh1qkkn,k7pc11403c58,97lqqv8wk1ht,20vm7q71wjcn,nfnkvql96bzx,rfh9swc12f9h,74m51w396x54,g4lzxggdcmsw,d508lywffslb,12wrfd55ml3r,psxcg5mfhznq,wky6f2wy9y3m,mjqs8thss8v9,9xnjmqctkk7t,sl0h18khmt4g,n50l2f4vb55p",
+    "file": "assemblyai.json",
+    "recordedAt": "2026-10-21T18:43:29.769Z",
+    "bytes": 232351,
+    "sha256": "6fc4f398e6ae2888c21d134bc6cf1af6f438ac803d6af13c89550fad0f40760b"
+  }
+]

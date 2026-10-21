@@ -1,0 +1,3034 @@
+[
+  {
+    "companyId": "claude",
+    "url": "https://www.anthropic.com/news",
+    "kind": "html",
+    "file": "claude.html",
+    "status": 200,
+    "finalUrl": "https://www.anthropic.com/news",
+    "recordedAt": "2026-10-21T02:10:02.734Z",
+    "originalBytes": 417589,
+    "sha256": "8a02101ab486ebab1b2da446c4fdf960a105491d1709836e3632d7ca60f52ff6",
+    "excerpt": true,
+    "expected": [
+      {
+        "title": "Investing in the public benefit",
+        "url": "https://www.anthropic.com/news/public-benefit-fund",
+        "publishedAt": "2026-10-18T00:00:00.000Z",
+        "summary": "We’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new entity with a structure that increases the stake as the company grows."
+      },
+      {
+        "title": "An update on independent evaluators",
+        "url": "https://www.anthropic.com/news/an-update-on-independent-evaluators",
+        "publishedAt": "2026-10-15T00:00:00.000Z",
+        "summary": "To evaluate the safety of our systems, Anthropic is giving employee-like access to a team from METR, a nonprofit that evaluates frontier AI models, and we're in early discussions with several other or"
+      },
+      {
+        "title": "Preparing for the 2026 US midterms",
+        "url": "https://www.anthropic.com/news/2026-us-midterms",
+        "publishedAt": "2026-10-14T00:00:00.000Z",
+        "summary": "Earlier this year, we shared an update on our election safeguards. Here, we outline how we’ve continued to strengthen these safeguards ahead of this year’s US midterms."
+      },
+      {
+        "title": "Anthropic opens Singapore office and signs MOU with the Government of Singapore",
+        "url": "https://www.anthropic.com/news/singapore-office-opening",
+        "publishedAt": "2026-10-14T00:00:00.000Z",
+        "summary": "Anthropic has opened an office in Singapore and signed an MOU with the country’s government to advance safe, responsible AI adoption."
+      },
+      {
+        "title": "Strengthening our defenses against distillation attacks",
+        "url": "https://www.anthropic.com/news/distillation-defenses",
+        "publishedAt": "2026-10-12T00:00:00.000Z",
+        "summary": "Illicit distillation allows model developers to copy frontier AI capabilities without creating proportionally robust safeguards. Here, we describe how we’ve reduced the rate of distillation by more th"
+      },
+      {
+        "title": "Introducing the Anthropic Cyber Mission",
+        "url": "https://www.anthropic.com/news/anthropic-cyber-mission",
+        "publishedAt": "2026-10-08T00:00:00.000Z",
+        "summary": "We’re launching the Anthropic Cyber Mission, a long-term commitment to securing the systems everyone depends on."
+      },
+      {
+        "title": "2026 Usage Policy update",
+        "url": "https://www.anthropic.com/news/2026-usage-policy-update",
+        "publishedAt": "2026-10-08T00:00:00.000Z",
+        "summary": "We’re publishing a new version of our Usage Policy. In this post, we summarize the changes we’ve made."
+      },
+      {
+        "title": "Building on our commitment to American scientific discovery",
+        "url": "https://www.anthropic.com/news/genesis-mission-commitment",
+        "publishedAt": "2026-10-08T00:00:00.000Z",
+        "summary": "Anthropic is committing $150 million over three years to the Genesis Mission, a federal initiative to accelerate scientific and technological discovery through AI."
+      },
+      {
+        "title": "Introducing Claude Haiku 5.5",
+        "url": "https://www.anthropic.com/claude-haiku-5-5",
+        "publishedAt": "2026-10-07T00:00:00.000Z",
+        "summary": "Claude Haiku 5.5 is our fastest, most capable small model. Built for high-volume work like summarization, subagents, and browser use."
+      },
+      {
+        "title": "Expanding the Cyber Verification Program",
+        "url": "https://www.anthropic.com/news/cyber-verification-program",
+        "publishedAt": "2026-10-06T00:00:00.000Z",
+        "summary": "We’re launching a new, expanded version of our Cyber Verification Program, which makes advanced cyber capabilities and reduced blocking classifiers available to qualifying security professionals."
+      }
+    ]
+  },
+  {
+    "companyId": "openai",
+    "url": "https://openai.com/news/rss.xml",
+    "kind": "rss",
+    "file": "openai.xml",
+    "status": 200,
+    "finalUrl": "https://openai.com/news/rss.xml",
+    "recordedAt": "2026-10-21T02:10:02.752Z",
+    "originalBytes": 793851,
+    "sha256": "f4f38c29e5386f76606572733884c957bc79abcf5835b23f44dd56e079b97551",
+    "excerpt": true,
+    "expected": [
+      {
+        "title": "Franchisee reconciles cash in 94% less time with ChatGPT Work",
+        "url": "https://openai.com/index/ted-taylor-restaurant",
+        "publishedAt": "2026-10-20T10:00:00.000Z",
+        "summary": "An independent Schlotzsky’s and Cinnabon franchisee cut menu repricing time by 95% and built a workflow that could free up $100K in cash flow."
+      },
+      {
+        "title": "Terminal X matches senior investor judgment 88.6% with GPT-6.1",
+        "url": "https://openai.com/index/terminal-x",
+        "publishedAt": "2026-10-20T07:00:00.000Z",
+        "summary": "Terminal X’s Eval Agent grades outputs against a 54-criterion rubric, catching 25% more deviances from a fund’s mandate with GPT-6.1 Sol."
+      },
+      {
+        "title": "OpenAI acquires Orchestra Bio",
+        "url": "https://openai.com/index/openai-to-acquire-orchestra-bio",
+        "publishedAt": "2026-10-20T00:00:00.000Z",
+        "summary": "OpenAI is acquiring Orchestra Bio to bring AI-powered operations to life sciences R&D, helping biopharma teams accelerate drug development and advance new treatments."
+      },
+      {
+        "title": "Advancing coding in low‑resource programming languages",
+        "url": "https://openai.com/index/low-resource-programming-languages",
+        "publishedAt": "2026-10-19T12:00:00.000Z",
+        "summary": "Learn how OpenAI is improving ChatGPT across low-resource programming languages, with new evaluations for software engineering, SQLite, and COBOL migration."
+      },
+      {
+        "title": "How Itaú is building generative AI for its entire customer base",
+        "url": "https://openai.com/index/itau-generative-ai",
+        "publishedAt": "2026-10-16T19:00:00.000Z",
+        "summary": "With ia.i, a conversational interface, and the IARA governance platform, Itaú is applying its AI First strategy to customers and employees — in one of Brazil’s most regulated sectors."
+      },
+      {
+        "title": "Stack Overflow for Agents triples signups with ChatGPT plugin",
+        "url": "https://openai.com/index/stack-overflow-chatgpt-plugin",
+        "publishedAt": "2026-10-16T00:00:00.000Z",
+        "summary": "Two engineers shipped Stack Overflow for Agents in a few weeks with Codex, and its ChatGPT plugin helped drive up to 10× growth in agent creation."
+      },
+      {
+        "title": "Benefit Street Partners answers questions faster with Codex",
+        "url": "https://openai.com/index/benefit-street-partners",
+        "publishedAt": "2026-10-16T00:00:00.000Z",
+        "summary": "Anant Kumar builds tools to compare loan valuations and analyze credit agreements, using Codex for code review and faster follow-ups."
+      },
+      {
+        "title": "Bringing GPT-Rosalind to academic research labs",
+        "url": "https://openai.com/index/introducing-the-rosalind-academic-plan",
+        "publishedAt": "2026-10-15T19:00:00.000Z",
+        "summary": "Introducing the Rosalind Academic Plan, offering eligible academic labs sponsored access to GPT-Rosalind and tools to advance life sciences research."
+      },
+      {
+        "title": "Teaching students to think and learn through questions",
+        "url": "https://openai.com/index/teaching-students-to-think-and-learn-through-questions",
+        "publishedAt": "2026-10-15T13:00:00.000Z",
+        "summary": "Celebrate Teachers’ Day with AI for Educators in Brazilian Portuguese and see how Study Mode can help teachers support active, step-by-step learning."
+      },
+      {
+        "title": "Sullivan & Cromwell brings legal expertise into agreement review",
+        "url": "https://openai.com/index/sullivan-cromwell",
+        "publishedAt": "2026-10-15T00:00:00.000Z",
+        "summary": "In collaboration with OpenAI, Sullivan & Cromwell developed Agreement Analyzer, an AI tool for identifying issues in a draft agreement."
+      }
+    ]
+  },
+  {
+    "companyId": "kimi",
+    "url": "https://www.kimi.ai/blog/",
+    "kind": "html",
+    "file": "kimi.html",
+    "status": 200,
+    "finalUrl": "https://www.kimi.ai/blog/",
+    "recordedAt": "2026-10-21T02:10:02.760Z",
+    "originalBytes": 199557,
+    "sha256": "c58966e0c9ff73b6d86be26d3bb6ae0f1e68ba04a0d29b18d1acaa44fffadf8e",
+    "excerpt": true,
+    "expected": [
+      {
+        "title": "Kimi K3",
+        "url": "https://www.kimi.ai/blog/kimi-k3",
+        "publishedAt": "2026-07-16T00:00:00.000Z"
+      },
+      {
+        "title": "PerceptionBench",
+        "url": "https://www.kimi.ai/blog/perception-bench",
+        "publishedAt": "2026-07-16T00:00:00.000Z"
+      },
+      {
+        "title": "Kimi K2.6",
+        "url": "https://www.kimi.ai/blog/kimi-k2-6",
+        "publishedAt": "2026-04-20T00:00:00.000Z"
+      },
+      {
+        "title": "Agent Swarm",
+        "url": "https://www.kimi.ai/blog/agent-swarm",
+        "publishedAt": "2026-02-09T00:00:00.000Z"
+      },
+      {
+        "title": "WorldVQA",
+        "url": "https://www.kimi.ai/blog/worldvqa",
+        "publishedAt": "2026-02-03T00:00:00.000Z"
+      },
+      {
+        "title": "Kimi K2.5",
+        "url": "https://www.kimi.ai/blog/kimi-k2-5",
+        "publishedAt": "2026-01-27T00:00:00.000Z"
+      },
+      {
+        "title": "Kimi Vendor Verifier",
+        "url": "https://www.kimi.ai/blog/kimi-vendor-verifier",
+        "publishedAt": "2026-01-22T00:00:00.000Z"
+      },
+      {
+        "title": "Kimi K2 Thinking",
+        "url": "https://www.kimi.ai/blog/kimi-k2-thinking",
+        "publishedAt": "2025-11-06T00:00:00.000Z"
+      },
+      {
+        "title": "Kimi K2",
+        "url": "https://www.kimi.ai/blog/kimi-k2",
+        "publishedAt": "2025-07-11T00:00:00.000Z"
+      }
+    ]
+  },
+  {
+    "companyId": "minimax",
+    "url": "https://www.minimax.io/blog",
+    "kind": "html",
+    "file": "minimax.html",
+    "status": 200,
+    "finalUrl": "https://www.minimax.io/blog",
+    "recordedAt": "2026-10-21T02:10:02.763Z",
+    "originalBytes": 141794,
+    "sha256": "a28f26a57a48ac286bf41ff8b29bb9ff70881dbfa4450fb57f4c52ea7a7453e4",
+    "excerpt": true,
+    "expected": [
+      {
+        "title": "MiniMax M3.1 Flash: Redefining Agent Performance and Cost",
+        "url": "https://www.minimax.io/blog/minimax-m31f",
+        "publishedAt": "2026-10-19T00:00:00.000Z",
+        "summary": "Today, we officially roll out MiniMax M3.1 Flash. As a next-generation Flash model, M3.1 Flash delivers a generational leap in agentic tasks, coding, Computer Use and cybersecurity, while making onlin"
+      },
+      {
+        "title": "MiniMax Music 3.0: Next-Generation Open-Weights, Production-Ready & Versatile Music Model",
+        "url": "https://www.minimax.io/blog/minimax-music-3-0-next-generation-open-weights-production-ready-versatile-music-model",
+        "publishedAt": "2026-08-13T00:00:00.000Z",
+        "summary": "Today, we are introducing MiniMax Music 3.0, our next-generation music generation model. Given a creative concept and optional lyrics, the model composes, arranges, performs, and produces a complete s"
+      },
+      {
+        "title": "MiniMax H3: An Open Model Breaking the Boundaries Between Tasks and Modalities",
+        "url": "https://www.minimax.io/blog/minimax-h3",
+        "publishedAt": "2026-07-31T00:00:00.000Z",
+        "summary": "Today, we're officially launching MiniMax H3, a general-purpose omni-modal generation model. H3 can jointly understand multimodal contexts spanning text, images, video, and audio. It generates video w"
+      },
+      {
+        "title": "MaxProof: Scaling Mathematical Proof with Generative-Verifier RL and Evolutionary Search",
+        "url": "https://www.minimax.io/blog/minimax-maxproof-math-proof-evolution",
+        "publishedAt": "2026-06-09T00:00:00.000Z",
+        "summary": "In the M3 release post, we reported the performance of the M3 model on two international mathematical olympiad benchmarks: IMO 2025 and USAMO 2026. With the MaxProof framework, M3 exceeded the human g"
+      },
+      {
+        "title": "MiniMax M3: Frontier Coding, 1M Context, Native Multimodality — All in One Model",
+        "url": "https://www.minimax.io/blog/minimax-m3",
+        "publishedAt": "2026-06-01T00:00:00.000Z",
+        "summary": "M3 reaches frontier capability on coding and agentic tasks, introduces the brand-new MSA (MiniMax Sparse Attention) supporting up to 1M context, and is a natively multimodal model. It is the only dome"
+      },
+      {
+        "title": "MiniMax Agent Team: Built for Long-Running Tasks and Continuous Evolution",
+        "url": "https://www.minimax.io/blog/minimax-agent-team-long-running-1779893953",
+        "publishedAt": "2026-05-27T00:00:00.000Z",
+        "summary": "Today we are introducing the overall upgrade of MiniMax Agent. We have given the upgraded Agent a new name: Mavis — MiniMax as a Jarvis, your AI butler."
+      },
+      {
+        "title": "Why Can't the MiniMax LLM Say \"Ma Jiaqi\"? Internal Investigation of Sparse Token Forgetting",
+        "url": "https://www.minimax.io/blog/sparse-token-forgetting",
+        "publishedAt": "2026-05-26T00:00:00.000Z",
+        "summary": "The MiniMax M2 series has attracted widespread attention from the developer community. This article presents our internal investigation into the sparse token forgetting phenomenon."
+      },
+      {
+        "title": "MiniMax M2.7: Early Echoes of Self-Evolution",
+        "url": "https://www.minimax.io/blog/minimax-m27",
+        "publishedAt": "2026-03-18T00:00:00.000Z",
+        "summary": "M2.7 is MiniMax's first model deeply participating in its own evolution, excelling at software engineering, professional work, and entertainment with native Agent Teams and self-evolving capabilities."
+      },
+      {
+        "title": "Forge: Scalable Agent RL Framework and Algorithm",
+        "url": "https://www.minimax.io/blog/forge-scalable-agent-rl-en-1779896141",
+        "publishedAt": "2026-02-14T00:00:00.000Z",
+        "summary": "Scaling reinforcement learning for real-world agents runs into a three-way conflict: system throughput, training stability, and agent flexibility all pull in different directions, and that tension has"
+      },
+      {
+        "title": "MiniMax M2.5: Built for Real-World Productivity.",
+        "url": "https://www.minimax.io/blog/minimax-m25",
+        "publishedAt": "2026-02-12T00:00:00.000Z",
+        "summary": "MiniMax M2.5: Built for Real-World Productivity."
+      }
+    ]
+  },
+  {
+    "companyId": "perplexity",
+    "url": "https://www.perplexity.ai/hub/blog",
+    "kind": "html",
+    "file": "perplexity.html",
+    "status": 200,
+    "finalUrl": "https://www.perplexity.ai/hub/blog",
+    "recordedAt": "2026-10-21T02:10:02.769Z",
+    "originalBytes": 269004,
+    "sha256": "7f3dc89ab1c9bbde81a814245de9c85501fff40f1ee5c961e3a64ea801677a98",
+    "excerpt": true,
+    "expected": [
+      {
+        "title": "Perplexity Computer now runs fully local on Mac",
+        "url": "https://www.perplexity.ai/hub/blog/perplexity-computer-now-runs-fully-local-on-mac",
+        "publishedAt": "2026-10-20T00:00:00.000Z",
+        "summary": "Perplexity Computer runs fully local on Mac: Work across private files and native apps with AI that stays on your device"
+      },
+      {
+        "title": "What Is an AI Gateway? A Guide to Routing, Cost Control, and Governance for LLM and Agent Traffic",
+        "url": "https://www.perplexity.ai/hub/blog/ai-gateway",
+        "publishedAt": "2026-10-20T00:00:00.000Z"
+      },
+      {
+        "title": "Perplexity brings Computer to enterprise infrastructure with Valarian",
+        "url": "https://www.perplexity.ai/hub/blog/perplexity-brings-computer-to-enterprise-infrastructure-with-valarian",
+        "publishedAt": "2026-10-20T00:00:00.000Z"
+      },
+      {
+        "title": "Harness engineering: what it is and how it works",
+        "url": "https://www.perplexity.ai/hub/blog/harness-engineering",
+        "publishedAt": "2026-10-19T00:00:00.000Z"
+      },
+      {
+        "title": "What is LLM security? How to mitigate the OWASP top 10 safety risks",
+        "url": "https://www.perplexity.ai/hub/blog/llm-security",
+        "publishedAt": "2026-10-16T00:00:00.000Z"
+      },
+      {
+        "title": "Open-sourcing SPACE, the sandbox platform behind Computer",
+        "url": "https://www.perplexity.ai/hub/blog/open-sourcing-space",
+        "publishedAt": "2026-10-15T00:00:00.000Z"
+      },
+      {
+        "title": "How to use AI for studying: 5 methods that work",
+        "url": "https://www.perplexity.ai/hub/blog/how-to-use-ai-for-studying",
+        "publishedAt": "2026-10-15T00:00:00.000Z"
+      },
+      {
+        "title": "AI Research: Major Papers and Top Tools for Researchers (+ Best Practices)",
+        "url": "https://www.perplexity.ai/hub/blog/ai-research",
+        "publishedAt": "2026-10-15T00:00:00.000Z"
+      },
+      {
+        "title": "What Are MCP Tools and How Do AI Models Use Them?",
+        "url": "https://www.perplexity.ai/hub/blog/mcp-tools",
+        "publishedAt": "2026-10-14T00:00:00.000Z"
+      },
+      {
+        "title": "How SPACE routes requests to the right sandbox execution",
+        "url": "https://www.perplexity.ai/hub/blog/how-space-routes-requests-to-the-right-sandbox-execution",
+        "publishedAt": "2026-10-14T00:00:00.000Z"
+      }
+    ]
+  },
+  {
+    "companyId": "cohere",
+    "url": "https://cohere.com/blog",
+    "kind": "html",
+    "file": "cohere.html",
+    "status": 200,
+    "finalUrl": "https://cohere.com/blog",
+    "recordedAt": "2026-10-21T02:10:02.778Z",
+    "originalBytes": 1014862,
+    "sha256": "54bb5f7951041bbfefcc04af5c249dc3dc40ed4b7e399e07886f7f4ed765c7a3",
+    "excerpt": true,
+    "expected": [
+      {
+        "title": "Rethinking confidence in reasoning models",
+        "url": "https://cohere.com/blog/rethinking-confidence-in-reasoning-models",
+        "publishedAt": "2026-10-20T00:00:00.000Z"
+      },
+      {
+        "title": "AI for utilities requires capability and control",
+        "url": "https://cohere.com/blog/ai-for-utilities-requires-capability-and-control",
+        "publishedAt": "2026-10-15T00:00:00.000Z"
+      },
+      {
+        "title": "Agent sprawl: How to manage agent proliferation in the enterprise",
+        "url": "https://cohere.com/blog/agent-sprawl",
+        "publishedAt": "2026-10-15T00:00:00.000Z"
+      },
+      {
+        "title": "AI ROI: How enterprises can measure the return on AI investments",
+        "url": "https://cohere.com/blog/ai-roi",
+        "publishedAt": "2026-10-15T00:00:00.000Z"
+      },
+      {
+        "title": "Cohere to acquire AISLE to advance cyber-resilient sovereign AI",
+        "url": "https://cohere.com/blog/cohere-and-aisle-sign-letter-of-intent-to-advance-cyber-resilient-sovereign-ai",
+        "publishedAt": "2026-10-15T00:00:00.000Z"
+      },
+      {
+        "title": "Lessons from scaling teams of coding agents: reach the frontier at 30% of the cost",
+        "url": "https://cohere.com/blog/lessons-from-scaling-teams-of-frontier-coding-agents",
+        "publishedAt": "2026-10-14T00:00:00.000Z"
+      },
+      {
+        "title": "Shared or dedicated inference for Embed & Rerank",
+        "url": "https://cohere.com/blog/shared-or-dedicated-inference-for-embed-rerank",
+        "publishedAt": "2026-10-09T00:00:00.000Z"
+      },
+      {
+        "title": "Multilingual Bridges: How Data Mixing Unlocks In-Language Reasoning",
+        "url": "https://cohere.com/blog/building-multilingual-bridges",
+        "publishedAt": "2026-10-06T00:00:00.000Z"
+      },
+      {
+        "title": "North 2: Enterprise AI without compromises",
+        "url": "https://cohere.com/blog/introducing-north-2",
+        "publishedAt": "2026-10-05T00:00:00.000Z"
+      },
+      {
+        "title": "Cohere and PwC partner to accelerate secure enterprise AI adoption",
+        "url": "https://cohere.com/blog/cohere-and-pwc-partner-to-accelerate-secure-enterprise-ai-adoption",
+        "publishedAt": "2026-10-05T00:00:00.000Z"
+      }
+    ]
+  },
+  {
+    "companyId": "manus",
+    "url": "https://manus.im/blog",
+    "kind": "html",
+    "file": "manus.html",
+    "status": 200,
+    "finalUrl": "https://manus.im/blog",
+    "recordedAt": "2026-10-21T02:10:02.790Z",
+    "originalBytes": 630295,
+    "sha256": "337a81dc16dfbb0b25128cfebab71c543cc42b78eab7483136b3ae657103e401",
+    "excerpt": true,
+    "expected": [
+      {
+        "title": "How This Boston Startup Is Giving Demolition Waste a Second Life",
+        "url": "https://manus.im/blog/circa-builds-customer-story",
+        "publishedAt": "2026-10-13T00:00:00.000Z"
+      },
+      {
+        "title": "Manus Partners with OPPO to Bring Agentic AI Experiences to Smartphones",
+        "url": "https://manus.im/blog/manus-partners-oppo",
+        "publishedAt": "2026-10-13T00:00:00.000Z"
+      },
+      {
+        "title": "Introducing Video Editor in Manus 2.0: Anyone Can Now Make A Video Worth Posting",
+        "url": "https://manus.im/blog/introducing-video-editor",
+        "publishedAt": "2026-10-01T00:00:00.000Z"
+      },
+      {
+        "title": "Introducing Game Dev: Enabling Everyone to Make the Games They Want to Play",
+        "url": "https://manus.im/blog/introducing-game-developer",
+        "publishedAt": "2026-10-01T00:00:00.000Z"
+      },
+      {
+        "title": "Introducing Manus Flex: Use your own API key in the Manus workspace",
+        "url": "https://manus.im/blog/introducing-manus-flex",
+        "publishedAt": "2026-09-29T00:00:00.000Z"
+      },
+      {
+        "title": "Introducing Manus 2.0",
+        "url": "https://manus.im/blog/introducing-manus-2-0",
+        "publishedAt": "2026-09-28T00:00:00.000Z",
+        "summary": "Manus 2.0 is here, with the new Cascade agent harness, Cloud Computer and Automations, Manus Studio for professional creation, and Cue, a new app for personal agents."
+      },
+      {
+        "title": "Expanding Access to Practical AI Learning",
+        "url": "https://manus.im/blog/learn-ai-with-manus",
+        "publishedAt": "2026-09-16T00:00:00.000Z"
+      },
+      {
+        "title": "She Built Her Brother a Voice After Cancer Took His Vocal Cords",
+        "url": "https://manus.im/blog/wally",
+        "publishedAt": "2026-09-09T00:00:00.000Z"
+      },
+      {
+        "title": "Manus Resumes Independent Operations",
+        "url": "https://manus.im/blog/manus-resumes-independent-operations",
+        "publishedAt": "2026-09-01T00:00:00.000Z"
+      },
+      {
+        "title": "A Note to Our Users",
+        "url": "https://manus.im/blog/a-note-to-our-users",
+        "publishedAt": "2026-08-11T00:00:00.000Z"
+      }
+    ]
+  },
+  {
+    "companyId": "elevenlabs",
+    "url": "https://elevenlabs.io/blog/rss.xml",
+    "kind": "rss",
+    "file": "elevenlabs.xml",
+    "status": 200,
+    "finalUrl": "https://elevenlabs.io/blog/rss.xml",
+    "recordedAt": "2026-10-21T02:10:02.792Z",
+    "originalBytes": 29846,
+    "sha256": "12e679a61eaf5f1c6605e316b63fe72bf0e4dcc7e2d449ff9dd876f879f03064",
+    "excerpt": true,
+    "expected": [
+      {
+        "title": "How to transcribe a podcast: A step-by-step guide",
+        "url": "https://elevenlabs.io/blog/how-to-transcribe-a-podcast",
+        "publishedAt": "2026-10-20T12:00:00.000Z",
+        "summary": "Learn how to transcribe a podcast with AI in five steps, format the transcript as SRT or VTT, and publish it on podcast platforms and your website."
+      },
+      {
+        "title": "Introducing Eleven Realtime: a simpler way to build natural voice agents",
+        "url": "https://elevenlabs.io/blog/realtime",
+        "publishedAt": "2026-10-20T12:00:00.000Z",
+        "summary": "Eleven Realtime is a new class of Speech to Speech models for voice agents that sound natural. Available in ElevenAgents and the Realtime API."
+      },
+      {
+        "title": "4,830 candidate prequalifications completed in three weeks, with data processed in Europe",
+        "url": "https://elevenlabs.io/blog/hippolyte",
+        "publishedAt": "2026-10-20T12:00:00.000Z",
+        "summary": "Une voix naturelle pour les candidats, conforme pour les clients grands comptes."
+      },
+      {
+        "title": "Trinity Logistics gets 25% higher margins on shipments booked with ElevenAgents",
+        "url": "https://elevenlabs.io/blog/trinity-logistics",
+        "publishedAt": "2026-10-20T12:00:00.000Z",
+        "summary": "How 3PL Trinity Logistics used ElevenAgents to automate 30,000 inbound carrier calls/month, lift margins 25% on automated bookings, and cut costs 40%."
+      },
+      {
+        "title": "Speech to text for content creators: A workflow guide for captions and repurposing",
+        "url": "https://elevenlabs.io/blog/speech-to-text-for-content-creators",
+        "publishedAt": "2026-10-19T12:00:00.000Z",
+        "summary": "See how speech to text for content creators improves their workflows and accelerates production across captions, show notes, clips, LLM analysis, and more"
+      },
+      {
+        "title": "Announcing the Chroma Awards Season 2",
+        "url": "https://elevenlabs.io/blog/chroma-awards-season-two-announcement",
+        "publishedAt": "2026-10-19T12:00:00.000Z",
+        "summary": "Today we’re opening the Chroma Awards Season 2, a global competition to find the world’s catchiest ad."
+      },
+      {
+        "title": "AI voice agent integrations: CRM and help desk guide",
+        "url": "https://elevenlabs.io/blog/ai-voice-agent-integrations",
+        "publishedAt": "2026-10-16T12:00:00.000Z",
+        "summary": "Learn about AI voice agent integrations with Salesforce, HubSpot, Zendesk, and more. Discover how agents read and update records mid-call and set up tools."
+      },
+      {
+        "title": "ElevenLabs’ commitment to security, privacy, and responsible AI: certified and renewed",
+        "url": "https://elevenlabs.io/blog/certification-renewals",
+        "publishedAt": "2026-10-16T12:00:00.000Z",
+        "summary": "ElevenLabs renewed its ISO, SOC 2, and PCI DSS certifications and added SOC 2 Type I and FedRAMP 20x Class A for enterprise trust."
+      },
+      {
+        "title": "NTT Docomo Business trials conversational AI in Aizuwakamatsu with ElevenLabs",
+        "url": "https://elevenlabs.io/blog/ntt-docomo-conversational-ai",
+        "publishedAt": "2026-10-16T12:00:00.000Z",
+        "summary": "NTT Docomo Business is piloting an ElevenAgents voice platform in Fukushima to support older residents with natural Japanese speech. (137 characters)"
+      },
+      {
+        "title": "SSML tags explained: How to control pauses, pronunciation, and pacing in text to speech",
+        "url": "https://elevenlabs.io/blog/ssml-tags-explained",
+        "publishedAt": "2026-10-15T12:00:00.000Z",
+        "summary": "SSML is the markup that controls pauses and pronunciation in text to speech. See key tags, code examples, and ElevenLabs support, including Eleven v4."
+      }
+    ]
+  },
+  {
+    "companyId": "stability",
+    "url": "https://stability.ai/news-updates?format=rss",
+    "kind": "rss",
+    "file": "stability.xml",
+    "status": 200,
+    "finalUrl": "https://stability.ai/news-updates?format=rss",
+    "recordedAt": "2026-10-21T02:10:02.793Z",
+    "originalBytes": 225340,
+    "sha256": "f50743f95f620836f97d88cdf51e57887776537a782f7c25a5b4d3a047f1fe1d",
+    "excerpt": true,
+    "expected": [
+      {
+        "title": "The Entertainment Industry’s Biggest Names Back Stability AI in Latest Funding Round",
+        "url": "https://stability.ai/news-updates/stability-ai-latest-funding-backed-by-entertainment-industry-biggest-names",
+        "publishedAt": "2026-08-25T14:59:22.000Z",
+        "summary": "We've closed our Series B, bringing total funding to $232M under new leadership. This round welcomes entertainment titans Electronic Arts, Sony Music Group, Universal Music Group, Warner Music Group, "
+      },
+      {
+        "title": "Sharing a new way to work with Stable Audio",
+        "url": "https://stability.ai/news-updates/sharing-a-new-way-to-work-with-stable-audio",
+        "publishedAt": "2026-08-18T13:55:14.000Z",
+        "summary": "We’re sharing two new ways for you to use Stable Audio 3.0. We now have a DAW plugin and a more advanced generation experience on StableAudio.com."
+      },
+      {
+        "title": "Meet Stable Audio 3.0, the model family built for artistic experimentation with open-weight models",
+        "url": "https://stability.ai/news-updates/meet-stable-audio-3-the-model-family-built-for-artistic-experimentation-with-open-weight-models",
+        "publishedAt": "2026-05-20T14:59:27.000Z",
+        "summary": "We're releasing Stable Audio 3.0, a model family trained on fully licensed data, designed to be the foundation for what the audio community builds next."
+      },
+      {
+        "title": "Introducing Brand Studio: The creative production platform powered by your brand",
+        "url": "https://stability.ai/news-updates/brand-studio-by-stability-ai-creative-production-platform-for-brands",
+        "publishedAt": "2026-04-08T12:57:16.000Z",
+        "summary": "We’re excited to introduce Brand Studio by Stability AI, the end-to-end creative production platform powered by your brand."
+      },
+      {
+        "title": "Stability AI Joins the Tech Coalition",
+        "url": "https://stability.ai/news-updates/stability-ai-joins-the-tech-coalition",
+        "publishedAt": "2026-02-11T20:28:23.000Z",
+        "summary": "We’re pleased to share that Stability AI has joined the Tech Coalition, a global alliance of leading technology companies working together to combat online child sexual exploitation and abuse."
+      },
+      {
+        "title": "Warner Music Group and Stability AI Join Forces To Build The Next Generation Of Responsible AI Tools For Music Creation",
+        "url": "https://stability.ai/news-updates/warner-music-group-and-stability-ai-join-forces-to-build-next-gen-tools",
+        "publishedAt": "2025-11-19T16:01:30.000Z",
+        "summary": "Warner Music Group and Stability AI today announced a collaborative effort to advance the use of responsible AI in music creation, combining WMG’s long-standing advocacy for principled innovation with"
+      },
+      {
+        "title": "Universal Music Group and Stability AI Announce Strategic Alliance to Co-Develop Professional AI Music Creation Tools",
+        "url": "https://stability.ai/news-updates/universal-music-group-and-stability-ai-announce-strategic-alliance",
+        "publishedAt": "2025-10-30T12:06:00.000Z",
+        "summary": "Universal Music Group and Stability AI today announced a strategic alliance to develop next-generation professional music creation tools, powered by responsibly trained generative AI and built to supp"
+      },
+      {
+        "title": "Stability AI and EA Partner to Empower Artists, Designers, and Developers to Reimagine Game Development",
+        "url": "https://stability.ai/news-updates/stability-ai-and-ea-partner-to-reimagine-game-development",
+        "publishedAt": "2025-10-23T16:01:48.000Z",
+        "summary": "Stability AI and Electronic Arts (EA) have formed a strategic partnership to co-develop transformative generative AI models, tools, and workflows that empower EA’s artists, designers, and developers t"
+      },
+      {
+        "title": "Stability AI Brings Image Services to Amazon Bedrock, Delivering End-to-End Creative Control with Enterprise-Grade Infrastructure",
+        "url": "https://stability.ai/news-updates/stability-ai-brings-image-services-to-amazon-bedrock-delivering-professional-creative-control-with-enterprise-grade-infrastructure",
+        "publishedAt": "2025-09-18T21:03:08.000Z",
+        "summary": "Today, we're excited to announce we’re expanding our partnership with Amazon Web Services to bring our Stable Image Services to Amazon Bedrock."
+      },
+      {
+        "title": "Stability AI’s Annual Integrity Transparency Report",
+        "url": "https://stability.ai/news-updates/stability-ais-annual-integrity-transparency-report",
+        "publishedAt": "2025-09-17T17:26:52.000Z",
+        "summary": "At Stability AI, we are committed to building and deploying generative AI responsibly, and we believe that transparency is foundational to safe and ethical AI."
+      }
+    ]
+  },
+  {
+    "companyId": "ideogram",
+    "url": "https://ideogram.ai/blog/",
+    "kind": "html",
+    "file": "ideogram.html",
+    "status": 200,
+    "finalUrl": "https://ideogram.ai/blog/",
+    "recordedAt": "2026-10-21T02:10:02.795Z",
+    "originalBytes": 125143,
+    "sha256": "b3a11f65b8a4f5560e21f1bed412f9c77b1902003b22666f6fe21ed2e6038cba",
+    "excerpt": true,
+    "expected": [
+      {
+        "title": "How to edit product photos with Ideogram 4.5",
+        "url": "https://ideogram.ai/blog/ideogram-4-5-product-photo-editing/",
+        "publishedAt": "2026-10-14T00:00:00.000Z",
+        "summary": "Work through saved product-edit examples with before-and-after images, exact prompts, and checks for color, detail, and background changes."
+      },
+      {
+        "title": "How to use Ideogram for print-on-demand",
+        "url": "https://ideogram.ai/blog/ideogram-print-on-demand-guide/",
+        "publishedAt": "2026-10-14T00:00:00.000Z",
+        "summary": "A complete workflow for product briefs, prompts, transparent artwork, editable text, print dimensions, and final exports."
+      },
+      {
+        "title": "How to JSON prompt for Ideogram 4.0",
+        "url": "https://ideogram.ai/blog/ideogram-4-json-prompting/",
+        "publishedAt": "2026-06-18T00:00:00.000Z",
+        "summary": "Why your old prompts behave differently, what JSON actually is, and how to get precise results for text, layout, color, and style."
+      },
+      {
+        "title": "The Ideogram 4.0 Prompt Guide",
+        "url": "https://ideogram.ai/blog/claude-mcp/",
+        "publishedAt": "2026-06-12T00:00:00.000Z",
+        "summary": "Two prompting modes, style extraction from any reference, and a Claude skill that packages it all for Ideogram 4.0."
+      },
+      {
+        "title": "Ideogram 4.0 Technical Details: Open model at the forefront of design",
+        "url": "https://ideogram.ai/blog/ideogram-4.0/",
+        "publishedAt": "2026-06-03T00:00:00.000Z",
+        "summary": "A closer look at our first open-weight foundation model, including architecture, training, and structured JSON prompts."
+      },
+      {
+        "title": "Skechers enhances design innovation with Ideogram",
+        "url": "https://ideogram.ai/blog/skechers-case-study/",
+        "publishedAt": "2026-02-06T00:00:00.000Z",
+        "summary": "How Skechers is using Ideogram to move faster from concept to visualization, refinement, and production-ready creative work."
+      }
+    ]
+  },
+  {
+    "companyId": "runway",
+    "url": "https://runway.com/news",
+    "note": "No official news feed found",
+    "discovery": "News listing is a client-rendered shell; no advertised feed; /news/rss.xml is 404."
+  },
+  {
+    "companyId": "heygen",
+    "url": "https://www.heygen.com/blog",
+    "kind": "html",
+    "file": "heygen.html",
+    "status": 200,
+    "finalUrl": "https://www.heygen.com/blog",
+    "recordedAt": "2026-10-21T02:10:02.800Z",
+    "originalBytes": 363173,
+    "sha256": "61721e7457a446433d701fa3b07802df5fcf420850ffdd866bd4740056a16bfc",
+    "excerpt": true,
+    "expected": [
+      {
+        "title": "Introducing HeyGen for Real Estate",
+        "url": "https://www.heygen.com/blog/introducing-heygen-for-real-estate",
+        "publishedAt": "2026-08-11T00:00:00.000Z"
+      },
+      {
+        "title": "HeyGen tops G2 Summer 2026 Reports with 281 badges and #1 ranking in 23 categories",
+        "url": "https://www.heygen.com/blog/heygen-2026-g2-summer-reports",
+        "publishedAt": "2026-05-29T00:00:00.000Z"
+      },
+      {
+        "title": "Announcing Avatar V: The most realistic AI avatar model in the world",
+        "url": "https://www.heygen.com/blog/announcing-avatar-v",
+        "publishedAt": "2026-04-08T00:00:00.000Z"
+      },
+      {
+        "title": "Introducing Seedance 2.0 x HeyGen",
+        "url": "https://www.heygen.com/blog/introducing-seedance-2-and-heygen",
+        "publishedAt": "2026-04-07T00:00:00.000Z"
+      },
+      {
+        "title": "HeyGen named one of Fast Company's Most Innovative Companies of 2026",
+        "url": "https://www.heygen.com/blog/heygen-fast-company-most-innovative-company-2026",
+        "publishedAt": "2026-03-27T00:00:00.000Z"
+      },
+      {
+        "title": "Why we build HeyGen",
+        "url": "https://www.heygen.com/blog/why-we-build-heygen",
+        "publishedAt": "2025-12-19T00:00:00.000Z"
+      },
+      {
+        "title": "HeyGen Bootcamp: Three ways to kickstart your creative workflow",
+        "url": "https://www.heygen.com/blog/three-ways-to-kickstart-your-creative-workflow-in-heygen",
+        "publishedAt": "2025-12-16T00:00:00.000Z"
+      },
+      {
+        "title": "Best Online Course Creation Tools in 2025",
+        "url": "https://www.heygen.com/blog/course-creation"
+      },
+      {
+        "title": "11 Best Akool Alternatives & Competitors Picked For 2026",
+        "url": "https://www.heygen.com/blog/akool-alternatives"
+      },
+      {
+        "title": "The 11 Best Virtual Staging Video Maker Tools for Real Estate Agents in 2026",
+        "url": "https://www.heygen.com/blog/virtual-staging-video-maker-2026"
+      }
+    ]
+  },
+  {
+    "companyId": "gamma",
+    "url": "https://gamma.app/blog",
+    "kind": "html",
+    "file": "gamma.html",
+    "status": 403,
+    "finalUrl": "https://gamma.app/blog",
+    "recordedAt": "2026-10-21T02:10:02.801Z",
+    "originalBytes": 679099,
+    "sha256": "7313d065db1ee8fa1b25f9f73bfa8dc41949bf2a509bf01257ab32d99dcf22dd",
+    "excerpt": false,
+    "expected": []
+  },
+  {
+    "companyId": "cartesia",
+    "url": "https://www.cartesia.ai/blog",
+    "kind": "html",
+    "file": "cartesia.html",
+    "status": 200,
+    "finalUrl": "https://www.cartesia.ai/blog",
+    "recordedAt": "2026-10-21T02:10:02.812Z",
+    "originalBytes": 376600,
+    "sha256": "de7e97c57b94098124d188c5141130ec2669de27294f23d9f20709949898946e",
+    "excerpt": true,
+    "expected": [
+      {
+        "title": "Raise Financial Services x Cartesia: Voice AI for Financial Access in India",
+        "url": "https://www.cartesia.ai/blog/raise-financial-services",
+        "publishedAt": "2026-10-12T00:00:00.000Z"
+      },
+      {
+        "title": "Introducing Multilingual Voices",
+        "url": "https://www.cartesia.ai/blog/multilingual-voices",
+        "publishedAt": "2026-09-23T00:00:00.000Z"
+      },
+      {
+        "title": "TTS Model vs. Voice: They're Not the Same",
+        "url": "https://www.cartesia.ai/blog/tts-model-vs-voice",
+        "publishedAt": "2026-09-14T00:00:00.000Z"
+      },
+      {
+        "title": "Why Precision / Recall Matters So Much",
+        "url": "https://www.cartesia.ai/blog/precision-recall-voice-ai",
+        "publishedAt": "2026-09-03T00:00:00.000Z"
+      },
+      {
+        "title": "Introducing Sonic-3.6",
+        "url": "https://www.cartesia.ai/blog/sonic-3.6",
+        "publishedAt": "2026-08-27T00:00:00.000Z"
+      },
+      {
+        "title": "New to Ink-2: keyterm prompting and configurable turn detection",
+        "url": "https://www.cartesia.ai/blog/keyterm-prompting",
+        "publishedAt": "2026-08-11T00:00:00.000Z"
+      },
+      {
+        "title": "Is this TTS model good?",
+        "url": "https://www.cartesia.ai/blog/is-this-tts-model-good",
+        "publishedAt": "2026-07-28T00:00:00.000Z"
+      },
+      {
+        "title": "Introducing Ink-2: The #1-ranked STT built for voice agents",
+        "url": "https://www.cartesia.ai/blog/ink-2",
+        "publishedAt": "2026-07-09T00:00:00.000Z"
+      },
+      {
+        "title": "A Guide to Choosing Voice AI Models",
+        "url": "https://www.cartesia.ai/blog/choosing-voice-ai-models",
+        "publishedAt": "2026-06-30T00:00:00.000Z"
+      },
+      {
+        "title": "A Beginner's Guide to Voice AI Terminology",
+        "url": "https://www.cartesia.ai/blog/voice-terminology",
+        "publishedAt": "2026-06-30T00:00:00.000Z"
+      }
+    ]
+  },
+  {
+    "companyId": "groq",
+    "url": "https://groq.com/blog",
+    "kind": "html",
+    "file": "groq.html",
+    "status": 200,
+    "finalUrl": "https://groq.com/blog",
+    "recordedAt": "2026-10-21T02:10:02.846Z",
+    "originalBytes": 902539,
+    "sha256": "37362587e1d71303af5b0752c2eb02c25800116c4de5b8ae45a5f5c6af11be8c",
+    "excerpt": true,
+    "expected": [
+      {
+        "title": "Meta's Muse Spark open-weight release Is Now in Limited Preview on GroqCloud",
+        "url": "https://groq.com/blog/meta-s-muse-spark-open-release-is-now-in-limited-preview-on-groqcloud",
+        "publishedAt": "2026-10-15T00:00:00.000Z"
+      },
+      {
+        "title": "Groq Among the First to Bring NVIDIA Groq 3 LPX and Vera Rubin NVL72 to Market",
+        "url": "https://groq.com/blog/groq-among-the-first-to-bring-nvidia-groq-3-lpx-and-vera-rubin-nvl72-to-market",
+        "publishedAt": "2026-08-24T00:00:00.000Z"
+      },
+      {
+        "title": "GroqCloud: Expanding to Meet Demand",
+        "url": "https://groq.com/blog/groqcloud-expanding-to-meet-demand",
+        "publishedAt": "2026-02-16T00:00:00.000Z"
+      },
+      {
+        "title": "From Speed to Scale: How Groq Is Optimized for MoE & Other Large Models",
+        "url": "https://groq.com/blog/from-speed-to-scale-how-groq-is-optimized-for-moe-other-large-models",
+        "publishedAt": "2025-05-27T00:00:00.000Z"
+      },
+      {
+        "title": "Batch Processing with GroqCloud™ for AI Inference Workloads",
+        "url": "https://groq.com/blog/batch-processing-with-groqcloud-for-ai-inference-workloads",
+        "publishedAt": "2025-03-13T00:00:00.000Z"
+      },
+      {
+        "title": "What is a Language Processing Unit?",
+        "url": "https://groq.com/blog/the-groq-lpu-explained",
+        "publishedAt": "2025-03-07T00:00:00.000Z"
+      },
+      {
+        "title": "Thank You! 1 Million Developers Now On GroqCloud™",
+        "url": "https://groq.com/blog/thank-you-1m-developers-building-with-groqcloud",
+        "publishedAt": "2025-03-01T00:00:00.000Z"
+      },
+      {
+        "title": "What is AI Inference? ML Basics Explained",
+        "url": "https://groq.com/blog/understanding-ai-101-what-is-inference-in-machine-learning-and-ai-applications",
+        "publishedAt": "2024-12-12T00:00:00.000Z"
+      },
+      {
+        "title": "The Five Future Stages of Generative AI",
+        "url": "https://groq.com/blog/the-five-future-stages-of-generative-ai",
+        "publishedAt": "2024-11-06T00:00:00.000Z"
+      },
+      {
+        "title": "Context Length in LLMs: Optimize Business AI Performance",
+        "url": "https://groq.com/blog/the-crucial-role-of-context-length-in-large-language-models-for-business-applications",
+        "publishedAt": "2024-10-21T00:00:00.000Z"
+      }
+    ]
+  },
+  {
+    "companyId": "cerebras",
+    "url": "https://www.cerebras.ai/blog",
+    "kind": "html",
+    "file": "cerebras.html",
+    "status": 200,
+    "finalUrl": "https://www.cerebras.ai/blog",
+    "recordedAt": "2026-10-21T02:10:02.861Z",
+    "originalBytes": 3766374,
+    "sha256": "21a07d49ac57cfbbb2c42b2e9ad85f4ef59898a62b05d3dc362f4ebf954450e2",
+    "excerpt": true,
+    "expected": [
+      {
+        "title": "A Smarter Model Won’t Save Your Bad Harness",
+        "url": "https://www.cerebras.ai/blog/a-smarter-model-won-t-save-your-bad-harness",
+        "publishedAt": "2026-10-16T00:00:00.000Z"
+      },
+      {
+        "title": "MoE at Scale: Making Sparse Models Fast on Real Hardware",
+        "url": "https://www.cerebras.ai/blog/moe-guide-scale",
+        "publishedAt": "2026-10-06T00:00:00.000Z"
+      },
+      {
+        "title": "MoE Math Demystified: What Does 8x7B Actually Mean?",
+        "url": "https://www.cerebras.ai/blog/moe-guide-calculator",
+        "publishedAt": "2026-10-06T00:00:00.000Z"
+      },
+      {
+        "title": "Disaggregated Inference From The Ground Up",
+        "url": "https://www.cerebras.ai/blog/disaggregated-inference-from-the-ground-up",
+        "publishedAt": "2026-10-01T00:00:00.000Z"
+      },
+      {
+        "title": "How AlphaSense Uses Fast Inference to Make Agentic Research Interactive",
+        "url": "https://www.cerebras.ai/blog/how-alphasense-uses-fast-inference-to-make-agentic-research-interactive",
+        "publishedAt": "2026-09-30T00:00:00.000Z"
+      },
+      {
+        "title": "Why Cyber Defense Needs Faster Inference",
+        "url": "https://www.cerebras.ai/blog/why-cyber-defense-needs-faster-inference",
+        "publishedAt": "2026-09-24T00:00:00.000Z"
+      },
+      {
+        "title": "The rise of slow personal assistants",
+        "url": "https://www.cerebras.ai/blog/the-rise-of-slow-personal-assistants",
+        "publishedAt": "2026-09-24T00:00:00.000Z"
+      },
+      {
+        "title": "We Taught an AI Agent to QA Our Cloud Console — in Plain English",
+        "url": "https://www.cerebras.ai/blog/we-taught-an-ai-agent-to-qa-our-cloud-console-in-plain-english",
+        "publishedAt": "2026-09-08T00:00:00.000Z"
+      },
+      {
+        "title": "How Cerebras serves GPT-5.6 Sol at up to 750 tokens per second",
+        "url": "https://www.cerebras.ai/blog/how-cerebras-serves-gpt-5-6-sol-at-up-to-750-tokens-per-second",
+        "publishedAt": "2026-08-27T00:00:00.000Z"
+      },
+      {
+        "title": "Ultrafast Frontier Inference: Cerebras Deep Dive at Hot Chips 2026",
+        "url": "https://www.cerebras.ai/blog/ultrafast-frontier-inference-cerebras-deep-dive-at-hot-chips-2026",
+        "publishedAt": "2026-08-25T00:00:00.000Z"
+      }
+    ]
+  },
+  {
+    "companyId": "fireworks",
+    "url": "https://fireworks.ai/blog",
+    "kind": "html",
+    "file": "fireworks.html",
+    "status": 200,
+    "finalUrl": "https://fireworks.ai/blog",
+    "recordedAt": "2026-10-21T02:10:02.868Z",
+    "originalBytes": 329865,
+    "sha256": "706ef463591757d9c35555c52f4621eb4291896f8e132a09896415d9f292edbc",
+    "excerpt": true,
+    "expected": [
+      {
+        "title": "Muse Spark Open on Fireworks: Meta’s open weights wodel, available on US serverless",
+        "url": "https://fireworks.ai/blog/meta-muse-spark-open",
+        "publishedAt": "2026-10-20T00:00:00.000Z"
+      },
+      {
+        "title": "Reinforcement learning: Why alignment of numerics and MoE routing matter",
+        "url": "https://fireworks.ai/blog/reinforcement-learning-why-alignment-of-numerics-and-MoE-routing-matter",
+        "publishedAt": "2026-09-30T00:00:00.000Z"
+      },
+      {
+        "title": "Inside Fireworks Multi-region Deployments: One Deployment, Global Scale",
+        "url": "https://fireworks.ai/blog/multi-region-deployment",
+        "publishedAt": "2026-09-28T00:00:00.000Z"
+      },
+      {
+        "title": "Every byte counts: ARCv3 and the case for cross-region RL",
+        "url": "https://fireworks.ai/blog/arcv3-and-the-case-for-cross-region-rl",
+        "publishedAt": "2026-09-23T00:00:00.000Z"
+      },
+      {
+        "title": "Introducing Ember-1",
+        "url": "https://fireworks.ai/blog/ember-1",
+        "publishedAt": "2026-09-23T00:00:00.000Z"
+      },
+      {
+        "title": "Introducing The Specialized Intelligence Index",
+        "url": "https://fireworks.ai/blog/introducing-the-specialized-intelligence-index",
+        "publishedAt": "2026-09-22T00:00:00.000Z"
+      },
+      {
+        "title": "The frontier isn’t a model. It’s a router.",
+        "url": "https://fireworks.ai/blog/the-frontier-isnt-a-model-its-a-router",
+        "publishedAt": "2026-09-21T00:00:00.000Z"
+      },
+      {
+        "title": "DeepSeek-V4.1-Flash on Fireworks: Astra-level DeepSWE at 1/15th the cost",
+        "url": "https://fireworks.ai/blog/DeepSeek-V4.1-Flash-Astra",
+        "publishedAt": "2026-09-14T00:00:00.000Z"
+      },
+      {
+        "title": "Gen-1 Slides: Opus 5-level decks at a fraction of the cost",
+        "url": "https://fireworks.ai/blog/gen-1-slides-opus-5-level-decks-at-a-fraction-of-the-cost",
+        "publishedAt": "2026-09-10T00:00:00.000Z"
+      },
+      {
+        "title": "Making the leap to specialized intelligence",
+        "url": "https://fireworks.ai/blog/making-the-leap-to-specialized-intelligence",
+        "publishedAt": "2026-09-10T00:00:00.000Z"
+      }
+    ]
+  },
+  {
+    "companyId": "lambda",
+    "url": "https://lambda.ai/blog/rss.xml",
+    "kind": "rss",
+    "file": "lambda.xml",
+    "status": 200,
+    "finalUrl": "https://lambda.ai/blog/rss.xml",
+    "recordedAt": "2026-10-21T02:10:02.869Z",
+    "originalBytes": 31124,
+    "sha256": "634fdd50ceb2fd2cd7adedf6ea4345e31505f37793a361c3b88ecd457c8ffc46",
+    "excerpt": true,
+    "expected": [
+      {
+        "title": "Lambda to integrate open-source NVIDIA Run:ai with its Managed Kubernetes Service",
+        "url": "https://lambda.ai/blog/runai-on-lambda-kubernetes-service",
+        "publishedAt": "2026-10-13T14:32:00.000Z",
+        "summary": "We welcome NVIDIA's decision to release NVIDIA Run:ai as open source, and we're working to make it a first-class option on Lambda Kubernetes Service (LKS)."
+      },
+      {
+        "title": "ReLearn at CVPR 2026: can AI still learn from humans?",
+        "url": "https://lambda.ai/blog/relearn-cvpr-2026",
+        "publishedAt": "2026-10-07T22:14:56.000Z",
+        "summary": "AI has advanced fast by scaling models, data, and compute. As foundation models get more capable, an old question is coming back..."
+      },
+      {
+        "title": "Lambda closes $1 billion senior secured fixed rate financing",
+        "url": "https://lambda.ai/blog/lambda-closes-1-billion-senior-secured-fixed-rate-financing",
+        "publishedAt": "2026-10-01T23:08:14.000Z",
+        "summary": "Marks Lambda’s first $1 billion-plus institutional debt financing marketed to insurance companies and fixed income investors, and second institutional credit facility, expanding access to capital to s"
+      },
+      {
+        "title": "From world models to active agents: the next step for physical AI",
+        "url": "https://lambda.ai/blog/world-models-active-agents-physical-ai",
+        "publishedAt": "2026-10-01T22:37:02.000Z",
+        "summary": "Generative AI has made remarkable progress in creating increasingly realistic representations of the world. Image models can synthesize photorealistic scenes, video models can generate complex dynamic"
+      },
+      {
+        "title": "Open Jarvis: making local LLMs work as agents",
+        "url": "https://lambda.ai/blog/open-jarvis-local-llm-agents",
+        "publishedAt": "2026-09-30T14:49:50.000Z",
+        "summary": "Running an open-weight model is only half the job. The other half is the harness: what tells the model what to do, which tools it can use, and how to learn from its mistakes."
+      },
+      {
+        "title": "Lambda to build new data center in Mayes County, Oklahoma, generating half a billion dollars in tax revenue over next decade",
+        "url": "https://lambda.ai/blog/new-lambda-data-center-in-oklahoma",
+        "publishedAt": "2026-09-27T14:01:36.000Z",
+        "summary": "Facility will be built in MidAmerica Industrial Park & deploy closed-loop cooling technology to preserve and recycle water; all energy costs paid in compliance with Oklahoma’s ratepayer protections"
+      },
+      {
+        "title": "Building multimodal models for spatial reasoning",
+        "url": "https://lambda.ai/blog/cvp-spatial-reasoning",
+        "publishedAt": "2026-09-24T19:58:32.000Z",
+        "summary": "What is spatial reasoning? AI is moving beyond the digital world. The next generation of AI systems needs to understand and interact with physical environments, from robots to autonomous systems navig"
+      },
+      {
+        "title": "From structures to dynamics: scaling AI for molecular dynamics in drug discovery",
+        "url": "https://lambda.ai/blog/eginterpolator-molecular-dynamics-drug-discovery",
+        "publishedAt": "2026-09-21T17:26:34.000Z",
+        "summary": "Why molecular dynamics matters for drug discovery Molecular dynamics (MD) is an important tool in modern drug discovery. While structure prediction and molecular docking can show how a potential drug "
+      },
+      {
+        "title": "Closing the loop: agentic evaluation for image editing foundation models",
+        "url": "https://lambda.ai/blog/edival-agent-agentic-evaluation-image-editing",
+        "publishedAt": "2026-09-17T16:29:33.000Z",
+        "summary": "Why evaluating image editing models is both critical and challenging Instruction-based image editing is becoming a core capability of multimodal foundation models. Users can increasingly edit images s"
+      },
+      {
+        "title": "MLPerf Inference v6.1: pioneering agent, VLM benchmarks",
+        "url": "https://lambda.ai/blog/mlperf-inference-v6.1",
+        "publishedAt": "2026-09-16T15:02:49.000Z",
+        "summary": "First agentic workload on datacenter hardware in MLPerf, and the first model over a trillion parameters. Plus 8.85% more throughput on identical hardware since v6.0."
+      }
+    ]
+  },
+  {
+    "companyId": "openrouter",
+    "url": "https://openrouter.ai/blog/feed.xml",
+    "kind": "rss",
+    "file": "openrouter.xml",
+    "status": 200,
+    "finalUrl": "https://openrouter.ai/blog/feed.xml",
+    "recordedAt": "2026-10-21T02:38:56.102Z",
+    "originalBytes": 81573,
+    "sha256": "63f8b6fe71d06a0c2c44584bf6faca03c249cf8c84325e991bfaad18983a2d6f",
+    "excerpt": true,
+    "expected": [
+      {
+        "title": "Private Endpoints: Bring Your Fine-Tuned Models and Capacity to OpenRouter",
+        "url": "https://openrouter.ai/blog/announcements/private-endpoints/",
+        "publishedAt": "2026-10-14T00:00:00.000Z",
+        "summary": "Private Endpoints let Enterprise customers route their own fine-tuned models and dedicated deployments through OpenRouter, alongside the public catalog. Private endpoints are only visible within your "
+      },
+      {
+        "title": "ElevenLabs is now on OpenRouter",
+        "url": "https://openrouter.ai/blog/announcements/elevenlabs-on-openrouter/",
+        "publishedAt": "2026-10-07T00:00:00.000Z",
+        "summary": "ElevenLabs is now on OpenRouter with 9 Text to Speech and 2 Speech to Text models. Deliver speech with human-like emotion with Eleven v4, give your agent low-latency replies with v4 Turbo, and turn me"
+      },
+      {
+        "title": "How an AI Sales Agent Saved Our Sales Team 600 Hours a Month",
+        "url": "https://openrouter.ai/blog/case-studies/how-an-ai-sales-agent-saved-our-sales-team-600-hours-a-month/",
+        "publishedAt": "2026-10-07T00:00:00.000Z",
+        "summary": "Rasp gives OpenRouter's five-person sales team about 600 hours a month back, adds room for two more calls a day per rep, and runs for about $30 a day on Ori."
+      },
+      {
+        "title": "Server-Side Code Execution Tools for AI Agents, Compared",
+        "url": "https://openrouter.ai/blog/insights/server-side-code-execution-tools-for-ai-agents-compared/",
+        "publishedAt": "2026-10-05T00:00:00.000Z",
+        "summary": "A server-side code execution tool runs the model's commands in the provider's sandbox during your API request, so you don't provision or secure a container. OpenAI, Anthropic, and Google run code for "
+      },
+      {
+        "title": "Agent Frameworks Compared: Tool-Calling Schema Handling",
+        "url": "https://openrouter.ai/blog/insights/agent-frameworks-compared-tool-calling-schema-handling/",
+        "publishedAt": "2026-10-02T00:00:00.000Z",
+        "summary": "OpenAI, Anthropic, and Google each use a different request and response shape for the same tool. Agent frameworks handle that difference in different places. Some translate one definition into each pr"
+      },
+      {
+        "title": "LangChain vs CrewAI: Orchestration Compared to OpenRouter-Native Routing",
+        "url": "https://openrouter.ai/blog/insights/langchain-vs-crewai-orchestration-compared-to-openrouter-native-routing/",
+        "publishedAt": "2026-10-02T00:00:00.000Z",
+        "summary": "Multi-model orchestration is three layers. Workflow orchestration is planning, state, memory, and delegation, and LangGraph and CrewAI are built for it. Model routing is choosing a model per call and "
+      },
+      {
+        "title": "Model Router Benchmarks",
+        "url": "https://openrouter.ai/blog/announcements/model-router-benchmarks/",
+        "publishedAt": "2026-10-02T00:00:00.000Z",
+        "summary": "We now benchmark model routers side by side across six suites. Our Router Index weighs quality, speed, and cost so you can decide if you need a router and pick the best one for your needs."
+      },
+      {
+        "title": "Model Routing for Support Bots: Cheap-First FAQ Handling",
+        "url": "https://openrouter.ai/blog/tutorials/model-routing-for-support-bots-cheap-first-faq-handling/",
+        "publishedAt": "2026-10-02T00:00:00.000Z",
+        "summary": "Cheap-first routing sends routine support questions to a small, inexpensive model and escalates selected hard or uncertain requests to a stronger one. This guide compares the three application-side ro"
+      },
+      {
+        "title": "Confidence Thresholds for Model Escalation Routing",
+        "url": "https://openrouter.ai/blog/insights/confidence-thresholds-for-model-escalation-routing/",
+        "publishedAt": "2026-10-01T00:00:00.000Z",
+        "summary": "Confidence-based escalation keeps most requests on a cheap model and sends only the ones it is unsure about to a stronger one. This guide covers forcing a numeric confidence field with structured outp"
+      },
+      {
+        "title": "Cost vs. Quality Tradeoff Framework for Agent Models",
+        "url": "https://openrouter.ai/blog/insights/cost-vs-quality-tradeoff-framework-for-agent-models/",
+        "publishedAt": "2026-10-01T00:00:00.000Z",
+        "summary": "The cheapest model that clears your quality bar is usually not the model at the top of a leaderboard. This framework sets the bar for one task, measures cost per quality point across a cheap, a mid-ti"
+      }
+    ]
+  },
+  {
+    "companyId": "poe",
+    "url": "https://poe.com/blog",
+    "kind": "html",
+    "file": "poe.html",
+    "status": 403,
+    "finalUrl": "https://poe.com/login?redirect_url=%2F",
+    "recordedAt": "2026-10-21T02:10:02.870Z",
+    "originalBytes": 5553,
+    "sha256": "e0e9b43a3066c60bb760b94afc0aa851ec3e133dd19974f1cd4d9369c6503f96",
+    "excerpt": false,
+    "expected": []
+  },
+  {
+    "companyId": "cursor",
+    "url": "https://cursor.com/blog",
+    "kind": "html",
+    "file": "cursor.html",
+    "status": 200,
+    "finalUrl": "https://cursor.com/blog",
+    "recordedAt": "2026-10-21T02:10:02.876Z",
+    "originalBytes": 414762,
+    "sha256": "7cb6cc2d336ddb3820954e2e6402124ec5ce4453c101c9a3413b721be603a750",
+    "excerpt": true,
+    "expected": [
+      {
+        "title": "Navan cuts a month-long migration down to a week, without freezing the codebase",
+        "url": "https://cursor.com/blog/navan",
+        "publishedAt": "2026-10-16T12:00:00.000Z"
+      },
+      {
+        "title": "Improved token efficiency for longer agent runs",
+        "url": "https://cursor.com/blog/improved-token-efficiency",
+        "publishedAt": "2026-09-23T12:00:00.000Z"
+      },
+      {
+        "title": "Bots for the last mile: Rollouts, Security Review",
+        "url": "https://cursor.com/blog/rollouts-and-security-reviewer",
+        "publishedAt": "2026-09-23T12:00:00.000Z"
+      },
+      {
+        "title": "How Grab put Cursor in the hands of Design, Ops, and Engineering",
+        "url": "https://cursor.com/blog/grab",
+        "publishedAt": "2026-09-15T12:00:00.000Z"
+      },
+      {
+        "title": "Introducing Projects",
+        "url": "https://cursor.com/blog/projects",
+        "publishedAt": "2026-09-10T12:00:00.000Z"
+      },
+      {
+        "title": "How Basis builds long-horizon accounting agents with Cursor",
+        "url": "https://cursor.com/blog/basis",
+        "publishedAt": "2026-09-04T12:00:00.000Z"
+      },
+      {
+        "title": "Run cloud agents on machines you manage",
+        "url": "https://cursor.com/blog/self-hosted-machines",
+        "publishedAt": "2026-09-02T12:00:00.000Z"
+      },
+      {
+        "title": "Nokia analyzes 50M+ lines of code in two weeks with Cursor",
+        "url": "https://cursor.com/blog/nokia",
+        "publishedAt": "2026-09-02T12:00:00.000Z"
+      },
+      {
+        "title": "Git at any scale",
+        "url": "https://cursor.com/blog/git-at-any-scale",
+        "publishedAt": "2026-08-18T12:00:00.000Z"
+      },
+      {
+        "title": "Cursor is now a part of SpaceX",
+        "url": "https://cursor.com/blog/joining-spacex",
+        "publishedAt": "2026-08-14T12:00:00.000Z",
+        "summary": "Cursor has officially been acquired by SpaceX."
+      }
+    ]
+  },
+  {
+    "companyId": "copilot",
+    "url": "https://github.blog/changelog/label/copilot/feed/",
+    "kind": "rss",
+    "file": "copilot.xml",
+    "status": 200,
+    "finalUrl": "https://github.blog/changelog/label/copilot/feed/",
+    "recordedAt": "2026-10-21T02:10:02.878Z",
+    "originalBytes": 47515,
+    "sha256": "2c588d5e762f64bd7867b85bbecb8110916bf6db5468dbdabdaaa2dd028dc2f4",
+    "excerpt": true,
+    "expected": [
+      {
+        "title": "Copilot model policy API for enterprise, orgs, and teams",
+        "url": "https://github.blog/changelog/2026-10-19-copilot-model-policy-api-for-enterprise-orgs-and-teams",
+        "publishedAt": "2026-10-19T21:32:18.000Z",
+        "summary": "You can now use the REST API to retrieve and update Copilot model policies for enterprises, enterprise teams, agent apps, and organizations. What’s new GET and PATCH endpoints are now… The post Copilo"
+      },
+      {
+        "title": "GitHub Copilot models deprecated on October 19, 2026",
+        "url": "https://github.blog/changelog/2026-10-19-github-copilot-models-deprecated-on-october-19-2026",
+        "publishedAt": "2026-10-19T21:27:10.000Z",
+        "summary": "As of today, October 19, 2026, we have deprecated the following models across most GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions). These… "
+      },
+      {
+        "title": "Multi-repository support and other improvements for GitHub in Slack and Teams",
+        "url": "https://github.blog/changelog/2026-10-15-copilot-in-slack-and-teams-adds-model-and-repository-updates",
+        "publishedAt": "2026-10-16T02:16:35.000Z",
+        "summary": "@GitHub in Slack and Teams now supports working across multiple repositories in a single conversation. Whether you’re creating issues, opening pull requests, or investigating bugs, you can work across"
+      },
+      {
+        "title": "Upcoming deprecation of selected GitHub Copilot models in mid-November",
+        "url": "https://github.blog/changelog/2026-10-15-upcoming-deprecation-of-selected-github-copilot-models-in-mid-november",
+        "publishedAt": "2026-10-15T19:35:13.000Z",
+        "summary": "We will deprecate the following models across all GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions) on November 16th, 2026: Model Deprecation"
+      },
+      {
+        "title": "Agentic autofix for code scanning alerts general availability",
+        "url": "https://github.blog/changelog/2026-10-15-agentic-autofix-for-code-scanning-alerts-general-availability",
+        "publishedAt": "2026-10-15T13:49:20.000Z",
+        "summary": "Agentic autofix for code scanning alerts is now generally available. It remediates alerts by working across your codebase the way a developer would: it explores relevant files, proposes a fix,… The po"
+      },
+      {
+        "title": "HydraFusion updates and new Max option",
+        "url": "https://github.blog/changelog/2026-10-14-hydrafusion-updates-and-new-max-option",
+        "publishedAt": "2026-10-14T20:01:35.000Z",
+        "summary": "HydraFusion has an updated model pool, improved orchestration workflows, and introduces HydraFusion Max. Both HydraFusion and HydraFusion Max are available across VS Code, the GitHub Copilot app, and "
+      },
+      {
+        "title": "Gemini 4 Argon in GitHub Copilot",
+        "url": "https://github.blog/changelog/2026-10-13-gemini-4-argon-in-github-copilot",
+        "publishedAt": "2026-10-13T18:39:56.000Z",
+        "summary": "Gemini 4 Argon, Google’s newest frontier model, is now generally available in GitHub Copilot. It is designed for complex coding, agentic, and reasoning tasks. In early testing, Gemini 4 Argon… The pos"
+      },
+      {
+        "title": "Enterprise managed settings enforcement updates",
+        "url": "https://github.blog/changelog/2026-10-13-enterprise-managed-settings-enforcement-updates",
+        "publishedAt": "2026-10-13T15:20:10.000Z",
+        "summary": "Enterprise administrators can now require supported GitHub Copilot clients to retrieve current server-managed settings at startup instead of relying on a cached policy. We are also adding minimum clie"
+      },
+      {
+        "title": "Client telemetry user attribution and configurable capture",
+        "url": "https://github.blog/changelog/2026-10-12-client-telemetry-user-attribution-and-configurable-capture",
+        "publishedAt": "2026-10-12T22:38:00.000Z",
+        "summary": "Enterprise administrators can now use telemetry in managed settings to attribute GitHub Copilot activity to a user without collecting their prompts, responses, or tool content. The telemetry.capture.i"
+      },
+      {
+        "title": "New controls and chat improvements in Copilot for JetBrains",
+        "url": "https://github.blog/changelog/2026-10-10-new-controls-and-chat-improvements-in-copilot-for-jetbrains",
+        "publishedAt": "2026-10-10T18:53:39.000Z",
+        "summary": "This update brings more control over default models and MCP server in GitHub Copilot for JetBrains. It also makes diagnostics easier to address, improves chat navigation and account controls, and… The"
+      }
+    ]
+  },
+  {
+    "companyId": "windsurf",
+    "url": "https://docs.devin.ai/desktop/changelog/rss.xml",
+    "kind": "rss",
+    "file": "windsurf.xml",
+    "status": 200,
+    "finalUrl": "https://docs.devin.ai/desktop/changelog/rss.xml",
+    "recordedAt": "2026-10-21T02:10:02.879Z",
+    "originalBytes": 4973,
+    "sha256": "5c65524224f08a1a726abaaa5516a0c4219101fa7aba190f1fadc9e016f9e650",
+    "excerpt": true,
+    "expected": [
+      {
+        "title": "v3.10.67",
+        "url": "https://docs.devin.ai/desktop/changelog#v3-10-67",
+        "publishedAt": "2026-10-15T00:23:10.000Z"
+      },
+      {
+        "title": "v3.10.48",
+        "url": "https://docs.devin.ai/desktop/changelog#v3-10-48",
+        "publishedAt": "2026-09-29T06:57:27.000Z"
+      },
+      {
+        "title": "v3.10.35",
+        "url": "https://docs.devin.ai/desktop/changelog#v3-10-35",
+        "publishedAt": "2026-09-24T05:13:24.000Z"
+      },
+      {
+        "title": "v3.10.31",
+        "url": "https://docs.devin.ai/desktop/changelog#v3-10-31",
+        "publishedAt": "2026-09-16T20:18:03.000Z"
+      },
+      {
+        "title": "v3.10.27",
+        "url": "https://docs.devin.ai/desktop/changelog#v3-10-27",
+        "publishedAt": "2026-09-15T06:38:39.000Z"
+      },
+      {
+        "title": "v3.10.23",
+        "url": "https://docs.devin.ai/desktop/changelog#v3-10-23",
+        "publishedAt": "2026-09-11T15:55:30.000Z"
+      },
+      {
+        "title": "v3.9.19",
+        "url": "https://docs.devin.ai/desktop/changelog#v3-9-19",
+        "publishedAt": "2026-09-09T02:23:09.000Z"
+      },
+      {
+        "title": "v3.8.20",
+        "url": "https://docs.devin.ai/desktop/changelog#v3-8-20",
+        "publishedAt": "2026-08-22T05:18:52.000Z"
+      },
+      {
+        "title": "v3.7.25",
+        "url": "https://docs.devin.ai/desktop/changelog#v3-7-25",
+        "publishedAt": "2026-08-14T06:53:16.000Z"
+      },
+      {
+        "title": "v3.7.16",
+        "url": "https://docs.devin.ai/desktop/changelog#v3-7-16",
+        "publishedAt": "2026-08-11T01:29:25.000Z"
+      }
+    ]
+  },
+  {
+    "companyId": "amp",
+    "url": "https://ampcode.com/news.rss",
+    "kind": "rss",
+    "file": "amp.xml",
+    "status": 200,
+    "finalUrl": "https://ampcode.com/news.rss",
+    "recordedAt": "2026-10-21T02:10:02.882Z",
+    "originalBytes": 480640,
+    "sha256": "ff6d05d9a0fd5b425385215f41ef97f530e2cb54cfa7d03ce4551ce33a3c7e94",
+    "excerpt": true,
+    "expected": [
+      {
+        "title": "Assign It To Amp",
+        "url": "https://ampcode.com/news/assign-it-to-amp",
+        "publishedAt": "2026-10-19T00:00:00.000Z",
+        "summary": "Amp is now an agent in Linear. Assigning an issue to Amp starts a new Agent Session in Linear and spawns a new orb. You can also mention @Amp to kick off a session. Amp sends its response back to the "
+      },
+      {
+        "title": "See Your Runner's Desktop",
+        "url": "https://ampcode.com/news/runner-desktop",
+        "publishedAt": "2026-10-16T00:00:00.000Z",
+        "summary": "You can now see and control your macOS or Linux runner's desktop. This is nice for trying native apps that Amp builds for you, such as iOS apps: Turn on Share This Mac's Display under Settings › Runne"
+      },
+      {
+        "title": "Take Puck with You",
+        "url": "https://ampcode.com/news/take-puck-with-you",
+        "publishedAt": "2026-10-13T00:00:00.000Z",
+        "summary": "You can now talk to Puck from ChatGPT, Claude, and other agents via MCP. After developing an idea with ChatGPT's voice mode on a walk, send it directly to Puck for implementation. Puck knows your proj"
+      },
+      {
+        "title": "First Things First, Faster",
+        "url": "https://ampcode.com/news/first-things-first-faster",
+        "publishedAt": "2026-10-12T00:00:00.000Z",
+        "summary": "The Changes pane now automatically puts files in an intelligent order. Amp reads the diff, identifies the files that are essential to the change, and puts them first. If the diff changes, Amp computes"
+      },
+      {
+        "title": "You've Got Comments",
+        "url": "https://ampcode.com/news/github-listeners",
+        "publishedAt": "2026-10-12T00:00:00.000Z",
+        "summary": "Amp now follows up on GitHub pull requests it opens. Comments, reviews, and CI results show up in the same thread. When Amp opens a PR, the agent can now subscribe to the PR's comments, reviews, and C"
+      },
+      {
+        "title": "Use Your Claude Plan in Amp",
+        "url": "https://ampcode.com/news/use-your-claude-plan",
+        "publishedAt": "2026-10-10T00:00:00.000Z",
+        "summary": "You can now use your Claude Pro/Max subscription in Amp. It's free and available for everyone now. When creating a new thread, just pick Mode > Claude Code. It'll ask to link your Claude sub if you ha"
+      },
+      {
+        "title": "Many, Many Pucks",
+        "url": "https://ampcode.com/news/many-many-pucks",
+        "publishedAt": "2026-10-06T00:00:00.000Z",
+        "summary": "You can now have multiple separate conversations with Puck. We know you love Puck. We also know you've been asking Puck about your recent orbs, a bug fix, and dinner plans, all in the same conversatio"
+      },
+      {
+        "title": "Plaid Speed",
+        "url": "https://ampcode.com/news/plaid-mode",
+        "publishedAt": "2026-09-29T00:00:00.000Z",
+        "summary": "Amp now supports Plaid speed for modes that use GPT-6 Astra. Plaid uses OpenAI's ultrafast speed tier, which enables inference requests to run up to 6× faster, with 6× cost per token. Open the mode pi"
+      },
+      {
+        "title": "Opus 5.5",
+        "url": "https://ampcode.com/news/opus-5.5",
+        "publishedAt": "2026-09-28T00:00:00.000Z",
+        "summary": "Claude Opus 5.5 now powers Amp's medium mode by default, replacing GPT-5.6 Sol. If you use a ChatGPT subscription with the ChatGPT Only preset, medium stays pinned to GPT-5.6 Sol, billed to your subsc"
+      },
+      {
+        "title": "Less Noise",
+        "url": "https://ampcode.com/news/less-noise",
+        "publishedAt": "2026-09-25T00:00:00.000Z",
+        "summary": "Amp now collapses your agent's step-by-step work even more, since you care about what the agent did, not how it got there. (You can still expand the steps when needed.) A year ago, watching your agent"
+      }
+    ]
+  },
+  {
+    "companyId": "factory",
+    "url": "https://factory.com/news/rss",
+    "kind": "rss",
+    "file": "factory.xml",
+    "status": 200,
+    "finalUrl": "https://factory.com/news/rss",
+    "recordedAt": "2026-10-21T02:10:02.883Z",
+    "originalBytes": 32026,
+    "sha256": "dc9cf7eaefa5d27ac807eb929302f29116ff46996878dbe48d9a6dd3188522f7",
+    "excerpt": true,
+    "expected": [
+      {
+        "title": "Automate the work that keeps coming back",
+        "url": "https://factory.com/news/automations",
+        "publishedAt": "2026-09-30T00:00:00.000Z",
+        "summary": "Automations are generally available in Factory. Describe a recurring workflow, choose a schedule or event trigger, and let Droid run it."
+      },
+      {
+        "title": "Factory raises $200M at $5B valuation",
+        "url": "https://factory.com/news/5-billion-valuation",
+        "publishedAt": "2026-09-15T00:00:00.000Z",
+        "summary": "Factory has raised $200M at a $5B valuation to scale self-improving software development in the enterprise."
+      },
+      {
+        "title": "Factory now available on Claude Marketplace, bringing autonomous software development to the enterprise",
+        "url": "https://factory.com/news/claude-marketplace",
+        "publishedAt": "2026-09-09T00:00:00.000Z",
+        "summary": "Enterprise customers can apply Anthropic spend commitments toward Factory, giving engineering teams more ways to build, without going through separate buying cycles"
+      },
+      {
+        "title": "Introducing Agent Effectiveness",
+        "url": "https://factory.com/news/agent-effectiveness",
+        "publishedAt": "2026-08-13T00:00:00.000Z",
+        "summary": "See how Factory usage maps to delivery speed, work priorities, and shipped artifacts across your engineering organization."
+      },
+      {
+        "title": "Introducing Automated Security Review",
+        "url": "https://factory.com/news/automated-security-review",
+        "publishedAt": "2026-06-11T00:00:00.000Z",
+        "summary": "STRIDE-based security findings with severity, CWE references, and suggested fixes — posted as inline review comments on every pull request."
+      },
+      {
+        "title": "Automated QA: Testing Your App the Way a Real User Would",
+        "url": "https://factory.com/news/automated-qa",
+        "publishedAt": "2026-04-23T00:00:00.000Z",
+        "summary": "End-to-end quality assurance that tests your application with visual evidence posted directly to your PR."
+      },
+      {
+        "title": "Introducing Agent Readiness",
+        "url": "https://factory.com/news/agent-readiness",
+        "publishedAt": "2026-01-20T00:00:00.000Z",
+        "summary": "A framework for measuring and improving how well your codebase supports autonomous development. Evaluate repositories across eight technical pillars and five maturity levels."
+      },
+      {
+        "title": "AWS and Factory Announce Strategic Partnership",
+        "url": "https://factory.com/news/blog-post-2025-10-27",
+        "publishedAt": "2025-10-27T00:00:00.000Z",
+        "summary": "We're excited to announce our partnership with Amazon Web Services (AWS) and the availability of Factory on the AWS Marketplace."
+      },
+      {
+        "title": "Factory joins AGENTS.md collaboration with OpenAI",
+        "url": "https://factory.com/news/agents-md",
+        "publishedAt": "2025-08-19T00:00:00.000Z",
+        "summary": "Factory has joined the industry working group convened by OpenAI to define AGENTS.md, a simple, open standard that gives coding agents a predictable way to understand and operate within software proje"
+      },
+      {
+        "title": "Agent Native Development",
+        "url": "https://factory.com/news/build-with-agents",
+        "publishedAt": "2025-07-01T00:00:00.000Z",
+        "summary": "How to Build Software with Agents"
+      }
+    ]
+  },
+  {
+    "companyId": "devin",
+    "url": "https://cognition.com/blog",
+    "kind": "html",
+    "file": "devin.html",
+    "status": 200,
+    "finalUrl": "https://cognition.com/blog",
+    "recordedAt": "2026-10-21T02:10:02.890Z",
+    "originalBytes": 362913,
+    "sha256": "d84339de6df15ba1842e9de28d892f1fd5fddfffc07d26cc0d29e3612b3481f3",
+    "excerpt": true,
+    "expected": [
+      {
+        "title": "National Design Studio and Cognition Launch the American Forge Residency",
+        "url": "https://cognition.com/blog/american-forge-fellowship",
+        "publishedAt": "2026-10-16T17:00:00.000Z",
+        "summary": "National Design Studio and Cognition are looking for engineers to help modernize America’s federal software infrastructure."
+      },
+      {
+        "title": "Cognition Crosses $1B in Annualized Revenue Run Rate",
+        "url": "https://cognition.com/blog/1b-run-rate",
+        "publishedAt": "2026-09-25T17:00:00.000Z",
+        "summary": "A milestone that belongs to our customers."
+      },
+      {
+        "title": "Building the Future of Software Engineering in Latin America",
+        "url": "https://cognition.com/blog/devin-comes-to-sao-paulo",
+        "publishedAt": "2026-09-22T17:00:00.000Z",
+        "summary": "Cognition is expanding into Latin America, starting in São Paulo, building on years of work with the region’s largest banks, consumer leaders, and technology companies."
+      },
+      {
+        "title": "Cognition and AWS team up to help ambitious teams ship more, faster",
+        "url": "https://cognition.com/blog/aws-sca",
+        "publishedAt": "2026-09-15T17:00:00.000Z",
+        "summary": "Cognition and AWS have entered a multi-year Strategic Collaboration Agreement to help enterprises deploy autonomous engineers in production, move legacy workloads to AWS faster, and clear engineering "
+      },
+      {
+        "title": "Introducing Fusion in Devin Desktop & CLI",
+        "url": "https://cognition.com/blog/local-fusion",
+        "publishedAt": "2026-09-11T17:00:00.000Z",
+        "summary": "Fusion is the most efficient frontier harness for Opus, Fable and Astra, up to 39% more efficient compared to other model harnesses across major coding benchmarks. Today, we’re making it available in "
+      },
+      {
+        "title": "Welcoming Dioxus to Cognition",
+        "url": "https://cognition.com/blog/welcoming-dioxus",
+        "publishedAt": "2026-09-10T17:00:00.000Z",
+        "summary": "Jonathan Kelley and the Dioxus team are joining Cognition. We will continue supporting Dioxus, Blitz, Taffy, and Subsecond while increasing investment in Dioxus-Native and Blitz."
+      },
+      {
+        "title": "Introducing SWE-2: Pushing the Pareto Frontier",
+        "url": "https://cognition.com/blog/swe-2",
+        "publishedAt": "2026-09-10T17:00:00.000Z",
+        "summary": "Today we’re introducing SWE-2, our most advanced coding model yet. SWE-2 delivers highly competitive agentic coding performance across multiple effort levels, pushing the Pareto frontier of capability"
+      },
+      {
+        "title": "Factoring RSA-260",
+        "url": "https://cognition.com/blog/factoring-rsa-260",
+        "publishedAt": "2026-09-09T17:00:00.000Z",
+        "summary": "How Devin and a Cognition researcher built the world’s highest-performance GPU lattice siever, to make factoring numbers 10x cheaper than the previous state of the art"
+      },
+      {
+        "title": "Do it all with Devin: Announcing our Series E",
+        "url": "https://cognition.com/blog/series-e",
+        "publishedAt": "2026-09-08T17:00:00.000Z",
+        "summary": "Cognition has raised over $2B at a $48B valuation, led by Andreessen Horowitz and Accel, to build the future of software engineering."
+      },
+      {
+        "title": "LTM Partners with Cognition To Reduce Cyber Risk in Financial Services",
+        "url": "https://cognition.com/blog/ltm-cognition-partnership",
+        "publishedAt": "2026-07-28T17:00:00.000Z",
+        "summary": "LTM has partnered with Cognition to deploy Devin, the AI software engineer, across its global client base and cybersecurity practice serving over 260 clients, including 26 of the Fortune 500 and the t"
+      }
+    ]
+  },
+  {
+    "companyId": "lovable",
+    "url": "https://lovable.dev/blog/rss.xml",
+    "kind": "rss",
+    "file": "lovable.xml",
+    "status": 200,
+    "finalUrl": "https://lovable.dev/blog/rss.xml",
+    "recordedAt": "2026-10-21T02:10:02.896Z",
+    "originalBytes": 93008,
+    "sha256": "9e875382aeae2c0d18c5c460c2b2117d6793dcafd8772c27ebf62e7075809e0f",
+    "excerpt": true,
+    "expected": [
+      {
+        "title": "Enterprise features October roundup",
+        "url": "https://lovable.dev/blog/enterprise-features-october-roundup",
+        "publishedAt": "2026-10-20T11:30:00.000Z",
+        "summary": "This month's Enterprise releases help central teams take AI-built apps to production: deploy in your own AWS or Azure account, EU inference, Organizations, workspace policies and approvals, the Action"
+      },
+      {
+        "title": "The AI you already use, now powering the apps you create",
+        "url": "https://lovable.dev/blog/ai-models-and-tools-in-lovable",
+        "publishedAt": "2026-10-15T15:30:00.000Z",
+        "summary": "GPT-Live, the latest Claude models, Gemini 4 Argon, Gemini Omni, Lyria, Perplexity, Firecrawl, Parallel and Jev are now in Lovable. Describe what you want to build and add voice, reasoning, video, mus"
+      },
+      {
+        "title": "Deploy on Azure: keep your Lovable apps in your own subscription",
+        "url": "https://lovable.dev/blog/deploy-on-azure",
+        "publishedAt": "2026-10-15T12:45:00.000Z",
+        "summary": "Deploy on Azure is now in private preview, so your apps and their data can run in your own Azure subscription. Here's every way to build with Lovable on Microsoft today, from fully inside your Microso"
+      },
+      {
+        "title": "What financial services marketing teams need to know about data, access, and security before publishing",
+        "url": "https://lovable.dev/blog/financial-services-marketing-data-access-and-security",
+        "publishedAt": "2026-10-15T11:00:00.000Z",
+        "summary": "How financial services marketing teams can assess the risk of an app, control who sees which data, and check what matters before publishing with Lovable."
+      },
+      {
+        "title": "From building your app to growing it: Lovable now helps you find customers",
+        "url": "https://lovable.dev/blog/introducing-growth-tools",
+        "publishedAt": "2026-10-14T12:50:00.000Z",
+        "summary": "Ask Lovable how to grow your app, and it creates a growth plan and helps you carry it out across Google Search, YouTube, Google Maps, Google Ads, Facebook, and Instagram."
+      },
+      {
+        "title": "Deploy your Lovable apps in your own AWS account",
+        "url": "https://lovable.dev/blog/deploy-on-aws",
+        "publishedAt": "2026-10-14T11:45:00.000Z",
+        "summary": "Your teams keep building with Lovable. The apps they create, and the data behind them, can now run inside your own AWS account. Available in private preview for Enterprise customers."
+      },
+      {
+        "title": "EU inference: control where AI processes your requests",
+        "url": "https://lovable.dev/blog/eu-inference",
+        "publishedAt": "2026-10-12T08:30:00.000Z",
+        "summary": "Enterprise teams can route supported AI model requests to European endpoints, both while building in Lovable and in the AI features of their published apps."
+      },
+      {
+        "title": "A vulnerability in TanStack Start: what we found and what we did to protect your apps",
+        "url": "https://lovable.dev/blog/how-lovable-protects-your-app-from-a-tanstack-start-vulnerability",
+        "publishedAt": "2026-09-30T15:45:00.000Z",
+        "summary": "Our security team found a vulnerability (CVE-2026-102989) in TanStack Start, reported it to the maintainers, and protected hosted apps with firewall rules while a fix was prepared. Here is what it mea"
+      },
+      {
+        "title": "Lovable + Microsoft: run the apps you build inside your company's Microsoft tenant",
+        "url": "https://lovable.dev/blog/microsoft-partnership",
+        "publishedAt": "2026-09-28T15:00:00.000Z",
+        "summary": "Lovable now works with Microsoft so the apps your team builds run inside your company's Microsoft tenant, with Entra sign-in and IT controls."
+      },
+      {
+        "title": "You can now chat with Lovable for free",
+        "url": "https://lovable.dev/blog/chat-for-free",
+        "publishedAt": "2026-09-24T08:40:00.000Z",
+        "summary": "You can now chat with Lovable for free. Ask it which idea is worth building. Have it turn customer feedback into a plan. Put it to work on an app you’ve already launched."
+      }
+    ]
+  },
+  {
+    "companyId": "bolt",
+    "url": "https://bolt.new/blog",
+    "kind": "html",
+    "file": "bolt.html",
+    "status": 200,
+    "finalUrl": "https://bolt.new/blog",
+    "recordedAt": "2026-10-21T02:10:02.902Z",
+    "originalBytes": 93034,
+    "sha256": "0a3a0fc9073042c20fcac08b0cd44f8641073140283bf60213485b6250eae878",
+    "excerpt": true,
+    "expected": [
+      {
+        "title": "Which of these 5 Base44 alternatives fits the way you build?",
+        "url": "https://bolt.new/blog/which-of-these-5-base44-alternatives-fits-the-way-you-build",
+        "publishedAt": "2026-10-19T00:00:00.000Z",
+        "summary": "Wix now owns Base44. See what that means for your build, then compare five Base44 alternatives, including Bolt.new, to find the right fit."
+      },
+      {
+        "title": "Build your MVP in a weekend: an AI-building playbook for founders",
+        "url": "https://bolt.new/blog/build-mvp-weekend-ai",
+        "publishedAt": "2026-10-14T00:00:00.000Z",
+        "summary": "A weekend is enough to build a working MVP with AI if you scope it to one user, one problem, and one workflow. This playbook covers each day, what ships in 48 hours, what waits for month two, and how "
+      },
+      {
+        "title": "How to build an app prototype in Bolt.new (no code)",
+        "url": "https://bolt.new/blog/how-to-build-app-prototype",
+        "publishedAt": "2026-10-14T00:00:00.000Z",
+        "summary": "To build an app prototype in Bolt.new, you describe the app in plain language, refine it by describing changes, and publish it to a live URL with real data and sign-in. This guide covers the prep, the"
+      },
+      {
+        "title": "5 Bubble alternatives for founders who can't code",
+        "url": "https://bolt.new/blog/5-bubble-alternatives-for-founders-who-can-t-code",
+        "publishedAt": "2026-10-13T00:00:00.000Z",
+        "summary": "Compare five Bubble alternative picks, including Bolt.new, by learning curve and time-to-launch, then see which one fits your build before you start."
+      },
+      {
+        "title": "5 Retool alternatives to consider, from self-hosted to AI-native",
+        "url": "https://bolt.new/blog/5-retool-alternatives-to-consider-from-self-hosted-to-ai-native",
+        "publishedAt": "2026-10-13T00:00:00.000Z",
+        "summary": "Compare five Retool alternatives on per-seat pricing, component lock-in, and deployment needs, including an AI-native pick most roundups miss."
+      },
+      {
+        "title": "Ginger Pulse: the diabetes app built for the global plate",
+        "url": "https://bolt.new/blog/ginger-pulse-diabetes-nutrition-app",
+        "publishedAt": "2026-10-12T00:00:00.000Z",
+        "summary": "Jai Saini cut his A1C from 7.5% to 6.3% with a spreadsheet, then built Ginger Pulse, a picture-first meal tracking app on Bolt.new that learns your day, your kitchen, and your culture."
+      },
+      {
+        "title": "ServiceTitan alternative: what small contractors build instead",
+        "url": "https://bolt.new/blog/servicetitan-alternative-small-contractors",
+        "publishedAt": "2026-10-09T00:00:00.000Z",
+        "summary": "ServiceTitan is built to run a dispatch office, and its annual report doesn't count a customer as active until they pass $10,000 a year. Here's what small contractors build on Bolt.new instead: estima"
+      },
+      {
+        "title": "5 Lovable alternatives for developers who need real code",
+        "url": "https://bolt.new/blog/5-lovable-alternatives-for-developers-who-need-real-code",
+        "publishedAt": "2026-10-08T00:00:00.000Z",
+        "summary": "Compare five Lovable alternatives, Bolt.new, v0, Replit, Cursor, and Bubble, on code ownership and production readiness, plus which tool fits your use case."
+      },
+      {
+        "title": "5 Replit alternatives compared by workflow and best fit",
+        "url": "https://bolt.new/blog/5-replit-alternatives-compared-by-workflow-and-best-fit",
+        "publishedAt": "2026-10-08T00:00:00.000Z",
+        "summary": "Compare five Replit alternatives, including Bolt.new, by development workflow, backend support, AI agent scope, and best fit."
+      },
+      {
+        "title": "5 Squarespace alternatives when your site needs a database",
+        "url": "https://bolt.new/blog/5-squarespace-alternatives-when-your-site-needs-a-database",
+        "publishedAt": "2026-10-08T00:00:00.000Z",
+        "summary": "Compare five Squarespace alternatives, Wix, Webflow, Hostinger, WordPress, and Bolt.new, and find out if you need a new template or real app functionality."
+      }
+    ]
+  },
+  {
+    "companyId": "v0",
+    "url": "https://v0.app/changelog",
+    "kind": "html",
+    "file": "v0.html",
+    "status": 200,
+    "finalUrl": "https://v0.app/changelog",
+    "recordedAt": "2026-10-21T02:10:02.914Z",
+    "originalBytes": 366146,
+    "sha256": "c00d9855e59acc34ab660cf2266c4d36fa2a82c8a8e2e72e0ec0b1318b829ecc",
+    "excerpt": true,
+    "expected": [
+      {
+        "title": "Downloads in the Code tab, new iOS pickers, and preview fixes",
+        "url": "https://v0.app/changelog#2026-10-16",
+        "publishedAt": "2026-10-16T00:00:00.000Z"
+      },
+      {
+        "title": "Personal accounts are now team workspaces",
+        "url": "https://v0.app/changelog#2026-10-06-personal-accounts-to-teams",
+        "publishedAt": "2026-10-06T00:00:00.000Z"
+      },
+      {
+        "title": "New Code Viewer",
+        "url": "https://v0.app/changelog#2026-09-25-code-viewer",
+        "publishedAt": "2026-09-25T00:00:00.000Z"
+      },
+      {
+        "title": "More model choices, with Enterprise owner controls",
+        "url": "https://v0.app/changelog#2026-09-22-model-picker",
+        "publishedAt": "2026-09-22T00:00:00.000Z"
+      },
+      {
+        "title": "Team chats are easier to discover and collaborate on",
+        "url": "https://v0.app/changelog#2026-09-10",
+        "publishedAt": "2026-09-10T00:00:00.000Z"
+      },
+      {
+        "title": "Publish GitHub projects in one step",
+        "url": "https://v0.app/changelog#2026-09-01",
+        "publishedAt": "2026-09-01T00:00:00.000Z"
+      },
+      {
+        "title": "GPT-5.6 Sol, sign-in inside previews, and zero-config AI Gateway for generated apps",
+        "url": "https://v0.app/changelog#2026-08-28",
+        "publishedAt": "2026-08-28T00:00:00.000Z"
+      },
+      {
+        "title": "A redesigned sidebar, a richer deployment popover, and broader Usage and Activity access",
+        "url": "https://v0.app/changelog#2026-08-14",
+        "publishedAt": "2026-08-14T00:00:00.000Z"
+      },
+      {
+        "title": "Claude Opus 5, direct Figma inspection, and composer prompt history",
+        "url": "https://v0.app/changelog#2026-07-31",
+        "publishedAt": "2026-07-31T00:00:00.000Z"
+      },
+      {
+        "title": "Slash commands, the Shopify integration, and a Snowflake reliability pass",
+        "url": "https://v0.app/changelog#2026-07-21",
+        "publishedAt": "2026-07-21T00:00:00.000Z"
+      }
+    ]
+  },
+  {
+    "companyId": "zed",
+    "url": "https://zed.dev/blog.rss",
+    "kind": "rss",
+    "file": "zed.xml",
+    "status": 200,
+    "finalUrl": "https://zed.dev/blog.rss",
+    "recordedAt": "2026-10-21T02:10:02.918Z",
+    "originalBytes": 75222,
+    "sha256": "cb4f35e030d06a68b0e04b05d036ee087498c014189771e9c4ee037905b8fc4b",
+    "excerpt": true,
+    "expected": [
+      {
+        "title": "Replace PRs with Delta – Now in Public Beta",
+        "url": "https://zed.dev/blog/delta-public-beta",
+        "publishedAt": "2026-09-16T00:00:00.000Z",
+        "summary": "Delta is now in public beta. Replacing pull requests is our first step toward replacing GitHub."
+      },
+      {
+        "title": "Xanadu Was Waiting for Agents",
+        "url": "https://zed.dev/blog/agentic-xanadu",
+        "publishedAt": "2026-09-01T00:00:00.000Z",
+        "summary": "Ted Nelson specified the docuverse sixty years ago. The technology finally arrived, and so did its native users."
+      },
+      {
+        "title": "Introducing Delta",
+        "url": "https://zed.dev/blog/introducing-delta",
+        "publishedAt": "2026-08-12T00:00:00.000Z",
+        "summary": "A multiplayer environment for coding with agents, from the creators of Zed."
+      },
+      {
+        "title": "Sandboxing",
+        "url": "https://zed.dev/blog/sandboxing",
+        "publishedAt": "2026-08-05T00:00:00.000Z",
+        "summary": "Zed supports sandboxing to restrict what agents can do while using the terminal and fetch tools."
+      },
+      {
+        "title": "Hidden Gems: Part 4",
+        "url": "https://zed.dev/blog/hidden-gems-part-4",
+        "publishedAt": "2026-06-23T00:00:00.000Z",
+        "summary": "Favorite workflows and hidden features from the Zed team and community."
+      },
+      {
+        "title": "Zed Guild: What We Built, What We Learned",
+        "url": "https://zed.dev/blog/zed-guild-retrospective",
+        "publishedAt": "2026-06-16T00:00:00.000Z",
+        "summary": "A retrospective on the Zed Guild - what we built with our community contributors, what we learned, and what comes next."
+      },
+      {
+        "title": "Software Is Made Between Commits",
+        "url": "https://zed.dev/blog/introducing-deltadb",
+        "publishedAt": "2026-06-11T00:00:00.000Z",
+        "summary": "Agents turned the conversation into the real source of our software. DeltaDB is the version control built for it."
+      },
+      {
+        "title": "The Community Champions Program",
+        "url": "https://zed.dev/blog/community-champions",
+        "publishedAt": "2026-06-02T00:00:00.000Z",
+        "summary": "How we recognize our frequent contributors."
+      },
+      {
+        "title": "What GitHub Copilot's Usage-Based Billing Means for Zed Users",
+        "url": "https://zed.dev/blog/github-copilot-usage-based-billing",
+        "publishedAt": "2026-06-01T00:00:00.000Z",
+        "summary": "Copilot Chat is now metered with GitHub AI Credits. Copilot edit predictions are not."
+      },
+      {
+        "title": "Terminal Threads Are Live in Zed",
+        "url": "https://zed.dev/blog/terminal-threads",
+        "publishedAt": "2026-05-20T00:00:00.000Z",
+        "summary": "Run Claude Code, Amp, or any terminal agent as threads in Zed's sidebar."
+      }
+    ]
+  },
+  {
+    "companyId": "synteq",
+    "url": "https://synteq.com/blogs",
+    "kind": "html",
+    "file": "synteq.html",
+    "status": 200,
+    "finalUrl": "https://synteq.com/blogs",
+    "recordedAt": "2026-10-21T02:10:02.922Z",
+    "originalBytes": 171878,
+    "sha256": "95288295af415fd5ea22cd8189b688cfe172542218f4f25d0c9e02f7d886b65c",
+    "excerpt": true,
+    "expected": [
+      {
+        "title": "Introducing Synteq Apps and Serverless Functions",
+        "url": "https://synteq.com/blogs/introducing-synteq-apps-and-serverless-functions",
+        "publishedAt": "2026-10-20T00:00:00.000Z",
+        "summary": "Synteq Apps and Serverless Functions deploy web services, APIs, and workers straight from source (GitHub, direct upload, or one CLI command) and serve them over HTTPS with zero-downtime rolling update"
+      },
+      {
+        "title": "The No-Open-Ports Homelab: Pangolin or NetBird on a Small VPS",
+        "url": "https://synteq.com/blogs/no-open-ports-homelab-pangolin-netbird-vps",
+        "publishedAt": "2026-10-09T00:00:00.000Z",
+        "summary": "Expose Jellyfin, Home Assistant, or a private AI endpoint without port forwarding: self-host Pangolin or NetBird on a VPS instead of Cloudflare."
+      },
+      {
+        "title": "How to Run Hermes Agent or OpenClaw 24/7 Without a Maxed-Out Mac Mini",
+        "url": "https://synteq.com/blogs/run-hermes-agent-openclaw-24-7-without-mac-mini",
+        "publishedAt": "2026-10-09T00:00:00.000Z",
+        "summary": "Your agent doesn't need a Mac mini. Run Hermes Agentor OpenClaw on a small VPS, keep the model on your home GPU or a cloud GPU, and connect them privately."
+      },
+      {
+        "title": "Firecracker vs gVisor: why every app and serverless function on Synteq runs in its own microVM, and what this means for your AI Agent sandbox",
+        "url": "https://synteq.com/blogs/firecracker-vs-gvisor-why-every-app-and-serverless-function-on-synteq-runs-in-its-own-microvm-and-what-this-means-for-your-ai-agent-sandbox",
+        "publishedAt": "2026-10-05T00:00:00.000Z",
+        "summary": "Containers share a kernel. gVisor rebuilds one in user space. Firecracker gives every workload its own. Why Synteq runs every app, function, and AI agent sandbox in a microVM."
+      },
+      {
+        "title": "Introducing Chicago, our Largest Single-Site Expansion in History",
+        "url": "https://synteq.com/blogs/introducing-chicago-our-largest-single-site-expansion-in-history",
+        "publishedAt": "2026-09-24T00:00:00.000Z",
+        "summary": "Major expansion brings Synteq's cloud, dedicated servers, GPU, and storage platform to one of the world's largest interconnection markets"
+      },
+      {
+        "title": "What is a VPS?",
+        "url": "https://synteq.com/blogs/what-is-a-vps",
+        "publishedAt": "2026-09-17T00:00:00.000Z",
+        "summary": "A VPS (virtual private server) is a virtualized slice of a physical server with allocated CPU cores, RAM, NVMe storage, and full root access."
+      },
+      {
+        "title": "What Egress Fees are and How They Wreck Storage Budgets",
+        "url": "https://synteq.com/blogs/what-egress-fees-are-and-how-they-wreck-storage-budgets",
+        "publishedAt": "2026-09-12T00:00:00.000Z",
+        "summary": "Egress fees quietly wreck storage budgets. Egress fees quietly wreck storage budgets. Here's why high-throughput workloads get hit hardest - and which providers actually price bandwidth fairly."
+      },
+      {
+        "title": "Synteq Appoints TD's Imran Khan to Its Board of Directors",
+        "url": "https://synteq.com/blogs/synteq-appoints-tds-imran-khan-to-its-board-of-directors",
+        "publishedAt": "2026-08-25T00:00:00.000Z",
+        "summary": "TD Bank's Head of Innovation and Design joins Synteq's board as the company builds out its AI and enterprise cloud compute platform."
+      },
+      {
+        "title": "Synteq Launches Synteq Cloud, a Unified Control Plane for GPU, Bare Metal, Virtualized Compute, and Enterprise Storage",
+        "url": "https://synteq.com/blogs/synteq-launches-synteq-cloud-a-unified-control-plane-for-gpu-bare-metal-virtualized-compute-and-enterprise-storage",
+        "publishedAt": "2026-07-31T00:00:00.000Z",
+        "summary": "Synteq Cloud brings provisioning, management, and billing into a single in-house platform with highly available service architecture and distributed block storage"
+      }
+    ]
+  },
+  {
+    "companyId": "grok",
+    "url": "https://x.ai/news",
+    "kind": "html",
+    "file": "grok.html",
+    "status": 403,
+    "finalUrl": "https://x.ai/news",
+    "recordedAt": "2026-10-21T02:10:02.922Z",
+    "originalBytes": 5477,
+    "sha256": "402f37d5bfee7c9242b3c7656beaad45a316a7f6a3cb65f5f6116edbf309bacf",
+    "excerpt": false,
+    "expected": []
+  },
+  {
+    "companyId": "deepseek",
+    "url": "https://api-docs.deepseek.com/news/news261017/",
+    "kind": "html",
+    "file": "deepseek.html",
+    "status": 200,
+    "finalUrl": "https://api-docs.deepseek.com/news/news261017/",
+    "recordedAt": "2026-10-21T02:10:02.923Z",
+    "originalBytes": 23915,
+    "sha256": "c557ba334297a0a802282431dd15c9ba6942846a71860051c1c7b9e53d5dc037",
+    "excerpt": true,
+    "expected": [
+      {
+        "title": "DeepSeek-V4.1-Flash-1017 Release 2026/10/17",
+        "url": "https://api-docs.deepseek.com/news/news261017",
+        "publishedAt": "2026-10-17T00:00:00.000Z"
+      },
+      {
+        "title": "DeepSeek-V4.1-Flash Release 2026/09/10",
+        "url": "https://api-docs.deepseek.com/news/news260910",
+        "publishedAt": "2026-09-10T00:00:00.000Z"
+      },
+      {
+        "title": "DeepSeek-V4-Flash-Vision-Exp Release 2026/08/21",
+        "url": "https://api-docs.deepseek.com/news/news260821",
+        "publishedAt": "2026-08-21T00:00:00.000Z"
+      },
+      {
+        "title": "DeepSeek-V4-Pro GA Release 2026/08/13",
+        "url": "https://api-docs.deepseek.com/news/news260813",
+        "publishedAt": "2026-08-13T00:00:00.000Z"
+      },
+      {
+        "title": "DeepSeek-V4 Preview Release 2026/04/24",
+        "url": "https://api-docs.deepseek.com/news/news260424",
+        "publishedAt": "2026-04-24T00:00:00.000Z"
+      },
+      {
+        "title": "DeepSeek-V3.2 Release 2025/12/01",
+        "url": "https://api-docs.deepseek.com/news/news251201",
+        "publishedAt": "2025-12-01T00:00:00.000Z"
+      },
+      {
+        "title": "DeepSeek-V3.2-Exp Release 2025/09/29",
+        "url": "https://api-docs.deepseek.com/news/news250929",
+        "publishedAt": "2025-09-29T00:00:00.000Z"
+      },
+      {
+        "title": "DeepSeek V3.1 Update 2025/09/22",
+        "url": "https://api-docs.deepseek.com/news/news250922",
+        "publishedAt": "2025-09-22T00:00:00.000Z"
+      },
+      {
+        "title": "DeepSeek V3.1 Release 2025/08/21",
+        "url": "https://api-docs.deepseek.com/news/news250821",
+        "publishedAt": "2025-08-21T00:00:00.000Z"
+      },
+      {
+        "title": "DeepSeek-R1-0528 Release 2025/05/28",
+        "url": "https://api-docs.deepseek.com/news/news250528",
+        "publishedAt": "2025-05-28T00:00:00.000Z"
+      }
+    ]
+  },
+  {
+    "companyId": "qwen",
+    "url": "https://qwenlm.github.io/blog/index.xml",
+    "kind": "rss",
+    "file": "qwen.xml",
+    "status": 200,
+    "finalUrl": "https://qwenlm.github.io/blog/index.xml",
+    "recordedAt": "2026-10-21T02:10:02.926Z",
+    "originalBytes": 39167,
+    "sha256": "ea782e687f4dea1e2017948ed117be7cce364e11615631dfaa11e8d1bc510e52",
+    "excerpt": true,
+    "expected": [
+      {
+        "title": "Qwen3Guard: Real-time Safety for Your Token Stream",
+        "url": "https://qwenlm.github.io/blog/qwen3guard/",
+        "publishedAt": "2025-09-22T20:00:00.000Z",
+        "summary": "Tech Report GitHub Hugging Face ModelScope DISCORD Introduction We are excited to introduce Qwen3Guard, the first safety guardrail model in the Qwen family. Built upon the powerful Qwen3 foundation mo"
+      },
+      {
+        "title": "Qwen-Image-Edit: Image Editing with Higher Quality and Efficiency",
+        "url": "https://qwenlm.github.io/blog/qwen-image-edit/",
+        "publishedAt": "2025-08-18T17:30:00.000Z",
+        "summary": "QWEN CHAT GITHUB HUGGING FACE MODELSCOPE DISCORD We are excited to introduce Qwen-Image-Edit, the image editing version of Qwen-Image. Built upon our 20B Qwen-Image model, Qwen-Image-Edit successfully"
+      },
+      {
+        "title": "Qwen-Image: Crafting with Native Text Rendering",
+        "url": "https://qwenlm.github.io/blog/qwen-image/",
+        "publishedAt": "2025-08-04T14:08:30.000Z",
+        "summary": "GITHUB HUGGING FACE MODELSCOPE DEMO DISCORD We are thrilled to release Qwen-Image, a 20B MMDiT image foundation model that achieves significant advances in complex text rendering and precise image edi"
+      },
+      {
+        "title": "GSPO: Towards Scalable Reinforcement Learning for Language Models",
+        "url": "https://qwenlm.github.io/blog/gspo/",
+        "publishedAt": "2025-07-27T07:00:00.000Z",
+        "summary": "PAPER DISCORD Introduction Reinforcement Learning (RL) has emerged as a pivotal paradigm for scaling language models and enhancing their deep reasoning and problem-solving capabilities. To scale RL, t"
+      },
+      {
+        "title": "Qwen-MT: Where Speed Meets Smart Translation",
+        "url": "https://qwenlm.github.io/blog/qwen-mt/",
+        "publishedAt": "2025-07-24T14:00:00.000Z",
+        "summary": "DEMO API DISCORD Introduction Here we introduce the latest update of Qwen-MT (qwen-mt-turbo) via Qwen API. This update builds upon the powerful Qwen3, leveraging trillions multilingual and translation"
+      },
+      {
+        "title": "Qwen3-Coder: Agentic Coding in the World",
+        "url": "https://qwenlm.github.io/blog/qwen3-coder/",
+        "publishedAt": "2025-07-22T13:00:00.000Z",
+        "summary": "GITHUB HUGGING FACE MODELSCOPE DISCORD Today, we’re announcing Qwen3-Coder, our most agentic code model to date. Qwen3-Coder is available in multiple sizes, but we’re excited to introduce its most pow"
+      },
+      {
+        "title": "Time to Speak Some Dialects, Qwen-TTS!",
+        "url": "https://qwenlm.github.io/blog/qwen-tts/",
+        "publishedAt": "2025-06-27T07:01:30.000Z",
+        "summary": "API DISCORD Introduction Here we introduce the latest update of Qwen-TTS (qwen-tts-latest or qwen-tts-2025-05-22) through Qwen API . Trained on a large-scale dataset encompassing over millions of hour"
+      },
+      {
+        "title": "Qwen VLo: From \"Understanding\" the World to \"Depicting\" It",
+        "url": "https://qwenlm.github.io/blog/qwen-vlo/",
+        "publishedAt": "2025-06-26T14:00:04.000Z",
+        "summary": "QWEN CHAT DISCORD Introduction The evolution of multimodal large models is continually pushing the boundaries of what we believe technology can achieve. From the initial QwenVL to the latest Qwen2.5 V"
+      },
+      {
+        "title": "Qwen3 Embedding: Advancing Text Embedding and Reranking Through Foundation Models",
+        "url": "https://qwenlm.github.io/blog/qwen3-embedding/",
+        "publishedAt": "2025-06-05T13:00:00.000Z",
+        "summary": "GITHUB HUGGING FACE MODELSCOPE DISCORD We release Qwen3 Embedding series, a new proprietary model of the Qwen model family. These models are specifically designed for text embedding, retrieval, and re"
+      },
+      {
+        "title": "Qwen3: Think Deeper, Act Faster",
+        "url": "https://qwenlm.github.io/blog/qwen3/",
+        "publishedAt": "2025-04-28T20:00:00.000Z",
+        "summary": "QWEN CHAT GitHub Hugging Face ModelScope Kaggle DEMO DISCORD Introduction Today, we are excited to announce the release of Qwen3, the latest addition to the Qwen family of large language models. Our f"
+      }
+    ]
+  },
+  {
+    "companyId": "together",
+    "url": "https://www.together.ai/blog/rss.xml",
+    "kind": "rss",
+    "file": "together.xml",
+    "status": 200,
+    "finalUrl": "https://www.together.ai/blog/rss.xml",
+    "recordedAt": "2026-10-21T02:10:02.927Z",
+    "originalBytes": 57313,
+    "sha256": "f2e63cdc7ba5f32d14fcc41b3abfad701b1d7a2137b0d51d5b8e6ec60e212127",
+    "excerpt": true,
+    "expected": [
+      {
+        "title": "Together Post-Training: frontier-grade model shaping, the way that fits you",
+        "url": "https://www.together.ai/blog/together-post-training",
+        "publishedAt": "2026-10-19T00:00:00.000Z",
+        "summary": "Post-train open LLMs like Qwen, GLM and Kimi into custom models you own, with SFT or RL. You write the training loop. Together runs the hard infrastructure."
+      },
+      {
+        "title": "Meta Muse Spark Open is live on Together AI",
+        "url": "https://www.together.ai/blog/meta-muse-spark-open",
+        "publishedAt": "2026-10-15T00:00:00.000Z",
+        "summary": "Meta Muse Spark Open, Meta's open-weight model for agentic coding, is live on Together AI with a 1M-token context window on serverless and dedicated infrastructure."
+      },
+      {
+        "title": "Expanding our enterprise inference capacity with IBM Cloud and NVIDIA",
+        "url": "https://www.together.ai/blog/expanding-our-enterprise-inference-capacity-with-ibm-cloud-and-nvidia",
+        "publishedAt": "2026-10-06T00:00:00.000Z",
+        "summary": "Enterprises can now run open models at production scale on a dedicated B300 inference cluster, built by Together AI, IBM Cloud, and NVIDIA"
+      },
+      {
+        "title": "Together Link: open models in the harness you already use. Start with one command today.",
+        "url": "https://www.together.ai/blog/together-link-frontier-quality-open-models-in-the-harness-you-already-use",
+        "publishedAt": "2026-10-05T00:00:00.000Z",
+        "summary": "Together Link brings frontier open models like GLM 5.3 and Kimi K3 into the coding agent your team already uses, cutting model spend by over 50%."
+      },
+      {
+        "title": "How to train your own Jev for $17",
+        "url": "https://www.together.ai/blog/how-to-train-your-own-jev",
+        "publishedAt": "2026-09-23T00:00:00.000Z",
+        "summary": "We just launched our own Jev-like classifier, together/Tev1-4B-experimental, on top of Qwen3.5 4B on Together’s serverless platform. In this blog post we’ll show you how to fine-tune your own version!"
+      },
+      {
+        "title": "Canary rollouts: upgrade models in production without downtime",
+        "url": "https://www.together.ai/blog/canary-rollouts-upgrade-models-in-production-without-downtime",
+        "publishedAt": "2026-09-22T00:00:00.000Z",
+        "summary": "A hard model swap exposes every user at once, and rolling back means cold-starting the old deployment under pressure. Here's how staged traffic ramps, metric gates, and automatic rollback work on dedi"
+      },
+      {
+        "title": "How a global fintech scaled coding agent traffic with Dedicated Model Inference",
+        "url": "https://www.together.ai/blog/global-fintech-scales-coding-agent-traffic-with-dedicated-model-inference",
+        "publishedAt": "2026-09-18T00:00:00.000Z",
+        "summary": "Inside a global bank's shift to self-serve dedicated inference: how Together's DMI gave engineering teams direct control over scaling, models, and testing."
+      },
+      {
+        "title": "Migrating from closed to open source models, Together",
+        "url": "https://www.together.ai/blog/migrating-from-closed-to-open-source-models",
+        "publishedAt": "2026-09-16T00:00:00.000Z",
+        "summary": "Moving from closed to open source models can take weeks, not years. A five-stage playbook: discover, evaluate, adapt, decide, and production."
+      },
+      {
+        "title": "Together AI expands fine-tuning service with more models, live metrics, and finer controls",
+        "url": "https://www.together.ai/blog/together-ai-expands-fine-tuning-service-with-more-models-live-metrics-and-finer-controls",
+        "publishedAt": "2026-09-11T00:00:00.000Z",
+        "summary": "Together Fine-Tuning adds the latest open-weight models, live experiment tracking, Expert LoRA, early stopping, tokenized dataset previews, pre-flight validation, and lower training prices on selected"
+      },
+      {
+        "title": "Introducing preemptible compute: the same compute, half the price",
+        "url": "https://www.together.ai/blog/introducing-preemptible-compute-the-same-compute-half-the-price",
+        "publishedAt": "2026-09-10T00:00:00.000Z",
+        "summary": "Together GPU Clusters now supports preemptible compute: the same GPU capacity at a flat 50% of the on-demand rate, with a five-minute drain window."
+      }
+    ]
+  },
+  {
+    "companyId": "huggingface",
+    "url": "https://huggingface.co/blog/feed.xml",
+    "kind": "rss",
+    "file": "huggingface.xml",
+    "status": 200,
+    "finalUrl": "https://huggingface.co/blog/feed.xml",
+    "recordedAt": "2026-10-21T02:10:02.931Z",
+    "originalBytes": 261572,
+    "sha256": "072ca286380b5a59d8c0f8e2b475b94bd4c2a5c1852bda615d8d858fcceb16f9",
+    "excerpt": true,
+    "expected": [
+      {
+        "title": "Hugging Face ❤️ TorchTPU: TPUs, Natively",
+        "url": "https://huggingface.co/blog/hf-torchtpu",
+        "publishedAt": "2026-10-20T00:00:00.000Z"
+      },
+      {
+        "title": "AnyLanguageModel 1.0: One Year of Local Models on Apple Platforms",
+        "url": "https://huggingface.co/blog/anylanguagemodel-1-0",
+        "publishedAt": "2026-10-20T00:00:00.000Z"
+      },
+      {
+        "title": "MPS in PyTorch 2.15",
+        "url": "https://huggingface.co/blog/mps-pytorch-2-15",
+        "publishedAt": "2026-10-20T00:00:00.000Z"
+      },
+      {
+        "title": "TorchNeuron: running HF models on AWS Trainium is easier than ever",
+        "url": "https://huggingface.co/blog/hf-torchneuron",
+        "publishedAt": "2026-10-19T00:00:00.000Z"
+      },
+      {
+        "title": "Welcome Beam: a 501B open model you can own, customize, and scale",
+        "url": "https://huggingface.co/blog/reflection-beam",
+        "publishedAt": "2026-10-16T00:00:00.000Z"
+      },
+      {
+        "title": "Welcome Muse Spark Open: open-weight frontier multimodal mixture-of-experts model from Meta",
+        "url": "https://huggingface.co/blog/meta-muse-spark-open",
+        "publishedAt": "2026-10-15T00:00:00.000Z"
+      },
+      {
+        "title": "Welcome FLUX.3 Image Klein in Diffusers",
+        "url": "https://huggingface.co/blog/flux-3",
+        "publishedAt": "2026-10-15T00:00:00.000Z"
+      }
+    ]
+  },
+  {
+    "companyId": "luma",
+    "url": "https://lumalabs.ai/news",
+    "kind": "html",
+    "file": "luma.html",
+    "status": 200,
+    "finalUrl": "https://lumalabs.ai/news",
+    "recordedAt": "2026-10-21T02:10:02.951Z",
+    "originalBytes": 1216646,
+    "sha256": "c5ea4658c8d0eb08b6ee8f8b0047aa0774b2f555f977e61010fca04a4d36367d",
+    "excerpt": true,
+    "expected": [
+      {
+        "title": "Best AI Video Upscalers: 8 Tools for 1080p to 4K",
+        "url": "https://lumalabs.ai/news/ai-video-upscalers",
+        "publishedAt": "2026-10-14T00:00:00.000Z"
+      },
+      {
+        "title": "Best Text to Video AI Generators: 9 Tools Compared",
+        "url": "https://lumalabs.ai/news/text-video-ai-generators",
+        "publishedAt": "2026-10-14T00:00:00.000Z"
+      },
+      {
+        "title": "Most Realistic AI Video Generators: 8 Tools Ranked on the Same Prompts",
+        "url": "https://lumalabs.ai/news/realistic-ai-video-generators",
+        "publishedAt": "2026-10-14T00:00:00.000Z"
+      },
+      {
+        "title": "Cheapest AI Video Generators: Cost per Second, Compared",
+        "url": "https://lumalabs.ai/news/cheapest-ai-video-generators",
+        "publishedAt": "2026-10-14T00:00:00.000Z"
+      },
+      {
+        "title": "Best AI Video Editors in 2026: 10 Tools That Edit Footage, Not Just Generate It",
+        "url": "https://lumalabs.ai/news/ai-video-editors",
+        "publishedAt": "2026-10-14T00:00:00.000Z"
+      },
+      {
+        "title": "Best Image to Video AI Generators: 10 Tools Compared for Creative Control",
+        "url": "https://lumalabs.ai/news/image-video-ai-generators",
+        "publishedAt": "2026-10-14T00:00:00.000Z"
+      },
+      {
+        "title": "Best Free AI Video Generators: What You Actually Get Before the Paywall",
+        "url": "https://lumalabs.ai/news/free-ai-video-generators",
+        "publishedAt": "2026-10-14T00:00:00.000Z"
+      },
+      {
+        "title": "Best AI Video Generators in 2026: 12 Tools Tested and Ranked",
+        "url": "https://lumalabs.ai/news/ai-video-generators",
+        "publishedAt": "2026-10-14T00:00:00.000Z"
+      },
+      {
+        "title": "Best AI Intro and Banner Makers for YouTube and Twitch",
+        "url": "https://lumalabs.ai/news/ai-intro-banner-makers-youtube-twitch",
+        "publishedAt": "2026-10-14T00:00:00.000Z"
+      },
+      {
+        "title": "Best AI Image Generators for Instagram and Facebook Posts",
+        "url": "https://lumalabs.ai/news/ai-image-generators-instagram-facebook-posts",
+        "publishedAt": "2026-10-14T00:00:00.000Z"
+      }
+    ]
+  },
+  {
+    "companyId": "novita",
+    "url": "https://blogs.novita.ai/rss.xml",
+    "kind": "rss",
+    "file": "novita.xml",
+    "status": 200,
+    "finalUrl": "https://blogs.novita.ai/rss.xml",
+    "recordedAt": "2026-10-21T02:10:02.960Z",
+    "originalBytes": 719399,
+    "sha256": "ad2cd6dd1a36a32a111aac461ed1ca6d341dee9d342eb0ea01592bb49e1635d5",
+    "excerpt": true,
+    "expected": [
+      {
+        "title": "DeepSeek V4.1 Flash 1017 on Novita AI: Higher Agentic Coding Scores at the Same Price",
+        "url": "https://blogs.novita.ai/deepseek-v4-1-flash-1017-on-novita-ai/",
+        "publishedAt": "2026-10-19T10:00:00.000Z",
+        "summary": "DeepSeek V4.1 Flash 1017 is live on Novita AI at the same $0.3/$1.2 pricing and 1M context, with stronger agentic coding scores than the September V4.1 Flash."
+      },
+      {
+        "title": "Use DeepSeek in Cursor: Custom API Setup Guide",
+        "url": "https://blogs.novita.ai/use-deepseek-in-cursor-custom-api-setup-guide/",
+        "publishedAt": "2026-10-19T10:00:00.000Z",
+        "summary": "Add DeepSeek V4.1 Flash and V4 Pro to Cursor through Novita AI's OpenAI-compatible endpoint: exact model IDs, pricing, and Agent Mode fixes."
+      },
+      {
+        "title": "How to Connect SillyTavern to DeepSeek via Novita AI API",
+        "url": "https://blogs.novita.ai/deepseek-api-sillytavern/",
+        "publishedAt": "2026-10-19T00:00:00.000Z",
+        "summary": "Connect SillyTavern to DeepSeek through Novita AI: enter the custom endpoint, paste an API key, pick a model ID, and fix the 401 and 404 errors you will hit."
+      },
+      {
+        "title": "Llama API Guide: Access and Pricing for Llama 3.3, 4 Scout, and 4 Maverick",
+        "url": "https://blogs.novita.ai/llama-api/",
+        "publishedAt": "2026-10-16T00:00:00.000Z",
+        "summary": "Llama is open-weight, so there is no single Llama API. Compare hosted options for Llama 3.3 70B, 4 Scout, and 4 Maverick by price, context, and version."
+      },
+      {
+        "title": "llama.cpp API Endpoints: Self-Host vs a Managed Llama API",
+        "url": "https://blogs.novita.ai/llama-cpp-api-endpoints/",
+        "publishedAt": "2026-10-16T00:00:00.000Z",
+        "summary": "The llama.cpp server exposes an OpenAI-compatible HTTP API. See its core endpoints, a runnable chat call, and when self-hosting beats a managed Llama API."
+      },
+      {
+        "title": "Kimi K3 vs Kimi K2.5: Pricing, Performance, and API Changes",
+        "url": "https://blogs.novita.ai/kimi-k3-vs-kimi-k2-5-api-pricing/",
+        "publishedAt": "2026-10-15T10:00:00.000Z",
+        "summary": "Compare Kimi K3 and Kimi K2.5 on Novita AI: per-token pricing, cache-read rates, context windows, and a full 7-version Kimi pricing table."
+      },
+      {
+        "title": "TypingMind × Novita AI: How to Connect and Use Multiple AI Models in One Workspace",
+        "url": "https://blogs.novita.ai/typingmind-novita-ai-integration/",
+        "publishedAt": "2026-10-15T00:00:00.000Z",
+        "summary": "Connect Novita AI to TypingMind: add your API key, enable the models you want, and reuse one prompt across them. Setup, custom models, and costs."
+      },
+      {
+        "title": "What Is an OpenAI-Compatible API? Concept, Format, and Migration Guide",
+        "url": "https://blogs.novita.ai/openai-compatible-api/",
+        "publishedAt": "2026-10-14T00:00:00.000Z",
+        "summary": "An OpenAI-compatible API reuses OpenAI's request and response format so you can switch providers by changing the base URL and key. Here's how it works."
+      },
+      {
+        "title": "How to Reduce LLM API Costs: A Practical Checklist for Caching, Batching, and Model Routing",
+        "url": "https://blogs.novita.ai/reduce-llm-api-costs/",
+        "publishedAt": "2026-10-14T00:00:00.000Z",
+        "summary": "Five levers that cut a real LLM API bill: caching, batching, model routing, prompt compression, and output limits, with a worked Novita AI cost example."
+      },
+      {
+        "title": "vLLM x Novita AI: Chord W4A16 INT4 MoE Kernel for Kimi K2.x",
+        "url": "https://novita.ai/blog/novita-chord-w4a16-moe/",
+        "publishedAt": "2026-09-15T00:00:00.000Z",
+        "summary": "Novita AI's Chord is a W4A16 INT4 MoE CUDA kernel for Kimi K2.x, with Humming-compatible indexed and grouped SM90 paths for vLLM serving."
+      }
+    ]
+  },
+  {
+    "companyId": "modal",
+    "url": "https://modal.com/blog/atom.xml",
+    "kind": "atom",
+    "file": "modal.xml",
+    "status": 200,
+    "finalUrl": "https://modal.com/blog/atom.xml",
+    "recordedAt": "2026-10-21T02:10:02.962Z",
+    "originalBytes": 67324,
+    "sha256": "40923d159ce1c3d7dc985a2888e386b40b59ff44c0f2f357a4d17b7e30f83760",
+    "excerpt": true,
+    "expected": [
+      {
+        "title": "Serverless routing made sticky",
+        "url": "https://modal.com/blog/serverless-routing-made-sticky",
+        "publishedAt": "2026-10-20T00:00:00.000Z",
+        "summary": "Voice agents, multiplayer games, and other workloads can now build on Sticky Sessions. Achieve strong affinity without losing autoscaling. Here’s how we built this on Modal Servers."
+      },
+      {
+        "title": "NVIDIA Vera CPUs double throughput for Modal Sandboxes",
+        "url": "https://modal.com/blog/nvidia-vera-sandboxes",
+        "publishedAt": "2026-10-19T14:01:00.000Z",
+        "summary": "We benchmarked NVIDIA's new Arm-based Vera CPU on agentic Sandbox workloads. Under heavy load, it completes far more tasks than the x86 and Graviton alternatives, without sacrificing latency."
+      },
+      {
+        "title": "Building fast filesystems for VMs",
+        "url": "https://modal.com/blog/vm-sandbox-filesystem",
+        "publishedAt": "2026-10-16T12:00:00.000Z",
+        "summary": "How we made VM Sandbox filesystems fast by speaking in blocks instead of files."
+      },
+      {
+        "title": "Muse Spark Open is now available on Modal",
+        "url": "https://modal.com/blog/meta-muse-spark-open-now-available-on-modal",
+        "publishedAt": "2026-10-15T00:00:00.000Z",
+        "summary": "Muse Spark Open, a coding-optimized multimodal model from Meta, is now available on Modal Auto Endpoints."
+      },
+      {
+        "title": "Modal crosses $1B in Annualized Run Rate and raises $750M Series D",
+        "url": "https://modal.com/blog/1-billion-annualized-run-rate-series-d",
+        "publishedAt": "2026-10-14T00:00:00.000Z",
+        "summary": "Modal has crossed $1B in annualized run rate and raised a $750M Series D led by Accel to build new infrastructure for AI applications. We can't think of a better time to be building software."
+      },
+      {
+        "title": "Toward RL on mixed-precision, mixed-accelerator samplers",
+        "url": "https://modal.com/blog/toward-rl-on-mixed-precision-mixed-accelerator-samplers",
+        "publishedAt": "2026-10-13T12:00:00.000Z",
+        "summary": "We trained a model on agentic coding tasks using fully asynchronous RL and mixed-precision, mixed-accelerator samplers. With off-policy correction, training stayed stable through convergence, on par w"
+      },
+      {
+        "title": "Endpoint Candidates: evaluate and promote inference endpoints",
+        "url": "https://modal.com/blog/endpoint-candidates",
+        "publishedAt": "2026-10-12T00:00:00.000Z",
+        "summary": "Test and promote inference endpoints to evaluate quality, latency, throughput, and cost."
+      },
+      {
+        "title": "TypeSafe AI scales Jev to trillions of tokens in three days on Modal",
+        "url": "https://modal.com/blog/typesafeai-case-study",
+        "publishedAt": "2026-10-05T00:00:00.000Z",
+        "summary": "TypeSafe AI launched Jev, a new class of AI model built for automation, and scaled to trillions of tokens over a weekend on Modal."
+      },
+      {
+        "title": "Modal Clusters are generally available",
+        "url": "https://modal.com/blog/modal-clusters-generally-available",
+        "publishedAt": "2026-10-01T12:00:00.000Z",
+        "summary": "Multi-node GPU clusters with RDMA, gang scheduled from Modal's shared capacity pool and billed by the second, behind a single decorator."
+      },
+      {
+        "title": "VM Sandboxes: Full computers for agents",
+        "url": "https://modal.com/blog/vm-sandboxes-agent-computers",
+        "publishedAt": "2026-10-01T00:00:00.000Z",
+        "summary": "VM Sandboxes are built for those who need to give their agents the power of a full computer."
+      }
+    ]
+  },
+  {
+    "companyId": "udio",
+    "url": "https://www.udio.com/blog",
+    "kind": "html",
+    "file": "udio.html",
+    "status": 200,
+    "finalUrl": "https://www.udio.com/blog",
+    "recordedAt": "2026-10-21T02:10:02.963Z",
+    "originalBytes": 30816,
+    "sha256": "4b9d00d23d28160ab8e428bf8712a149c0860b5e9157a72057298ad72a2f7f82",
+    "excerpt": true,
+    "expected": [
+      {
+        "title": "Udio with Warner Music Group",
+        "url": "https://www.udio.com/blog/udio-warner",
+        "publishedAt": "2025-11-19T00:00:00.000Z"
+      },
+      {
+        "title": "A New Era of Music - Udio with Universal Music Group",
+        "url": "https://www.udio.com/blog/a-new-era",
+        "publishedAt": "2025-10-29T00:00:00.000Z"
+      }
+    ]
+  },
+  {
+    "companyId": "higgsfield",
+    "url": "https://higgsfield.ai/blog/rss.xml",
+    "kind": "rss",
+    "file": "higgsfield.xml",
+    "status": 200,
+    "finalUrl": "https://higgsfield.ai/blog/rss.xml",
+    "recordedAt": "2026-10-21T02:10:02.964Z",
+    "originalBytes": 98262,
+    "sha256": "2c92ed331966246143eb528629c58efdc999f810d7c4250fd30b8444c46d5155",
+    "excerpt": true,
+    "expected": [
+      {
+        "title": "5 Best AI Video Generators for Long Videos",
+        "url": "https://higgsfield.ai/blog/best-ai-video-generators-long-videos",
+        "publishedAt": "2026-10-20T16:23:00.000Z"
+      },
+      {
+        "title": "10 Best AI Video MCP Servers for Claude, ChatGPT and Cursor in 2026",
+        "url": "https://higgsfield.ai/blog/best-ai-video-mcp-servers",
+        "publishedAt": "2026-10-20T14:44:00.000Z"
+      },
+      {
+        "title": "Egor Kuzmin: Putting AI Video in Front of 86,000 People on Stadium Screens",
+        "url": "https://higgsfield.ai/blog/egor-kuzmin-stadium-screens",
+        "publishedAt": "2026-10-20T14:00:00.000Z"
+      },
+      {
+        "title": "How to Create AI Real Estate Videos from Photos",
+        "url": "https://higgsfield.ai/blog/ai-real-estate-videos-from-photos",
+        "publishedAt": "2026-10-20T11:41:00.000Z"
+      },
+      {
+        "title": "Higgsfield AI vs Kling 2026: Plans and Pricing Compared",
+        "url": "https://higgsfield.ai/blog/higgsfield-vs-kling-2026",
+        "publishedAt": "2026-10-19T20:19:00.000Z"
+      },
+      {
+        "title": "9 Best AI Lip Sync Video Generators in 2026",
+        "url": "https://higgsfield.ai/blog/best-ai-lip-sync-video-generators-2026",
+        "publishedAt": "2026-10-19T18:04:00.000Z"
+      },
+      {
+        "title": "How to Generate AI Video From Your Terminal With Higgsfield CLI",
+        "url": "https://higgsfield.ai/blog/higgsfield-cli",
+        "publishedAt": "2026-10-19T09:07:00.000Z"
+      },
+      {
+        "title": "Best All-in-One Subscription for AI Images and Video in 2026",
+        "url": "https://higgsfield.ai/blog/best-all-in-one-subscription-ai-images-video",
+        "publishedAt": "2026-10-18T19:00:00.000Z"
+      },
+      {
+        "title": "Higgsfield Community: Where Your AI Work Goes After You Generate It",
+        "url": "https://higgsfield.ai/blog/higgsfield-community",
+        "publishedAt": "2026-10-17T15:28:00.000Z"
+      },
+      {
+        "title": "9 Best AI Tools for Motion Designers in 2026",
+        "url": "https://higgsfield.ai/blog/best-ai-tools-motion-designers",
+        "publishedAt": "2026-10-14T21:29:00.000Z"
+      }
+    ]
+  },
+  {
+    "companyId": "ai21",
+    "url": "https://www.ai21.com/blog/",
+    "kind": "html",
+    "file": "ai21.html",
+    "status": 200,
+    "finalUrl": "https://www.ai21.com/blog/",
+    "recordedAt": "2026-10-21T18:45:03.337Z",
+    "originalBytes": 56686,
+    "sha256": "6c51e75b719c34c4f7b1e1fe91caa58dd0f0f8c53dd1df288316ecefd2dfb72b",
+    "excerpt": true,
+    "expected": [
+      {
+        "title": "AI21 Partners with Gong, Deel and Alice to Post-Train Specialized Models on NVIDIA Nemotron 3.5 Super VL",
+        "url": "https://www.ai21.com/blog/ai21-post-trains-nvidia-nemotron-35-super-vl/",
+        "publishedAt": "2026-10-15T00:00:00.000Z",
+        "summary": "Over the past three weeks, our team of Forward-Deployed Researchers (FDRs) post-trained recently released NVIDIA Nemotron 3.5 Super VL in…"
+      },
+      {
+        "title": "The hidden mismatch: Evaluating coding agents on the work developers actually do",
+        "url": "https://www.ai21.com/blog/evaluating-coding-agents-on-the-work-developers-actually-do/",
+        "publishedAt": "2026-10-14T00:00:00.000Z"
+      },
+      {
+        "title": "The verifiability litmus test for agent design",
+        "url": "https://www.ai21.com/blog/the-verifiability-litmus-test-for-agent-design/",
+        "publishedAt": "2026-10-06T00:00:00.000Z"
+      },
+      {
+        "title": "From manual negotiation to automated scheduling: How AI21 manages its GPU fleet with Kueue",
+        "url": "https://www.ai21.com/blog/how-ai21-manages-its-gpu-fleet-with-kueue/",
+        "publishedAt": "2026-10-04T00:00:00.000Z"
+      },
+      {
+        "title": "You don’t need a frontier model. You need a verifier.",
+        "url": "https://www.ai21.com/blog/you-need-a-verifier/",
+        "publishedAt": "2026-08-19T00:00:00.000Z"
+      },
+      {
+        "title": "Better and cheaper together: Open models explore, frontier models patch",
+        "url": "https://www.ai21.com/blog/better-and-cheaper-together-open-models-explore-frontier-models-patch/",
+        "publishedAt": "2026-07-15T00:00:00.000Z"
+      },
+      {
+        "title": "Improving Best-of-N with Budget-Aware Execution for SWE Agents",
+        "url": "https://www.ai21.com/blog/improving-best-of-n-with-budget-aware-execution-for-swe-agents/",
+        "publishedAt": "2026-07-07T00:00:00.000Z"
+      },
+      {
+        "title": "Token spend isn’t going down. You need more than naive routing to manage it",
+        "url": "https://www.ai21.com/blog/spend-isnt-going-down-what-now/",
+        "publishedAt": "2026-06-25T00:00:00.000Z"
+      },
+      {
+        "title": "Tipping the scales: Merging weak agents into a state-of-the-art deep researcher",
+        "url": "https://www.ai21.com/blog/merging-weak-agents-into-a-state-of-the-art-deep-researcher/",
+        "publishedAt": "2026-06-24T00:00:00.000Z"
+      },
+      {
+        "title": "First scale, then enrich: How the right execution strategy helped us reach state-of-the-art on SWE-rebench",
+        "url": "https://www.ai21.com/blog/first-scale-then-enrich-how-the-right-execution-strategy-helped-us-reach-state-of-the-art-on-swe-rebench/",
+        "publishedAt": "2026-06-04T00:00:00.000Z"
+      }
+    ]
+  },
+  {
+    "companyId": "augment",
+    "url": "https://www.augmentcode.com/blog/rss.xml",
+    "kind": "rss",
+    "file": "augment.xml",
+    "status": 200,
+    "finalUrl": "https://www.augmentcode.com/blog/rss.xml",
+    "recordedAt": "2026-10-21T18:45:03.480Z",
+    "originalBytes": 493707,
+    "sha256": "bcac775d72b8c95da31fccd72733ee537f9599c24a8da0493ead5b8eaf5ae3bc",
+    "excerpt": true,
+    "expected": [
+      {
+        "title": "Augment Code's next chapter",
+        "url": "https://augmentcode.com/blog/augment-code-next-chapter",
+        "publishedAt": "2026-10-08T15:00:00.000Z",
+        "summary": "Augment Code's next chapter"
+      },
+      {
+        "title": "Beyond AI Coding Agents: How We Built Augment's Software Factory",
+        "url": "https://augmentcode.com/blog/beyond-ai-coding-agents-how-we-built-augments-software-factory",
+        "publishedAt": "2026-09-11T23:58:33.000Z",
+        "summary": "Beyond AI Coding Agents: How We Built Augment's Software Factory"
+      },
+      {
+        "title": "We think the FDE should be part of the product, so we built one in",
+        "url": "https://augmentcode.com/blog/we-think-the-fde-should-be-part-of-the-product-so-we-built-one-in",
+        "publishedAt": "2026-08-28T00:00:00.000Z",
+        "summary": "We think the FDE should be part of the product, so we built one in"
+      },
+      {
+        "title": "How a two-person engineering team handled 6× more product feedback and kept shipping",
+        "url": "https://augmentcode.com/blog/feedback-triage-with-cosmos",
+        "publishedAt": "2026-08-27T22:36:42.000Z",
+        "summary": "How a two-person engineering team handled 6× more product feedback and kept shipping"
+      },
+      {
+        "title": "How we rebuilt the Auggie CLI harness to make tasks 53% cheaper than Claude Code",
+        "url": "https://augmentcode.com/blog/auggie-cli-harness-rebuild-53-percent-cheaper",
+        "publishedAt": "2026-08-14T20:56:58.000Z",
+        "summary": "How we rebuilt the Auggie CLI harness to make tasks 53% cheaper than Claude Code"
+      },
+      {
+        "title": "The software factory needs a faster review loop: further optimizing the path from PR to merge",
+        "url": "https://augmentcode.com/blog/optimizing-pr-to-merge-loop",
+        "publishedAt": "2026-08-13T17:22:19.000Z",
+        "summary": "The software factory needs a faster review loop: further optimizing the path from PR to merge"
+      },
+      {
+        "title": "Using the Cosmos software factory to better understand our business",
+        "url": "https://augmentcode.com/blog/cosmos-software-factory-business-visibility",
+        "publishedAt": "2026-08-13T16:16:44.000Z",
+        "summary": "Using the Cosmos software factory to better understand our business"
+      },
+      {
+        "title": "The best value for every token: GPT-5.6 Sol is now our default in Cosmos",
+        "url": "https://augmentcode.com/blog/eight-models-in-eight-weeks-gpt-5-6-sol-is-now-our-default",
+        "publishedAt": "2026-07-29T02:25:40.000Z",
+        "summary": "The best value for every token: GPT-5.6 Sol is now our default in Cosmos"
+      },
+      {
+        "title": "What is loop engineering, and how are leading software engineering teams using it?",
+        "url": "https://augmentcode.com/blog/what-is-loop-engineering-and-how-are-leading-software-engineering-teams-using-it",
+        "publishedAt": "2026-07-22T18:00:19.000Z",
+        "summary": "What is loop engineering, and how are leading software engineering teams using it?"
+      },
+      {
+        "title": "The bottleneck moved to verification. So we automated that too.",
+        "url": "https://augmentcode.com/blog/the-bottleneck-moved-to-verification-so-we-automated-that-too",
+        "publishedAt": "2026-07-01T12:00:00.000Z",
+        "summary": "The bottleneck moved to verification. So we automated that too."
+      }
+    ]
+  },
+  {
+    "companyId": "warp",
+    "url": "https://www.warp.dev/blog/feed.xml",
+    "kind": "rss",
+    "file": "warp.xml",
+    "status": 200,
+    "finalUrl": "https://www.warp.dev/blog/feed.xml",
+    "recordedAt": "2026-10-21T18:45:03.690Z",
+    "originalBytes": 118439,
+    "sha256": "0332b78caa189e302ad24a1c3199a60d6030b462f8946fe63d141fcf24a31ec6",
+    "excerpt": true,
+    "expected": [
+      {
+        "title": "Tactics for rolling out software factories: human and organizational changes",
+        "url": "https://www.warp.dev/blog/rolling-out-software-factories",
+        "publishedAt": "2026-10-15T16:29:52.000Z",
+        "summary": "How to roll out software factories across an engineering org: start with chore automations, meet engineers in their tools, and track factory adoption."
+      },
+      {
+        "title": "The road to self-improving software",
+        "url": "https://www.warp.dev/blog/self-improving-software-proactive-agents",
+        "publishedAt": "2026-10-15T11:24:12.000Z",
+        "summary": "Let agents decide what to build next: self-improving software factories that proactively fix bugs, refine their own skills, and mine user feedback for roadmap work."
+      },
+      {
+        "title": "Warp Factories now works across Microsoft Teams and Azure DevOps",
+        "url": "https://www.warp.dev/blog/warp-factories-microsoft-teams-azure-devops",
+        "publishedAt": "2026-10-07T17:57:42.000Z",
+        "summary": "Warp Factories now integrates natively with Microsoft Teams and Azure DevOps. Delegate work to your agent software factory from Teams threads, Azure DevOps work items, and pull requests."
+      },
+      {
+        "title": "Build the factory. Let it run. Go kayaking.",
+        "url": "https://www.warp.dev/blog/warp-team-offsite-fall-2026",
+        "publishedAt": "2026-10-03T22:12:33.000Z",
+        "summary": "During Warp team's Savannah off-site, we focused on making Warp Factories reliable, fast, and cost-effective. Then, we let the agents run while we went kayaking."
+      },
+      {
+        "title": "Terraform for agents: how we define our software factory in code",
+        "url": "https://www.warp.dev/blog/software-factory-as-code",
+        "publishedAt": "2026-09-30T16:00:00.000Z",
+        "summary": "We define every agent in our software factory as code: orchestration, secrets, MCP servers, automations, runners, scorers, and benchmarks. Here’s a walkthrough of each part of the factory config."
+      },
+      {
+        "title": "Sign in to Warp with ChatGPT",
+        "url": "https://www.warp.dev/blog/sign-in-to-warp-with-chatgpt",
+        "publishedAt": "2026-09-29T17:50:11.000Z",
+        "summary": "Use your ChatGPT subscription for AI requests in Warp Terminal and Warp Agent CLI."
+      },
+      {
+        "title": "Adapting for a world of software factories",
+        "url": "https://www.warp.dev/blog/adapting-for-a-world-of-software-factories",
+        "publishedAt": "2026-09-28T20:42:54.000Z",
+        "summary": "Software factories change what engineers do. At Warp, engineers now have two jobs: building the product, and building the factory that builds the product."
+      },
+      {
+        "title": "Using LLM-as-a-judge scoring to measure your software factory",
+        "url": "https://www.warp.dev/blog/using-llm-as-a-judge-scoring-to-measure-your-software-factory",
+        "publishedAt": "2026-09-18T00:00:00.000Z",
+        "summary": "If you want to get the most out of coding agents in your organization, you need to stop guessing how well your agents are performing and start measuring."
+      },
+      {
+        "title": "Adopting the software factory model: crawl, walk, run",
+        "url": "https://www.warp.dev/blog/adopting-the-software-factory-model-crawl-walk-run",
+        "publishedAt": "2026-09-15T12:00:00.000Z",
+        "summary": "A crawl, walk, run path for adopting the software factory model: start with point automations, stand up an end-to-end cloud development loop, then scale to a closed-loop factory stack."
+      },
+      {
+        "title": "The Factory Stack",
+        "url": "https://www.warp.dev/blog/the-factory-stack",
+        "publishedAt": "2026-09-05T15:00:00.000Z",
+        "summary": "Software factories should be built on an infrastructure stack that is open, composable and defined in code."
+      }
+    ]
+  },
+  {
+    "companyId": "baseten",
+    "url": "https://www.baseten.co/feeds/changelog.xml",
+    "kind": "rss",
+    "file": "baseten.xml",
+    "status": 200,
+    "finalUrl": "https://www.baseten.co/feeds/changelog.xml",
+    "recordedAt": "2026-10-21T18:45:05.200Z",
+    "originalBytes": 142709,
+    "sha256": "f6922e78aedf088edb40f5d9d114f94589146b09d2a87a2ab10e004ba22af082",
+    "excerpt": true,
+    "expected": [
+      {
+        "title": "elephant-1 and mammoth-1 available on Baseten",
+        "url": "https://www.baseten.co/resources/changelog/elephant-1-and-mammoth-1-available-on-baseten/",
+        "publishedAt": "2026-10-21T17:10:09.000Z",
+        "summary": "elephant-1 and mammoth-1 are now available through Baseten Model APIs. Classify text, route requests, and score content against a rubric. Send one or more questions in a single request to get..."
+      },
+      {
+        "title": "Beam-1.0 available on Baseten",
+        "url": "https://www.baseten.co/resources/changelog/beam-10-available-on-baseten/",
+        "publishedAt": "2026-10-16T16:37:38.000Z",
+        "summary": "Reflection's Beam is now available through Baseten Model APIs as reflection/Beam-1.0. It supports a 1M-token context window, tool calling, and always-on reasoning. Set reasoning_effort from minimal..."
+      },
+      {
+        "title": "Muse Spark Open and Nemotron 3.5 Super VL available on Baseten",
+        "url": "https://www.baseten.co/resources/changelog/muse-spark-open-and-nemotron-35-super-vl-available-on-baseten/",
+        "publishedAt": "2026-10-15T18:15:13.000Z",
+        "summary": "Meta Muse Spark Open and NVIDIA Nemotron 3.5 Super VL are now available through Baseten Model APIs. Send requests through the OpenAI-compatible endpoint with your Baseten API key."
+      },
+      {
+        "title": "Egress restrictions",
+        "url": "https://www.baseten.co/resources/changelog/egress-restrictions/",
+        "publishedAt": "2026-10-12T21:32:12.000Z",
+        "summary": "Baseten now supports restricting a deployment’s outbound network traffic to an allow list of IP ranges and domains. Add egress_restrictions under runtime in your Truss config to lock down a sensitive."
+      },
+      {
+        "title": "Rolling deployments enabled by default",
+        "url": "https://www.baseten.co/resources/changelog/rolling-deployments-enabled-by-default/",
+        "publishedAt": "2026-10-12T18:28:59.000Z",
+        "summary": "Baseten enables rolling deployments by default for newly created model environments. Promotions replace replicas incrementally and shift traffic in steps. Existing environments keep their settings,..."
+      },
+      {
+        "title": "DeepSeek V4.1 Flash Fast available on Baseten",
+        "url": "https://www.baseten.co/resources/changelog/deepseek-v41-flash-fast-available-on-baseten/",
+        "publishedAt": "2026-10-08T21:27:16.000Z",
+        "summary": "DeepSeek V4.1 Flash Fast is now available through Baseten Model APIs. It serves the same 552B-parameter multimodal model as DeepSeek V4.1 Flash at full precision, on dedicated Fast capacity for..."
+      },
+      {
+        "title": "Baseten CLI 1.1.0",
+        "url": "https://www.baseten.co/resources/changelog/baseten-cli-110/",
+        "publishedAt": "2026-10-02T16:18:56.000Z",
+        "summary": "You can now rename a model from the terminal with baseten model rename.. The model keeps its ID, endpoints, and deployments, so only the name in config.yaml needs updating."
+      },
+      {
+        "title": "Upcoming change to Baseten API key format",
+        "url": "https://www.baseten.co/resources/changelog/upcoming-change-to-baseten-api-key-format/",
+        "publishedAt": "2026-09-25T01:54:18.000Z",
+        "summary": "Starting Thursday, October 1 at 15:00 UTC, newly created Baseten API keys will add a b10_ prefix, making them easier to identify in code, logs, and secret scanners."
+      },
+      {
+        "title": "Web search with Baseten Hosted Tools",
+        "url": "https://www.baseten.co/resources/changelog/web-search-with-baseten-hosted-tools/",
+        "publishedAt": "2026-09-16T20:55:32.000Z",
+        "summary": "Baseten Hosted Tools now brings server-side web search to Model APIs through Baseten Grounded Inference. Models can search and fetch current web content through Exa, Keenable, Parallel, or You.com..."
+      },
+      {
+        "title": "Baseten CLI 1.0.0",
+        "url": "https://www.baseten.co/resources/changelog/baseten-cli-100/",
+        "publishedAt": "2026-09-15T18:30:04.000Z",
+        "summary": "The Baseten CLI is now generally available. Version 1.0.0 marks the command surface as stable."
+      }
+    ]
+  },
+  {
+    "companyId": "tavus",
+    "url": "https://www.tavus.io/blog",
+    "kind": "html",
+    "file": "tavus.html",
+    "status": 200,
+    "finalUrl": "https://www.tavus.io/blog",
+    "recordedAt": "2026-10-21T18:45:55.984Z",
+    "originalBytes": 193809,
+    "sha256": "297a3f5eb10506bb15a2fe93553a081b567e00474957678eab77777bbf9c8808",
+    "excerpt": true,
+    "expected": [
+      {
+        "title": "How emotional intelligence AI reads tone, expression, and intent",
+        "url": "https://www.tavus.io/blog/emotional-intelligence-ai",
+        "publishedAt": "2026-10-20T00:00:00.000Z",
+        "summary": "See how emotional intelligence AI fuses voice, facial expression, and timing to read intent in real time, plus where accuracy, bias, and regulation still limit it."
+      },
+      {
+        "title": "How to use AI for HR training, onboarding, and development",
+        "url": "https://www.tavus.io/blog/ai-for-hr",
+        "publishedAt": "2026-10-20T00:00:00.000Z",
+        "summary": "Learn how to use AI for HR training, onboarding, and development in six steps, from auditing gaps to PAL-led practice, with risks and tool criteria covered."
+      },
+      {
+        "title": "How digital human APIs work: Integration guide for product teams",
+        "url": "https://www.tavus.io/blog/digital-human-api",
+        "publishedAt": "2026-10-20T00:00:00.000Z",
+        "summary": "Learn how digital human APIs work, from video delivery and LLM setup to turn-taking, perception, and latency testing. A step-by-step integration guide."
+      },
+      {
+        "title": "AI for recruiting: Building video-based screening into your platform",
+        "url": "https://www.tavus.io/blog/ai-for-recruiting",
+        "publishedAt": "2026-10-20T00:00:00.000Z",
+        "summary": "Learn how to build live AI video agents into your recruiting platform: multimodal perception, natural turn-taking, rubric scoring, and bias and compliance design."
+      },
+      {
+        "title": "What is an AI sales agent? Why teams are moving beyond traditional outbound",
+        "url": "https://www.tavus.io/blog/ai-sales-agent",
+        "publishedAt": "2026-10-19T00:00:00.000Z",
+        "summary": "Learn what an AI sales agent is, what it does across prospecting, qualification, and CRM work, and why teams are moving beyond traditional outbound."
+      },
+      {
+        "title": "AI that doesn't feel artificial: how PALs change everything",
+        "url": "https://www.tavus.io/blog/ai-that-doesn-feel-artificial-how-pals-change",
+        "publishedAt": "2026-10-06T00:00:00.000Z",
+        "summary": "Most AI answers correctly but still feels wrong. Learn how PALs use perception, empathy, and memory to create conversations that feel genuinely human."
+      },
+      {
+        "title": "How to build AI product demos that answer buyer questions in real time",
+        "url": "https://www.tavus.io/blog/ai-product-demos",
+        "publishedAt": "2026-10-02T00:00:00.000Z",
+        "summary": "Learn how to build real-time AI product demos using Tavus PALs that answer buyer questions live, handle objections, and book meetings on the spot."
+      },
+      {
+        "title": "Best AI customer service software: How the top platforms compare",
+        "url": "https://www.tavus.io/blog/best-ai-customer-service-software",
+        "publishedAt": "2026-10-02T00:00:00.000Z",
+        "summary": "Compare the best AI customer service platforms for live conversations, from real-time video agents to voice-only tools. See latency, features, and who each suits."
+      },
+      {
+        "title": "How to create an AI clone from 2 minutes of video",
+        "url": "https://www.tavus.io/blog/ai-clone",
+        "publishedAt": "2026-10-02T00:00:00.000Z",
+        "summary": "Learn how to record, train, and deploy an AI clone from just 2 minutes of footage, and how real-time PALs go beyond static video to hold live conversations."
+      },
+      {
+        "title": "AI copilot vs. AI agent: Which model fits your product?",
+        "url": "https://www.tavus.io/blog/ai-copilot-vs-ai-agent",
+        "publishedAt": "2026-10-02T00:00:00.000Z",
+        "summary": "AI copilot vs AI agent: how autonomy, triggers, and accountability decide which fits your workflow, and when AI video agents need real presence."
+      }
+    ]
+  },
+  {
+    "companyId": "assemblyai",
+    "url": "https://www.assemblyai.com/changelog",
+    "kind": "html",
+    "file": "assemblyai.html",
+    "status": 200,
+    "finalUrl": "https://www.assemblyai.com/changelog",
+    "recordedAt": "2026-10-21T18:45:05.567Z",
+    "originalBytes": 1287426,
+    "sha256": "031c33b04ecfcdc53d69052d07de8b0c1942c585cf171cd8527fa5ea2ac2bdf1",
+    "excerpt": true,
+    "expected": [
+      {
+        "title": "Reduced Hallucinations on Silent Multichannel Audio",
+        "url": "https://www.assemblyai.com/changelog#multichannel-vad-silence-trimming",
+        "publishedAt": "2026-10-16T00:00:00.000Z",
+        "summary": "Voice-activity-based silence trimming is now enabled for all English multichannel transcription, significantly reducing hallucinations caused by long silent stretches on individual channels (such as s"
+      },
+      {
+        "title": "Muse Spark Open Now Available on the LLM Gateway",
+        "url": "https://www.assemblyai.com/changelog#muse-spark-open-llm-gateway",
+        "publishedAt": "2026-10-15T00:00:00.000Z",
+        "summary": "Muse Spark Open is now available through the LLM Gateway as muse-spark-open . It has a 1M-token context window and supports tool calling, structured outputs, and streaming…"
+      },
+      {
+        "title": "Gemini 4 Argon on LLM Gateway",
+        "url": "https://www.assemblyai.com/changelog#llm-gateway-gemini-4-argon",
+        "publishedAt": "2026-10-13T00:00:00.000Z",
+        "summary": "Google's Gemini 4 Argon is available through the LLM Gateway as gemini-4-argon : 1M-token context, $2 / $10 per 1M prompt/completion tokens, with tool calling, structured output, and streaming…"
+      },
+      {
+        "title": "Fix: Clearer Error for Deleted API Keys",
+        "url": "https://www.assemblyai.com/changelog#deleted-api-key-error-fix",
+        "publishedAt": "2026-10-07T00:00:00.000Z",
+        "summary": "Requests made with a deleted API key previously returned \"Your account is disabled\", which wrongly suggested the whole account was shut off. The API now returns an error that correctly identifies the "
+      },
+      {
+        "title": "Deprecated: Legacy Summarization and Auto Chapters Models Retire October 20",
+        "url": "https://www.assemblyai.com/changelog#legacy-summarization-auto-chapters-deprecated",
+        "publishedAt": "2026-10-06T00:00:00.000Z",
+        "summary": "The legacy Summarization model (the top-level summarization boolean and summary_model parameter) and the legacy Auto Chapters model are deprecated…"
+      },
+      {
+        "title": "Summarization Scales Chapter Count to Audio Length",
+        "url": "https://www.assemblyai.com/changelog#summarization-scales-chapter-count-to-audio-length",
+        "publishedAt": "2026-09-29T00:00:00.000Z",
+        "summary": "Summarization now scales the number of chapters to the length of the audio, and an error where chapter timestamps could overlap has been fixed…"
+      },
+      {
+        "title": "Universal-3.6 Pro Realtime: Streaming Speech-to-Text for Voice Agents Across 32 Languages",
+        "url": "https://www.assemblyai.com/changelog#universal-3-6-pro-realtime",
+        "publishedAt": "2026-09-29T00:00:00.000Z",
+        "summary": "Universal-3.6 Pro Realtime is now live. It is a direct upgrade to Universal-3.5 Pro Realtime, trained on tens of thousands of hours of real voice-agent and telephony conversations, so the accuracy you"
+      },
+      {
+        "title": "Dashboard Settings Moved to Left Navigation",
+        "url": "https://www.assemblyai.com/changelog#dashboard-settings-moved-to-left-navigation",
+        "publishedAt": "2026-09-22T00:00:00.000Z",
+        "summary": "Dashboard Settings, including links and theme settings, have moved from the top-right of the navigation to the lower-left, matching where most dashboards put account controls…"
+      },
+      {
+        "title": "New LLM Gateway Models: NVIDIA Nemotron, DeepSeek v4.1 Flash, GLM 5.3, & GLM 5.3 Flash",
+        "url": "https://www.assemblyai.com/changelog#llm-gateway-nemotron-deepseek-glm-5-3",
+        "publishedAt": "2026-09-21T00:00:00.000Z",
+        "summary": "Four new models are now live in LLM Gateway: NVIDIA's Nemotron models, DeepSeek's v4.1 Flash, and Zhipu AI's GLM 5.3 and GLM 5.3 Flash…"
+      },
+      {
+        "title": "Four NVIDIA Nemotron Models Now Available on the LLM Gateway",
+        "url": "https://www.assemblyai.com/changelog#llm-gateway-nemotron-models",
+        "publishedAt": "2026-09-21T00:00:00.000Z",
+        "summary": "Four new NVIDIA models are now live in LLM Gateway: Nemotron 3 Nano 30B A3B, Nemotron 3 Super 120B A12B, Nemotron Lightning 3.5 30B A3B, and Nemotron Nano 9B v2…"
+      }
+    ]
+  },
+  {
+    "companyId": "gemini",
+    "url": "https://blog.google/products-and-platforms/products/gemini/rss/",
+    "kind": "rss",
+    "file": "gemini.xml",
+    "status": 200,
+    "finalUrl": "https://blog.google/products-and-platforms/products/gemini/rss/",
+    "recordedAt": "2026-10-21T16:14:13.108Z",
+    "originalBytes": 31056,
+    "sha256": "31f9fab55c29cadb000fe4d62470b4ed5523d8f817f50a2a5551feab829fa9b4",
+    "excerpt": false,
+    "expected": [
+      {
+        "title": "New Gemini tools for small business owners",
+        "url": "https://blog.google/innovation-and-ai/products/gemini-app/new-tools-small-business-owners/",
+        "publishedAt": "2026-10-20T16:00:00.000Z",
+        "summary": "\"Your brand, your tools, all in one place\" banner featuring three feature highlights: \"Create image styles for your brand,\" \"Customize Gemini with apps and skills,\" and \"Create content with templates."
+      },
+      {
+        "title": "4 tips for styling outfits with Gemini",
+        "url": "https://blog.google/products-and-platforms/products/gemini/stylist-outfit-tips-gemini/",
+        "publishedAt": "2026-10-19T16:00:00.000Z",
+        "summary": "UI showing a user asking Gemini to put a person into various outfit items"
+      },
+      {
+        "title": "An intelligent new shopping cart",
+        "url": "https://blog.google/products-and-platforms/products/shopping/universal-cart-launch/",
+        "publishedAt": "2026-10-15T13:00:00.000Z",
+        "summary": "Images of the global cart UI, over a collage of products"
+      },
+      {
+        "title": "Developing Gemini 4 Argon responsibly and safely",
+        "url": "https://blog.google/innovation-and-ai/technology/safety-security/gemini-4-model-safety-security/",
+        "publishedAt": "2026-10-13T18:00:00.000Z",
+        "summary": "Gemini 4 Argon logo next to a large white \"4\", all on a gradient blue background"
+      },
+      {
+        "title": "Gemini 4 Argon comes to the Gemini app.",
+        "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-4-argon-availability/",
+        "publishedAt": "2026-10-13T16:00:00.000Z",
+        "summary": "Gemini 4 Argon brings frontier reasoning and agentic coding to the Google Gemini app. Google AI Pro and Ultra subscribers can now access Gemini 4 Argon."
+      },
+      {
+        "title": "Gemini 4 Argon is now available for developers.",
+        "url": "https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-4-argon/",
+        "publishedAt": "2026-10-13T16:00:00.000Z",
+        "summary": "Build complex software and cybersecurity workflows with Google Gemini 4 Argon. Check out the Gemini API Developer Guide and read the Google Antigravity and Android Studi…"
+      },
+      {
+        "title": "Gemini 4 Argon: Built to solve your hardest problems",
+        "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/",
+        "publishedAt": "2026-10-13T16:00:00.000Z",
+        "summary": "TBD"
+      },
+      {
+        "title": "The latest AI news we announced in September 2026",
+        "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-september-2026/",
+        "publishedAt": "2026-10-02T15:00:00.000Z",
+        "summary": "A video showing the September AI updates"
+      },
+      {
+        "title": "Guided Vision in Gemini Live: built for accessibility",
+        "url": "https://blog.google/innovation-and-ai/products/gemini-app/guided-vision-gemini-live/",
+        "publishedAt": "2026-10-01T16:00:00.000Z",
+        "summary": "stylized hero image reading \"Guided Vision\""
+      },
+      {
+        "title": "Gemini 4 Argon: our next era of frontier intelligence",
+        "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/",
+        "publishedAt": "2026-09-30T20:00:00.000Z",
+        "summary": "Stylized promotional blog key art graphic with modern editorial branding and the text \"Gemini 4 Argon\""
+      }
+    ]
+  }
+]

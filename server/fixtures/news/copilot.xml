@@ -1,0 +1,499 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xmlns:slash="http://purl.org/rss/1.0/modules/slash/">
+
+<channel>
+	<title>Use Case: copilot - GitHub Changelog</title>
+	<atom:link href="https://github.blog/changelog/label/copilot/feed/" rel="self" type="application/rss+xml"/>
+	<link>https://github.blog/changelog/label/copilot/</link>
+	<description>Updates, ideas, and inspiration from GitHub to help developers build and design software.</description>
+	<lastBuildDate>Tue, 20 Oct 2026 18:02:02 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=7.1.3</generator>
+
+<image>
+	<url>https://github.blog/wp-content/uploads/2019/01/cropped-github-favicon-512.png?fit=32%2C32</url>
+	<title>Use Case: copilot - GitHub Changelog</title>
+	<link>https://github.blog/changelog/label/copilot/</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+<site xmlns="com-wordpress:feed-additions:1">153214340</site>	<item>
+		<title>Copilot model policy API for enterprise, orgs, and teams</title>
+		<link>https://github.blog/changelog/2026-10-19-copilot-model-policy-api-for-enterprise-orgs-and-teams</link>
+		
+		<dc:creator><![CDATA[Allison]]></dc:creator>
+		<pubDate>Mon, 19 Oct 2026 21:32:18 +0000</pubDate>
+				<guid isPermaLink="false">https://github.blog/changelog/2026-10-19-copilot-model-policy-api-for-enterprise-orgs-and-teams</guid>
+
+					<description><![CDATA[<p>You can now use the REST API to retrieve and update Copilot model policies for enterprises, enterprise teams, agent apps, and organizations. What&#8217;s new GET and PATCH endpoints are now&#8230;</p>
+<p>The post <a href="https://github.blog/changelog/2026-10-19-copilot-model-policy-api-for-enterprise-orgs-and-teams">Copilot model policy API for enterprise, orgs, and teams</a> appeared first on <a href="https://github.blog">The GitHub Blog</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html><body><p>You can now use the REST API to retrieve and update Copilot model policies for enterprises, enterprise teams, agent apps, and organizations.</p>
+<h1 id="whats-new" id="whats-new" ><a class="heading-link" href="#whats-new">What&rsquo;s new<span class="heading-hash pl-2 text-italic text-bold" aria-hidden="true"></span></a></h1>
+<p>GET and PATCH endpoints are now generally available for model policies at four levels:</p>
+<ul>
+<li>Enterprise: <code>/enterprises/{enterprise}/copilot/model-policies</code> </li>
+<li>Enterprise teams: <code>/enterprises/{enterprise}/teams/{team_slug}/copilot/model-policies</code> </li>
+<li>Agent apps: <code>/enterprises/{enterprise}/copilot/apps/model-policies</code> </li>
+<li>Organization: <code>/orgs/{org}/copilot/model-policies</code></li>
+</ul>
+<p>Together, these endpoints make it easier to manage Copilot model availability across your enterprise. Enterprise policies can delegate model control to organizations in organization mode, or to teams and apps in enterprise teams mode. Reference our documentation on <a href="https://docs.github.com/enterprise-cloud@latest/copilot/how-tos/administer-copilot/manage-for-enterprise/manage-availability-of-default-models">managing availability of models in your enterprise </a> and our <a href="https://docs.github.com/enterprise-cloud@latest/rest/enterprise-admin/ai-controls">REST API documentation</a> to get started.</p>
+</body></html>
+<p>The post <a href="https://github.blog/changelog/2026-10-19-copilot-model-policy-api-for-enterprise-orgs-and-teams">Copilot model policy API for enterprise, orgs, and teams</a> appeared first on <a href="https://github.blog">The GitHub Blog</a>.</p>
+]]></content:encoded>
+					
+		
+		
+		<category domain="changelog-type"><![CDATA[Improvement]]></category>
+<category domain="changelog-label"><![CDATA[copilot]]></category>
+<category domain="changelog-label"><![CDATA[enterprise management tools]]></category>
+<post-id xmlns="com-wordpress:feed-additions:1">99606</post-id>	</item>
+		<item>
+		<title>GitHub Copilot models deprecated on October 19, 2026</title>
+		<link>https://github.blog/changelog/2026-10-19-github-copilot-models-deprecated-on-october-19-2026</link>
+		
+		<dc:creator><![CDATA[Allison]]></dc:creator>
+		<pubDate>Mon, 19 Oct 2026 21:27:10 +0000</pubDate>
+				<guid isPermaLink="false">https://github.blog/changelog/2026-10-19-github-copilot-models-deprecated-on-october-19-2026</guid>
+
+					<description><![CDATA[<p>As of today, October 19, 2026, we have deprecated the following models across most GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions). These&#8230;</p>
+<p>The post <a href="https://github.blog/changelog/2026-10-19-github-copilot-models-deprecated-on-october-19-2026">GitHub Copilot models deprecated on October 19, 2026</a> appeared first on <a href="https://github.blog">The GitHub Blog</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html><body><p>As of today, October 19, 2026, we have deprecated the following models across most GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions).</p>
+<p>These deprecations were <a href="https://github.blog/changelog/2026-09-18-upcoming-deprecation-of-selected-github-copilot-models-in-mid-october/">announced on September 18, 2026</a>.</p>
+<div data-target="content-table-wrap.container" class="content-table-wrap"><content-table-wrap><table>
+<thead>
+<tr>
+<th>Model</th>
+<th>Deprecation date</th>
+<th>Suggested alternative</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Gemini 3.7 Flash</td>
+<td>2026-10-19</td>
+<td>Gemini 3.8 Flash</td>
+</tr>
+<tr>
+<td>GPT-5.5</td>
+<td>2026-10-19</td>
+<td>GPT-6.1 Sol</td>
+</tr>
+<tr>
+<td>GPT-5.4</td>
+<td>2026-10-19</td>
+<td>GPT-6.1 Sol</td>
+</tr>
+<tr>
+<td>GPT-5.4 mini</td>
+<td>2026-10-19</td>
+<td>GPT-6 Luna</td>
+</tr>
+<tr>
+<td>GPT-5 mini</td>
+<td>2026-10-19</td>
+<td>GPT-6 Luna</td>
+</tr>
+<tr>
+<td>Grok 4.5</td>
+<td>2026-10-19</td>
+<td>Grok 4.7</td>
+</tr>
+</tbody>
+</table></content-table-wrap></div>
+<p>Please update your workflows and integrations to use supported models. Copilot Enterprise administrators may need to enable access to alternative models through their model policies in Copilot settings. As an administrator, you can verify availability by checking your individual Copilot settings and confirming that the policy is enabled for the specific model. Once enabled, you&rsquo;ll see the model in the Copilot Chat model selector in VS Code and on github.com. No action is required to remove the deprecated models.</p>
+<p>GitHub Enterprise customers with questions or concerns are encouraged to reach out to their account manager for further assistance.</p>
+<h3 id="share-your-feedback" id="share-your-feedback" ><a class="heading-link" href="#share-your-feedback">Share your feedback<span class="heading-hash pl-2 text-italic text-bold" aria-hidden="true"></span></a></h3>
+<p>To learn more about the models available in Copilot, see <a href="https://docs.github.com/copilot/reference/ai-models/supported-models?utm_source=model-release-announcement&amp;utm_medium=changelog&amp;utm_campaign=newmodels">our documentation on models</a> and get started with Copilot today.</p>
+<p>Join the <a href="https://github.com/orgs/community/discussions/categories/copilot-conversations?utm_source=model-release-announcement&amp;utm_medium=changelog&amp;utm_campaign=newmodels">GitHub Community</a> to share your feedback.</p>
+</body></html>
+<p>The post <a href="https://github.blog/changelog/2026-10-19-github-copilot-models-deprecated-on-october-19-2026">GitHub Copilot models deprecated on October 19, 2026</a> appeared first on <a href="https://github.blog">The GitHub Blog</a>.</p>
+]]></content:encoded>
+					
+		
+		
+		<category domain="changelog-type"><![CDATA[Retired]]></category>
+<category domain="changelog-label"><![CDATA[copilot]]></category>
+<post-id xmlns="com-wordpress:feed-additions:1">99604</post-id>	</item>
+		<item>
+		<title>Multi-repository support and other improvements for GitHub in Slack and Teams</title>
+		<link>https://github.blog/changelog/2026-10-15-copilot-in-slack-and-teams-adds-model-and-repository-updates</link>
+		
+		<dc:creator><![CDATA[Allison]]></dc:creator>
+		<pubDate>Fri, 16 Oct 2026 02:16:35 +0000</pubDate>
+				<guid isPermaLink="false">https://github.blog/changelog/2026-10-15-copilot-in-slack-and-teams-adds-model-and-repository-updates</guid>
+
+					<description><![CDATA[<p>@GitHub in Slack and Teams now supports working across multiple repositories in a single conversation. Whether you&#8217;re creating issues, opening pull requests, or investigating bugs, you can work across repositories&#8230;</p>
+<p>The post <a href="https://github.blog/changelog/2026-10-15-copilot-in-slack-and-teams-adds-model-and-repository-updates">Multi-repository support and other improvements for GitHub in Slack and Teams</a> appeared first on <a href="https://github.blog">The GitHub Blog</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html><body><p><video width="100%" loop controls autoplay muted src="https://github.com/user-attachments/assets/5bf084af-f90e-4f06-b4d3-bb44ac5b5098"><br>
+</video></p>
+<p>@GitHub in Slack and Teams now supports working across multiple repositories in a single conversation. Whether you&rsquo;re creating issues, opening pull requests, or investigating bugs, you can work across repositories without switching conversations.</p>
+<p>For example, you can ask @GitHub to:</p>
+<p><strong>Create issues from conversations:</strong> &ldquo;@GitHub Create an issue in github/issues to track this bug, using the context from this thread.&rdquo;<br>
+<strong>Make code changes:</strong> &ldquo;@GitHub Fix this bug in our frontend repository and open a PR with the changes.&rdquo;<br>
+<strong>Track your PRs:</strong> &ldquo;@GitHub Show me all my open PRs across repositories and highlight which ones need my attention.&rdquo;<br>
+<strong>Investigate bugs:</strong> &ldquo;@GitHub Investigate this issue using the code in our frontend and backend repositories.&rdquo;</p>
+<p>You can do all of this directly from Slack or Teams, without switching repositories or starting a new conversation.</p>
+<h3 id="additional-improvements" id="additional-improvements" ><a class="heading-link" href="#additional-improvements">Additional improvements<span class="heading-hash pl-2 text-italic text-bold" aria-hidden="true"></span></a></h3>
+<p>We&rsquo;ve also made several improvements to GitHub in Slack and Microsoft Teams:</p>
+<p><strong>More natural conversations:</strong> Mention @GitHub anywhere in your message, not just at the beginning.<br>
+<strong>Smoother repository switching:</strong> Move between repositories more easily during a conversation.<br>
+<strong>Better Slack conversation context:</strong> @GitHub can use shared Slack messages and threads as context, making it easier to reference discussions without copying and pasting details.<br>
+<strong>Improved reliability:</strong> We&rsquo;ve made several improvements to reduce errors, improve task startup, and help @GitHub recover more smoothly from interruptions in Slack and Teams.</p>
+<p>Join the discussion within the <a href="https://github.com/orgs/community/discussions/210411">GitHub Community</a>.</p>
+</body></html>
+<p>The post <a href="https://github.blog/changelog/2026-10-15-copilot-in-slack-and-teams-adds-model-and-repository-updates">Multi-repository support and other improvements for GitHub in Slack and Teams</a> appeared first on <a href="https://github.blog">The GitHub Blog</a>.</p>
+]]></content:encoded>
+					
+		
+		
+		<category domain="changelog-type"><![CDATA[Improvement]]></category>
+<category domain="changelog-label"><![CDATA[collaboration tools]]></category>
+<category domain="changelog-label"><![CDATA[copilot]]></category>
+<post-id xmlns="com-wordpress:feed-additions:1">99561</post-id>	</item>
+		<item>
+		<title>Upcoming deprecation of selected GitHub Copilot models in mid-November</title>
+		<link>https://github.blog/changelog/2026-10-15-upcoming-deprecation-of-selected-github-copilot-models-in-mid-november</link>
+		
+		<dc:creator><![CDATA[Allison]]></dc:creator>
+		<pubDate>Thu, 15 Oct 2026 19:35:13 +0000</pubDate>
+				<guid isPermaLink="false">https://github.blog/changelog/2026-10-15-upcoming-deprecation-of-selected-github-copilot-models-in-mid-november</guid>
+
+					<description><![CDATA[<p>We will deprecate the following models across all GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions) on November 16th, 2026: Model Deprecation date&#8230;</p>
+<p>The post <a href="https://github.blog/changelog/2026-10-15-upcoming-deprecation-of-selected-github-copilot-models-in-mid-november">Upcoming deprecation of selected GitHub Copilot models in mid-November</a> appeared first on <a href="https://github.blog">The GitHub Blog</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html><body><p>We will deprecate the following models across all GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions) on November 16th, 2026:</p>
+<div data-target="content-table-wrap.container" class="content-table-wrap"><content-table-wrap><table>
+<thead>
+<tr>
+<th>Model</th>
+<th>Deprecation date</th>
+<th>Suggested alternative</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Claude Opus 4.8*</td>
+<td>2026-11-16</td>
+<td>Claude Opus 5.5</td>
+</tr>
+<tr>
+<td>Claude Opus 5</td>
+<td>2026-11-16</td>
+<td>Claude Opus 5.5</td>
+</tr>
+<tr>
+<td>GPT-5.6 Terra</td>
+<td>2026-11-16</td>
+<td>GPT-6.1 Sol or GPT-6 Luna</td>
+</tr>
+</tbody>
+</table></content-table-wrap></div>
+<p>*Claude Opus 4.8 will remain available to individual GitHub Copilot subscribers on annual plans so they retain an Opus offering. The deprecation of Claude Opus 4.8 does not apply to these customers.</p>
+<p>Please update your workflows and integrations to use the supported models before this date. Under default model enablement, the suggested alternatives are automatically enabled for Copilot Enterprise and Copilot Business customers unless an administrator has turned off the global default or explicitly disabled the model. If you&rsquo;ve turned off the global default, you can enable access to the alternative models through their model policies in Copilot settings.</p>
+<p>Once enabled, users will see the model in the Copilot Chat model selector in supported GitHub Copilot experiences.</p>
+<p>No action is required to remove the models after they have been deprecated.</p>
+<p>GitHub Enterprise customers with questions or concerns are encouraged to contact their account team for assistance.</p>
+<h3 id="share-your-feedback" id="share-your-feedback" ><a class="heading-link" href="#share-your-feedback">Share your feedback<span class="heading-hash pl-2 text-italic text-bold" aria-hidden="true"></span></a></h3>
+<p>To learn more about the models available in Copilot, see <a href="https://docs.github.com/copilot/reference/ai-models/supported-models?utm_source=model-release-announcement&amp;utm_medium=changelog&amp;utm_campaign=newmodels">our documentation on supported models</a>.</p>
+<p>Join the <a href="https://github.com/orgs/community/discussions/categories/copilot-conversations?utm_source=model-release-announcement&amp;utm_medium=changelog&amp;utm_campaign=newmodels">GitHub Community</a> to share your feedback.</p>
+</body></html>
+<p>The post <a href="https://github.blog/changelog/2026-10-15-upcoming-deprecation-of-selected-github-copilot-models-in-mid-november">Upcoming deprecation of selected GitHub Copilot models in mid-November</a> appeared first on <a href="https://github.blog">The GitHub Blog</a>.</p>
+]]></content:encoded>
+					
+		
+		
+		<category domain="changelog-type"><![CDATA[Retired]]></category>
+<category domain="changelog-label"><![CDATA[copilot]]></category>
+<post-id xmlns="com-wordpress:feed-additions:1">99544</post-id>	</item>
+		<item>
+		<title>Agentic autofix for code scanning alerts general availability</title>
+		<link>https://github.blog/changelog/2026-10-15-agentic-autofix-for-code-scanning-alerts-general-availability</link>
+		
+		<dc:creator><![CDATA[Allison]]></dc:creator>
+		<pubDate>Thu, 15 Oct 2026 13:49:20 +0000</pubDate>
+				<guid isPermaLink="false">https://github.blog/changelog/2026-10-15-agentic-autofix-for-code-scanning-alerts-general-availability</guid>
+
+					<description><![CDATA[<p>Agentic autofix for code scanning alerts is now generally available. It remediates alerts by working across your codebase the way a developer would: it explores relevant files, proposes a fix,&#8230;</p>
+<p>The post <a href="https://github.blog/changelog/2026-10-15-agentic-autofix-for-code-scanning-alerts-general-availability">Agentic autofix for code scanning alerts general availability</a> appeared first on <a href="https://github.blog">The GitHub Blog</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html><body><p>Agentic autofix for code scanning alerts is now generally available. It remediates alerts by working across your codebase the way a developer would: it explores relevant files, proposes a fix, and reruns CodeQL to confirm the fix closes the alert before opening a pull request for your review. Agentic autofix is available to GitHub Code Security and GitHub Advanced Security customers on GitHub Enterprise Cloud, including GitHub Enterprise Cloud with data residency.</p>
+<h2 id="how-it-works" id="how-it-works" ><a class="heading-link" href="#how-it-works">How it works<span class="heading-hash pl-2 text-italic text-bold" aria-hidden="true"></span></a></h2>
+<p>When you assign a code scanning alert to Copilot, it:</p>
+<ul>
+<li>Explores relevant files across your codebase.</li>
+<li>Generates a proposed fix.</li>
+<li>Validates the fix works by rerunning CodeQL.</li>
+<li>Iterates if needed, then opens a draft pull request ready for your review.</li>
+</ul>
+<p>The pull request includes a summary of the fix, why it closes the alert, and the validation steps Copilot took to confirm that it works. When the pull request containing the fix is ready, you can instruct Copilot to make further changes to it by commenting on the pull request or interacting with the session in the <strong>Agents</strong> tab of your repository.</p>
+<h2 id="how-to-use-it" id="how-to-use-it" ><a class="heading-link" href="#how-to-use-it">How to use it<span class="heading-hash pl-2 text-italic text-bold" aria-hidden="true"></span></a></h2>
+<p>When enabled, agentic autofix replaces the free <strong>Generate Fix</strong> option on individual code scanning alerts with an <strong>Assign to Copilot</strong> button.</p>
+<p>You can use agentic autofix:</p>
+<ul>
+<li>From any code scanning alert on the repository&rsquo;s default branch, by assigning the alert to Copilot.</li>
+<li>In the list of security alerts in your repository or security campaign, by selecting up to 25 alerts for Copilot to fix together in a single pull request.</li>
+<li>Via the <a href="https://docs.github.com/enterprise-cloud@latest/rest/code-scanning/code-scanning?apiVersion=2026-03-10#update-a-code-scanning-alert">Update a Code Scanning Alert REST API</a> by setting <code>assignees</code> to <code>["copilot-swe-agent[bot]"]</code>.</li>
+</ul>
+<p>Agentic autofix supports code scanning alerts on the repository&rsquo;s default branch. Alerts detected only on pull requests or other branches cannot be assigned to Copilot.</p>
+<h2 id="access" id="access" ><a class="heading-link" href="#access">Access<span class="heading-hash pl-2 text-italic text-bold" aria-hidden="true"></span></a></h2>
+<p>Agentic autofix requires an enterprise administrator to enable access to it via the new &ldquo;Agentic autofix&rdquo; policy in Advanced Security policies.</p>
+<p>Once the policy is enabled by an enterprise administrator, an organization or repository administrator can turn on agentic autofix in the Code Security settings for the organization or the repository.</p>
+<p>Access also requires a Copilot billing method to be defined.</p>
+<h2 id="billing" id="billing" ><a class="heading-link" href="#billing">Billing<span class="heading-hash pl-2 text-italic text-bold" aria-hidden="true"></span></a></h2>
+<p>Agentic autofix for code scanning alerts consumes AI Credits from your Code Security budget and GitHub Actions minutes. AI Credit usage will be displayed in the &ldquo;AI usage&rdquo; section of enterprise billing and licensing as the &ldquo;Advanced Security&rdquo; product. You can also set SKU level budgets for Code Security AI credits. Learn more about <a href="https://docs.github.com/enterprise-cloud@latest/copilot/concepts/billing/usage-based-billing-for-organizations-and-enterprises">Copilot usage-based billing</a>.</p>
+<h2 id="learn-more" id="learn-more" ><a class="heading-link" href="#learn-more">Learn more<span class="heading-hash pl-2 text-italic text-bold" aria-hidden="true"></span></a></h2>
+<p>Learn more about <a href="https://docs.github.com/enterprise-cloud@latest/code-security/concepts/code-scanning/autofix-for-code-scanning">agentic autofix in the documentation</a>.</p>
+<p>Join the discussion within the <a href="https://github.com/orgs/community/discussions/209845">GitHub Community</a>.</p>
+</body></html>
+<p>The post <a href="https://github.blog/changelog/2026-10-15-agentic-autofix-for-code-scanning-alerts-general-availability">Agentic autofix for code scanning alerts general availability</a> appeared first on <a href="https://github.blog">The GitHub Blog</a>.</p>
+]]></content:encoded>
+					
+		
+		
+		<category domain="changelog-type"><![CDATA[Release]]></category>
+<category domain="changelog-label"><![CDATA[application security]]></category>
+<category domain="changelog-label"><![CDATA[copilot]]></category>
+<category domain="changelog-label"><![CDATA[universe26]]></category>
+<post-id xmlns="com-wordpress:feed-additions:1">99519</post-id>	</item>
+		<item>
+		<title>HydraFusion updates and new Max option</title>
+		<link>https://github.blog/changelog/2026-10-14-hydrafusion-updates-and-new-max-option</link>
+		
+		<dc:creator><![CDATA[Allison]]></dc:creator>
+		<pubDate>Wed, 14 Oct 2026 20:01:35 +0000</pubDate>
+				<guid isPermaLink="false">https://github.blog/changelog/2026-10-14-hydrafusion-updates-and-new-max-option</guid>
+
+					<description><![CDATA[<p>HydraFusion has an updated model pool, improved orchestration workflows, and introduces HydraFusion Max. Both HydraFusion and HydraFusion Max are available across VS Code, the GitHub Copilot app, and GitHub Copilot&#8230;</p>
+<p>The post <a href="https://github.blog/changelog/2026-10-14-hydrafusion-updates-and-new-max-option">HydraFusion updates and new Max option</a> appeared first on <a href="https://github.blog">The GitHub Blog</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html><body><p>HydraFusion has an updated model pool, improved orchestration workflows, and introduces HydraFusion Max. Both HydraFusion and HydraFusion Max are available across VS Code, the GitHub Copilot app, and GitHub Copilot CLI and remain in research preview.</p>
+<p>HydraFusion orchestrates multiple models to produce a single response, bringing together their strengths so you don&rsquo;t have to choose an individual model for each task.</p>
+<h2 id="whats-new-in-hydrafusion" id="whats-new-in-hydrafusion" ><a class="heading-link" href="#whats-new-in-hydrafusion">What&rsquo;s new in HydraFusion<span class="heading-hash pl-2 text-italic text-bold" aria-hidden="true"></span></a></h2>
+<ul>
+<li><strong>Latest frontier models:</strong> HydraFusion and HydraFusion Max draw from a pool that now includes Claude Opus 5.5, GPT-6 Astra, GPT-6.1 Sol, and GPT-6 Luna. The models used for each task vary based on the orchestration workflow.</li>
+<li><strong>Reasoning effort tailored to each step:</strong> Previously, HydraFusion only used each model&rsquo;s default reasoning effort. With this update, it explicitly tailors effort to each stage, using medium effort for initial drafts and high effort for review. This keeps drafting efficient while dedicating deeper reasoning to checking and improving the work.</li>
+<li><strong>Optimized Cascade and Critique workflows:</strong>
+<ul>
+<li><strong>Cascade:</strong> Previously used an initial model to solve the task, with escalation to a stronger model when needed. It can now include a judging step that inspects the initial work and requests a repair only when needed.</li>
+<li><strong>Critique:</strong> Previously relied heavily on text summaries. It now relies more on tools to inspect the actual workspace directly. Critique now also uses parallel critic models to inspect work.</li>
+</ul>
+</li>
+</ul>
+<h2 id="introducing-hydrafusion-max" id="introducing-hydrafusion-max" ><a class="heading-link" href="#introducing-hydrafusion-max">Introducing HydraFusion Max<span class="heading-hash pl-2 text-italic text-bold" aria-hidden="true"></span></a></h2>
+<p>HydraFusion Max is built on the same architecture and uses the same workflow techniques as HydraFusion, but is tuned for frontier capability on more demanding tasks. It applies higher reasoning efforts where depth and thoroughness matter most, while still using orchestration to consider token efficiency.</p>
+<div data-target="content-table-wrap.container" class="content-table-wrap"><content-table-wrap><table>
+<thead>
+<tr>
+<th>Option</th>
+<th>Description</th>
+<th>Typical use case</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>HydraFusion</strong></td>
+<td>Balanced approach with moderate token savings.</td>
+<td>Agentic tasks that require a balance of speed, cost, and performance.</td>
+</tr>
+<tr>
+<td><strong>HydraFusion Max</strong></td>
+<td>Frontier capability for more demanding tasks, with token efficiency considered through orchestration.</td>
+<td>Tasks requiring the deepest possible reasoning and most thorough analysis.</td>
+</tr>
+</tbody>
+</table></content-table-wrap></div>
+<p>Both options are supported across all three clients, so you can access the latest HydraFusion experience whether you work in VS Code, the GitHub Copilot app, or the terminal.</p>
+<p>HydraFusion and HydraFusion Max are available on Copilot Pro, Pro+, Business, and Enterprise plans with experimental or preview features enabled, subject to your organization&rsquo;s model policies.</p>
+<p>Learn more in the <a href="https://docs.github.com/en/early-access/copilot/hydrafusion">HydraFusion documentation</a>.</p>
+<p>Share your feedback in the <a href="https://github.com/orgs/community/discussions/206492">HydraFusion discussion</a>.</p>
+</body></html>
+<p>The post <a href="https://github.blog/changelog/2026-10-14-hydrafusion-updates-and-new-max-option">HydraFusion updates and new Max option</a> appeared first on <a href="https://github.blog">The GitHub Blog</a>.</p>
+]]></content:encoded>
+					
+		
+		
+		<category domain="changelog-type"><![CDATA[Release]]></category>
+<category domain="changelog-label"><![CDATA[copilot]]></category>
+<post-id xmlns="com-wordpress:feed-additions:1">99513</post-id>	</item>
+		<item>
+		<title>Gemini 4 Argon in GitHub Copilot</title>
+		<link>https://github.blog/changelog/2026-10-13-gemini-4-argon-in-github-copilot</link>
+		
+		<dc:creator><![CDATA[Allison]]></dc:creator>
+		<pubDate>Tue, 13 Oct 2026 18:39:56 +0000</pubDate>
+				<guid isPermaLink="false">https://github.blog/changelog/2026-10-13-gemini-4-argon-in-github-copilot</guid>
+
+					<description><![CDATA[<p>Gemini 4 Argon, Google&#8217;s newest frontier model, is now generally available in GitHub Copilot. It is designed for complex coding, agentic, and reasoning tasks. In early testing, Gemini 4 Argon&#8230;</p>
+<p>The post <a href="https://github.blog/changelog/2026-10-13-gemini-4-argon-in-github-copilot">Gemini 4 Argon in GitHub Copilot</a> appeared first on <a href="https://github.blog">The GitHub Blog</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html><body><p>Gemini 4 Argon, Google&rsquo;s newest frontier model, is now generally available in GitHub Copilot. It is designed for complex coding, agentic, and reasoning tasks. In early testing, Gemini 4 Argon solved more tasks than previous Gemini models on every coding benchmark, with its largest gains in Copilot CLI. It also thoroughly checks its work, testing edge cases before it finishes.</p>
+<p>This model is billed at provider list pricing under usage-based billing. See <a href="https://docs.github.com/copilot/reference/copilot-billing/models-and-pricing">Models and pricing for GitHub Copilot</a> for details.</p>
+<h3 id="availability-in-github-copilot" id="availability-in-github-copilot" ><a class="heading-link" href="#availability-in-github-copilot">Availability in GitHub Copilot<span class="heading-hash pl-2 text-italic text-bold" aria-hidden="true"></span></a></h3>
+<p>Gemini 4 Argon is available to Copilot Pro+, Max, Business, and Enterprise users. You can select the model in the model picker in:</p>
+<ul>
+<li>Visual Studio Code</li>
+<li>Visual Studio</li>
+<li>Copilot CLI</li>
+<li>GitHub Copilot coding agent</li>
+<li>GitHub Copilot app</li>
+<li>JetBrains IDEs</li>
+<li>Xcode</li>
+<li>Eclipse</li>
+</ul>
+<p>Rollout will be gradual. Check back soon if you don&rsquo;t see it yet.</p>
+<h3 id="enabling-access" id="enabling-access" ><a class="heading-link" href="#enabling-access">Enabling access<span class="heading-hash pl-2 text-italic text-bold" aria-hidden="true"></span></a></h3>
+<p>Copilot Enterprise and Copilot Business plan administrators can manage access to Gemini 4 Argon through the model policy in Copilot settings. Under default model enablement, new models are automatically enabled unless an administrator has turned off the global default or explicitly disables this model.</p>
+<h3 id="learn-more" id="learn-more" ><a class="heading-link" href="#learn-more">Learn more<span class="heading-hash pl-2 text-italic text-bold" aria-hidden="true"></span></a></h3>
+<p>To explore all models available in GitHub Copilot, see our <a href="https://docs.github.com/copilot/reference/ai-models/supported-models">documentation on models</a> and get started with Copilot.</p>
+<h3 id="share-your-feedback" id="share-your-feedback" ><a class="heading-link" href="#share-your-feedback">Share your feedback<span class="heading-hash pl-2 text-italic text-bold" aria-hidden="true"></span></a></h3>
+<p>Join the <a href="https://github.com/orgs/community/discussions/categories/copilot-conversations">GitHub Community</a> to share your feedback.</p>
+</body></html>
+<p>The post <a href="https://github.blog/changelog/2026-10-13-gemini-4-argon-in-github-copilot">Gemini 4 Argon in GitHub Copilot</a> appeared first on <a href="https://github.blog">The GitHub Blog</a>.</p>
+]]></content:encoded>
+					
+		
+		
+		<category domain="changelog-type"><![CDATA[Release]]></category>
+<category domain="changelog-label"><![CDATA[copilot]]></category>
+<post-id xmlns="com-wordpress:feed-additions:1">99479</post-id>	</item>
+		<item>
+		<title>Enterprise managed settings enforcement updates</title>
+		<link>https://github.blog/changelog/2026-10-13-enterprise-managed-settings-enforcement-updates</link>
+		
+		<dc:creator><![CDATA[Allison]]></dc:creator>
+		<pubDate>Tue, 13 Oct 2026 15:20:10 +0000</pubDate>
+				<guid isPermaLink="false">https://github.blog/changelog/2026-10-12-enterprise-managed-settings-enforcement-updates</guid>
+
+					<description><![CDATA[<p>Enterprise administrators can now require supported GitHub Copilot clients to retrieve current server-managed settings at startup instead of relying on a cached policy. We are also adding minimum client version&#8230;</p>
+<p>The post <a href="https://github.blog/changelog/2026-10-13-enterprise-managed-settings-enforcement-updates">Enterprise managed settings enforcement updates</a> appeared first on <a href="https://github.blog">The GitHub Blog</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html><body><p>Enterprise administrators can now require supported GitHub Copilot clients to retrieve current server-managed settings at startup instead of relying on a cached policy. We are also adding minimum client version requirements to governance-focused managed settings keys over time, starting with the <code>sandbox</code> key.</p>
+<h3 id="force-refresh-settings-on-client-startup" id="force-refresh-settings-on-client-startup" ><a class="heading-link" href="#force-refresh-settings-on-client-startup">Force refresh settings on client startup<span class="heading-hash pl-2 text-italic text-bold" aria-hidden="true"></span></a></h3>
+<p>Set <code>forceRemoteSettingsRefresh</code> to <code>true</code> through server-managed, MDM-managed, or file-based settings when a policy change must take effect before Copilot starts. The setting is supported in Copilot CLI, VS Code, and the GitHub Copilot app.</p>
+<p>MDM-managed and file-based delivery can require freshness before the client signs in for the first time. A server-managed value begins requiring refreshes on subsequent startups after the client has received it once. While the setting is active, a cached response cannot satisfy the freshness requirement. If the client cannot confirm current policy, it fails closed rather than running with a stale or unconfirmed policy. Without this setting, clients continue to use the normal managed-settings cache for faster startup and resilience during transient service failures.</p>
+<h3 id="minimum-required-client-version" id="minimum-required-client-version" ><a class="heading-link" href="#minimum-required-client-version">Minimum required client version<span class="heading-hash pl-2 text-italic text-bold" aria-hidden="true"></span></a></h3>
+<p>We&rsquo;ve also added enforcement of a <a href="https://docs.github.com/en/enterprise-cloud@latest/copilot/reference/enterprise-administrators/enterprise-managed-settings#minimum-client-version-enforcement-for-sandbox">required minimum client version</a> to the <code>sandbox</code> key in support of the generally available local sandbox capability. When this key is included in managed settings, users who pin to older versions of Copilot clients will now be forced to update in order to resume using Copilot.</p>
+<p>To learn more, see <a href="https://docs.github.com/enterprise-cloud@latest/copilot/how-tos/administer-copilot/manage-for-enterprise/use-managed-settings/deploy-managed-settings#requiring-fresh-server-managed-settings-on-startup">Deploying enterprise managed settings</a>.</p>
+<p>Join the discussion within <a href="https://github.com/orgs/community/discussions/199139">GitHub Community</a>.</p>
+</body></html>
+<p>The post <a href="https://github.blog/changelog/2026-10-13-enterprise-managed-settings-enforcement-updates">Enterprise managed settings enforcement updates</a> appeared first on <a href="https://github.blog">The GitHub Blog</a>.</p>
+]]></content:encoded>
+					
+		
+		
+		<category domain="changelog-type"><![CDATA[Improvement]]></category>
+<category domain="changelog-label"><![CDATA[client apps]]></category>
+<category domain="changelog-label"><![CDATA[copilot]]></category>
+<category domain="changelog-label"><![CDATA[enterprise management tools]]></category>
+<post-id xmlns="com-wordpress:feed-additions:1">99451</post-id>	</item>
+		<item>
+		<title>Client telemetry user attribution and configurable capture</title>
+		<link>https://github.blog/changelog/2026-10-12-client-telemetry-user-attribution-and-configurable-capture</link>
+		
+		<dc:creator><![CDATA[Allison]]></dc:creator>
+		<pubDate>Mon, 12 Oct 2026 22:38:00 +0000</pubDate>
+				<guid isPermaLink="false">https://github.blog/changelog/2026-10-12-client-telemetry-user-attribution-and-configurable-capture</guid>
+
+					<description><![CDATA[<p>Enterprise administrators can now use telemetry in managed settings to attribute GitHub Copilot activity to a user without collecting their prompts, responses, or tool content. The telemetry.capture.identity setting adds three&#8230;</p>
+<p>The post <a href="https://github.blog/changelog/2026-10-12-client-telemetry-user-attribution-and-configurable-capture">Client telemetry user attribution and configurable capture</a> appeared first on <a href="https://github.blog">The GitHub Blog</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html><body><p>Enterprise administrators can now use <code>telemetry</code> in managed settings to attribute GitHub Copilot activity to a user without collecting their prompts, responses, or tool content.</p>
+<p>The <code>telemetry.capture.identity</code> setting adds three attributes to OpenTelemetry (OTel) data:</p>
+<ul>
+<li><code>user.name</code>: The authenticated Copilot account name, currently the GitHub login.</li>
+<li><code>process.user.name</code>: The local operating-system account.</li>
+<li><code>host.name</code>: The local machine name.</li>
+</ul>
+<p>Identity capture is off by default and remains separate from the existing pseudonymous user identifier. Fine-grained capture controls are available in Copilot CLI, the GitHub Copilot app, and VS Code sessions using Agent Host.</p>
+<p>Administrators can also independently control five additional capture classes:</p>
+<ul>
+<li><code>prompts</code>: User, system, and developer prompts and supported input context.</li>
+<li><code>responses</code>: Assistant responses and supported reasoning content.</li>
+<li><code>toolArguments</code>: Raw tool arguments, commands, tool schemas, and identifiers for tools, MCP servers, plugins, and hooks.</li>
+<li><code>toolOutput</code>: Tool results and execution-error details.</li>
+<li><code>policyDetail</code>: Raw policy details such as sandbox filesystem paths.</li>
+</ul>
+<p>Every capture class is off by default. Explicit managed values take precedence over local settings, SDK configuration, and environment variables. The existing <code>captureContent</code> setting remains available as a legacy shorthand for the five content classes, but it never enables identity.</p>
+<p>Prompt, tool, and policy capture can include source code, file contents, commands, tool results, and workspace or user-profile paths. Enable only the classes required for your audit use case and send them to an approved collection endpoint.</p>
+<p>To learn more, see <a href="https://docs.github.com/copilot/reference/enterprise-administrators/enterprise-managed-settings">the enterprise managed settings reference</a> and <a href="https://code.visualstudio.com/docs/agents/guides/monitoring-agents">monitor agent usage with OpenTelemetry</a>.</p>
+<p>Join the discussion within <a href="https://github.com/orgs/community/discussions/199139">GitHub Community</a>.</p>
+</body></html>
+<p>The post <a href="https://github.blog/changelog/2026-10-12-client-telemetry-user-attribution-and-configurable-capture">Client telemetry user attribution and configurable capture</a> appeared first on <a href="https://github.blog">The GitHub Blog</a>.</p>
+]]></content:encoded>
+					
+		
+		
+		<category domain="changelog-type"><![CDATA[Improvement]]></category>
+<category domain="changelog-label"><![CDATA[client apps]]></category>
+<category domain="changelog-label"><![CDATA[copilot]]></category>
+<category domain="changelog-label"><![CDATA[enterprise management tools]]></category>
+<post-id xmlns="com-wordpress:feed-additions:1">99450</post-id>	</item>
+		<item>
+		<title>New controls and chat improvements in Copilot for JetBrains</title>
+		<link>https://github.blog/changelog/2026-10-10-new-controls-and-chat-improvements-in-copilot-for-jetbrains</link>
+		
+		<dc:creator><![CDATA[Allison]]></dc:creator>
+		<pubDate>Sat, 10 Oct 2026 18:53:39 +0000</pubDate>
+				<guid isPermaLink="false">https://github.blog/changelog/2026-10-10-new-controls-and-chat-improvements-in-copilot-for-jetbrains</guid>
+
+					<description><![CDATA[<p>This update brings more control over default models and MCP server in GitHub Copilot for JetBrains. It also makes diagnostics easier to address, improves chat navigation and account controls, and&#8230;</p>
+<p>The post <a href="https://github.blog/changelog/2026-10-10-new-controls-and-chat-improvements-in-copilot-for-jetbrains">New controls and chat improvements in Copilot for JetBrains</a> appeared first on <a href="https://github.blog">The GitHub Blog</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html><body><p>This update brings more control over default models and MCP server in GitHub Copilot for JetBrains. It also makes diagnostics easier to address, improves chat navigation and account controls, and strengthens reliability across agent sessions, customizations, and worktrees.</p>
+<h2 id="whats-new" id="whats-new" ><a class="heading-link" href="#whats-new">What&rsquo;s new<span class="heading-hash pl-2 text-italic text-bold" aria-hidden="true"></span></a></h2>
+<h3 id="enterprise-managed-default-models" id="enterprise-managed-default-models" ><a class="heading-link" href="#enterprise-managed-default-models">Enterprise-managed default models<span class="heading-hash pl-2 text-italic text-bold" aria-hidden="true"></span></a></h3>
+<p>Enterprise administrators can now use managed settings to choose any available Copilot agent model as the default for new conversations. This gives organizations more control over the starting model while still preserving an explicit model picker choice.</p>
+<h3 id="faster-fixes-from-diagnostics" id="faster-fixes-from-diagnostics" ><a class="heading-link" href="#faster-fixes-from-diagnostics">Faster fixes from diagnostics<span class="heading-hash pl-2 text-italic text-bold" aria-hidden="true"></span></a></h3>
+<p>Diagnostic intention menus now include a <strong>Fix</strong> action that opens inline chat and asks Copilot to repair the issue. The action uses agent mode when it is available and ask mode otherwise, helping you move from a reported problem to a proposed fix with fewer steps.</p>
+<h3 id="more-control-over-mcp-server-startup" id="more-control-over-mcp-server-startup" ><a class="heading-link" href="#more-control-over-mcp-server-startup">More control over MCP server startup<span class="heading-hash pl-2 text-italic text-bold" aria-hidden="true"></span></a></h3>
+<p>A new MCP setting lets you disable automatic server startup for Copilot and Claude, giving you more control over when configured tools become active.</p>
+<h2 id="user-experience-enhancements" id="user-experience-enhancements" ><a class="heading-link" href="#user-experience-enhancements">User experience enhancements<span class="heading-hash pl-2 text-italic text-bold" aria-hidden="true"></span></a></h2>
+<p>This release makes everyday chat, account, and navigation workflows clearer:</p>
+<ul>
+<li><strong>Account controls</strong>: Signed-in Copilot accounts now have clearer labels, a simpler status display, better navigation for long lists, and a <strong>Switch Account</strong> action.</li>
+<li><strong>Chat discovery and sign-in</strong>: A one-time reminder helps new users find <strong>Chat</strong>, while the sign-in page has a responsive layout, clearer headings, improved provider choices, a direct Copilot plans link, and cancellable progress during browser authorization.</li>
+<li><strong>Conversation navigation</strong>: Chat messages are grouped by turn, with controls for moving quickly between turns.</li>
+<li><strong>Message actions</strong>: User messages now include actions to copy or edit their content.</li>
+<li><strong>Agent guidance</strong>: The Copilot agent placeholder now highlights questions, edits, context, and commands.</li>
+<li><strong>Migration flow</strong>: After you accept a migration command, <strong>Go Back</strong> opens a Copilot home session even when you continue the local conversation.</li>
+</ul>
+<h2 id="quality-improvements" id="quality-improvements" ><a class="heading-link" href="#quality-improvements">Quality improvements<span class="heading-hash pl-2 text-italic text-bold" aria-hidden="true"></span></a></h2>
+<p>This release improves reliability during language server startup, model and provider switching, MCP configuration, customization refreshes, file changes, and worktree workflows. It also resolves interaction and display issues in model management, tool-call details, working sets, and JetBrains IDE settings.</p>
+<h2 id="deprecation" id="deprecation" ><a class="heading-link" href="#deprecation">Deprecation<span class="heading-hash pl-2 text-italic text-bold" aria-hidden="true"></span></a></h2>
+<p>GitHub Copilot has ended support for JetBrains IDE 2025.1. You now need JetBrains IDE 2025.2 or later to use the plugin.</p>
+<h2 id="try-it-out" id="try-it-out" ><a class="heading-link" href="#try-it-out">Try it out<span class="heading-hash pl-2 text-italic text-bold" aria-hidden="true"></span></a></h2>
+<p>We encourage you to try out the <a href="https://plugins.jetbrains.com/plugin/17718-github-copilot--your-ai-pair-programmer/versions">latest version of the GitHub Copilot plugin</a> and share your feedback. Your input is invaluable in helping us refine and improve the product.</p>
+<h2 id="share-your-feedback" id="share-your-feedback" ><a class="heading-link" href="#share-your-feedback">Share your feedback<span class="heading-hash pl-2 text-italic text-bold" aria-hidden="true"></span></a></h2>
+<p>Your feedback drives improvements. We&rsquo;d love to hear about your experience in the following channels:</p>
+<ul>
+<li>In-product feedback: Use the feedback options within your IDE.</li>
+<li>Feedback repository: Share your thoughts in the <a href="https://github.com/microsoft/copilot-intellij-feedback/issues">GitHub Copilot for JetBrains IDEs issues</a>.</li>
+</ul>
+</body></html>
+<p>The post <a href="https://github.blog/changelog/2026-10-10-new-controls-and-chat-improvements-in-copilot-for-jetbrains">New controls and chat improvements in Copilot for JetBrains</a> appeared first on <a href="https://github.blog">The GitHub Blog</a>.</p>
+]]></content:encoded>
+					
+		
+		
+		<category domain="changelog-type"><![CDATA[Release]]></category>
+<category domain="changelog-label"><![CDATA[copilot]]></category>
+<category domain="changelog-label"><![CDATA[enterprise management tools]]></category>
+<post-id xmlns="com-wordpress:feed-additions:1">99440</post-id>	</item>
+	</channel>
+</rss>

@@ -1,0 +1,434 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Amp News</title>
+    <link>https://ampcode.com/news</link>
+    <description>Dispatches from the Amp team</description>
+    <item>
+      <title>Assign It To Amp</title>
+      <link>https://ampcode.com/news/assign-it-to-amp</link>
+      <description>
+        <![CDATA[<p>Amp is now an agent in Linear.</p>
+<p>Assigning an issue to Amp starts a new <a href="https://linear.app/developers/agent-interaction#agent-session">Agent Session</a> in Linear and spawns a new orb. You can also mention @Amp to kick off a session. Amp sends its response back to the same session and replies to messages sent along the way. The Agent Session also appears in your Amp sidebar and is fully viewable in Amp.</p>
+<p>Assign Amp an issue in Linear.</p>
+<p><picture class="responsive-picture with-preview" style="--image-preview:url('data:image/webp;base64,UklGRu4BAABXRUJQVlA4IOIBAAAwDACdASpgADQAPp1CnEglpCMhLVzK2LATiWlskauOnACXhhcd4qCo3sFaTlasOwsW6JVP5L6Cq2vdhZ09i0nOwyAPVbjA6EmdcEoGIiSGrkZ0ibcLCo3xNypib7Weha50cErn2x9RUSHAAP74zV9RxFtxT5zSX/MjSOo92HNuLdJ6jEJer7Y+baLsqyZdxMbYkqA1jyLdA+m2OCxxMBaxn1LNmgUXozNQNvgHcUFs9kdSRZlTZYgW1RHHao1B5kyBGA8lxLDumrljE0a8k/uhrULmX5mUfc44g+ECvsGT1pglWiTAMwn7bPhGsf+uwoD5PQaD/YMoHZIRKg7SnhQ7mrc25k268A74WWB+Wj2jr1RHYGROx3OJmHP5bRpw/SlHuT6WYGG14Ys6DwldSMq454ckduJjzNAsZkhfxYrzp780CznmKZx+4QPGrIdcHRvqoPwuOWwkZjgv9CHrKp7ytSw3e1/NkZrFP7oF09XpfkNH8J62Bxz19Aaouui9+aofH4bVusJ5uAh/1jhs2uYOGb0jSt3tyD250INDg3/dJ8Z71i+Xm+FqkDtXHIyRL5SEBBGi9hOEhwahdiPHL0hg0rs3UHwiiWcnNmvC3ZbKAPMvFHklnuW/BMzMVdIkSyAAAA==');--image-width:1520px"><source type="image/avif" srcset="https://static.ampcode.com/news/responsive/linear-assign.ba3f7725.768w.avif 768w, https://static.ampcode.com/news/responsive/linear-assign.ba3f7725.1440w.avif 1440w, https://static.ampcode.com/news/responsive/linear-assign.ba3f7725.1520w.avif 1520w" sizes="(min-width: 1307px) 660px, (min-width: 1024px) 50.5vw, (min-width: 716px) 660px, calc(100vw - 56px)"><img width="1520" height="831" src="https://static.ampcode.com/news/linear-assign.png" alt="Assign an issue to Amp from Linear" decoding="sync" data-lightbox-src="https://static.ampcode.com/news/linear-assign.png"></picture></p>
+<p>Follow its progress in the Agent Session.</p>
+<p><picture class="responsive-picture with-preview" style="--image-preview:url('data:image/webp;base64,UklGRuQBAABXRUJQVlA4INgBAACwCwCdASpgAEEAPp1Amkilo6KhMBmaILATiWknAb7wBhgv9Y8rXOk5Xl8ogJhippkkW7oYmblGB6bmEfqydU7FzbmDHInjnZPXgcZ853h+B37vfAIPhd4ZC0m9g7ey/IfgpXNySgAA/vjUagLmALda1oPV6bR+uEiiqQz5BTHM1ZGyzQkTkHqGkjbVXYp8kPySKuel2Gxhq7Ct9H/ekIH3X2zXCYq30MxhHpVUtud3DennqeT9MIyFHbeFHi32P+MYYqnoALxNsPIxkUVYySBq+hxZse9SZ729zqVTyXIDVbiTHp5XIqWriRKjB97b3tbu0pr2mQU/SGRavOfYwk62xEkfIH5XbHPj76mhmc3n51X5Iq7lDTI6se2h0OOl45let1/z8oMezXDfyGNevJNn+V+uVsyVZmlfgpfiqmpbbM8stww4e99cVyvZdZSZizo7f+ZMkuI0amzdesqVgZ7sstPHSITiru1sprSKHfeNf+hRRcw9D9wsoQydEm5l9Rw3t2BwKyV1TIC79KDD09uk2bnR2/FLigBW1B1kdASVPVzx3G1F54zZ2Jf77Vt+UIaoLcDQI4ggCQ6uizZen5V8OGV+mGvqYqut7lsa+14OA6rKJeoAAAAA');--image-width:1520px"><source type="image/avif" srcset="https://static.ampcode.com/news/responsive/linear-session.b3b06a99.768w.avif 768w, https://static.ampcode.com/news/responsive/linear-session.b3b06a99.1440w.avif 1440w, https://static.ampcode.com/news/responsive/linear-session.b3b06a99.1520w.avif 1520w" sizes="(min-width: 1307px) 660px, (min-width: 1024px) 50.5vw, (min-width: 716px) 660px, calc(100vw - 56px)"><img width="1520" height="1023" src="https://static.ampcode.com/news/linear-session.png" alt="Follow progress and reply in the Agent Session" loading="lazy" decoding="async" data-lightbox-src="https://static.ampcode.com/news/linear-session.png"></picture></p>
+<p>Then open the same conversation in Amp.</p>
+<p><picture class="responsive-picture with-preview" style="--image-preview:url('data:image/webp;base64,UklGRlwBAABXRUJQVlA4IFABAACwBwCdASpgACQAPm0ylkikIqIhJzQJIIANiWkADpccAM1AMaGtoDhl+iYf/ZNizxRZslzjW1suJbQfGkf9tsj/TxuO5EOQAP78nPHJm8qpZfaCwv/CSXqx2ND87rdnsaTbm4qOxfPsi2f6iylmmXSuvyEBOAK77mJapZWrlgWj7r8o2ajrY9B7pasmENAF+EQUfBp/r9UjPs0DEzWa2u07P0l5F9Gq06dd1F/1pYdmgWb5YIquT97z35jtZgRdpvWpTJkdpmTh9/aZFstToVy71rWTYNv0Aq1yCjNWkE2IAu8go3Q3OM2SAK5SP4FKC4i1JhQEVfoquZghhM619iqaIVT4vwI2Gk+QAvyPpu1fciSqBcgeQGjVAKGF5xQmHzxmCENU6s0EAZrmYp6DzoMvgSTBn5rsn9sunb0fr63NNLRAvu7cDo5nPStT/PwAAAA=');--image-width:1520px"><source type="image/avif" srcset="https://static.ampcode.com/news/responsive/amp-thread-linear-row.66518d6b.768w.avif 768w, https://static.ampcode.com/news/responsive/amp-thread-linear-row.66518d6b.1440w.avif 1440w, https://static.ampcode.com/news/responsive/amp-thread-linear-row.66518d6b.1520w.avif 1520w" sizes="(min-width: 1307px) 660px, (min-width: 1024px) 50.5vw, (min-width: 716px) 660px, calc(100vw - 56px)"><img width="1520" height="567" src="https://static.ampcode.com/news/amp-thread-linear-row.png" alt="Open the same session as a thread in Amp" loading="lazy" decoding="async" data-lightbox-src="https://static.ampcode.com/news/amp-thread-linear-row.png"></picture></p>
+<p>To get started, install the Amp agent in your Linear workspace and connect your Amp account to the Linear MCP in Settings → MCP &amp; Integrations.</p>
+<p><picture class="responsive-picture with-preview" style="--image-preview:url('data:image/webp;base64,UklGRr4AAABXRUJQVlA4ILIAAADwBACdASpgAAgAPm0wkUakIyGhKqoAgA2JaQAAPczb67SWFtCoALLjzLgA0x68iAAA/v1KcPbUDq2mGsWBCU0nA0LPfSqOSjXMCOJYa6Zc8fOYlovKQoe+yFQrzm/9BKAL7OObxau9Z88VTD6I6dqgXZUUY9wunEg0m5AOskSL8B/UmcVXjj8y56Y+TvPRevMcnZxzjZskFOCw54AmXMOIkrHGs64ADMCoJEqy3xrYAAAA');--image-width:1520px"><source type="image/avif" srcset="https://static.ampcode.com/news/responsive/linear-settings.ee262cfb.768w.avif 768w, https://static.ampcode.com/news/responsive/linear-settings.ee262cfb.1440w.avif 1440w, https://static.ampcode.com/news/responsive/linear-settings.ee262cfb.1520w.avif 1520w" sizes="(min-width: 1307px) 660px, (min-width: 1024px) 50.5vw, (min-width: 716px) 660px, calc(100vw - 56px)"><img width="1520" height="126" src="https://static.ampcode.com/news/linear-settings.png" alt="Connect your Linear account and install Amp in Linear from Settings" loading="lazy" decoding="async" data-lightbox-src="https://static.ampcode.com/news/linear-settings.png"></picture></p>
+<p>Read the <a href="/docs/integrations#linear">docs</a> to learn more.</p>]]>
+      </description>
+      <pubDate>Mon, 19 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>See Your Runner&apos;s Desktop</title>
+      <link>https://ampcode.com/news/runner-desktop</link>
+      <description>
+        <![CDATA[<p>You can now see and control your macOS or Linux runner&#39;s desktop. This is nice for trying native apps that Amp builds for you, such as iOS apps:</p>
+<div class="wide-media" style="margin-block-end: calc(2rem + 1lh)">
+<video class="news-media-light" width="2560" height="1026" style="aspect-ratio: 2560/1026" muted loop playsinline preload="none" data-autoplay-in-view aria-label="The Amp macOS app with a thread beside its runner's shared Mac desktop. Clicking Open the iOS app in the transcript opens the Desktop tab, where the cursor opens a thread in the iPhone Simulator and taps its header, showing Archive at the top of the menu." poster="https://static.ampcode.com/news/runner-desktop-ios-light-poster.avif" src="https://static.ampcode.com/news/runner-desktop-ios-light.mp4" type="video/mp4"></video>
+<video class="news-media-dark" width="2560" height="1026" style="aspect-ratio: 2560/1026" muted loop playsinline preload="none" data-autoplay-in-view aria-label="The Amp macOS app with a thread beside its runner's shared Mac desktop. Clicking Open the iOS app in the transcript opens the Desktop tab, where the cursor opens a thread in the iPhone Simulator and taps its header, showing Archive at the top of the menu." poster="https://static.ampcode.com/news/runner-desktop-ios-dark-poster.avif" src="https://static.ampcode.com/news/runner-desktop-ios-dark.mp4" type="video/mp4"></video>
+</div>
+
+<p>Turn on <strong>Share This Mac&#39;s Display</strong> under Settings › Runner in the <a href="/app">macOS app</a>, or start your runner with <code>amp --no-tui --desktop</code>.</p>
+<p><picture class="responsive-picture" style="--image-width:752px"><source type="image/avif" srcset="https://static.ampcode.com/news/responsive/runner-desktop-settings-light.481945f5.768w.avif 768w, https://static.ampcode.com/news/responsive/runner-desktop-settings-light.481945f5.1440w.avif 1440w, https://static.ampcode.com/news/responsive/runner-desktop-settings-light.481945f5.1504w.avif 1504w" sizes="(min-width: 1307px) 660px, (min-width: 1024px) 50.5vw, (min-width: 716px) 660px, calc(100vw - 56px)"><img class="news-media-light framed" loading="lazy" width="752" height="543" style="aspect-ratio: 1504/1085" src="https://static.ampcode.com/news/runner-desktop-settings-light.png" alt="The Runner tab in the Amp macOS app's settings, with Share This Mac's Display turned on and its Sharing status highlighted." decoding="async" data-lightbox-src="https://static.ampcode.com/news/runner-desktop-settings-light.png"></picture>
+<picture class="responsive-picture" style="--image-width:752px"><source type="image/avif" srcset="https://static.ampcode.com/news/responsive/runner-desktop-settings-dark.beee3118.768w.avif 768w, https://static.ampcode.com/news/responsive/runner-desktop-settings-dark.beee3118.1440w.avif 1440w, https://static.ampcode.com/news/responsive/runner-desktop-settings-dark.beee3118.1504w.avif 1504w" sizes="(min-width: 1307px) 660px, (min-width: 1024px) 50.5vw, (min-width: 716px) 660px, calc(100vw - 56px)"><img class="news-media-dark framed" loading="lazy" width="752" height="543" style="aspect-ratio: 1504/1085" src="https://static.ampcode.com/news/runner-desktop-settings-dark.png" alt="The Runner tab in the Amp macOS app's settings, with Share This Mac's Display turned on and its Sharing status highlighted." decoding="async" data-lightbox-src="https://static.ampcode.com/news/runner-desktop-settings-dark.png"></picture></p>
+<p>Your Amp client connects directly to the runner, so it&#39;s nearly instant when the runner is on your local network or nearby.</p>
+<p>Read <a href="/docs/cli/runners#see-and-control-the-runners-desktop">See and Control the Runner&#39;s Desktop</a> for more details.</p>]]>
+      </description>
+      <pubDate>Fri, 16 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Take Puck with You</title>
+      <link>https://ampcode.com/news/take-puck-with-you</link>
+      <description>
+        <![CDATA[<p>You can now talk to Puck from ChatGPT, Claude, and other agents via MCP.</p>
+<p><picture class="responsive-picture with-preview" style="--image-preview:url('data:image/webp;base64,UklGRvIBAABXRUJQVlA4IOYBAADQDgCdASpgAFcAPtFYokuoJSMhrjUN+QAaCWltBGDQAAZVCCLk54eBAX2gb0g0M22gcZtpNgEI7ehKAKjGmCraYzhcOjRAunAwalaKQC6AC3LAcNmzw+Y45h6AjbxApj7hBZSfgmmFkK7JaIfyfCwY/7dst9JCf0fftqvhfwsAAP796WIHlMsLkqWF8YlvhZTDM+9vP8DDBMPnucuvQ7G5rnVoKy4DPXstf3kG7tFtUAbITahScZi5FDJ+4EM7YDlgKK2Ko7fQW79mzrlk7HhmZNGFSIfQq+Vh7kQC8vg32L0SI8v34QzElKCbsV0fqd2wVQgYHtvE4gGel5bHx3j3zc79PZtmyURmqjtbbIbSiArAWQTrBlT5Og7niFl0NaHCgVS5TbmRY0Gd3iyb2jxR35/EakuorpA8QHiguE/95UMSbeXzmPfp8Gt5d1rhjAsT5xod5feK+TOjB4A5hVVNuSQSlFnfvb9qbxvfoeqEIBAOeABnR6P6bEJBc7TMrsdhqVhE6l8BBTYhkNsWjxeLgW3PVitSoa8a0Yy3u/JkmuwNJCb9TMeQZyxQ6amViySwLexxgJrIG32AZbEwDRk2t6HtPxz8/OSWkSe4riVqDFX7EzToZx0F61dGUN7A0OhdAsgAAAA=');--image-width:869px"><source type="image/avif" srcset="https://static.ampcode.com/news/responsive/puck-mcp-in-chatgpt.e8d6e473.768w.avif 768w, https://static.ampcode.com/news/responsive/puck-mcp-in-chatgpt.e8d6e473.1440w.avif 1440w, https://static.ampcode.com/news/responsive/puck-mcp-in-chatgpt.e8d6e473.1738w.avif 1738w" sizes="(min-width: 1307px) 660px, (min-width: 1024px) 50.5vw, (min-width: 716px) 660px, calc(100vw - 56px)"><img width="869" style="aspect-ratio: 1738/1582" src="https://static.ampcode.com/news/puck-mcp-in-chatgpt.avif" alt="ChatGPT opens Puck MCP and shows an Orbs card with one running orb, then lists what Puck can do: find previous work, delegate coding, inspect repositories, track development, coordinate agents, automate workflows, manage Amp, and communicate through connected services." height="791" decoding="sync" data-lightbox-src="https://static.ampcode.com/news/puck-mcp-in-chatgpt.avif"></picture></p>
+<p>After developing an idea with ChatGPT&#39;s voice mode on a walk, send it directly to Puck for implementation. Puck knows your projects in Amp and routes it to the right orb. In the same conversation, you can check in on your work in Amp directly from ChatGPT.</p>
+<p>Puck MCP offers two tools: <code>puck</code> for interacting with your Puck in Amp, and <code>orbs</code> for showing an interactive view of your running orbs with links to their portals.</p>
+<p>You&#39;re talking to the same Puck you use in Amp. It can look through your threads, find earlier work, and coordinate your agents.</p>
+<p>To connect, open <a href="/settings/puck">Settings &gt; Puck</a>. Click <strong>Add to Claude</strong>, or copy <code>https://ampcode.com/mcp</code> into ChatGPT or another MCP client, then sign in with your Amp account.</p>
+<p><picture class="responsive-picture with-preview" style="--image-preview:url('data:image/webp;base64,UklGRiwBAABXRUJQVlA4ICABAAAQCACdASpgAB4APm02l0gkIyIhJXgJmIANiWkA09sxGIiCRRRoGB5SE7AX6H8bzblKKK/PnnFBDm/oyr9e6G8ka6fdc8LZg5YAAP79PzC+9cXYVa7ihwTp52IjnkI2/F0GS9Hm/jv3ZYjd2AZWqEQM23OvlaY1cL1SLsOGOe4v/9FYcJubyM48ByrPlUm4lrxs8vyearTAiPJHll/7YQaY/ztzR7bhpCG799JtFE3wzvq0NOJhkPZ52TOLiRDlpkPCCZTFySlB2n/+NACFpZaC6ZdMMwrjLUfTmeI8r9uuBd7Te6rDDoxFi4ygSdJQy6I53SvPogQFp7zJnR3oDFuTHeY97sK3dT6a5CDoGBFMfk7xXaAI/fRuGv5oorVYAAA=');--image-width:893px"><source type="image/avif" srcset="https://static.ampcode.com/news/responsive/puck-mcp-settings.f270e5a4.768w.avif 768w, https://static.ampcode.com/news/responsive/puck-mcp-settings.f270e5a4.1440w.avif 1440w, https://static.ampcode.com/news/responsive/puck-mcp-settings.f270e5a4.1786w.avif 1786w" sizes="(min-width: 1307px) 660px, (min-width: 1024px) 50.5vw, (min-width: 716px) 660px, calc(100vw - 56px)"><img width="893" style="aspect-ratio: 1786/566" src="https://static.ampcode.com/news/puck-mcp-settings.avif" alt="The Puck in Other Apps card in Amp's Puck settings, with an Add to Claude button, a Copy URL button for ChatGPT, and the https://ampcode.com/mcp server URL for other MCP clients." height="283" loading="lazy" decoding="async" data-lightbox-src="https://static.ampcode.com/news/puck-mcp-settings.avif"></picture></p>
+<p>See <a href="/docs/puck#use-puck-in-other-apps">Use Puck in Other Apps</a> for details.</p>]]>
+      </description>
+      <pubDate>Tue, 13 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>First Things First, Faster</title>
+      <link>https://ampcode.com/news/first-things-first-faster</link>
+      <description>
+        <![CDATA[<p>The Changes pane now automatically puts files in an intelligent order. Amp reads the diff, identifies the files that are essential to the change, and puts them first.</p>
+<p>If the diff changes, Amp computes an updated order without rearranging the files while you’re reviewing them. Instead, a blue dot will appear over the intelligent ordering button, which you can click to apply the updated order.</p>
+<p>The new automatic intelligent ordering is computed much more rapidly. Here is a comparison of the same diff ordered by both the old and new method:</p>
+<p><video width="2000" height="1720" style="aspect-ratio: 2000/1720" playsinline autoplay loop muted aria-label="Before and After comparison of the same eight-file diff at normal speed. Before takes 3.5 seconds. After orders automatically in 0.1 seconds. Each timer turns green when ordering completes. Both put the database migration first." poster="https://static.ampcode.com/news/intelligent-file-order-automatic-v3.avif" src="https://static.ampcode.com/news/intelligent-file-order-automatic-v3.mp4" type="video/mp4"></video></p>
+<p>You can optionally go back to alphabetical file ordering by clicking the ordering button.</p>]]>
+      </description>
+      <pubDate>Mon, 12 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>You&apos;ve Got Comments</title>
+      <link>https://ampcode.com/news/github-listeners</link>
+      <description>
+        <![CDATA[<p>Amp now follows up on GitHub pull requests it opens. Comments, reviews, and CI results show up in the same thread.</p>
+<p>When Amp opens a PR, the agent can now subscribe to the PR&#39;s comments, reviews, and CI for its latest commit. A failing check or a reviewer&#39;s question shows up in the same thread, and Amp already has the context to deal with it.</p>
+<p><picture class="responsive-picture with-preview" style="--image-preview:url('data:image/webp;base64,UklGRq4BAABXRUJQVlA4IKIBAAAQCwCdASpgAEEAPp1Enkqlo6KhqbHLaLATiWknAufDAAeLNUCPgk+h73PH7a1K1K3IJDbG6wrsNY2IQ3sGgBjMShm2ITdnrS3wxokXcU1+ojzqzjm2pc5YVtqULIhL0EGQAP74iqMBpDkDdAUe7buNDiMTfJJNZ/iy0AYH1zXf6bWFUNqQ2cC2Yy/HW1LS59WcqIx70UwlzVPJ5S9LD7LVOJe0VvCS5gczwbrv1MJK7ZuiZbNA5mj2kEmdSYYQUonp3P+GbI7RP30p71wg6N+n2ENN/v6GHvrQd6wJrodue/s4sJuELp5cgwoprx4Nmkml0PhTXF0IRoJlAxtdgZ3EIodUo1kLnncUhnQuLGT0ZJShvqVN1YUAeBmxoNQIakdzijwnmTz3rW6XWhlpKGW53zdDQQ/7r9kDm3t6psbsK2d2Z+7andrjIYRLQqIgDxvXsOCNsHkpNml2LNFHXJ5USuO0yCdOPbODxEiEWyOsDekLDQr6AlFuR5GYstuHiNMByhAwVG+wRNFDptlGXp92i4ZOljWz6K9eXqI14ciAAAAA');--image-width:640px"><source type="image/avif" srcset="https://static.ampcode.com/news/responsive/github-listeners-pr-followup.6e3ecad6.768w.avif 768w, https://static.ampcode.com/news/responsive/github-listeners-pr-followup.6e3ecad6.1280w.avif 1280w" sizes="(min-width: 1268px) 640px, (min-width: 1024px) 50.5vw, (min-width: 696px) 640px, calc(100vw - 56px)"><img src="/news/github-listeners-pr-followup.avif" width="640" height="433" alt="Amp opening a pull request, subscribing to its updates, then receiving the CI results and a review in the same thread" decoding="sync" data-lightbox-src="/news/github-listeners-pr-followup.avif"></picture></p>
+<p>This is enabled by our new first-class support for <a href="/docs/github#github-webhooks">GitHub Webhooks</a>. In contrast to our existing, more generic <a href="/docs/orbs/event-driven">webhook support</a>, the new GitHub Webhook integration centrally handles all requests on the Amp side and then lets you (and your agent) decide whether to forward them to a single orb or to a new one each time. An agent can subscribe to certain events or can set up a subscription that spawns new orbs.</p>
+<h2>A New Orb for Every New GitHub Issue or PR</h2>
+<p>Ask Amp to start a new orb for every new issue or PR in a repository. You can also limit it to ones opened with a certain label. You don&#39;t need to keep the thread where you set it up.</p>
+<p><picture class="responsive-picture with-preview" style="--image-preview:url('data:image/webp;base64,UklGRowBAABXRUJQVlA4IIABAACwCgCdASpgACkAPm0uk0akIqGhJzQO2IANiWkWAGsB6WwT9mqD6n2goJ7ekS1rL4xpq5s6cL3eMs95LA9y2BpCw/VrBO4YTbhgbVOBieIPPpXGSGQliot7H0SjsxNAAP7/ltDb8Q0jHJKySJsq1X6zlo3s3t5muqoMYAetW1oX7cJWvvnCXjqORX8kvEYl10ciI3FMUUCClJmuJSnpUQHRrPgAWljgYyeGkuuqB7YG6VeDF/lcSqloZA4t1+vR1e4xd0KL7f8rKrG2Pe5MOXsa2/MaQvurjYVTK9l5ddxBe1DcVFLazD75SEhsP9HlIcnqDzhN7Wzaw5Pafq/w2UCmtGUvFckYU3f3G4m7gayb8YU8elkF9kzmJc7eg8LKpKzC023sfMbiFaNGhnKp6f8l2INBjfkeexvUpBbOwx9zaRn+GkG9kbOcioeCwkpvfHr9rLQak+eQZvP/63xOWuXMilL14dOXl9XZpkFhts9UaX1BVVRLIwzHRFEwOQAAAAA=');--image-width:640px"><source type="image/avif" srcset="https://static.ampcode.com/news/responsive/github-listeners-spawner.fe69fac8.768w.avif 768w, https://static.ampcode.com/news/responsive/github-listeners-spawner.fe69fac8.1280w.avif 1280w" sizes="(min-width: 1268px) 640px, (min-width: 1024px) 50.5vw, (min-width: 696px) 640px, calc(100vw - 56px)"><img src="/news/github-listeners-spawner.avif" width="640" height="272" alt="A request to start a new orb for every new issue in acme/website, the subscription tool call, and Amp noting that the thread can be archived" loading="lazy" decoding="async" data-lightbox-src="/news/github-listeners-spawner.avif"></picture></p>
+<p>Each new issue or PR gets its own orb, which reads it and has a summary waiting when you open the thread. Later comments on that issue or PR go to the same thread, so the conversation stays in one place.</p>
+<p><picture class="responsive-picture with-preview" style="--image-preview:url('data:image/webp;base64,UklGRrYBAABXRUJQVlA4IKoBAAAQCQCdASpgABkAPm0sk0ekIiGhKrQLAIANiWknAy2cgBK1gJAGYu2BBgSoHtyCva3iTHHJGS1fQCJjjNO3cOK+NzTfvJbVzoeRGps8uz1ajbgA/v33oaokmhg+Mg8afjI8DILzCclp8BlZ/JA3rk6zwx1K8daVOZPwSy+zLlHg/qv/9XkcznvB/UaY5TyTN59L5KgwAX/61M2ro55Mj55op+FNuNWmoesX+IJ+luF9Wq/7q7+pysgUila4XofhjSpjpl/X1Cz8XjTfT/3ZiFlrXXCFp//S6pgukkcunzyB3a58P1qVGZmXDhg5RTsIMrbBhiPj3D2TPCv9hDfqQUSl7co1bLSMrqJoU2RSShKDiS1VQma0W3S1hkB4iTINENnH5ABG6skZILzdIt15x5khNTT+mbSIYm8Sz9bxc7RYzVOA4YIbRh065rhB5VNdjnuXRRF40/Ke6Fz0WfDQmoc2j57FdnQp2JOO1NeIB6npH5nTSCTt1m5vh2j/WlagHaJQVdAM4Xc0/2swjVYowJy3yd4xOpsDiQxn+W/CANLvOKzllsgjJUAAAAA=');--image-width:640px"><source type="image/avif" srcset="https://static.ampcode.com/news/responsive/github-listeners-new-pr-v2.1b76e857.768w.avif 768w, https://static.ampcode.com/news/responsive/github-listeners-new-pr-v2.1b76e857.1280w.avif 1280w" sizes="(min-width: 1268px) 640px, (min-width: 1024px) 50.5vw, (min-width: 696px) 640px, calc(100vw - 56px)"><img src="/news/github-listeners-new-pr-v2.avif" width="640" height="167" alt="A new Amp thread started for a newly opened pull request, summarizing what the pull request changes" loading="lazy" decoding="async" data-lightbox-src="/news/github-listeners-new-pr-v2.avif"></picture></p>
+<p>You manage these in <strong>Settings → Integrations &amp; MCP → GitHub</strong>, where you can edit or pause them and see the orbs each one started.</p>
+<p><picture class="responsive-picture with-preview" style="--image-preview:url('data:image/webp;base64,UklGRpoBAABXRUJQVlA4II4BAACwCwCdASpgADMAPm0wk0akIyGhLBjrMIANiWkACwZP0x6oPpAmf8TZTzxeJf5jdmE0/Siq0O9U8i6z9HEhranQ/sGZZy0xt6UGP13VDvSnDIHrcBnhbUQRTcUDcIw0TFHfuKPy/AAA/v34NtCin6WbMyoocxLJJauOB4Ob2jqvqxEJB06yfF2cxUFf2iWCtnEkOSmFuWPeodMHQ++wBf08fh8/jkQ3YObSSKaAOKo5f7QQXqPlpg+xXcPYwKkOJ/z09YVLhMUMWOgi7p0NA9eNfrumw/B1bdPwU3rx01m+r0LY/Qc2CRvgpXSHXzICpsuVILzOxH+tgc4SnORFBKIsgHCYgUnu1V2JB7nsfAEW5QjvFzlozbFzFRxqlQd/HwzenOW5wW+faVR0m5XINykI7yk8vfKXt5nJpbK7BloK0JbEPM2veAXpBmjn+jzEun5vOSfujT/fobcLLn7Fw4FYGJy+Yw3x38TuMOph49kbQKJVl77Q8F5eK0TZh0ZOF7vbYMYp7ZS8YdQCUgAAAA==');--image-width:640px"><source type="image/avif" srcset="https://static.ampcode.com/news/responsive/github-listeners-settings-v3.5f6718da.768w.avif 768w, https://static.ampcode.com/news/responsive/github-listeners-settings-v3.5f6718da.1440w.avif 1440w, https://static.ampcode.com/news/responsive/github-listeners-settings-v3.5f6718da.1520w.avif 1520w" sizes="(min-width: 1268px) 640px, (min-width: 1024px) 50.5vw, (min-width: 696px) 640px, calc(100vw - 56px)"><img src="/news/github-listeners-settings-v3.avif" width="640" height="337" alt="The GitHub Event Subscriptions table in Settings with two orb spawners and a pull request subscription" loading="lazy" decoding="async" data-lightbox-src="/news/github-listeners-settings-v3.avif"></picture></p>
+<p>Read the <a href="/docs/github#github-listeners">docs</a> to find out how to watch CI when you push to <code>main</code>, follow an existing issue or PR, and ask Puck what Amp is following.</p>
+<p><a href="/docs/github#connect-github">Install the Amp GitHub App</a> on your repository to get started.</p>]]>
+      </description>
+      <pubDate>Mon, 12 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Use Your Claude Plan in Amp</title>
+      <link>https://ampcode.com/news/use-your-claude-plan</link>
+      <description>
+        <![CDATA[<p>You can now use your Claude Pro/Max subscription in Amp. It&#39;s free and available for everyone now.</p>
+<p>When creating a new thread, just pick <strong>Mode &gt; Claude Code</strong>. It&#39;ll ask to link your Claude sub if you haven&#39;t already done that.</p>
+<p><picture class="responsive-picture with-preview" style="--image-preview:url('data:image/webp;base64,UklGRr4BAABXRUJQVlA4ILIBAAAQDACdASpgADEAPp1GnEqlo6KiKVJLwLATiWkIcAGQOXld9Jyq8eC4x+bw1cu/hgpTL0i/6k6YujUcNkG3EmsbWJfdAEzoaCph0SjTapzbV5WuA+vaE59kO2+wvqVWR9hvd0RbUlNDYqAA/vz3sjNthaJbD7hrO9KED824sZbfXXbMzkoAWKgqGR8fdn1qFuDIGAE0q1xOjEwRRSi70VjUSVQWmnACP1owhXOFkGThrMzTUXeQY08XmkRP1pohNW0TJlrCIZvApwlkJ99qruzK+2gf9xg/ZPy7NvVlYqTEmJ6cHrbcKIF3yA9op50V6mkyGoCB0OqOcLxU7A0Ig0Z+Kj4W67jtGdt5ln+d69Vxv6yGRx6E7ik+fop+AWhTxqDPPnCpVudTe9f0gJrKSQdnsQQsyOrJwDbXZqZBvT12me5Bo6gLYBXtdTxamSDEu4hzJAqgVIvX83NFRbFHGznoXxlkX9rzD5KN7W5tGJizdVG8v7+dTVmvwPtZ5NC39zZmgD+aAHNDjTRj2G4V2hBAL8pfrMCr6svBk8xFNLtkuG0m4rHw8C8gq0ye+PCO5EAAAA==');--image-width:1036px"><source media="(prefers-color-scheme: dark)" type="image/avif" srcset="https://static.ampcode.com/news/responsive/use-your-claude-plan-dial-dark.97838f14.768w.avif 768w, https://static.ampcode.com/news/responsive/use-your-claude-plan-dial-dark.97838f14.1036w.avif 1036w" sizes="(min-width: 1307px) 660px, (min-width: 1024px) 50.5vw, (min-width: 716px) 660px, calc(100vw - 56px)"><source media="(prefers-color-scheme: dark)" srcset="https://static.ampcode.com/news/use-your-claude-plan-dial-dark.avif" /><source type="image/avif" srcset="https://static.ampcode.com/news/responsive/use-your-claude-plan-dial-light.3af1c8b4.768w.avif 768w, https://static.ampcode.com/news/responsive/use-your-claude-plan-dial-light.3af1c8b4.1036w.avif 1036w" sizes="(min-width: 1307px) 660px, (min-width: 1024px) 50.5vw, (min-width: 716px) 660px, calc(100vw - 56px)"><img width="1036" height="528" src="https://static.ampcode.com/news/use-your-claude-plan-dial-light.avif" alt="The web mode dial with the Claude Code position selected, using a Claude Pro/Max plan. The model is Opus 5.5 and the effort is High." decoding="sync" data-lightbox-src="https://static.ampcode.com/news/use-your-claude-plan-dial-light.avif"></picture></p>
+<!-- TODO(video): New Thread dialog > Mode, showing the Claude Code position on the dial (no trip into "Other Agents"), then linking the Claude sub and the thread starting. Add the <video> tag here once the asset is uploaded, e.g.:
+<video width="1176" style="aspect-ratio: 2352/1324" playsinline controls preload="none" src="https://static.ampcode.com/news/use-your-claude-plan.mp4" type="video/mp4"></video>
+-->
+
+<p>Under the hood, this mode uses the <a href="https://support.claude.com/en/articles/15036540-use-the-claude-agent-sdk-with-your-claude-plan">Claude Agent SDK</a> instead of Amp&#39;s own agent. But we made it all work: orbs and runners, thread sharing, portals, multiplayer, thread-to-thread messaging and orchestration, etc.</p>
+<p>See the <a href="/docs/the-dial#use-your-claude-subscription">Claude sub docs</a> for more information.</p>]]>
+      </description>
+      <pubDate>Sat, 10 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Many, Many Pucks</title>
+      <link>https://ampcode.com/news/many-many-pucks</link>
+      <description>
+        <![CDATA[<p>You can now have multiple separate conversations with Puck.</p>
+<p>We know you love Puck. We also know you&#39;ve been asking Puck about your recent orbs, a bug fix, and dinner plans, all in the same conversation. Now each of those can be its own conversation, and each one gets its own Puck.</p>
+<p><picture class="responsive-picture" style="--image-width:1800px"><source media="(prefers-color-scheme: light)" type="image/avif" srcset="https://static.ampcode.com/news/responsive/many-many-pucks-light.626f322b.768w.avif 768w, https://static.ampcode.com/news/responsive/many-many-pucks-light.626f322b.1440w.avif 1440w, https://static.ampcode.com/news/responsive/many-many-pucks-light.626f322b.1800w.avif 1800w" sizes="(min-width: 1307px) 660px, (min-width: 1024px) 50.5vw, (min-width: 716px) 660px, calc(100vw - 56px)"><source media="(prefers-color-scheme: light)" srcset="https://static.ampcode.com/news/many-many-pucks-light.png" /><source type="image/avif" srcset="https://static.ampcode.com/news/responsive/many-many-pucks-dark.a84a482a.768w.avif 768w, https://static.ampcode.com/news/responsive/many-many-pucks-dark.a84a482a.1440w.avif 1440w, https://static.ampcode.com/news/responsive/many-many-pucks-dark.a84a482a.1800w.avif 1800w" sizes="(min-width: 1307px) 660px, (min-width: 1024px) 50.5vw, (min-width: 716px) 660px, calc(100vw - 56px)"><img width="1800" height="1040" style="box-shadow: none !important; border: none !important" src="https://static.ampcode.com/news/many-many-pucks-dark.png" alt="The Puck window with the conversation menu open under the title. It lists five conversations, each with a differently colored Puck: Rebase vs merge, Watch the iOS release build, Draft Thursday's changelog, My review queue this week, and Ramen for six on Friday. Below them is an Inactive Last 72h group with two older conversations." decoding="sync" data-lightbox-src="https://static.ampcode.com/news/many-many-pucks-dark.png"></picture></p>
+<p>Press <strong>+</strong> to start a new conversation. Click the conversation&#39;s name at the top to switch between them. Conversations you haven&#39;t touched in three days move into <strong>Inactive</strong> so the list stays short.</p>
+<p>Read more about <a href="/docs/puck#conversations">Puck conversations</a> in the docs.</p>]]>
+      </description>
+      <pubDate>Tue, 06 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Plaid Speed</title>
+      <link>https://ampcode.com/news/plaid-mode</link>
+      <description>
+        <![CDATA[<p>Amp now supports Plaid speed for modes that use GPT-6 Astra. Plaid uses OpenAI&#39;s ultrafast speed tier, which enables inference requests to run up to 6× faster, with 6× cost per token.</p>
+<p>Open the mode picker in the new thread dialog, choose a mode that uses GPT-6 Astra (e.g., the default High mode), and move the speed switch past <strong>Fast</strong> to <strong>Plaid</strong>.</p>
+<style>
+  .plaid-dial-crop > picture { position: static; }
+</style>
+
+<div class="plaid-dial-crop" style="position: relative; overflow: hidden; aspect-ratio: 1006 / 424; border-radius: 2.5% / 6%;">
+  <picture class="responsive-picture with-preview" style="--image-preview:url('data:image/webp;base64,UklGRugBAABXRUJQVlA4INwBAADwDQCdASpgAEwAPrVOokwnJCMiKJIMuOAWiWkA1YAOUfocESfbJByJ4ENEtUUuR22rVzMN1o3F3UpWUt0JqNuY3Lr+iyn65fEkd3+fo3zG25hscjhEVGrrcZoG7rE3fo06zc7GB+ApFXVpfo8rqK611CcLLIsSZiAA/vl5NARZT9gLd9zoc1VHlVnfpHBqmdk5AvZ74UTiwK6ivRN///u2d+vNLV8s3NJnZhwlWvURxyEEOm1lt6ZEqGw/0TGk+d4++AHCtnfk0cZf7E+tEgGYlxxQST64U9CBuhHBMiagtEcKh7laHmT+NTf61EcRKFbax2LZo4UVOae0SzxWYhr1J2LB4Nx0B83Iig0NmK9Pyoz7CxpAS6OKTd0j25IrldDZB70ta0M4rg80BpGo2E2C1WHZ+dYbZh5kDT4chx0LWXZ4zUi02M+HYgcs5zHPuYrbqiDrrSxxjuw/5GYAYJ0NtHwoW1VVbbepineX4ES7PiOrybLG4XNtyIiif/Z6VntGzp6TFTG1weBIb+zl1FIjxHBn7WKAuJPtn5tXYFlqd9bQPBT1YuV4k/Cl0YiQNXhb5SWXa2FNx354eYo1NfKmfKAAq3VyHRVE/GvKAlAbAy/gQp5iyXxtEyAAAA==');--image-width:1664px"><source type="image/avif" srcset="https://static.ampcode.com/news/responsive/plaid-new-thread-toggle-6x-final-20260929.554e4614.768w.avif 768w, https://static.ampcode.com/news/responsive/plaid-new-thread-toggle-6x-final-20260929.554e4614.1440w.avif 1440w, https://static.ampcode.com/news/responsive/plaid-new-thread-toggle-6x-final-20260929.554e4614.1664w.avif 1664w" sizes="(min-width: 1307px) 660px, (min-width: 1024px) 50.5vw, (min-width: 716px) 660px, calc(100vw - 56px)"><img width="1664" height="1324" style="position: absolute; width: calc(1664 / 1006 * 100%); max-width: none; height: auto; left: calc(-326 / 1006 * 100%); top: calc(-508 / 424 * 100%); margin: 0;" src="https://static.ampcode.com/news/plaid-new-thread-toggle-6x-final-20260929.avif" alt="The mode dial with high selected and the speed switch set to Plaid, showing the red 6× cost indicator" decoding="sync" data-lightbox-src="https://static.ampcode.com/news/plaid-new-thread-toggle-6x-final-20260929.avif"></picture>
+</div>
+
+<p>Plaid currently works with Amp-provided inference only, as OpenAI does not yet support ultrafast for linked ChatGPT subscriptions. When Plaid is activated, subagents and non-Plaid-enabled model inference will fall back to fast or standard speed. Like fast mode, Plaid can be toggled on or off for an existing thread.</p>]]>
+      </description>
+      <pubDate>Tue, 29 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Opus 5.5</title>
+      <link>https://ampcode.com/news/opus-5.5</link>
+      <description>
+        <![CDATA[<style>
+  article[data-news-slug="opus-5.5"] .prose li blockquote,
+  article[data-news-slug="opus-5.5"] .prose li blockquote p {
+    font-size: inherit !important;
+    font-weight: inherit !important;
+    line-height: inherit !important;
+    color: inherit;
+    text-indent: 0;
+  }
+</style>
+
+
+
+<p>Claude Opus 5.5 now powers Amp&#39;s <code>medium</code> mode by default, replacing GPT-5.6 Sol. If you use a ChatGPT subscription with the <a href="/docs/the-dial#use-a-chatgpt-subscription">ChatGPT Only preset</a>, <code>medium</code> stays pinned to GPT-5.6 Sol, billed to your subscription. To switch to Opus 5.5, change <code>medium</code> in <a href="/docs/the-dial#tune-the-modes">Tune Modes</a>.</p>
+<p>In our internal evals, Opus 5.5 solved <strong>65%</strong> of tasks, up from GPT-5.6 Sol&#39;s <strong>61%</strong> and Opus 5&#39;s <strong>56%</strong>. And it did that for <strong>10% less</strong> than GPT-5.6 Sol and <strong>25% less</strong> than Opus 5.</p>
+<p>It&#39;s still behind <a href="/news/fable-5.1">Fable 5.1</a>, which solved <strong>71%</strong>, but it costs <strong>40% less</strong>.</p>
+<h2>More Steerable</h2>
+<p>Opus 5.5 responds much better to messages you send while it works. Add a constraint you forgot, point out a wrong turn, or correct its approach, and it folds that into the work instead of arguing or carrying on with its old plan. It doesn&#39;t drop what it was doing, either.</p>
+<p>So don&#39;t stop it to edit your prompt and start over. Send the correction. <a href="/news/steer-dont-queue">Enter steers by default</a>, so your message reaches it right away.</p>
+<h2>High Effort, Not Max</h2>
+<p>Opus 5.5 runs at high reasoning effort. Past high, it starts to overthink. At xhigh and max it burns through tokens, scores lower than at high, and costs several times as much. So we stop at high.</p>
+<h2>Why Not GPT-6 Sol?</h2>
+<p>OpenAI shipped GPT-6 Sol an hour after Opus 5.5. We ran both.</p>
+<p>In our evals, GPT-6 Sol scores about the same as GPT-5.6 Sol, at half the cost. In real work, though, it&#39;s much more jagged: strong on one task, off on the next. <code>medium</code> carries most threads, so it needs a model you can count on across all of them.</p>
+<h2>When To Turn the Dial Up</h2>
+<p><code>medium</code> is the right place for most work now. Two kinds of task still belong higher:</p>
+<ul>
+<li><p><strong>Lots of unknowns.</strong> Use <code>ultra</code> with Fable 5.1 when nobody knows the path yet. <a href="https://ampcode.com/@kemper">Alex</a> had to move more than 5,000 users of an enterprise customer&#39;s SSO to new email addresses. He started the thread with:</p>
+<blockquote>
+<p>We&#39;ve never migrated… from one set of email addresses to the next before… and we don&#39;t really have a way to test it.</p>
+</blockquote>
+<p>It mapped how sign-in works today, planned the switch, and watched production afterward. The first 41 sign-ins after the switch all worked.</p>
+</li>
+<li><p><strong>Taste and judgment.</strong> Use <code>high</code> with GPT-6 Astra or <code>ultra</code> with Fable 5.1 when the hard part is deciding what good looks like. Ask for options, not one answer. <a href="https://ampcode.com/@hamish">Hamish</a> wanted a better transition out of the iOS image viewer:</p>
+<blockquote>
+<p>Right now it&#39;s a hard cut, so can you please give me some options for animations and record them and show me them in line in the transcript here.</p>
+</blockquote>
+<p>It recorded four options on the simulator. He replied &quot;Ship B to main.&quot;</p>
+</li>
+</ul>
+<p>Turn the dial up when a miss costs more than the wait, not because the task is long.</p>
+<h2>How To Use It</h2>
+<p>Opus 5.5 is persistent. It keeps going until the job is done, which means it needs to know what done is, and it needs a way to see for itself. These are the habits we use, with prompts from our own threads:</p>
+<ul>
+<li><p><strong>Give it the whole app to run.</strong> Models are very good at writing tests their own code passes. Running the app end to end is the best way to know it works. Make that one command with <a href="/docs/orbs/customizing#agents-setup"><code>.agents/setup</code></a>, <a href="/docs/orbs/portals#define-services">services</a>, and a <a href="/docs/customize/skills">skill</a>. <a href="https://ampcode.com/@tim">Tim</a> hit a sidebar bug in our Mac app and asked:</p>
+<blockquote>
+<p>Repro it in preflight then we can look at fixing it.</p>
+</blockquote>
+<p>It launched our Mac app, dragged the sidebar closed, and measured the bug before touching any code.</p>
+</li>
+<li><p><strong>Tell it what done looks like, including the evidence it should deliver.</strong> Our bug fix prompts include:</p>
+<blockquote>
+<p>Implement the simplest correct fix, verify it, then explain the bug, the fix, and the evidence that the fix resolves it.</p>
+</blockquote>
+<p>That evidence is usually a failing test plus before and after videos.</p>
+</li>
+<li><p><strong>Raise the bar when the check is too easy.</strong> If it verified against an emulator or a mock, send it to the real thing. When it checked an iPad fix in an emulator, <a href="https://ampcode.com/@sqs">Quinn</a> replied:</p>
+<blockquote>
+<p>test all of this in the Buildkite iOS preflight and use an iPad simulator</p>
+</blockquote>
+<p>The simulator caught two bugs the emulator had missed.</p>
+</li>
+<li><p><strong>Hand it the bigger task and go hands off.</strong> It holds up well over long threads. Tell it what evidence to deliver, then go do something else. You shouldn&#39;t babysit a capable model: <a href="/news/less-noise">if you have the patience to watch it work step by step</a>, you&#39;re giving it too short a leash.</p>
+</li>
+</ul>]]>
+      </description>
+      <pubDate>Mon, 28 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Less Noise</title>
+      <link>https://ampcode.com/news/less-noise</link>
+      <description>
+        <![CDATA[<style>
+  @media (min-width: 1200px) {
+    article[data-news-slug="less-noise"] > .cell-pad.overflow-x-clip {
+      overflow-x: visible;
+    }
+    .less-noise-illustration {
+      display: block;
+      width: min(calc(100vw - 12rem), calc(100% + 50rem));
+      max-width: none;
+      margin-left: 50%;
+      transform: translateX(-50%);
+    }
+    .less-noise-illustration img {
+      width: 100%;
+      max-width: none;
+    }
+  }
+</style>
+
+
+
+<p>Amp now collapses your agent&#39;s step-by-step work even more, since you care about what the agent did, not how it got there. (You can still expand the steps when needed.)</p>
+<p>A year ago, watching your agent&#39;s every step sometimes helped, and you probably were only running one agent.</p>
+<p>Now? You have lots of agents. You should be giving them harder, deeper work and verification demands. They should run for longer on their own, without you watching them from up close. If you have the patience to watch your agents work, you&#39;re giving them too short a leash.</p>
+<p><picture class="responsive-picture less-noise-illustration" style="--image-width:2752px"><source media="(prefers-color-scheme: light)" srcset="https://static.ampcode.com/news/responsive/less-noise-light.9dec6b99.768w.avif 768w, https://static.ampcode.com/news/responsive/less-noise-light.9dec6b99.1440w.avif 1440w, https://static.ampcode.com/news/responsive/less-noise-light.9dec6b99.2560w.avif 2560w" sizes="(min-width: 1652px) 1460px, (min-width: 1200px) calc(100vw - 192px), (min-width: 1024px) 50.5vw, (min-width: 716px) 660px, calc(100vw - 56px)" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://static.ampcode.com/news/responsive/less-noise-dark.c2cd627a.768w.avif 768w, https://static.ampcode.com/news/responsive/less-noise-dark.c2cd627a.1440w.avif 1440w, https://static.ampcode.com/news/responsive/less-noise-dark.c2cd627a.2560w.avif 2560w" sizes="(min-width: 1652px) 1460px, (min-width: 1200px) calc(100vw - 192px), (min-width: 1024px) 50.5vw, (min-width: 716px) 660px, calc(100vw - 56px)" /><source type="image/avif" srcset="https://static.ampcode.com/news/responsive/less-noise-dark.c2cd627a.768w.avif 768w, https://static.ampcode.com/news/responsive/less-noise-dark.c2cd627a.1440w.avif 1440w, https://static.ampcode.com/news/responsive/less-noise-dark.c2cd627a.2560w.avif 2560w" sizes="(min-width: 1307px) 660px, (min-width: 1024px) 50.5vw, (min-width: 716px) 660px, calc(100vw - 56px)"><img width="2752" height="810" style="box-shadow: none !important; border: none !important" src="https://static.ampcode.com/news/less-noise-dark.avif" alt="Ten separate rows of commands, reads, searches, and edits become one expandable summary. Both are followed by the same assistant reply, fading at the second line." decoding="sync" data-lightbox-src="https://static.ampcode.com/news/less-noise-dark.avif"></picture></p>]]>
+      </description>
+      <pubDate>Fri, 25 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Shared Runners</title>
+      <link>https://ampcode.com/news/shared-runners</link>
+      <description>
+        <![CDATA[<p>You can now share a <a href="/docs/cli/runners">runner</a> with your workspace. Start it with <code>--share</code> and everyone in your workspace can start threads on that machine from ampcode.com.</p>
+<p><picture class="responsive-picture" style="--image-width:1824px"><source media="(prefers-color-scheme: light)" type="image/avif" srcset="https://static.ampcode.com/news/responsive/shared-runners-picker-light.f218556a.768w.avif 768w, https://static.ampcode.com/news/responsive/shared-runners-picker-light.f218556a.1440w.avif 1440w, https://static.ampcode.com/news/responsive/shared-runners-picker-light.f218556a.1824w.avif 1824w" sizes="(min-width: 1307px) 660px, (min-width: 1024px) 50.5vw, (min-width: 716px) 660px, calc(100vw - 56px)"><source media="(prefers-color-scheme: light)" srcset="https://static.ampcode.com/news/shared-runners-picker-light.png?v=2" /><source type="image/avif" srcset="https://static.ampcode.com/news/responsive/shared-runners-picker-dark.a5d2919a.768w.avif 768w, https://static.ampcode.com/news/responsive/shared-runners-picker-dark.a5d2919a.1440w.avif 1440w, https://static.ampcode.com/news/responsive/shared-runners-picker-dark.a5d2919a.1824w.avif 1824w" sizes="(min-width: 1307px) 660px, (min-width: 1024px) 50.5vw, (min-width: 716px) 660px, calc(100vw - 56px)"><img width="1824" height="1185" style="box-shadow: none !important; border: none !important" src="https://static.ampcode.com/news/shared-runners-picker-dark.png?v=2" alt="The new thread composer on ampcode.com with the location picker open. Under Runners is your own devbox. Under Shared Runners are gpu-runner, shared by Allison, and macos-builder, shared by Monty, each with its owner's avatar and running-thread count." decoding="sync" data-lightbox-src="https://static.ampcode.com/news/shared-runners-picker-dark.png?v=2"></picture></p>
+<p>If you have a machine with GPUs, a Mac that&#39;s used to build and sign the iOS app, or a dev box in a specific network, you can now set it up and the whole team can spawn agents on it:</p>
+<pre><code class="language-shell-session">$ amp --no-tui --runner-id macos-builder --share
+</code></pre>
+<p>Everyone in your workspace now sees it in the picker under <strong>Shared Runners</strong>.</p>
+<p>With <a href="/docs/cli/runners#secrets-env-vars"><code>--amp-env</code></a>, a shared runner gets the workspace and project Secrets &amp; Env Vars, but never your personal ones. That applies to your own threads on it too.</p>
+<p>We need to offer a word of warning, though: everyone you share with runs code on your machine as you, with your files, your credentials, and your logins. Their threads can also work in the same directories at the same time. So only share a runner with people you&#39;d trust with a shell on that machine. Even better, give the runner a machine of its own. (Better still: use <a href="/what-are-orbs">orbs</a>, so that every thread gets its own machine.)</p>
+<p>Workspace admins can <a href="/docs/cli/runners#turn-off-runner-sharing-for-a-workspace">turn off runner sharing</a> in <strong>Member Settings</strong>.</p>
+<p>Read more about <a href="/docs/cli/runners#share-a-runner-with-your-workspace">sharing a runner</a> in the runner docs.</p>]]>
+      </description>
+      <pubDate>Thu, 24 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>The Mac App Is Your Runner</title>
+      <link>https://ampcode.com/news/the-mac-app-is-your-runner</link>
+      <description>
+        <![CDATA[<p>The <a href="/app">Amp app for macOS</a> now starts a <a href="/docs/cli/runners">runner</a> for you. You no longer need <code>amp --no-tui</code> open in a terminal to run threads on your Mac.</p>
+<p><picture class="responsive-picture" style="--image-width:1504px"><source type="image/avif" srcset="https://static.ampcode.com/news/responsive/mac-app-runner-settings.2dbc6a0f.768w.avif 768w, https://static.ampcode.com/news/responsive/mac-app-runner-settings.2dbc6a0f.1440w.avif 1440w, https://static.ampcode.com/news/responsive/mac-app-runner-settings.2dbc6a0f.1504w.avif 1504w" sizes="(min-width: 1307px) 660px, (min-width: 1024px) 50.5vw, (min-width: 716px) 660px, calc(100vw - 56px)"><img width="1504" height="1668" style="box-shadow: none !important; border: none !important; max-width: min(560px, 100%)" src="https://static.ampcode.com/news/mac-app-runner-settings.png" alt="The Runner tab in the Amp app's settings on macOS. Use This Mac as a Runner is switched on, the status says Running with 3 folders and 2 threads, the runner name is hamishs-macbook-pro, Keep This Mac Awake is switched on, and the Folders list shows amp, sandcastle, and marketing-site." decoding="sync" data-lightbox-src="https://static.ampcode.com/news/mac-app-runner-settings.png"></picture></p>
+<p>Open <strong>App Settings…</strong> (⌘⇧,), go to <strong>Runner</strong>, and click <strong>+</strong> to add a folder or one of your projects. Start a thread and your Mac is right there in the picker, marked <strong>This Mac</strong>. You can also pick it when you start a thread from ampcode.com, your phone, or Puck.</p>
+<p><picture class="responsive-picture" style="--image-width:1824px"><source media="(prefers-color-scheme: light)" type="image/avif" srcset="https://static.ampcode.com/news/responsive/your-mac-is-now-a-runner-composer-light.6e7b5e39.768w.avif 768w, https://static.ampcode.com/news/responsive/your-mac-is-now-a-runner-composer-light.6e7b5e39.1440w.avif 1440w, https://static.ampcode.com/news/responsive/your-mac-is-now-a-runner-composer-light.6e7b5e39.1824w.avif 1824w" sizes="(min-width: 1307px) 660px, (min-width: 1024px) 50.5vw, (min-width: 716px) 660px, calc(100vw - 56px)"><source media="(prefers-color-scheme: light)" srcset="https://static.ampcode.com/news/your-mac-is-now-a-runner-composer-light.png" /><source type="image/avif" srcset="https://static.ampcode.com/news/responsive/your-mac-is-now-a-runner-composer-dark.ccdd4429.768w.avif 768w, https://static.ampcode.com/news/responsive/your-mac-is-now-a-runner-composer-dark.ccdd4429.1440w.avif 1440w, https://static.ampcode.com/news/responsive/your-mac-is-now-a-runner-composer-dark.ccdd4429.1824w.avif 1824w" sizes="(min-width: 1307px) 660px, (min-width: 1024px) 50.5vw, (min-width: 716px) 660px, calc(100vw - 56px)"><img width="1824" height="1033" style="box-shadow: none !important; border: none !important" src="https://static.ampcode.com/news/your-mac-is-now-a-runner-composer-dark.png" alt="The new thread composer in the Amp app with the prompt Make amp an iPhone Duo app and the ultra mode. The runner picker is open, and hamishs-macbook-pro is selected with a This Mac capsule and a MacBook icon. Below it is hamishs-dgx-spark, another runner, with no capsule." loading="lazy" decoding="async" data-lightbox-src="https://static.ampcode.com/news/your-mac-is-now-a-runner-composer-dark.png"></picture></p>
+<h2>No More Sleeping on the Job</h2>
+<p><strong>Keep This Mac Awake</strong> stops your Mac from going to sleep while the runner is on and the Mac is plugged in, so you can still start threads on it after you walk away. The screen still turns off and locks. On battery, or when you close the lid, your Mac sleeps as usual.</p>
+<p>Read more in the <a href="/docs/macos-and-ios/runner">runner docs</a>.</p>]]>
+      </description>
+      <pubDate>Thu, 24 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  </channel>
+</rss>

@@ -1,0 +1,11 @@
+{
+  "name": "aiweather-web",
+  "private": true,
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "build": "node check-names.mjs && node build.mjs",
+    "check": "node check-names.mjs",
+    "dev": "node build.mjs --watch"
+  }
+}

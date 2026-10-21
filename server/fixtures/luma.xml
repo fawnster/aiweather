@@ -1,0 +1,1078 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Status updates | Luma AI</title>
+    <description>Incidents and maintenance reported on status page for Luma AI</description>
+    <link>https://status.lumalabs.ai/</link>
+    <image>
+      <url>https://d1lppblt9t2x15.cloudfront.net/logos/dceb62a5d1c65f7bda65fb62a0bb45e0.png</url>
+      <title>Status updates | Luma AI</title>
+      <link>https://status.lumalabs.ai/</link>
+    </image>
+    <language>en</language>
+    <atom:link rel="self" type="application/rss+xml" href="https://status.lumalabs.ai/feed"/>
+    <item>
+      <title>Ray2 increased queue times</title>
+      <link>https://status.lumalabs.ai/incident/1065762</link>
+      <pubDate>Thu, 17 Sep 2026 01:00:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.lumalabs.ai/incident/1065762#e0f6134518eee2ae74195a3f7582f9a8855e6aaf3b90e760282e50b551193569</guid>
+      <category>Incident</category>
+      <description>service is back to normal</description>
+    </item>
+    <item>
+      <title>Ray2 increased queue times</title>
+      <link>https://status.lumalabs.ai/incident/1065762</link>
+      <pubDate>Wed, 16 Sep 2026 12:00:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.lumalabs.ai/incident/1065762#2e4711efe70bc0b668f332a90c9f0d7ffdc6cfb3d6b0a9b9a90f22649fae2f61</guid>
+      <category>Incident</category>
+      <description>we are observing high queue times for Ray2</description>
+    </item>
+    <item>
+      <title>Ray2 Flash service degraded</title>
+      <link>https://status.lumalabs.ai/incident/1064837</link>
+      <pubDate>Wed, 16 Sep 2026 00:00:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.lumalabs.ai/incident/1064837#f5e55deb7fd15e2fd794051a33090cd84b6fbe2a1c4af7a385900e5adbd6ceb7</guid>
+      <category>Incident</category>
+      <description>service is back to normal</description>
+    </item>
+    <item>
+      <title>Ray2 Flash service degraded</title>
+      <link>https://status.lumalabs.ai/incident/1064837</link>
+      <pubDate>Tue, 15 Sep 2026 22:00:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.lumalabs.ai/incident/1064837#13614cec2ccb091221122cb91291e546fe342d69477b13daea39e072a26209ae</guid>
+      <category>Incident</category>
+      <description>we’ve observed that ray2-flash jobs are timed out.</description>
+    </item>
+    <item>
+      <title>Ray2 Flash service degraded</title>
+      <link>https://status.lumalabs.ai/incident/1048106</link>
+      <pubDate>Thu, 03 Sep 2026 02:00:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.lumalabs.ai/incident/1048106#429a60da868376b01d9dac492ec712e5d6c92ba7ac30f254182aec0775156893</guid>
+      <category>Incident</category>
+      <description>Service is back to normal</description>
+    </item>
+    <item>
+      <title>Ray2 Flash service degraded</title>
+      <link>https://status.lumalabs.ai/incident/1048106</link>
+      <pubDate>Wed, 02 Sep 2026 17:00:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.lumalabs.ai/incident/1048106#d2da41de351d03b8e69b7682cf40b6522cf5ab81ae4ac5acd48e2355994ed2b3</guid>
+      <category>Incident</category>
+      <description>we’ve observed that ray2-flash jobs are timed out.</description>
+    </item>
+    <item>
+      <title>Authentication degraded: upstream provider issue</title>
+      <link>https://status.lumalabs.ai/incident/965942</link>
+      <pubDate>Thu, 16 Jul 2026 10:11:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.lumalabs.ai/incident/965942#441fe97c3b257313a0a2d1bf3c46587c0a9f8735590a59565da795f76d63b2c1</guid>
+      <category>Incident</category>
+      <description>The upstream auth provider issue has been resolved. Logins and SSO are back to normal across all apps. We've confirmed recovery and will continue monitoring.</description>
+    </item>
+    <item>
+      <title>Authentication degraded: upstream provider issue</title>
+      <link>https://status.lumalabs.ai/incident/965942</link>
+      <pubDate>Thu, 16 Jul 2026 08:26:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.lumalabs.ai/incident/965942#99ba319531cc43ad5eddd4b44d5fe881c2e01f5be1c2488ccea2bf7749a57b67</guid>
+      <category>Incident</category>
+      <description>We're experiencing degraded authentication across some of our applications due to an ongoing incident with our upstream identity provider/ Users may see slow or failed logins, including SSO. Existing sessions are not affected. We're monitoring the provider's status and will update as soon as service is restored.</description>
+    </item>
+    <item>
+      <title>Ray2 flash increased queue times</title>
+      <link>https://status.lumalabs.ai/incident/931569</link>
+      <pubDate>Tue, 23 Jun 2026 00:30:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.lumalabs.ai/incident/931569#4adbe4b5844c7ee84a9a37123957f244efdeef805df906b198b4c6834912a9a7</guid>
+      <category>Incident</category>
+      <description>Ray2 flash is back to normal</description>
+    </item>
+    <item>
+      <title>Ray2 flash increased queue times</title>
+      <link>https://status.lumalabs.ai/incident/931569</link>
+      <pubDate>Mon, 22 Jun 2026 17:00:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.lumalabs.ai/incident/931569#63e1926fdf03813a6d07f57a632111807e279bc24fdb724ba8a889107d64a703</guid>
+      <category>Incident</category>
+      <description>we noticed an issue in the underlying infra affecting Ray2 flash</description>
+    </item>
+    <item>
+      <title>Ray and UNI-1 are degraded</title>
+      <link>https://status.lumalabs.ai/incident/908192</link>
+      <pubDate>Fri, 29 May 2026 16:50:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.lumalabs.ai/incident/908192#3403dcd7833ee1af61705003a0a6d2a073cedeb4d9d0cf99a83d3266be0c7856</guid>
+      <category>Incident</category>
+      <description>service is back to normal</description>
+    </item>
+    <item>
+      <title>Ray and UNI-1 are degraded</title>
+      <link>https://status.lumalabs.ai/incident/908192</link>
+      <pubDate>Fri, 29 May 2026 15:10:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.lumalabs.ai/incident/908192#932269aa34e93230f72b474364d676a67d017752ce74c2235b798ebe97ab9351</guid>
+      <category>Incident</category>
+      <description>Ray and UNI-1 are experiencing service degradation due to an underlying data center issue.</description>
+    </item>
+    <item>
+      <title>Dream Machine is degraded</title>
+      <link>https://status.lumalabs.ai/incident/907762</link>
+      <pubDate>Fri, 29 May 2026 03:45:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.lumalabs.ai/incident/907762#34fbb2db90a97fc77d3aa18c0122d46e3bbe124990be512c5690170217591ecd</guid>
+      <category>Incident</category>
+      <description>Dream Machine is back to normal.</description>
+    </item>
+    <item>
+      <title>Dream Machine is degraded</title>
+      <link>https://status.lumalabs.ai/incident/907762</link>
+      <pubDate>Thu, 28 May 2026 23:00:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.lumalabs.ai/incident/907762#f37554d004b771d0a1ccbd6db75c118dd11064369163768e41d666a0bca8dc2d</guid>
+      <category>Incident</category>
+      <description>We observed that Dream Machine jobs remained in a loading state.</description>
+    </item>
+    <item>
+      <title>Luma Agents experiencing issues</title>
+      <link>https://status.lumalabs.ai/incident/882167</link>
+      <pubDate>Tue, 28 Apr 2026 14:40:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.lumalabs.ai/incident/882167#9d7e42b4078ef529c1ff76f7eeb3839033fc87e68dfca73255c1e2f9b5f9da5c</guid>
+      <category>Incident</category>
+      <description>service is now back to normal</description>
+    </item>
+    <item>
+      <title>Luma Agents experiencing issues</title>
+      <link>https://status.lumalabs.ai/incident/882167</link>
+      <pubDate>Tue, 28 Apr 2026 14:10:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.lumalabs.ai/incident/882167#2fb5f0fbb61e2130a4c660ad9c8624ba89757c6a896f2c46dbc6bd73a0ab6d8e</guid>
+      <category>Incident</category>
+      <description>unable to load boards</description>
+    </item>
+    <item>
+      <title>Ray2 increased queue times</title>
+      <link>https://status.lumalabs.ai/incident/872823</link>
+      <pubDate>Thu, 16 Apr 2026 05:00:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.lumalabs.ai/incident/872823#83548398b5a8d19ffee64a6d68b285706ac7a93b48c32ebc0b3fb09a11a47d1e</guid>
+      <category>Incident</category>
+      <description>Ray2 is back to normal</description>
+    </item>
+    <item>
+      <title>Ray2 increased queue times</title>
+      <link>https://status.lumalabs.ai/incident/872823</link>
+      <pubDate>Thu, 16 Apr 2026 02:30:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.lumalabs.ai/incident/872823#190e78cb7c24cd84f15807a6f8eedccd99aba8d873573570b52c87eb2c79947f</guid>
+      <category>Incident</category>
+      <description>we observed unexpected failures on internal storage </description>
+    </item>
+    <item>
+      <title>Elevated error rates observed on Ray3 and Ray2</title>
+      <link>https://status.lumalabs.ai/incident/864746</link>
+      <pubDate>Sat, 04 Apr 2026 20:00:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.lumalabs.ai/incident/864746#95172d7cbd9497dc75a9e7d1a96c0b2a5c495d7fbc912698ea6875ca9243f960</guid>
+      <category>Incident</category>
+      <description>The issue has been resolved. service is back to normal.</description>
+    </item>
+    <item>
+      <title>Elevated error rates observed on Ray3 and Ray2</title>
+      <link>https://status.lumalabs.ai/incident/864746</link>
+      <pubDate>Sat, 04 Apr 2026 07:00:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.lumalabs.ai/incident/864746#f3ca883f1679acf25617af8349796b8b593dd40452135e0abe29d8f9a5035663</guid>
+      <category>Incident</category>
+      <description>we are experiencing elevated error rates on Ray3 and Ray2 due to intermittent network issues with an upstream provider. we are actively investigating.</description>
+    </item>
+    <item>
+      <title>Ray3.14, Ray3, Ray2 Services Degraded</title>
+      <link>https://status.lumalabs.ai/incident/855571</link>
+      <pubDate>Tue, 24 Mar 2026 19:00:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.lumalabs.ai/incident/855571#12442460481bbdb6782581d1e5bc288fff5285d29cb878a2f67c36d2f91d1c0a</guid>
+      <category>Incident</category>
+      <description>Ray2 is back to normal</description>
+    </item>
+    <item>
+      <title>Ray3.14, Ray3, Ray2 Services Degraded</title>
+      <link>https://status.lumalabs.ai/incident/855571</link>
+      <pubDate>Mon, 23 Mar 2026 23:00:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.lumalabs.ai/incident/855571#4d4327ecd307a2d63c831c3df77642000ede24c0a5aee96418a42e99ec625a67</guid>
+      <category>Incident</category>
+      <description>Ray3 and Ray3.14 are back to normal. Ray2 still has a high queue.</description>
+    </item>
+    <item>
+      <title>Ray3.14, Ray3, Ray2 Services Degraded</title>
+      <link>https://status.lumalabs.ai/incident/855571</link>
+      <pubDate>Mon, 23 Mar 2026 13:29:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.lumalabs.ai/incident/855571#4e17c78092ddbf51ce1c2defdd8ab8b17bb787ec6f961ab7a42eeb9886fdcbbd</guid>
+      <category>Incident</category>
+      <description>We are observing high queue times for Ray3.14, Ray3, Ray2 services.</description>
+    </item>
+    <item>
+      <title>Ray3.14 Service Degraded</title>
+      <link>https://status.lumalabs.ai/incident/853568</link>
+      <pubDate>Fri, 20 Mar 2026 15:30:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.lumalabs.ai/incident/853568#5f17196c07c25d00a18b17d846aedd1b526c4be5f9c2138143f4169bcf642186</guid>
+      <category>Incident</category>
+      <description>Ray3.14 is back to normal.</description>
+    </item>
+    <item>
+      <title>Ray3.14 Service Degraded</title>
+      <link>https://status.lumalabs.ai/incident/853568</link>
+      <pubDate>Fri, 20 Mar 2026 10:49:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.lumalabs.ai/incident/853568#381c2d14f8c8a960645ae0d48cc02e28bd05b69973853fa50bb9ce2914d43fc9</guid>
+      <category>Incident</category>
+      <description>We are observing high queue times for Ray3.14.</description>
+    </item>
+    <item>
+      <title>Luma Agents is degraded</title>
+      <link>https://status.lumalabs.ai/incident/851581</link>
+      <pubDate>Tue, 17 Mar 2026 20:14:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.lumalabs.ai/incident/851581#0d5ec53082f60f5ed4d501224bc3b79ea8adddede8d87b872864399bd8c5cd14</guid>
+      <category>Incident</category>
+      <description>Issue resolved</description>
+    </item>
+    <item>
+      <title>Luma Agents is degraded</title>
+      <link>https://status.lumalabs.ai/incident/851581</link>
+      <pubDate>Tue, 17 Mar 2026 19:56:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.lumalabs.ai/incident/851581#5b466fd2614b057144d0380178c8439992f3d5517812ca4585a0609adb4b67e1</guid>
+      <category>Incident</category>
+      <description>Investigating reports of high error rates on agent flows</description>
+    </item>
+    <item>
+      <title>Luma Agents experiencing Chat Agent degradation</title>
+      <link>https://status.lumalabs.ai/incident/850055</link>
+      <pubDate>Sun, 15 Mar 2026 15:00:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.lumalabs.ai/incident/850055#e85f7b92f13029e6b9ed017a392270417345b1f55f7ddfce7416f09ab16d2e77</guid>
+      <category>Incident</category>
+      <description>Luma Agents are back to normal.</description>
+    </item>
+    <item>
+      <title>Luma Agents experiencing Chat Agent degradation</title>
+      <link>https://status.lumalabs.ai/incident/850055</link>
+      <pubDate>Sun, 15 Mar 2026 05:00:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.lumalabs.ai/incident/850055#80ac202cb76a6cf26a57c1ad36d074e95ee105b8070efcd56f0361bb53695f8b</guid>
+      <category>Incident</category>
+      <description>Chat Agent is not functioning for some Luma Agents</description>
+    </item>
+    <item>
+      <title>Ray3, Ray2 service degraded</title>
+      <link>https://status.lumalabs.ai/incident/847436</link>
+      <pubDate>Thu, 12 Mar 2026 03:10:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.lumalabs.ai/incident/847436#2642892e11d7841978e31fbae5ac964344b9d68157f399fe572f9f89c95e72dd</guid>
+      <category>Incident</category>
+      <description>Ray2, Ray3 are back to normal</description>
+    </item>
+    <item>
+      <title>Ray3, Ray2 service degraded</title>
+      <link>https://status.lumalabs.ai/incident/847436</link>
+      <pubDate>Thu, 12 Mar 2026 02:50:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.lumalabs.ai/incident/847436#861c8369d935adf5540b229db4b4b7c4c3f77f6c97a067dbd128bb8e43b2e398</guid>
+      <category>Incident</category>
+      <description>Ray3, Ray2 service degraded</description>
+    </item>
+    <item>
+      <title>Ray3 service degraded</title>
+      <link>https://status.lumalabs.ai/incident/832381</link>
+      <pubDate>Tue, 24 Feb 2026 20:00:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.lumalabs.ai/incident/832381#8d7054591d6b759c8f96913945ccfcd3bdcd7cde23e2e663d56961fd980da4c8</guid>
+      <category>Incident</category>
+      <description>service is back to normal</description>
+    </item>
+    <item>
+      <title>Ray3 service degraded</title>
+      <link>https://status.lumalabs.ai/incident/832381</link>
+      <pubDate>Tue, 24 Feb 2026 19:30:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.lumalabs.ai/incident/832381#a015be17a17459a7723c83354b837e5d298d500b443e63ed6670aee6aaf709e0</guid>
+      <category>Incident</category>
+      <description>ray3 service degraded</description>
+    </item>
+    <item>
+      <title>Ray3, Ray2 increased queue times</title>
+      <link>https://status.lumalabs.ai/incident/817319</link>
+      <pubDate>Tue, 03 Feb 2026 07:00:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.lumalabs.ai/incident/817319#82507ac243ec47d266ca3963840bb1d150c1c6bc8c660602feedd134a9612219</guid>
+      <category>Incident</category>
+      <description>back to normal</description>
+    </item>
+    <item>
+      <title>Ray3, Ray2 increased queue times</title>
+      <link>https://status.lumalabs.ai/incident/817319</link>
+      <pubDate>Tue, 03 Feb 2026 04:00:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.lumalabs.ai/incident/817319#7cdb970b81d021f66f307475058533a03015446ad1a79cdf57c50e852332feb0</guid>
+      <category>Incident</category>
+      <description>we are observing high queue times for Ray3, Ray2</description>
+    </item>
+    <item>
+      <title>Ray3, Ray2 increased queue times</title>
+      <link>https://status.lumalabs.ai/incident/817065</link>
+      <pubDate>Mon, 02 Feb 2026 20:30:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.lumalabs.ai/incident/817065#4994f6f224423bfa6214a2f41f97e9c40cc94adfca158110c22e1143993d2f11</guid>
+      <category>Incident</category>
+      <description>back to normal</description>
+    </item>
+    <item>
+      <title>Ray3, Ray2 increased queue times</title>
+      <link>https://status.lumalabs.ai/incident/817065</link>
+      <pubDate>Mon, 02 Feb 2026 19:10:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.lumalabs.ai/incident/817065#9c14440ff1b3f92bd21d617f78a865dd2dfd91d543c54332cc2c62885c6cf064</guid>
+      <category>Incident</category>
+      <description>we are observing high queue times for Ray3, Ray2
+</description>
+    </item>
+    <item>
+      <title>Ray2 increased queue times</title>
+      <link>https://status.lumalabs.ai/incident/812994</link>
+      <pubDate>Tue, 27 Jan 2026 21:20:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.lumalabs.ai/incident/812994#865a6574161756f2ef52e29ff1ec26826251dc3f78c29eb81f96122a320d49cd</guid>
+      <category>Incident</category>
+      <description>back to normal</description>
+    </item>
+    <item>
+      <title>Ray2 increased queue times</title>
+      <link>https://status.lumalabs.ai/incident/812994</link>
+      <pubDate>Tue, 27 Jan 2026 19:00:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.lumalabs.ai/incident/812994#c6f18a3df154eb18b133fca336ea7f1eb9e95d2963f335434b0e738aad777801</guid>
+      <category>Incident</category>
+      <description>we are observing high queue times for Ray2
+</description>
+    </item>
+    <item>
+      <title>Ray3, Ray2 increased queue times</title>
+      <link>https://status.lumalabs.ai/incident/812133</link>
+      <pubDate>Mon, 26 Jan 2026 18:00:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.lumalabs.ai/incident/812133#d59995282b82bc43bf4b13207d5a39901fe9ea226a4e369adbf2d563e8bfb421</guid>
+      <category>Incident</category>
+      <description>back to normal</description>
+    </item>
+    <item>
+      <title>Ray3, Ray2 increased queue times</title>
+      <link>https://status.lumalabs.ai/incident/812133</link>
+      <pubDate>Mon, 26 Jan 2026 16:30:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.lumalabs.ai/incident/812133#3411612d9ee1d62d40921d95a292086b1e8b1b23ce1d8ac0cfb18b53583fc2ce</guid>
+      <category>Incident</category>
+      <description>we are observing high queue times for Ray3, Ray2
+
+</description>
+    </item>
+    <item>
+      <title>Ray3 increased queue times</title>
+      <link>https://status.lumalabs.ai/incident/810160</link>
+      <pubDate>Fri, 23 Jan 2026 07:20:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.lumalabs.ai/incident/810160#fa4e611bf34c5bbbe964259d152a966fa8e9078fc962ff7b7fe3d70964eab1a6</guid>
+      <category>Incident</category>
+      <description>ray3 queue is back to normal</description>
+    </item>
+    <item>
+      <title>Ray3 increased queue times</title>
+      <link>https://status.lumalabs.ai/incident/810160</link>
+      <pubDate>Fri, 23 Jan 2026 06:00:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.lumalabs.ai/incident/810160#2755b5e109dfa7ec83a8ab24c0d7f5f1df59c8dcc6fbf64cedfa719d01c8623f</guid>
+      <category>Incident</category>
+      <description>we are observing high queue times for Ray3</description>
+    </item>
+    <item>
+      <title>Ray2 relaxed increased queue times</title>
+      <link>https://status.lumalabs.ai/incident/809963</link>
+      <pubDate>Thu, 22 Jan 2026 23:30:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.lumalabs.ai/incident/809963#1efce044c3678907568be3feb426dad0299c31fff9a787e17961d42d63a7cbdf</guid>
+      <category>Incident</category>
+      <description>ray2 relaxed is back to normal</description>
+    </item>
+    <item>
+      <title>Ray2 relaxed increased queue times</title>
+      <link>https://status.lumalabs.ai/incident/809963</link>
+      <pubDate>Thu, 22 Jan 2026 23:00:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.lumalabs.ai/incident/809963#919d0d67ee3ae9dc1dab69c327fd8652350d0169652676b2c3274406fda37c29</guid>
+      <category>Incident</category>
+      <description>we are observing high queue times for Ray2 relaxed</description>
+    </item>
+    <item>
+      <title>ray3 service degraded</title>
+      <link>https://status.lumalabs.ai/incident/809002</link>
+      <pubDate>Wed, 21 Jan 2026 14:55:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.lumalabs.ai/incident/809002#d0affe2153bdc1f5b6e948cba43103cf9e4296574737dc24c3d27fe780714188</guid>
+      <category>Incident</category>
+      <description>ray3 service degraded</description>
+    </item>
+    <item>
+      <title>Ray2 Flash degraded.</title>
+      <link>https://status.lumalabs.ai/incident/808397</link>
+      <pubDate>Wed, 21 Jan 2026 02:00:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.lumalabs.ai/incident/808397#42a2b7be84598bff0fa9553bd6e32a236e69936808ef5489bec1778dd004c8af</guid>
+      <category>Incident</category>
+      <description>ray2 flash is back to normal</description>
+    </item>
+    <item>
+      <title>Ray2 Flash degraded.</title>
+      <link>https://status.lumalabs.ai/incident/808397</link>
+      <pubDate>Tue, 20 Jan 2026 20:46:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.lumalabs.ai/incident/808397#d14e7be4a61a81055fb29c45ea383f8de576e70a053e7a5a36e5f6b6410519b4</guid>
+      <category>Incident</category>
+      <description>Ray2 Flash service is currently experiencing degraded performance.</description>
+    </item>
+    <item>
+      <title>Ray 3 and Ray 2 queues are longer than usual</title>
+      <link>https://status.lumalabs.ai/incident/806351</link>
+      <pubDate>Sat, 17 Jan 2026 20:00:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.lumalabs.ai/incident/806351#f3d07dadaea30e378d4e99dd23b5226f8ac1ca40f5199af37318952b4f3966f3</guid>
+      <category>Incident</category>
+      <description>back to normal</description>
+    </item>
+    <item>
+      <title>Ray 3 and Ray 2 queues are longer than usual</title>
+      <link>https://status.lumalabs.ai/incident/806351</link>
+      <pubDate>Sat, 17 Jan 2026 17:00:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.lumalabs.ai/incident/806351#944df62155da16f24454848fa97ad2b5bcad3f824a5920c04763a0eddb340c54</guid>
+      <category>Incident</category>
+      <description>ray2 queue is back to normal</description>
+    </item>
+    <item>
+      <title>Ray 3 and Ray 2 queues are longer than usual</title>
+      <link>https://status.lumalabs.ai/incident/806351</link>
+      <pubDate>Sat, 17 Jan 2026 16:30:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.lumalabs.ai/incident/806351#45ae4b64c945baa3638393df237137684d02e2f8da16d5c9c8045f2d70220ef0</guid>
+      <category>Incident</category>
+      <description>we are observing high queue times for Ray3 and Ray2
+
+</description>
+    </item>
+    <item>
+      <title>image V2 and photon are down</title>
+      <link>https://status.lumalabs.ai/incident/803948</link>
+      <pubDate>Tue, 13 Jan 2026 22:30:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.lumalabs.ai/incident/803948#156d9290c520fd8b861c9ffde74199e9fabb780b87328754f53f3dc9ce4949d0</guid>
+      <category>Incident</category>
+      <description>the issue has been resolved</description>
+    </item>
+    <item>
+      <title>image V2 and photon are down</title>
+      <link>https://status.lumalabs.ai/incident/803948</link>
+      <pubDate>Tue, 13 Jan 2026 21:30:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.lumalabs.ai/incident/803948#878135c95a881dc44a87971bdd7175ac270a452251b469d3351309ab37e3ffca</guid>
+      <category>Incident</category>
+      <description>we are observing request timeouts for image v2 and photon</description>
+    </item>
+    <item>
+      <title>image V2 and photon are down</title>
+      <link>https://status.lumalabs.ai/incident/803345</link>
+      <pubDate>Tue, 13 Jan 2026 02:00:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.lumalabs.ai/incident/803345#6e40d40161978e35dd5c7606d715a6a085682a8346e818c0c7bcc2cedd94c814</guid>
+      <category>Incident</category>
+      <description>back to normal</description>
+    </item>
+    <item>
+      <title>image V2 and photon are down</title>
+      <link>https://status.lumalabs.ai/incident/803345</link>
+      <pubDate>Tue, 13 Jan 2026 00:00:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.lumalabs.ai/incident/803345#0080d089378c302dcc63fcddcc75cb1cb9881d9ca2a19ea1de2217be36cde2a5</guid>
+      <category>Incident</category>
+      <description>The image V2 and photon jobs are failing, and the team is currently working on a fix.
+</description>
+    </item>
+    <item>
+      <title>We are seeing elevated errors on Ray 3 &amp; Ray 2  models</title>
+      <link>https://status.lumalabs.ai/incident/770273</link>
+      <pubDate>Wed, 19 Nov 2025 14:30:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.lumalabs.ai/incident/770273#4a65ad619983a1a3f8f18d47f4c0a1283d08905c17fa612e82397a81cbc16635</guid>
+      <category>Incident</category>
+      <description>Back to normal</description>
+    </item>
+    <item>
+      <title>We are seeing elevated errors on Ray 3 &amp; Ray 2  models</title>
+      <link>https://status.lumalabs.ai/incident/770273</link>
+      <pubDate>Wed, 19 Nov 2025 13:40:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.lumalabs.ai/incident/770273#ccf5b5dcbd1d33d8f1b54eb2523901c729a68d60858e6218d7c641cdbc03a68a</guid>
+      <category>Incident</category>
+      <description>Team is looking into it</description>
+    </item>
+    <item>
+      <title>Ray3, Ray2, Ray2 Flash, Ray2 Relaxed are currently unavailable</title>
+      <link>https://status.lumalabs.ai/incident/755490</link>
+      <pubDate>Fri, 31 Oct 2025 21:45:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.lumalabs.ai/incident/755490#79db796b9d63a9372857daed7960c313a624aa92bfc84f25e6b2a38d7ffa7cb2</guid>
+      <category>Incident</category>
+      <description>Resolved</description>
+    </item>
+    <item>
+      <title>Ray3, Ray2, Ray2 Flash, Ray2 Relaxed are currently unavailable</title>
+      <link>https://status.lumalabs.ai/incident/755490</link>
+      <pubDate>Fri, 31 Oct 2025 20:53:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.lumalabs.ai/incident/755490#07500f2ebc90cf99f0e429ddb528b56f8b5ba22a52d87ea5436afee9c21a4e9e</guid>
+      <category>Incident</category>
+      <description>Ray3, Ray2, Ray2 Flash, Ray2 Relaxed are currently unavailable due to a network provider outage.</description>
+    </item>
+    <item>
+      <title>Ray3, Ray2, and Ray2 Flash increased queue times</title>
+      <link>https://status.lumalabs.ai/incident/744155</link>
+      <pubDate>Wed, 15 Oct 2025 17:00:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.lumalabs.ai/incident/744155#129b87f71fbee39b38dff6e533137e4ea2647a36dcfa2d2cf03711d7e1558566</guid>
+      <category>Incident</category>
+      <description>Resolved</description>
+    </item>
+    <item>
+      <title>Ray3, Ray2, and Ray2 Flash increased queue times</title>
+      <link>https://status.lumalabs.ai/incident/744155</link>
+      <pubDate>Wed, 15 Oct 2025 15:15:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.lumalabs.ai/incident/744155#1548b45f6c09df8ae9b5133eaaa0c489d0d9eed74c033cf11744fc302cfb3e7a</guid>
+      <category>Incident</category>
+      <description>We are seeing elevated processing times in ray3, ray2, and ray2 flash model </description>
+    </item>
+    <item>
+      <title>Image V2 and Modify V2 is down</title>
+      <link>https://status.lumalabs.ai/incident/741300</link>
+      <pubDate>Fri, 10 Oct 2025 17:30:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.lumalabs.ai/incident/741300#a6256c04426bb5aeafd66a488080cdf4291ba84ce9237a77c7ea83a6a45e2711</guid>
+      <category>Incident</category>
+      <description>Issue is fixed.</description>
+    </item>
+    <item>
+      <title>Image V2 and Modify V2 is down</title>
+      <link>https://status.lumalabs.ai/incident/741300</link>
+      <pubDate>Fri, 10 Oct 2025 03:00:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.lumalabs.ai/incident/741300#a2df62173813dd6a9661c53750f39d5be7be9e6da27f50e994bdcc9b3ddbcd97</guid>
+      <category>Incident</category>
+      <description>The team has identified the root cause and is working on a fix</description>
+    </item>
+    <item>
+      <title>Ray 1.6 queues are high</title>
+      <link>https://status.lumalabs.ai/incident/733982</link>
+      <pubDate>Mon, 29 Sep 2025 03:09:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.lumalabs.ai/incident/733982#383efd2790c37dc7e5118beb986ea7c3a14e116a3e85e6fcaaf68324296ad150</guid>
+      <category>Incident</category>
+      <description>Resolved</description>
+    </item>
+    <item>
+      <title>Ray 1.6 queues are high</title>
+      <link>https://status.lumalabs.ai/incident/733982</link>
+      <pubDate>Sun, 28 Sep 2025 23:42:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.lumalabs.ai/incident/733982#c1825c292b12a90e94eaaea0394167f77428cd99d735817b3a7049a5b8d5ae4c</guid>
+      <category>Incident</category>
+      <description>We are seeing elevated queue times for Ray 1.6 model</description>
+    </item>
+    <item>
+      <title>Ray3, Ray2 Flash increased queue times</title>
+      <link>https://status.lumalabs.ai/incident/732274</link>
+      <pubDate>Thu, 25 Sep 2025 16:42:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.lumalabs.ai/incident/732274#6f03e79111fe898b9ec1143b4307df72645ad6463d3084d100e15e1c3ac04beb</guid>
+      <category>Incident</category>
+      <description>back to normal</description>
+    </item>
+    <item>
+      <title>Ray3, Ray2 Flash increased queue times</title>
+      <link>https://status.lumalabs.ai/incident/732274</link>
+      <pubDate>Thu, 25 Sep 2025 15:03:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.lumalabs.ai/incident/732274#2d68f9c9f1d34b8d7d8b16fab25c400e8f7e77e9c08febc5480d80589e8e6200</guid>
+      <category>Incident</category>
+      <description>Team is looking into it, we will update here asap.</description>
+    </item>
+    <item>
+      <title>Ray 2 queues are long</title>
+      <link>https://status.lumalabs.ai/incident/700885</link>
+      <pubDate>Tue, 05 Aug 2025 20:04:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.lumalabs.ai/incident/700885#4af62712b257350ca6bd38630d796399bc22cce32ec4418154a4d2d5b6805215</guid>
+      <category>Incident</category>
+      <description>Resolved</description>
+    </item>
+    <item>
+      <title>Ray 2 queues are long</title>
+      <link>https://status.lumalabs.ai/incident/700885</link>
+      <pubDate>Tue, 05 Aug 2025 18:27:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.lumalabs.ai/incident/700885#bb15d5ba8f864b8752c852ead116fd53685b696cf6153da723eb467ba734ded6</guid>
+      <category>Incident</category>
+      <description>Team is looking into it</description>
+    </item>
+    <item>
+      <title>Ray 2 generations are seeing elevated processing times</title>
+      <link>https://status.lumalabs.ai/incident/624689</link>
+      <pubDate>Wed, 23 Jul 2025 23:32:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.lumalabs.ai/incident/624689#2505b7a0c50516505d4db90266d2ed7e3adfba1eba612b9f50d99e0c40ebdc21</guid>
+      <category>Incident</category>
+      <description>Processing times are back to normal</description>
+    </item>
+    <item>
+      <title>Ray 2 generations are seeing elevated processing times</title>
+      <link>https://status.lumalabs.ai/incident/624689</link>
+      <pubDate>Wed, 23 Jul 2025 18:15:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.lumalabs.ai/incident/624689#e609a5afdac69baa4fc631893a887d04d37c9140dc8c682eaa6c7d75e600c894</guid>
+      <category>Incident</category>
+      <description>The team has identified the issue and deploying a fix </description>
+    </item>
+    <item>
+      <title>dream machine is facing some issues</title>
+      <link>https://status.lumalabs.ai/incident/613911</link>
+      <pubDate>Fri, 04 Jul 2025 09:14:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.lumalabs.ai/incident/613911#d21a2c0d973f9a07f1df5423e001accd1479e5d973c03b8bc300963a3cf1cfcb</guid>
+      <category>Incident</category>
+      <description>Resolved </description>
+    </item>
+    <item>
+      <title>dream machine is facing some issues</title>
+      <link>https://status.lumalabs.ai/incident/613911</link>
+      <pubDate>Thu, 03 Jul 2025 22:30:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.lumalabs.ai/incident/613911#c8a428c50f663661c53682d20aa833b907ae9ebb5c29f1723e2fe5d2dcecc71f</guid>
+      <category>Incident</category>
+      <description>in dream machine web and ios, the responses to few people are not working</description>
+    </item>
+    <item>
+      <title>Ray2 queue times are high</title>
+      <link>https://status.lumalabs.ai/incident/609232</link>
+      <pubDate>Thu, 26 Jun 2025 05:15:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.lumalabs.ai/incident/609232#2828c068ae38cd359be6f2b4111a4861eb01ac1f41c5c11be0ef846dd48f63e0</guid>
+      <category>Incident</category>
+      <description>Resolved</description>
+    </item>
+    <item>
+      <title>Ray2 queue times are high</title>
+      <link>https://status.lumalabs.ai/incident/609232</link>
+      <pubDate>Thu, 26 Jun 2025 00:07:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.lumalabs.ai/incident/609232#d7f0392d55a55f500849fe0be3db67710555ffb041cd37a2cb6f99151ca0b69e</guid>
+      <category>Incident</category>
+      <description>We are seeing elevated processing times in ray 2 model </description>
+    </item>
+    <item>
+      <title>Inference maintenance</title>
+      <link>https://status.lumalabs.ai/incident/607916</link>
+      <pubDate>Tue, 24 Jun 2025 00:53:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.lumalabs.ai/incident/607916#3e8d34f1af0cdce6d4416447f2d7722bd37c4efdee34a59a45887d2aedcf037f</guid>
+      <category>Incident</category>
+      <description>Maintenance finished.</description>
+    </item>
+    <item>
+      <title>Inference maintenance</title>
+      <link>https://status.lumalabs.ai/incident/607916</link>
+      <pubDate>Mon, 23 Jun 2025 23:52:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.lumalabs.ai/incident/607916#716f7d98457011bb4f8cdf28df783ae55b745abdd58f5169c1e437e3b12c5144</guid>
+      <category>Incident</category>
+      <description>Inference is under maintenance and it should be ready in 30min.</description>
+    </item>
+    <item>
+      <title>Inference maintenance</title>
+      <link>https://status.lumalabs.ai/incident/605553</link>
+      <pubDate>Thu, 19 Jun 2025 06:46:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.lumalabs.ai/incident/605553#7c280c18f1dba43f7feaea5019508c4785c6e715f91343e26a451afb549fe3f0</guid>
+      <category>Incident</category>
+      <description>Maintenance finished.</description>
+    </item>
+    <item>
+      <title>Inference maintenance</title>
+      <link>https://status.lumalabs.ai/incident/605553</link>
+      <pubDate>Thu, 19 Jun 2025 05:14:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.lumalabs.ai/incident/605553#2adaee8e9cbd3852cbc607f86c96b7283e2799d55e8068e28dbe7d26f37eb312</guid>
+      <category>Incident</category>
+      <description>Inference maintenance. It should be done in an hour.</description>
+    </item>
+    <item>
+      <title>Long queue times for Photon and Ray2 models</title>
+      <link>https://status.lumalabs.ai/incident/604125</link>
+      <pubDate>Mon, 16 Jun 2025 21:27:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.lumalabs.ai/incident/604125#185da856fa43ec9e88c04a5b7e8b8e629422783d16c1879ea858a9d18b034cbb</guid>
+      <category>Incident</category>
+      <description>we are seeing high queue times for the models</description>
+    </item>
+    <item>
+      <title>Maintenance: Inference maintenance</title>
+      <link>https://status.lumalabs.ai/maintenance/604081</link>
+      <pubDate>Mon, 16 Jun 2025 19:34:27 -0000</pubDate>
+      <guid isPermaLink="false">https://status.lumalabs.ai/incident/604081#4d0c2f8a0b76b4361812eb3aa1be72cc3bd26e9bfa01e8230247bb128beaffef</guid>
+      <category>Maintenance</category>
+      <description>We are rolling out some changes in our inference stack and you should see longer queues during this time.</description>
+    </item>
+    <item>
+      <title>Reduced capacity for Ray2</title>
+      <link>https://status.lumalabs.ai/incident/599733</link>
+      <pubDate>Tue, 10 Jun 2025 00:57:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.lumalabs.ai/incident/599733#1721698c9c5257aa992bdad2b2e13a3404f7d69824a1de57411fdd185b6e3ee9</guid>
+      <category>Incident</category>
+      <description>Everything is fine again! :)</description>
+    </item>
+    <item>
+      <title>Reduced capacity for Ray2</title>
+      <link>https://status.lumalabs.ai/incident/599733</link>
+      <pubDate>Mon, 09 Jun 2025 23:49:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.lumalabs.ai/incident/599733#51a40630a8b9261f3a1ec2c889120b596848dd2e01681a066f30f20108fc1ab6</guid>
+      <category>Incident</category>
+      <description>We are back with our capacity. Long queues are being drained.</description>
+    </item>
+    <item>
+      <title>Reduced capacity for Ray2</title>
+      <link>https://status.lumalabs.ai/incident/599733</link>
+      <pubDate>Mon, 09 Jun 2025 23:29:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.lumalabs.ai/incident/599733#452e498ceceb11fdb08e1f72f799c92e95f6ee1d605b21010ad32fbe4ece66d1</guid>
+      <category>Incident</category>
+      <description>Reduced capacity for Ray2</description>
+    </item>
+    <item>
+      <title>We are facing inference problems. You should see long wait times.</title>
+      <link>https://status.lumalabs.ai/incident/596391</link>
+      <pubDate>Tue, 03 Jun 2025 21:50:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.lumalabs.ai/incident/596391#e3380fe0c9c46fb2ed57ab2adfbb95ace558312b45f530b9182b4cfa49ed4867</guid>
+      <category>Incident</category>
+      <description>Back to normal </description>
+    </item>
+    <item>
+      <title>We are facing inference problems. You should see long wait times.</title>
+      <link>https://status.lumalabs.ai/incident/596391</link>
+      <pubDate>Tue, 03 Jun 2025 18:21:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.lumalabs.ai/incident/596391#41775c26f59d1dc7af20ecf89e267cae8354a426ab3243f6d527392cff369db6</guid>
+      <category>Incident</category>
+      <description>We have identified the root cause of the issue. Only Ray 2 is showing long queues now.</description>
+    </item>
+    <item>
+      <title>We are facing inference problems. You should see long wait times.</title>
+      <link>https://status.lumalabs.ai/incident/596391</link>
+      <pubDate>Tue, 03 Jun 2025 17:37:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.lumalabs.ai/incident/596391#f101ea1fa5b9fdbd5e95e2ef98593bb54c641fb183b2770b61cdcdfb3c2d4e9e</guid>
+      <category>Incident</category>
+      <description>We are facing inference problems. You should see long wait times.</description>
+    </item>
+    <item>
+      <title>Ray 2, Ray Flash 2, Ray 1.6 queues are high</title>
+      <link>https://status.lumalabs.ai/incident/595952</link>
+      <pubDate>Tue, 03 Jun 2025 05:33:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.lumalabs.ai/incident/595952#2466e173a426b34ba26bfbf4fd99ed412747c454a372746da84e2c3badff8d6d</guid>
+      <category>Incident</category>
+      <description>Queues are normal again</description>
+    </item>
+    <item>
+      <title>Ray 2, Ray Flash 2, Ray 1.6 queues are high</title>
+      <link>https://status.lumalabs.ai/incident/595952</link>
+      <pubDate>Tue, 03 Jun 2025 01:30:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.lumalabs.ai/incident/595952#cb74dfb3756111ac4bf0a1fc099ba40b1fa6386b1b2b5add58eae36557afbd29</guid>
+      <category>Incident</category>
+      <description>We are seeing elevated queue times for these models</description>
+    </item>
+    <item>
+      <title>Generations failing</title>
+      <link>https://status.lumalabs.ai/incident/594469</link>
+      <pubDate>Sat, 31 May 2025 02:02:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.lumalabs.ai/incident/594469#8f2d9c83352562e9392f6696da0b93bc9552673ec1f1a78e7fd3b23941851304</guid>
+      <category>Incident</category>
+      <description>Resolved</description>
+    </item>
+    <item>
+      <title>Generations failing</title>
+      <link>https://status.lumalabs.ai/incident/594469</link>
+      <pubDate>Sat, 31 May 2025 00:48:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.lumalabs.ai/incident/594469#c8b05f972158b80751c5e558966f49e0756ee73b5bf9022b6fc6149779f9c3a2</guid>
+      <category>Incident</category>
+      <description>all models ray 2, ray flash2, photon 1, photon flash 1 are failing across dream machine and api</description>
+    </item>
+    <item>
+      <title>Inference maintenance</title>
+      <link>https://status.lumalabs.ai/incident/577791</link>
+      <pubDate>Sat, 24 May 2025 07:09:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.lumalabs.ai/incident/577791#0d7049f318c0347d77a1af7c369676547f5d4442954f3bed6ef5d8d8f70680c6</guid>
+      <category>Incident</category>
+      <description>Maintenance finished</description>
+    </item>
+    <item>
+      <title>Inference maintenance</title>
+      <link>https://status.lumalabs.ai/incident/577791</link>
+      <pubDate>Sat, 24 May 2025 05:50:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.lumalabs.ai/incident/577791#7fffe3f0da307d19d28a948426fb0f83bd2b9d0bcc396820b51acfc2bb78bfaa</guid>
+      <category>Incident</category>
+      <description>Inference maintenance. You should be some instability for the next 30-60min.</description>
+    </item>
+    <item>
+      <title>Maintenance: Dream Machine and API scheduled maintenance</title>
+      <link>https://status.lumalabs.ai/maintenance/577210</link>
+      <pubDate>Fri, 23 May 2025 18:26:52 -0000</pubDate>
+      <guid isPermaLink="false">https://status.lumalabs.ai/incident/577210#b3cda16fa7f9c590b606b0df37c31632d9ce895d1c60c5ad902cd58c836c7c53</guid>
+      <category>Maintenance</category>
+      <description>During the maintenance window, Dream Machine and API will be temporarily unavailable.</description>
+    </item>
+    <item>
+      <title>Dream Machine Login is Down</title>
+      <link>https://status.lumalabs.ai/incident/571479</link>
+      <pubDate>Mon, 19 May 2025 15:15:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.lumalabs.ai/incident/571479#d6f4bf8a5f7746fcd473eef4644816f9c209cd3ac96dc3bcc5916fe08a569837</guid>
+      <category>Incident</category>
+      <description>Fix was deployed. Login is back.</description>
+    </item>
+    <item>
+      <title>Dream Machine Login is Down</title>
+      <link>https://status.lumalabs.ai/incident/571479</link>
+      <pubDate>Mon, 19 May 2025 13:30:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.lumalabs.ai/incident/571479#8fc7c49001806b5258adf081493f7505133f120f48efcb460a2006d8fb369a95</guid>
+      <category>Incident</category>
+      <description>The team is currently working on a fix</description>
+    </item>
+    <item>
+      <title>Reduced capacity for all models</title>
+      <link>https://status.lumalabs.ai/incident/561266</link>
+      <pubDate>Mon, 12 May 2025 22:08:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.lumalabs.ai/incident/561266#85346a10bd0e7466078e4a328ae7358a81ae493ac112f12687a67d481d348a50</guid>
+      <category>Incident</category>
+      <description>We are back to our normal capacity!</description>
+    </item>
+    <item>
+      <title>Reduced capacity for all models</title>
+      <link>https://status.lumalabs.ai/incident/561266</link>
+      <pubDate>Mon, 12 May 2025 21:14:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.lumalabs.ai/incident/561266#be4faccda28b84a9ff468935e79de22c8cbd7d14f25164d9add2f7fff275ec1b</guid>
+      <category>Incident</category>
+      <description>We are experiencing reduced capacity for Photon and Ray models.</description>
+    </item>
+    <item>
+      <title>DNS issues on API</title>
+      <link>https://status.lumalabs.ai/incident/557039</link>
+      <pubDate>Mon, 05 May 2025 23:55:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.lumalabs.ai/incident/557039#22bca6661b53e05f4fa71483303d3d8915c45f541edfe3c34b1e970da4d3287d</guid>
+      <category>Incident</category>
+      <description>Resolvde</description>
+    </item>
+    <item>
+      <title>DNS issues on API</title>
+      <link>https://status.lumalabs.ai/incident/557039</link>
+      <pubDate>Mon, 05 May 2025 23:29:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.lumalabs.ai/incident/557039#4abe82b754d4d7748a6a30260c94b3d9b8ef6cf333c0b24a32969b77844097bb</guid>
+      <category>Incident</category>
+      <description>We are facing DNS issues</description>
+    </item>
+    <item>
+      <title>Ray 2 queues are longer than usual</title>
+      <link>https://status.lumalabs.ai/incident/556938</link>
+      <pubDate>Mon, 05 May 2025 22:02:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.lumalabs.ai/incident/556938#2d57b2bfec8933331961678f82ff625e599a116c2218750e73b75e90589dba2d</guid>
+      <category>Incident</category>
+      <description>Ray2 are back to normal latencies.</description>
+    </item>
+    <item>
+      <title>Ray 2 queues are longer than usual</title>
+      <link>https://status.lumalabs.ai/incident/556938</link>
+      <pubDate>Mon, 05 May 2025 16:00:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.lumalabs.ai/incident/556938#65c5a1fd9aff4447610ac568cea4aa3cc23f63f881c35428970e914588aabbf1</guid>
+      <category>Incident</category>
+      <description>Ray 2 queues are longer than usual</description>
+    </item>
+    <item>
+      <title>Ray 2 and Ray 2 Flash queues are longer than usual</title>
+      <link>https://status.lumalabs.ai/incident/555647</link>
+      <pubDate>Sat, 03 May 2025 00:00:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.lumalabs.ai/incident/555647#a65b924ab3ad8f1880c26281f2184f0dbeabd065c38ec36726e8078d21148157</guid>
+      <category>Incident</category>
+      <description>Waiting time is back to normal. Thanks for your patience!</description>
+    </item>
+    <item>
+      <title>Ray 2 and Ray 2 Flash queues are longer than usual</title>
+      <link>https://status.lumalabs.ai/incident/555647</link>
+      <pubDate>Fri, 02 May 2025 21:05:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.lumalabs.ai/incident/555647#09d5bb7515455ee6fb6c02ebcc02d3a38c3c23d658a440030bb4d6da707bf8ed</guid>
+      <category>Incident</category>
+      <description>Ray 2 and Ray 2 Flash queues are longer than usual</description>
+    </item>
+    <item>
+      <title>Ray 2 Flash unavailable</title>
+      <link>https://status.lumalabs.ai/incident/551786</link>
+      <pubDate>Fri, 25 Apr 2025 17:53:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.lumalabs.ai/incident/551786#6b297ca35588e40c241da8a410fd5bb124cc11ee9cbb7b92606c47a1642d602b</guid>
+      <category>Incident</category>
+      <description>Thanks for your patience!</description>
+    </item>
+    <item>
+      <title>Ray 2 Flash unavailable</title>
+      <link>https://status.lumalabs.ai/incident/551786</link>
+      <pubDate>Fri, 25 Apr 2025 15:30:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.lumalabs.ai/incident/551786#53093f542bda75a850c49efc1b9f79b44d8a6872194f52f77c1b7a1114ca292a</guid>
+      <category>Incident</category>
+      <description>Ray 2 Flash model is presenting longer queues than usual.</description>
+    </item>
+    <item>
+      <title>Ray 2 Wait Time is Longer than Normal</title>
+      <link>https://status.lumalabs.ai/incident/550446</link>
+      <pubDate>Thu, 24 Apr 2025 18:35:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.lumalabs.ai/incident/550446#aaa7dc051933393175b5527a8c01d7afc3917bb6c5a95f8c13af39d87504071b</guid>
+      <category>Incident</category>
+      <description>The team has deployed a fix and the wait time is back to normal.</description>
+    </item>
+    <item>
+      <title>Ray 2 Wait Time is Longer than Normal</title>
+      <link>https://status.lumalabs.ai/incident/550446</link>
+      <pubDate>Thu, 24 Apr 2025 15:00:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.lumalabs.ai/incident/550446#c0804f05440045355719c1ac1263cb9919edc5cc9c658c92a2db88759e345c60</guid>
+      <category>Incident</category>
+      <description>The team is investigating and working on a fix</description>
+    </item>
+    <item>
+      <title>Longer queues in Ray2 and Ray2 Flash generations</title>
+      <link>https://status.lumalabs.ai/incident/548591</link>
+      <pubDate>Tue, 22 Apr 2025 03:23:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.lumalabs.ai/incident/548591#000240a292bae8355eb3253b71093598b704c55d898cf9b61a2886f9685aa80b</guid>
+      <category>Incident</category>
+      <description>Issues have been resolved.</description>
+    </item>
+    <item>
+      <title>Longer queues in Ray2 and Ray2 Flash generations</title>
+      <link>https://status.lumalabs.ai/incident/548591</link>
+      <pubDate>Mon, 21 Apr 2025 19:33:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.lumalabs.ai/incident/548591#b6304962d23c98275aeeb30964843205a4d3c010e7f4b9350c64519bc056d8ef</guid>
+      <category>Incident</category>
+      <description>We are starting to see increased throughput now, services will be back to normal soon.</description>
+    </item>
+    <item>
+      <title>Longer queues in Ray2 and Ray2 Flash generations</title>
+      <link>https://status.lumalabs.ai/incident/548591</link>
+      <pubDate>Mon, 21 Apr 2025 15:00:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.lumalabs.ai/incident/548591#28d4c514c6e419d18fe51eb185a303672996de5bdb5924bd562f8b916c20c19e</guid>
+      <category>Incident</category>
+      <description>Team is looking into it</description>
+    </item>
+    <item>
+      <title>Temporarily Slow Video Generations</title>
+      <link>https://status.lumalabs.ai/incident/543802</link>
+      <pubDate>Fri, 11 Apr 2025 18:46:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.lumalabs.ai/incident/543802#fad9f9b9073fff6a31a34b8a90ae42b66b52edfdaa323642a39944e842d1cbe7</guid>
+      <category>Incident</category>
+      <description>We've identified the root cause of the issue and services should be back to full capacity</description>
+    </item>
+    <item>
+      <title>Temporarily Slow Video Generations</title>
+      <link>https://status.lumalabs.ai/incident/543802</link>
+      <pubDate>Fri, 11 Apr 2025 17:50:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.lumalabs.ai/incident/543802#dc75e1bb5a54b780cf84f77460eeb0e97cffb474628d81772ea4ae8b7d03dabd</guid>
+      <category>Incident</category>
+      <description>Due to some technical issues with some of our partners, video generations may take longer than expected. The team is working to resolve this issue ASAP.</description>
+    </item>
+    <item>
+      <title>Dream Machine Image Queue Longer than Normal</title>
+      <link>https://status.lumalabs.ai/incident/535084</link>
+      <pubDate>Wed, 26 Mar 2025 20:55:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.lumalabs.ai/incident/535084#b8a8be3651b86cdb0e1614618061fcfb869243d99cd43ba489894be08f71442f</guid>
+      <category>Incident</category>
+      <description>The issue was fixed.</description>
+    </item>
+    <item>
+      <title>Dream Machine Image Queue Longer than Normal</title>
+      <link>https://status.lumalabs.ai/incident/535084</link>
+      <pubDate>Wed, 26 Mar 2025 19:40:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.lumalabs.ai/incident/535084#7d03323ac40b76d9a9ee4dc788b87185d435a44643309a62d2e69bdc9a147f8c</guid>
+      <category>Incident</category>
+      <description>The team is currently investigating and working on a fix</description>
+    </item>
+    <item>
+      <title>Ray2 Failure Rates Higher Than Normal</title>
+      <link>https://status.lumalabs.ai/incident/534306</link>
+      <pubDate>Tue, 25 Mar 2025 15:15:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.lumalabs.ai/incident/534306#6ce3467738aa4b2301b59bb1cea6f0b5417de588218a19654c627f841954b9d4</guid>
+      <category>Incident</category>
+      <description>A fix was pushed. Failure rate is back to normal.</description>
+    </item>
+    <item>
+      <title>Ray2 Failure Rates Higher Than Normal</title>
+      <link>https://status.lumalabs.ai/incident/534306</link>
+      <pubDate>Tue, 25 Mar 2025 05:50:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.lumalabs.ai/incident/534306#16fb63585d43d421893078479c24d330a4f2b89b9466525bf475505a8783cd60</guid>
+      <category>Incident</category>
+      <description>The team is currently investigating and working on a fix</description>
+    </item>
+    <item>
+      <title>Generations are Failing</title>
+      <link>https://status.lumalabs.ai/incident/532423</link>
+      <pubDate>Fri, 21 Mar 2025 22:45:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.lumalabs.ai/incident/532423#bb8341ece4724661bf687347cb0481e3ed6b4b30cf8d65437cb3bf26499b0bfd</guid>
+      <category>Incident</category>
+      <description>The issue was resolved. Generations are back to normal.</description>
+    </item>
+    <item>
+      <title>Generations are Failing</title>
+      <link>https://status.lumalabs.ai/incident/532423</link>
+      <pubDate>Fri, 21 Mar 2025 22:06:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.lumalabs.ai/incident/532423#bb01ba4bcf4602d096cffcff152c89d539aad3f7080a274d6ab816ea12f22966</guid>
+      <category>Incident</category>
+      <description>The team has identified the issue and is working to get services back up.</description>
+    </item>
+    <item>
+      <title>Generations are Failing</title>
+      <link>https://status.lumalabs.ai/incident/532423</link>
+      <pubDate>Fri, 21 Mar 2025 21:45:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.lumalabs.ai/incident/532423#1c3622c0509ea56227e8609a7d0cb565c3abdede438956f823b46117cd0506e2</guid>
+      <category>Incident</category>
+      <description>The team is currently investigating the issue</description>
+    </item>
+    <item>
+      <title>Ray2 relaxed queue time is longer than normal</title>
+      <link>https://status.lumalabs.ai/incident/531015</link>
+      <pubDate>Wed, 19 Mar 2025 23:10:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.lumalabs.ai/incident/531015#6dc12b013eca9700a45a8c1a04981ac0815b0041f1354cfda00cd577d59390b2</guid>
+      <category>Incident</category>
+      <description>Issue is resolved. The wait time should be back to normal.</description>
+    </item>
+    <item>
+      <title>Ray2 relaxed queue time is longer than normal</title>
+      <link>https://status.lumalabs.ai/incident/531015</link>
+      <pubDate>Wed, 19 Mar 2025 07:30:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.lumalabs.ai/incident/531015#617f68c8a88934128b853fe2502937f94fc979d460d398892e16c5543a0388cf</guid>
+      <category>Incident</category>
+      <description>The team is actively working on a fix</description>
+    </item>
+    <item>
+      <title>Dream Machine 1080p Generations are Failing</title>
+      <link>https://status.lumalabs.ai/incident/530410</link>
+      <pubDate>Tue, 18 Mar 2025 22:00:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.lumalabs.ai/incident/530410#4031cacba18181e0e0de836059f1d6e685222922bfc2cf30dc72508376abec5d</guid>
+      <category>Incident</category>
+      <description>The team has rolled out a fix. Dream Machine 1080p generations are back to normal.</description>
+    </item>
+    <item>
+      <title>Dream Machine 1080p Generations are Failing</title>
+      <link>https://status.lumalabs.ai/incident/530410</link>
+      <pubDate>Tue, 18 Mar 2025 20:50:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.lumalabs.ai/incident/530410#7ef49d928a2514117af6a513d62e759eb0110f10d61961c282e7aa93d695ac4a</guid>
+      <category>Incident</category>
+      <description>The team is currently working on a fix</description>
+    </item>
+    <item>
+      <title>1080p Generations and Upscale are experiencing slower processing times</title>
+      <link>https://status.lumalabs.ai/incident/530320</link>
+      <pubDate>Tue, 18 Mar 2025 16:19:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.lumalabs.ai/incident/530320#ceec21dee11634516e19c0f75c882bdc18c9fb80db4ba7302e80e3a401f17546</guid>
+      <category>Incident</category>
+      <description>Slower generation times for 1080p generations and upscales.</description>
+    </item>
+    <item>
+      <title>Image Related tasks are down</title>
+      <link>https://status.lumalabs.ai/incident/527908</link>
+      <pubDate>Thu, 13 Mar 2025 23:20:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.lumalabs.ai/incident/527908#70b7a059296ae60f973b4994216ad1471da66d223d5708cf768408bf2fe149d8</guid>
+      <category>Incident</category>
+      <description>Keyframe(s), Extend, Reference, and Modify are partially down. The team is actively looking into fixing the issue.</description>
+    </item>
+    <item>
+      <title>API in Degraded State</title>
+      <link>https://status.lumalabs.ai/incident/476277</link>
+      <pubDate>Thu, 12 Dec 2024 02:09:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.lumalabs.ai/incident/476277#bfc52107560da81476acccd375b9ea3fa1087f4e2a37d1991515f0bfa4aa82f9</guid>
+      <category>Incident</category>
+      <description>Service is back to normal</description>
+    </item>
+    <item>
+      <title>API in Degraded State</title>
+      <link>https://status.lumalabs.ai/incident/476277</link>
+      <pubDate>Wed, 11 Dec 2024 23:20:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.lumalabs.ai/incident/476277#149655ed2023306b639fe9e39a78bd3c3ea557b0d85377aa6fa14b8f86a22049</guid>
+      <category>Incident</category>
+      <description>APIs is current down due to outage of an external service</description>
+    </item>
+    <item>
+      <title>Partial outage in API &amp; Product</title>
+      <link>https://status.lumalabs.ai/incident/473320</link>
+      <pubDate>Sat, 07 Dec 2024 00:16:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.lumalabs.ai/incident/473320#0953ebb738821ed80ebc48d786b501948dc0f73aa6b334541a71a47eb720d4d4</guid>
+      <category>Incident</category>
+      <description>Resolved</description>
+    </item>
+    <item>
+      <title>Partial outage in API &amp; Product</title>
+      <link>https://status.lumalabs.ai/incident/473320</link>
+      <pubDate>Fri, 06 Dec 2024 06:30:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.lumalabs.ai/incident/473320#ce49712615d3c2456774462289347096b6a423aaf72b68b4f3b57c8058d3155a</guid>
+      <category>Incident</category>
+      <description>Some of the jobs are failing because of network issues in one of our clusters</description>
+    </item>
+    <item>
+      <title>Outage on a third-party service we rely on</title>
+      <link>https://status.lumalabs.ai/incident/453470</link>
+      <pubDate>Wed, 30 Oct 2024 20:30:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.lumalabs.ai/incident/453470#22f4e3c8f934ea0ebbe317d00eab4cc919731f8c31207f9ddc4ef89495803f89</guid>
+      <category>Incident</category>
+      <description>Resolved</description>
+    </item>
+    <item>
+      <title>Outage on a third-party service we rely on</title>
+      <link>https://status.lumalabs.ai/incident/453470</link>
+      <pubDate>Wed, 30 Oct 2024 19:30:00 -0000</pubDate>
+      <guid isPermaLink="false">https://status.lumalabs.ai/incident/453470#a1b95c4294283c1b34182b06ec8c28ab80c9508a334f4c92a7f05280f84edd2b</guid>
+      <category>Incident</category>
+      <description>happened between 4PM to 7PM UTC</description>
+    </item>
+  </channel>
+</rss>

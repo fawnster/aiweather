@@ -1,0 +1,42 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "Official JSON Feed (synthetic)",
+  "items": [
+    {
+      "id": "1",
+      "title": "Original title — not rewritten",
+      "url": "/posts/one",
+      "date_published": "2026-10-19T12:00:00-04:00",
+      "summary": "<p>Source <b>description</b> &amp; details.</p>"
+    },
+    {
+      "id": "2",
+      "title": "No description",
+      "url": "https://official.example/posts/two",
+      "date_published": "2026-10-20T10:00:00Z",
+      "content_text": "Do not manufacture a summary from the full article."
+    },
+    {
+      "id": "3",
+      "title": "Undated original",
+      "url": "/posts/three",
+      "date_modified": "2026-10-21T00:00:00Z"
+    },
+    {
+      "id": "4",
+      "title": "Missing link"
+    },
+    {
+      "id": "5",
+      "url": "/posts/no-title"
+    },
+    {
+      "id": "6",
+      "title": "Third party",
+      "url": "https://aggregator.example/item"
+    },
+    null,
+    42,
+    "not a post"
+  ]
+}

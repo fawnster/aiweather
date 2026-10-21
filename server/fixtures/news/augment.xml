@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>Augment Code Blog</title>
+        <link>https://augmentcode.com</link>
+        <description>Product updates, insights, and research from Augment Code.</description>
+        <lastBuildDate>Thu, 08 Oct 2026 15:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>Augment Code Blog RSS Generator</generator>
+        <language>en-US</language>
+        <image>
+            <title>Augment Code Blog</title>
+            <url>https://augmentcode.com/opengraph-image.png</url>
+            <link>https://augmentcode.com</link>
+        </image>
+        <copyright>All rights reserved 2026, Augment Code</copyright>
+        <item>
+            <title><![CDATA[Augment Code's next chapter]]></title>
+            <link>https://augmentcode.com/blog/augment-code-next-chapter</link>
+            <guid isPermaLink="false">7914d877-cbb2-486c-94ed-9c0368a9c06f</guid>
+            <pubDate>Thu, 08 Oct 2026 15:00:00 GMT</pubDate>
+            <description><![CDATA[Augment Code's next chapter]]></description>
+            
+            <author>Matt McClernan</author>
+            <enclosure url="https://cdn.sanity.io/images/oraw2u2c/production/feab0963170522bc8d883085e7197f668e05b0c0-1600x900.svg" length="0" type="image/svg"/>
+        </item>
+        <item>
+            <title><![CDATA[Beyond AI Coding Agents: How We Built Augment's Software Factory]]></title>
+            <link>https://augmentcode.com/blog/beyond-ai-coding-agents-how-we-built-augments-software-factory</link>
+            <guid isPermaLink="false">post-beyond-ai-coding-agents-how-we-built-augments-software-factory</guid>
+            <pubDate>Fri, 11 Sep 2026 23:58:33 GMT</pubDate>
+            <description><![CDATA[Beyond AI Coding Agents: How We Built Augment's Software Factory]]></description>
+            
+            <author>Akshay Utture</author>
+            <enclosure url="https://cdn.sanity.io/images/oraw2u2c/production/64eaf6b0976760eb56ba96e85bd419f3a8b5bd10-1920x1280.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[We think the FDE should be part of the product, so we built one in]]></title>
+            <link>https://augmentcode.com/blog/we-think-the-fde-should-be-part-of-the-product-so-we-built-one-in</link>
+            <guid isPermaLink="false">99342e8b-dbac-46d3-abbe-4e2fd95fcca7</guid>
+            <pubDate>Fri, 28 Aug 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[We think the FDE should be part of the product, so we built one in]]></description>
+            
+            <author>Matt Ball</author>
+            <enclosure url="https://cdn.sanity.io/images/oraw2u2c/production/7977239d60c33dedb8b3c835bd2a6803d4f06347-1920x1280.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[How a two-person engineering team handled 6× more product feedback and kept shipping]]></title>
+            <link>https://augmentcode.com/blog/feedback-triage-with-cosmos</link>
+            <guid isPermaLink="false">uSeKzhyo2IW6greILoLPCc</guid>
+            <pubDate>Thu, 27 Aug 2026 22:36:42 GMT</pubDate>
+            <description><![CDATA[How a two-person engineering team handled 6× more product feedback and kept shipping]]></description>
+            
+            <author>Akshay Utture</author>
+            <enclosure url="https://cdn.sanity.io/images/oraw2u2c/production/30f71531db87e784c87bd6de4c177ebc14554abc-1920x1280.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[How we rebuilt the Auggie CLI harness to make tasks 53% cheaper than Claude Code]]></title>
+            <link>https://augmentcode.com/blog/auggie-cli-harness-rebuild-53-percent-cheaper</link>
+            <guid isPermaLink="false">auggie-v2-post-1786739612052</guid>
+            <pubDate>Fri, 14 Aug 2026 20:56:58 GMT</pubDate>
+            <description><![CDATA[How we rebuilt the Auggie CLI harness to make tasks 53% cheaper than Claude Code]]></description>
+            
+            <author>Tulga Tsogtgerel</author>
+            <author>Chris Kelly</author>
+            <enclosure url="https://cdn.sanity.io/images/oraw2u2c/production/b834ee23a7c262e8287c2fb30925ad3c2b399805-1224x814.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[The software factory needs a faster review loop: further optimizing the path from PR to merge]]></title>
+            <link>https://augmentcode.com/blog/optimizing-pr-to-merge-loop</link>
+            <guid isPermaLink="false">post-optimizing-pr-to-merge-loop</guid>
+            <pubDate>Thu, 13 Aug 2026 17:22:19 GMT</pubDate>
+            <description><![CDATA[The software factory needs a faster review loop: further optimizing the path from PR to merge]]></description>
+            
+            <author>Akshay Utture</author>
+            <enclosure url="https://cdn.sanity.io/images/oraw2u2c/production/a9dbedebac566410b02004855e27c7b465fb688b-1920x1280.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[Using the Cosmos software factory to better understand our business]]></title>
+            <link>https://augmentcode.com/blog/cosmos-software-factory-business-visibility</link>
+            <guid isPermaLink="false">cosmos-software-factory-business-visibility</guid>
+            <pubDate>Thu, 13 Aug 2026 16:16:44 GMT</pubDate>
+            <description><![CDATA[Using the Cosmos software factory to better understand our business]]></description>
+            
+            <author>Mayur Nagarsheth</author>
+            <enclosure url="https://cdn.sanity.io/images/oraw2u2c/production/9fb20511f173fe6058d49bc567ed5ba8f5bb0da3-1920x1280.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[The best value for every token: GPT-5.6 Sol is now our default in Cosmos]]></title>
+            <link>https://augmentcode.com/blog/eight-models-in-eight-weeks-gpt-5-6-sol-is-now-our-default</link>
+            <guid isPermaLink="false">a3049ca8-b392-4f19-9346-dc2e96975705</guid>
+            <pubDate>Wed, 29 Jul 2026 02:25:40 GMT</pubDate>
+            <description><![CDATA[The best value for every token: GPT-5.6 Sol is now our default in Cosmos]]></description>
+            
+            <author>Siyu Zhan</author>
+            <enclosure url="https://cdn.sanity.io/images/oraw2u2c/production/0b95031e2ca1cf46e99c12669c97778f783ab787-1920x1280.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[What is loop engineering, and how are leading software engineering teams using it?]]></title>
+            <link>https://augmentcode.com/blog/what-is-loop-engineering-and-how-are-leading-software-engineering-teams-using-it</link>
+            <guid isPermaLink="false">9f0e3ff0-043f-479e-8fee-d9bb733cd8a4</guid>
+            <pubDate>Wed, 22 Jul 2026 18:00:19 GMT</pubDate>
+            <description><![CDATA[What is loop engineering, and how are leading software engineering teams using it?]]></description>
+            
+            <author>Vinay Perneti</author>
+            <enclosure url="https://cdn.sanity.io/images/oraw2u2c/production/6b42b39fb5fbbbaffa24bd69c3b7f5bf4eb4fb8c-1920x1280.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[The bottleneck moved to verification. So we automated that too.]]></title>
+            <link>https://augmentcode.com/blog/the-bottleneck-moved-to-verification-so-we-automated-that-too</link>
+            <guid isPermaLink="false">post-how-augment-automated-pre-merge-verification</guid>
+            <pubDate>Wed, 01 Jul 2026 12:00:00 GMT</pubDate>
+            <description><![CDATA[The bottleneck moved to verification. So we automated that too.]]></description>
+            
+            <author>Cameron Custer</author>
+            <enclosure url="https://cdn.sanity.io/images/oraw2u2c/production/eeafa4c6b3fa1ceaddc8fca3dc3da8901020b6e8-1920x1280.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[An AI analyst that reads Linear, Slack, and GitHub and answers team queries off our dbt models]]></title>
+            <link>https://augmentcode.com/blog/an-internal-ai-analyst-that-reads-linear-slack-and-github-and-answers-off-our-dbt-models</link>
+            <guid isPermaLink="false">post-ai-data-analyst-named-mimi</guid>
+            <pubDate>Mon, 29 Jun 2026 21:37:15 GMT</pubDate>
+            <description><![CDATA[An AI analyst that reads Linear, Slack, and GitHub and answers team queries off our dbt models]]></description>
+            
+            <author>Julie Beynon</author>
+            <enclosure url="https://cdn.sanity.io/images/oraw2u2c/production/a9dbedebac566410b02004855e27c7b465fb688b-1920x1280.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[Accelerating large engineering projects with Cosmos]]></title>
+            <link>https://augmentcode.com/blog/accelerating-large-engineering-projects-with-cosmos</link>
+            <guid isPermaLink="false">07ccd294-2e97-4ba1-aa52-326d900735dd</guid>
+            <pubDate>Thu, 18 Jun 2026 22:52:12 GMT</pubDate>
+            <description><![CDATA[Accelerating large engineering projects with Cosmos]]></description>
+            
+            <author>Akshay Utture</author>
+            <enclosure url="https://cdn.sanity.io/images/oraw2u2c/production/30f71531db87e784c87bd6de4c177ebc14554abc-1920x1280.png" length="0" type="image/png"/>
+        </item>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    </channel>
+</rss>
