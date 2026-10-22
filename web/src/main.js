@@ -227,19 +227,19 @@ const feedEls = new Map();
 let feedBooted = false;
 function feedRow(e) {
   const c = state.companies.get(e.companyId); if (!c) return null;
+  const what = e.incident ? `${esc(e.incident.title)}<span class="st8"> · ${esc(e.incident.status || '')}</span>` : `now ${esc((LEVEL[e.to]?.word ?? e.to).toLowerCase())}`;
+  const lvl = e.type === 'incident_resolved' ? 'operational' : (e.incident?.level || e.to || 'degraded');
+  const sameDay = new Date(e.at).toDateString() === new Date().toDateString();
+  const when = sameDay ? clock(e.at) : new Date(e.at).toLocaleDateString([], { weekday: 'short' });
+  const html = `<button type="button" class="feed-row" data-id="${esc(c.id)}" style="--c:${LEVEL[lvl]?.color}"><span class="t num">${esc(when)}</span><span class="who">${esc(c.name)}</span><span class="what">${what}</span></button>`;
   let li = feedEls.get(e.id);
-  if (!li) {
-    li = document.createElement('li');
-    const what = e.incident ? `${esc(e.incident.title)}<span class="st8"> · ${esc(e.incident.status || '')}</span>` : `now ${esc((LEVEL[e.to]?.word ?? e.to).toLowerCase())}`;
-    const lvl = e.type === 'incident_resolved' ? 'operational' : (e.incident?.level || e.to || 'degraded');
-    const sameDay = new Date(e.at).toDateString() === new Date().toDateString();
-    const when = sameDay ? clock(e.at) : new Date(e.at).toLocaleDateString([], { weekday: 'short' });
-    li.innerHTML = `<button type="button" class="feed-row" style="--c:${LEVEL[lvl]?.color}"><span class="t num">${esc(when)}</span><span class="who">${esc(c.name)}</span><span class="what">${what}</span></button>`;
-    li.querySelector('button').addEventListener('click', () => openCompany(c.id));
-    feedEls.set(e.id, li);
-  }
+  if (!li) { li = document.createElement('li'); feedEls.set(e.id, li); }
+  // the same row (so it slides to its new place), redrawn only when it says something new: an official incident's
+  // update moves it up with its new time and status, and yesterday's times turn into days after midnight
+  put(li, html);
   return li;
 }
+$('#feed').addEventListener('click', e => { const b = e.target.closest('.feed-row'); if (b) openCompany(b.dataset.id); });
 // Right after a deploy the server has seen no changes yet, so the list fills up with the official incidents of
 // the last 24 hours (open ones, and ones resolved), newest first. All of it is the companies' own posts.
 function incidentItems(cs) {
