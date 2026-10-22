@@ -13,6 +13,7 @@ let order = [];            // company ids, in the viewer's order
 let current = -1;
 const pages = new Map();   // id -> <article>
 const built = new Set();   // ids whose page content is up to date
+const expanded = new Set(); // ids whose parts were all shown ("Show all"), kept when live data redraws the page
 export const isOpen = () => !root.hidden;
 export const currentId = () => order[current] ?? null;
 
@@ -165,10 +166,11 @@ function tiles(c, u, p) {
         <p class="t-num small">${wxImg(x.level, 'wx t-wx')}${esc(x.level === 'operational' ? 'Clear' : LEVEL[x.level]?.word ?? x.level)}</p>
       </div>`));
   if (!out.length) return '';
+  const fold = comps.length > 8 && !expanded.has(c.id);
   return `
-    <section class="tiles${comps.length > 8 ? ' collapsed' : ''}">
+    <section class="tiles${fold ? ' collapsed' : ''}">
       ${out.join('')}
-      ${comps.length > 8 ? `<button type="button" class="tile show-all">Show all ${comps.length} parts</button>` : ''}
+      ${fold ? `<button type="button" class="tile show-all">Show all ${comps.length} parts</button>` : ''}
     </section>`;
 }
 
@@ -186,14 +188,37 @@ function build(id) {
   if (!el || !c) return;
   if (tipOwner === el) hideTip(); // its bars are about to be replaced
   const u = uptime.get(id), p = primaryOf(u);
-  const keep = el.scrollTop;
+  const keep = el.scrollTop, spot = focusSpot(el);
   el.dataset.level = c.level;
   el.innerHTML = `<div class="cp-col">${hero(c, p)}${nowCard(c, u, p)}${uptimeCard(p)}${newsCard(c)}${tiles(c, u, p)}${foot(c)}</div>`;
   el.scrollTop = keep;
-  el.querySelector('.show-all')?.addEventListener('click', e => { e.currentTarget.closest('.tiles').classList.remove('collapsed'); e.currentTarget.remove(); });
+  spot?.(); // live data redrew the page under the keyboard: focus goes back where it was
+  el.querySelector('.show-all')?.addEventListener('click', e => {
+    const tiles = e.currentTarget.closest('.tiles'), first = tiles.querySelector('.tile.more');
+    expanded.add(id);
+    tiles.classList.remove('collapsed'); e.currentTarget.remove();
+    if (first) { first.tabIndex = -1; first.focus({ preventScroll: true }); } // the button is gone: focus goes on from the first part it showed
+  });
   wireTips(el, p, u, c);
   wireBars(el);
   built.add(id);
+}
+
+/** Where the keyboard is inside a page, as a way to find the same spot after the page is redrawn (a link by its
+ *  address, a part by its name, anything else by its place among the page's controls). */
+function focusSpot(el) {
+  const a = document.activeElement;
+  if (!a || a === el || !el.contains(a)) return null; // the page itself keeps its focus: only its insides are redrawn
+  const ctl = '.cp-col a[href], .cp-col button, .cp-col [tabindex]';
+  const name = a.matches('.tile') ? a.querySelector('h3')?.textContent : null;
+  const href = a.getAttribute('href'), i = [...el.querySelectorAll(ctl)].indexOf(a);
+  return () => {
+    const back = name != null ? [...el.querySelectorAll('.tile')].find(t => t.querySelector('h3')?.textContent === name)
+      : href ? [...el.querySelectorAll('a[href]')].find(x => x.getAttribute('href') === href)
+      : el.querySelectorAll(ctl)[i];
+    if (back && name != null) back.tabIndex = -1;
+    (back || el).focus({ preventScroll: true });
+  };
 }
 
 // bar tooltips. The bars can be redrawn under the pointer (live data), which never sends "pointer left",
