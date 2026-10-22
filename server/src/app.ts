@@ -155,9 +155,10 @@ export function createApp(state: State, health: () => SourceHealth[], staticRoot
     send(client, { t: 'snapshot', data: state.snapshot() });
   });
   const heartbeat = setInterval(() => {
+    const at = new Date().toISOString(), fetched = state.fetched(); // so "checked 1 min ago" stays true between changes
     for (const client of ws.clients) {
       if (Date.now() - (lastPong.get(client) ?? 0) > 75_000) client.terminate();
-      else send(client, { t: 'ping', at: new Date().toISOString() });
+      else send(client, { t: 'ping', at, fetched });
     }
   }, 25_000);
   heartbeat.unref();

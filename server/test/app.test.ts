@@ -45,7 +45,11 @@ test('HTTP snapshot/health, SPA/static caching, websocket snapshot/fanout/heartb
   const e1 = once(first.client, 'message'), e2 = once(second.client, 'message'); state.apply(next); await Promise.all([e1, e2]);
   assert.equal(first.messages.filter(m => m.t === 'event').length, 1); assert.equal(second.messages.filter(m => m.t === 'event').length, 1);
   assert.equal(first.messages.filter(m => m.t === 'event')[0].data.id, second.messages.filter(m => m.t === 'event')[0].data.id);
-  await heartbeat; assert.ok(first.messages.find(m => m.t === 'ping').at); first.client.terminate(); second.client.terminate();
+  await heartbeat;
+  const ping = first.messages.find(m => m.t === 'ping');
+  assert.ok(ping.at);
+  assert.equal(ping.fetched.claude, state.get('claude').fetchedAt); // each company's last good read rides along (fetchedAt alone is never broadcast)
+  first.client.terminate(); second.client.terminate();
 });
 
 test('compresses big JSON and text files once, and leaves small or media responses alone', async () => {

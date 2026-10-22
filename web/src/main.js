@@ -481,7 +481,13 @@ function connect() {
     state.lastMessage = Date.now();
     let msg; try { msg = JSON.parse(m.data); } catch { return; }
     if (msg.t === 'snapshot') apply(msg.data);
-    else if (msg.t === 'ping') ws.send(JSON.stringify({ t: 'pong' }));
+    else if (msg.t === 'ping') {
+      ws.send(JSON.stringify({ t: 'pong' }));
+      // every company's last good read (they change each minute and are never sent on their own): Live's "just now"
+      // and a page's "checked 1 min ago" stay true. A company read in this browser keeps its own time.
+      for (const [id, at] of Object.entries(msg.fetched || {})) { const c = state.companies.get(id); if (c && c.readIn !== 'browser') c.fetchedAt = at; }
+      renderUpdated(); pages.retime();
+    }
     else if (msg.t === 'company') { state.companies.set(msg.data.id, readInBrowser(msg.data)); render(); pages.refresh(msg.data.id); }
     else if (msg.t === 'event') {
       state.companies.set(msg.company.id, readInBrowser(msg.company));

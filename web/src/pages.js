@@ -174,13 +174,23 @@ function tiles(c, u, p) {
     </section>`;
 }
 
-function foot(c) {
+function srcText(c) {
   const kind = c.readIn === 'browser' ? 'Read in your browser from the official status data' : c.sourceKind === 'live' ? 'Read from the official status page' : c.sourceKind === 'incident-feed' ? 'Read from the official incident feed' : 'No readable official status page';
+  return [kind, seen(c.fetchedAt) ? (c.stale ? `last good read ${ago(c.fetchedAt)}` : `checked ${ago(c.fetchedAt)}`) : ''].filter(Boolean).join(', ');
+}
+function foot(c) {
   return `
     <footer class="cp-foot">
       ${c.officialUrl ? `<a class="official" href="${esc(c.officialUrl)}" target="_blank" rel="noopener"><span>Official status page</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17L17 7M9 7h8v8"/></svg></a>` : ''}
-      <p class="src">${esc([kind, seen(c.fetchedAt) ? (c.stale ? `last good read ${ago(c.fetchedAt)}` : `checked ${ago(c.fetchedAt)}`) : ''].filter(Boolean).join(', '))}</p>
+      <p class="src">${esc(srcText(c))}</p>
     </footer>`;
+}
+/** Brings each built page's "checked … ago" up to date (its read times change every minute without a redraw). */
+export function retime() {
+  for (const id of built) {
+    const src = pages.get(id)?.querySelector('.cp-foot .src'), c = state.companies.get(id);
+    if (src && c) { const t = srcText(c); if (src.textContent !== t) src.textContent = t; }
+  }
 }
 
 function build(id) {

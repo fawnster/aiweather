@@ -60,5 +60,8 @@ export class State {
         this.apply(failedCompany(company, company.error ?? 'Source stale: no successful read for over 5 minutes', now), now);
     }
   }
+  /** Each company's last good read. These change every minute but are never broadcast on their own (see apply), so
+   *  the heartbeat carries them. */
+  fetched(): Record<string, string> { return Object.fromEntries([...this.companies.values()].map(c => [c.id, c.fetchedAt])); }
   snapshot(): Snapshot { return { serverTime: new Date().toISOString(), demo: this.demo, companies: [...this.companies.values()], events: this.events.all() }; }
 }

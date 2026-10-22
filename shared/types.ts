@@ -88,7 +88,7 @@ export type ServerMessage =
   | { t: 'snapshot'; data: Snapshot }
   | { t: 'event'; data: WeatherEvent; company: Company }
   | { t: 'company'; data: Company }            // a company changed without a discrete event (e.g. went stale)
-  | { t: 'ping'; at: string };
+  | { t: 'ping'; at: string; fetched: Record<string, string> }; // every company's last good read (fetchedAt), by id
 
 /** WebSocket messages, client → server. */
 export type ClientMessage = { t: 'pong' };
