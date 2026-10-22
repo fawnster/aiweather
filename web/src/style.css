@@ -118,6 +118,7 @@ body.menu-open .controls { opacity: 1; visibility: visible; transform: none;
 .live { display: flex; align-items: center; gap: calc(8px * var(--k)); font-size: calc(14px * var(--k)); color: var(--ink); } /* the same size as Menu beside it */
 .beat { width: calc(8px * var(--k)); height: calc(8px * var(--k)); border-radius: 50%; background: var(--ok); } /* a still dot: Live says it */
 body.demo-data .beat { background: var(--warn); }
+.live.off .beat { background: var(--ink-3); } /* connecting, or reconnecting: not live */
 body.demo-data .live { color: var(--warn); }
 
 /* ── home ───────────────────────────────────────────────────────────────── */

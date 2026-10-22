@@ -323,6 +323,7 @@ function render() {
 
 function renderUpdated() {
   const el = $('#updated');
+  $('.live').classList.toggle('off', !state.connected); // the dot is green only while the live connection is up
   if (!state.connected) { el.textContent = state.lastMessage ? 'reconnecting' : 'connecting'; return; }
   // scripted data says so in the header instead of a floating badge over the content
   if (state.demo) { el.innerHTML = 'Demo<span class="ago"> · not live data</span>'; return; }
@@ -471,10 +472,11 @@ function apply(snapshot) {
   } else pages.relist();
   for (const c of snapshot.companies) pages.refresh(c.id);
 }
-let backoff = 1000, pollTimer = null;
+let backoff = 1000, pollTimer = null, retryTimer = 0, socket = null;
 function connect() {
-  const ws = new WebSocket(`${location.protocol === 'https:' ? 'wss' : 'ws'}://${location.host}/ws`);
-  ws.onopen = () => { state.connected = true; backoff = 1000; clearInterval(pollTimer); pollTimer = null; renderUpdated(); };
+  clearTimeout(retryTimer);
+  const ws = socket = new WebSocket(`${location.protocol === 'https:' ? 'wss' : 'ws'}://${location.host}/ws`);
+  ws.onopen = () => { state.connected = true; state.lastMessage = Date.now(); backoff = 1000; clearInterval(pollTimer); pollTimer = null; renderUpdated(); };
   ws.onmessage = m => {
     state.lastMessage = Date.now();
     let msg; try { msg = JSON.parse(m.data); } catch { return; }
@@ -488,12 +490,26 @@ function connect() {
       render(); pages.refresh(msg.company.id); react(msg.data);
     }
   };
-  ws.onclose = () => {
-    state.connected = false; renderUpdated();
-    if (!pollTimer) pollTimer = setInterval(poll, 30000);
-    setTimeout(connect, backoff); backoff = Math.min(backoff * 2, 30000);
-  };
+  ws.onclose = () => dropped(ws);
 }
+function dropped(ws) {
+  if (ws !== socket) return; // one already given up on
+  socket = null;
+  state.connected = false; renderUpdated();
+  if (!pollTimer) pollTimer = setInterval(poll, 30000);
+  retryTimer = setTimeout(connect, backoff); backoff = Math.min(backoff * 2, 30000);
+}
+// A connection can go quiet without closing (a laptop waking from sleep, a phone between networks). The server pings
+// every 25 s, so a minute without a word means it's gone: it's dropped and opened again, instead of showing Live forever.
+function checkQuiet() {
+  const ws = socket;
+  if (!ws || !state.connected || Date.now() - state.lastMessage < 60000) return;
+  ws.onclose = null; try { ws.close(); } catch {}
+  dropped(ws);
+}
+setInterval(checkQuiet, 10000);
+document.addEventListener('visibilitychange', () => { if (!document.hidden) checkQuiet(); });
+addEventListener('online', () => { if (!socket) { backoff = 1000; connect(); } }); // back on a network: no waiting out the backoff
 async function poll() {
   try { const r = await fetch('/api/snapshot', { cache: 'no-store' }); if (r.ok) apply(await r.json()); } catch {}
 }
