@@ -378,6 +378,15 @@ canvas.bars { display: block; } .bars.big { --bar-gap: 2.5; } .bars.mini { --bar
 .tiles:not(.collapsed) > .tile:not(.show-all):not(.wide):last-child:nth-child(odd of .tile:not(.wide):not(.show-all)) { grid-column: 1 / -1; justify-self: center; width: calc((100% - calc(12px * var(--k))) / 2); }
 .tile.show-all { min-height: 0; padding-top: calc(14px * var(--k)); padding-bottom: calc(14px * var(--k)); grid-column: 1 / -1; align-items: center; justify-content: center; font-size: calc(15px * var(--k)); color: var(--ink-2); }
 .show-all:hover { color: var(--ink); }
+/* A part's name gets two lines (on a phone one line cut off a quarter of them). The two tiles in a row share their
+   rows, so a name that wraps moves its neighbour's figure and bars down with it: they still line up across the row. */
+.tiles { row-gap: 0; margin-bottom: calc(-12px * var(--k)); }
+.tiles > .tile { margin-bottom: calc(12px * var(--k)); }
+.tile:not(.wide):not(.show-all) { display: grid; grid-row: span 4; grid-template-rows: subgrid; row-gap: 0; min-height: 0; }
+.tile:not(.wide):not(.show-all) > h3 { grid-row: 1; align-self: end; white-space: normal; text-wrap: balance; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; line-height: 1.3; }
+.tile > .t-num { grid-row: 2; }
+.tile > .bars { grid-row: 3; }
+.tile > .t-sub { grid-row: 4; align-self: end; }
 
 .cp-foot { margin-top: calc(36px * var(--k)); display: flex; flex-direction: column; align-items: center; gap: calc(12px * var(--k)); }
 .official { display: inline-flex; align-items: center; gap: calc(10px * var(--k)); padding: calc(14px * var(--k)) calc(22px * var(--k)); border-radius: calc(999px * var(--k)); background: var(--ink); color: #0A1236; text-decoration: none; font-size: calc(15px * var(--k)); font-weight: 700; }
@@ -497,7 +506,10 @@ canvas.bars { display: block; } .bars.big { --bar-gap: 2.5; } .bars.mini { --bar
   .cp-col { width: calc(100% - 28px); }
   /* the compact header on a scrolled company page: the name, with the figure and the sky under it (on one line they
      were all cut short between Back and the edge) */
-  .cp-mini { flex-wrap: wrap; align-content: center; gap: 1px 8px; font-size: 13px; height: calc(env(safe-area-inset-top) + 64px); margin-top: calc(-1 * (env(safe-area-inset-top) + 64px)); }
+  .cp-mini { flex-wrap: wrap; align-content: center; gap: 1px 8px; font-size: 13px; height: calc(env(safe-area-inset-top) + 76px); margin-top: calc(-1 * (env(safe-area-inset-top) + 76px)); padding-bottom: 24px;
+    /* both lines sit on the solid part; below them the page fades out under a blur instead of showing through sharp */
+    background: #050A1E; -webkit-backdrop-filter: blur(12px); backdrop-filter: blur(12px);
+    -webkit-mask: linear-gradient(180deg, #000 0, #000 calc(100% - 24px), transparent 100%); mask: linear-gradient(180deg, #000 0, #000 calc(100% - 24px), transparent 100%); }
   .cp-mini b { flex: 0 0 100%; text-align: center; font-size: 16px; }
   .cp-mini span::before { margin-right: 8px; }
   .cp-mini b + span::before { content: none; }
@@ -510,6 +522,20 @@ canvas.bars { display: block; } .bars.big { --bar-gap: 2.5; } .bars.mini { --bar
   .ed-row { grid-template-columns: 34px 22px minmax(0, 1fr) 46px; }
   .ed-cond span { display: none; }
   .ed-cond { display: none; }
+}
+/* narrow phones (360 px, most Androids): the strip and figure give a little room so every name fits whole */
+@media (max-width: 370px) {
+  .row { grid-template-columns: 26px minmax(0, 1fr) 36px 92px; }
+  .row .pct { font-size: 18px; }
+  .row .strip { width: 92px; } .row .strip-bars { --bar-gap: 1; }
+}
+/* the narrowest (320 px): the weather icon goes and its words come back, so a name never has to be cut short */
+@media (max-width: 340px) {
+  .row { grid-template-columns: 26px minmax(0, 1fr) 92px; }
+  .row-wx { display: none; }
+  .row .cond-sky { display: inline; }
+  /* a scrolled page's top bar: the name and the figure (the sky made a third line, which ran into the page) */
+  .cp-mini span + span { display: none; }
 }
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { animation: none !important; transition: none !important; }
