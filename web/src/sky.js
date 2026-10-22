@@ -249,7 +249,11 @@ export class Sky {
     this.half = !!gl.getExtension('EXT_color_buffer_float') || !!gl.getExtension('EXT_color_buffer_half_float');
     if (!this.half) throw new Error('float render targets are not available');
     this.gl = gl;
-    this.reduced = matchMedia('(prefers-reduced-motion: reduce)').matches;
+    // Reduced motion: the sky holds still. Each clip's still stands in for it, and the shader's clock stops, so no rain
+    // falls, the sun's rays don't turn and nothing drifts (the weather is still drawn, just not moving). Followed live.
+    const motion = matchMedia('(prefers-reduced-motion: reduce)');
+    this.reduced = motion.matches;
+    motion.addEventListener?.('change', e => { this.reduced = e.matches; if (e.matches) for (const v of this.videoPool.values()) v.pause(); });
     this.progs = Object.fromEntries(Object.entries(FS).map(([k, src]) => [k, program(gl, src)]));
     const buf = gl.createBuffer(); gl.bindBuffer(gl.ARRAY_BUFFER, buf);
     gl.bufferData(gl.ARRAY_BUFFER, new Float32Array([-1, -1, 1, -1, -1, 1, 1, 1]), gl.STATIC_DRAW);
@@ -347,7 +351,7 @@ export class Sky {
     return im;
   }
   /** Fetch clips in the background so a later weather change never waits on the network. */
-  preload(urls) { if (!this.noVideo) for (const u of urls) this.video(u); }
+  preload(urls) { if (!this.noVideo && !this.reduced) for (const u of urls) this.video(u); }
 
   async makeSlot(scene) {
     const gl = this.gl;
@@ -357,10 +361,11 @@ export class Sky {
     // the switch can't be seen because the frames match.
     // The still is asked for first and the clip only once it's in: on a slow line the clip (about 250 kB) would share
     // the connection with the still (about 10 kB) and hold the first sky back.
-    const loaded = scene.video && !this.noVideo ? this.videoPool.get(scene.video) : null;
+    const clips = scene.video && !this.noVideo && !this.reduced;
+    const loaded = clips ? this.videoPool.get(scene.video) : null;
     let src = loaded && loaded.readyState >= 2 ? loaded : null;
     if (!src && scene.img) { const im = this.still(scene.img); try { await im.decode(); src = im; } catch {} }
-    const video = scene.video && !this.noVideo ? this.video(scene.video) : null;
+    const video = clips ? this.video(scene.video) : null;
     video?.play().catch(() => {}); // low-power mode can refuse autoplay; the still, then the clip's first frame, still show
     if (!src && video) src = await this.clip(scene.video); // no still: wait for the clip itself
     if (!src) return { scene, tex: this.dummy, size: [1, 1], video };
@@ -385,7 +390,7 @@ export class Sky {
     const gl = this.gl;
     for (const slot of this.slots) {
       const v = slot?.video; if (!v || v.readyState < 2 || slot.tex === this.dummy) continue;
-      if (v.paused && !document.hidden) v.play().catch(() => {});
+      if (v.paused && !document.hidden && !this.reduced) v.play().catch(() => {});
       if (!v._always && slot.frame === v._frame) continue; // no new frame since this slot last uploaded
       slot.frame = v._frame;
       if (slot.size[0] !== v.videoWidth || slot.size[1] !== v.videoHeight) slot.size = [v.videoWidth, v.videoHeight]; // the clip took over from its still
@@ -484,8 +489,9 @@ export class Sky {
     const L = this.light, on = p.inside && !this.reduced ? 1 : 0;
     L[0] += (p.x - L[0]) * Math.min(1, dt * 7); L[1] += (p.y - L[1]) * Math.min(1, dt * 7);
     L[2] += (on - L[2]) * Math.min(1, dt * 3);
-    this.parallax[0] += ((p.inside ? p.x - .5 : 0) - this.parallax[0]) * Math.min(1, dt * 1.5);
-    this.parallax[1] += ((p.inside ? p.y - .5 : 0) - this.parallax[1]) * Math.min(1, dt * 1.5);
+    const follow = p.inside && !this.reduced; // the sky leans toward the pointer, unless motion is reduced
+    this.parallax[0] += ((follow ? p.x - .5 : 0) - this.parallax[0]) * Math.min(1, dt * 1.5);
+    this.parallax[1] += ((follow ? p.y - .5 : 0) - this.parallax[1]) * Math.min(1, dt * 1.5);
 
     // lightning envelope: bright, a dip, a second flicker, then a quick fade
     let flash = 0;
@@ -523,7 +529,7 @@ export class Sky {
       S.sun.push(...(s.sun || [0, 0, 0, 1]));
     }
     gl.uniform2f(u('uRes'), this.canvas.width, this.canvas.height);
-    gl.uniform1f(u('uDpr'), this.dpr); gl.uniform1f(u('uTime'), this.time);
+    gl.uniform1f(u('uDpr'), this.dpr); gl.uniform1f(u('uTime'), this.reduced ? 0 : this.time);
     gl.uniform2f(u('uPointer'), this.pointer.x, this.pointer.y);
     gl.uniform1f(u('uLens'), this.lens); gl.uniform1f(u('uLensR'), this.opts.lensRadius);
     gl.uniform4fv(u('uRipples'), this.ripples.flat());
