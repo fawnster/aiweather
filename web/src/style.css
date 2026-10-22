@@ -112,10 +112,9 @@ body.menu-open .controls { opacity: 1; visibility: visible; transform: none;
 .top-right { grid-column: 3; justify-self: end; display: grid; align-items: center; gap: calc(22px * var(--k)); }
 .top-right .link { padding-bottom: 0; color: var(--ink); font-weight: 600; }
 .live { display: flex; align-items: center; gap: calc(8px * var(--k)); font-size: calc(14px * var(--k)); color: var(--ink); } /* the same size as Menu beside it */
-.beat { width: calc(8px * var(--k)); height: calc(8px * var(--k)); border-radius: 50%; background: var(--ok); animation: beat 2.4s infinite; }
-body.demo-data .beat { background: var(--warn); animation: none; }
+.beat { width: calc(8px * var(--k)); height: calc(8px * var(--k)); border-radius: 50%; background: var(--ok); } /* a still dot: Live says it */
+body.demo-data .beat { background: var(--warn); }
 body.demo-data .live { color: var(--warn); }
-@keyframes beat { 0% { box-shadow: 0 0 0 0 rgba(61, 220, 132, .5); } 70%, 100% { box-shadow: 0 0 0 8px rgba(61, 220, 132, 0); } }
 
 /* ── home ───────────────────────────────────────────────────────────────── */
 .home { position: relative; z-index: 2; min-height: 100vh; display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, calc(620px * var(--k)));
