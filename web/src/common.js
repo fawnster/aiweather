@@ -10,7 +10,7 @@ export const LEVEL = {
   degraded:    { word: 'Degraded', sky: 'Overcast', color: '#F2B33D', cond: 'overcast' },
   partial:     { word: 'Partial outage', sky: 'Rain', color: '#FF8A3D', cond: 'rain' },
   major:       { word: 'Major outage', sky: 'Storm', color: '#E5484D', cond: 'storm' },
-  unknown:     { word: "Can't read the source", sky: 'Unknown', color: '#8A8F98', cond: 'fog' },
+  unknown:     { word: "Couldn't check", sky: 'Unknown', color: '#8A8F98', cond: 'fog' }, // short enough for a phone's row
   'no-page':   { word: 'On its own page', sky: 'Fog', color: '#8A8F98', cond: 'fog' },
 };
 export const CATEGORY = { lab: 'AI lab', coding: 'Coding tool', host: 'Inference cloud', creative: 'Creative AI', platform: 'Platform' };

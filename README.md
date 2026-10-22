@@ -22,7 +22,7 @@ Live at **https://aiweather.synteq.app**
 
 - **Official sources only.** Each company's own status page (Atlassian Statuspage, incident.io, Better Stack, Instatus,
   Datadog, Alibaba Cloud, Google Cloud), read with an honest User-Agent. Nothing behind bot protection is bypassed.
-- **Nothing made up.** A page that can't be read shows "couldn't check", never "clear". Uptime figures are the ones the
+- **Nothing made up.** A page that can't be read shows "Couldn't check", never "Clear". Uptime figures are the ones the
   companies publish; where a page publishes only incident history (Gemini, Grok, Qwen, ElevenLabs), the figure is
   worked out from the official incident times and labelled that way.
 - **Only companies with history.** A company whose official page publishes no history at all is left off the board.

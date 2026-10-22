@@ -6,7 +6,7 @@
 
 - Official sources only: each company's own status page, read with an honest User-Agent. Nothing behind bot
   protection is bypassed.
-- Nothing made up: a page that can't be read shows "couldn't check", never "clear". Uptime figures are the ones the
+- Nothing made up: a page that can't be read shows "Couldn't check", never "Clear". Uptime figures are the ones the
   companies publish; where a page publishes only incident history, the figure is worked out from the official
   incident times and labelled that way.
 - Each company is checked about once a minute. No accounts, no tracking, no database.
