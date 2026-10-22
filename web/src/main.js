@@ -1,5 +1,5 @@
 import { Sky } from './sky.js';
-import { WeatherController, conditionOf, LEVEL_RANK, clipsFor, phaseOf, forcePhase } from './weather.js';
+import { WeatherController, conditionOf, sceneFor, LEVEL_RANK, clipsFor, phaseOf, forcePhase } from './weather.js';
 import { markSvg } from './mark.js';
 import { installSprings, rollNumber, reduced, S } from './motion.js';
 import { $, LEVEL, esc, ago, clock, iconHtml, wxImg, wxName, seen, state, prefs, savePrefs, visible, customised, uptime, primaryOf, pctText, pctColor, uptimeOf, onData, preloadUptime, preloadNews, condForCompany, setBrowserUptime } from './common.js';
@@ -10,6 +10,10 @@ import { initEditor, openEditor, closeEditor, editorOpen } from './editor.js';
 import { initArrange, arranging, exitArrange } from './arrange.js';
 
 installSprings();
+// every company's mark, one stylesheet next to this module (build.mjs); it waits behind the board's data and the sky
+const marks = Object.assign(document.createElement('link'), { rel: 'stylesheet', href: new URL('./icons.css', import.meta.url).pathname });
+marks.fetchPriority = 'low';
+document.head.append(marks);
 const q = new URLSearchParams(location.search);
 if (['night', 'day', 'dawn', 'dusk'].includes(q.get('time'))) forcePhase(q.get('time')); // QA: preview another time of day
 
@@ -41,10 +45,10 @@ function stationFor(c) {
     if (viewNow() === 'list') {
       el.className = 'row';
       el.innerHTML = `<span class="del" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M6.5 12h11"/></svg></span>${iconHtml(c)}<span class="row-text"><span class="name">${esc(c.name)}</span><span class="cond"></span></span>
-        <span class="row-wx"></span><span class="row-right"><span class="pct num" hidden></span><span class="strip" aria-hidden="true"></span></span>`;
+        <span class="row-wx" aria-hidden="true"></span><span class="row-right"><span class="pct num" hidden></span><span class="strip" aria-hidden="true"></span></span>`;
     } else {
       el.className = 'st';
-      el.innerHTML = `<span class="del" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M6.5 12h11"/></svg></span><span class="st-top">${iconHtml(c)}<span class="st-wx"></span></span><span class="name">${esc(c.name)}</span><span class="st-foot"><span class="pct num" hidden></span><span class="word"></span></span><span class="strip st-strip" aria-hidden="true"></span>`;
+      el.innerHTML = `<span class="del" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M6.5 12h11"/></svg></span><span class="st-top">${iconHtml(c)}<span class="st-wx" aria-hidden="true"></span></span><span class="name">${esc(c.name)}</span><span class="st-foot"><span class="pct num" hidden></span><span class="word"></span></span><span class="strip st-strip" aria-hidden="true"></span>`;
     }
     el.addEventListener('animationend', e => { if (e.target === el) el.classList.remove('enter', 'hit', 'heal', 'nudge'); });
     el.addEventListener('click', () => openCompany(c.id));
@@ -66,14 +70,15 @@ function stationFor(c) {
   const cond = el.querySelector('.cond');
   if (cond) cond.innerHTML = c.level === 'operational' ? 'Clear'
     : `${lv.sky === 'Unknown' || c.level === 'no-page' ? '' : `<span class="cond-sky">${esc(lv.sky)} · </span>`}${esc(lv.word)}`;
-  el.setAttribute('aria-label', `${c.name}: ${lv.word}`);
-  return el;
+  return el; // its name is its own text (name, condition, uptime), so what a screen reader says is what's on it
 }
 // a grid tile's second line: its status word, or "Clear" when it has no number to show (so no tile looks empty)
 function syncWord(el, c) {
   const word = el.querySelector('.word'); if (!word || !c) return;
   const noNumber = el.querySelector('.pct')?.hidden !== false;
-  word.textContent = c.level === 'operational' ? (noNumber ? 'Clear' : '') : (LEVEL[c.level] ?? LEVEL.unknown).word;
+  // next to a number the sun says "clear" on its own; a screen reader still hears the word
+  if (c.level === 'operational' && !noNumber) word.innerHTML = '<span class="vh">Clear</span>';
+  else word.textContent = c.level === 'operational' ? 'Clear' : (LEVEL[c.level] ?? LEVEL.unknown).word;
 }
 function paintUptime(id) {
   const u = uptime.get(id), p = primaryOf(u);
@@ -87,9 +92,11 @@ function paintUptime(id) {
     if (strip && !p?.days?.length && u?.feedIncidents90d != null && !strip.childElementCount) {
       const n = u.feedIncidents90d;
       strip.innerHTML = `<span class="feedcount">${n} incident${n === 1 ? '' : 's'} · 90 days</span>`;
+      strip.removeAttribute('aria-hidden'); // a count is words to read out; the bars are a picture
     }
     if (strip && p?.days?.length && (!strip.childElementCount || strip.querySelector('.feedcount'))) { // bars win over a feed count (Grok gets both)
       strip.innerHTML = barsHtml(p.days.slice(-30), 'strip'); wireBars(strip);
+      strip.setAttribute('aria-hidden', 'true');
     }
   }
 }
@@ -174,22 +181,38 @@ function renderForecast(cs, cond) {
     fair: () => 'Mostly clear',
     fog: () => `Fog over ${list(names(cond.maint))}`,
   }[cond.id]?.() ?? 'Clear skies';
-  setHeadline(phoneQ.matches ? placeLine(cs) : head);
+  const headText = phoneQ.matches ? placeLine(cs) : head;
+  setHeadline(headText);
   const scope = customised() ? 'services in your list' : 'AI services';
-  $('#subline').innerHTML = hurt.length
+  const subText = hurt.length ? `${hurt.length} of ${readable.length} ${scope} report problems right now.` : `All ${readable.length} ${scope} report normal operation.`;
+  // every live update re-renders the board, so each part is only rewritten when what it says has changed
+  put($('#subline'), hurt.length
     ? `<span class="sub-big"><span class="num">${hurt.length}</span> <span class="of">of</span> <span class="num">${readable.length}</span></span> <span class="sub-rest">${scope} report problems right now.</span>`
-    : `<span class="sub-big"><span class="of">All</span> <span class="num">${readable.length}</span></span> <span class="sub-rest">${scope} report normal operation.</span>`;
+    : `<span class="sub-big"><span class="of">All</span> <span class="num">${readable.length}</span></span> <span class="sub-rest">${scope} report normal operation.</span>`);
   const noPage = cs.filter(c => c.sourceKind === 'none').map(c => c.name);
   const silent = cs.filter(c => c.sourceKind !== 'none' && c.level === 'unknown').map(c => c.name);
-  $('#footnote').textContent = [
+  const foot = [
     noPage.length ? `${joinNames(noPage)}'s status ${noPage.length === 1 ? 'page only opens' : 'pages only open'} on ${noPage.length === 1 ? 'its' : 'their'} own site.` : '',
     silent.length ? `Status ${silent.length === 1 ? 'page' : 'pages'} not answering right now: ${silent.join(', ')}.` : '',
   ].filter(Boolean).join(' ');
+  if ($('#footnote').textContent !== foot) $('#footnote').textContent = foot;
   const aff = $('#affected');
-  aff.innerHTML = viewNow() === 'calm'
+  if (put(aff, viewNow() === 'calm'
     ? cs.filter(c => LEVEL_RANK[c.level] >= 2).map(c => `<button class="aff" data-id="${esc(c.id)}" data-level="${esc(c.level)}">${iconHtml(c)}<span>${esc(c.name)}</span></button>`).join('')
-    : '';
-  aff.querySelectorAll('.aff').forEach(b => b.addEventListener('click', () => openCompany(b.dataset.id)));
+    : '')) aff.querySelectorAll('.aff').forEach(b => b.addEventListener('click', () => openCompany(b.dataset.id)));
+  // heard only when which companies are in trouble changes (not when the wording does, like phone and desktop's)
+  say(readable.filter(c => LEVEL_RANK[c.level] >= 2).map(c => `${c.id}:${c.level}`).join(), `${headText}. ${subText}`);
+}
+const shown = new WeakMap(); // the markup each element was last given
+function put(el, html) {
+  if (shown.get(el) === html) return false;
+  shown.set(el, html); el.innerHTML = html; return true;
+}
+// What a screen reader hears when the weather changes. Not on the first reading: the page itself says it then.
+let saidFor = null;
+function say(key, text) {
+  if (saidFor !== null && key !== saidFor) $('#said').textContent = text;
+  saidFor = key;
 }
 
 function setBrandDot(level) {
@@ -426,6 +449,10 @@ function apply(snapshot) {
   state.demo = snapshot.demo;
   state.companies = new Map(snapshot.companies.map(c => [c.id, readInBrowser(c)]));
   state.events = snapshot.events;
+  if (!booted && sky) { // the first sky's still starts loading now, while the board is built
+    const page = state.companies.get(location.pathname.slice(1));
+    sky.still(sceneFor((page ? condForCompany(page) : conditionOf(visible())).id).img);
+  }
   render(); renderUpdated();
   if (!booted) {
     booted = true;
@@ -433,7 +460,7 @@ function apply(snapshot) {
     if (id && state.companies.has(id)) openCompany(id, { push: false });
     else if (id) history.replaceState({}, '', '/'); // a company that's no longer on the board: just the home page
     preloadUptime(visible().map(c => c.id));
-    preloadNews();
+    (window.requestIdleCallback || setTimeout)(() => preloadNews(), { timeout: 3000 }); // only company pages show news
     // Grok's official data only opens to browsers, so each visitor's browser reads it, like status.x.ai does
     startBrowserSources({
       changed(id) { const c = inBrowser(id); if (!c) return; state.companies.set(id, c); render(); pages.refresh(id); },

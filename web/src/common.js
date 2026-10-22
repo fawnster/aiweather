@@ -29,7 +29,6 @@ const problem = level => (level === 'unknown' ? 0 : LEVEL_RANK[level] ?? 0);
 // Every company has its real mark (see public/icons/CREDITS.md); all render as one-colour masks.
 const ICONS = new Set(['claude', 'openai', 'gemini', 'grok', 'deepseek', 'qwen', 'kimi', 'minimax', 'perplexity', 'cohere', 'ai21', 'manus', 'devin', 'ideogram', 'stability', 'elevenlabs', 'runway', 'groq', 'cerebras', 'fireworks', 'lambda', 'together', 'huggingface', 'baseten', 'novita', 'luma', 'udio', 'poe', 'cursor', 'copilot', 'windsurf', 'amp', 'lovable', 'v0',
   'bolt', 'factory', 'zed', 'warp', 'augment', 'modal', 'cartesia', 'heygen', 'gamma', 'assemblyai', 'tavus', 'higgsfield', 'synteq', 'openrouter']);
-const ICON_FILE = { heygen: 'heygen.png' };
 
 export const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[c]);
 export const seen = iso => !!iso && Date.parse(iso) > 1e12; // the backend marks never-fetched sources with the epoch
@@ -41,7 +40,7 @@ export const ago = iso => {
 export const clock = iso => new Date(iso).toLocaleTimeString([], { hour: 'numeric', minute: '2-digit' });
 export const shortDate = iso => new Date(iso).toLocaleDateString([], { month: 'short', day: 'numeric' });
 export const iconHtml = (c, cls = 'ico') => ICONS.has(c.id)
-  ? `<span class="${cls}" style="--icon:url(/icons/${ICON_FILE[c.id] ?? `${c.id}.svg`})" aria-hidden="true"></span>`
+  ? `<span class="${cls}" data-icon="${c.id}" aria-hidden="true"></span>` // its mark is in icons.css (main.js loads it)
   : `<span class="${cls} mono" aria-hidden="true">${esc(c.name[0])}</span>`;
 
 /** Weather glyph for a status level (moon instead of sun at night, in the viewer's own time). */

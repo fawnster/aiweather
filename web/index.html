@@ -32,15 +32,10 @@
 })();
 </script>
 <script>
-/* The sky and the board start loading now, alongside the scripts instead of after them (this sits above the stylesheet,
-   which would hold it back): the board's data, and the first-frame still of the sky the board most often shows (a clear
-   sky for the viewer's time of day, as weather.js picks). */
-(function () {
-  window.__snapshot = fetch('/api/snapshot', { cache: 'no-store' }).then(function (r) { return r.ok ? r.json() : null; }).catch(function () { return null; });
-  var d = new Date(), h = d.getHours() + d.getMinutes() / 60, l = document.createElement('link');
-  l.rel = 'preload'; l.as = 'image'; l.href = h < 5.5 || h >= 20.5 ? '/video/clear-night.jpg' : '/video/clear-day.jpg';
-  document.head.appendChild(l);
-})();
+/* The board's data starts loading now, alongside the scripts instead of after them (this sits above the stylesheet,
+   which would hold it back). The sky's first still is asked for the moment this arrives (main.js): a guess made any
+   earlier was usually the wrong weather, and its download slowed down everything else. */
+window.__snapshot = fetch('/api/snapshot', { cache: 'no-store' }).then(function (r) { return r.ok ? r.json() : null; }).catch(function () { return null; });
 </script>
 <link rel="stylesheet" href="/src/style.css">
 </head>
@@ -72,7 +67,7 @@
 </header>
 
 <main id="home" class="home">
-  <section class="forecast" aria-live="polite">
+  <section class="forecast">
     <h1 id="headline" class="headline">Reading the sky</h1>
     <p id="subline" class="subline"></p>
     <p id="footnote" class="footnote"></p>
@@ -84,6 +79,7 @@
   </section>
   <section id="stations" class="stations" aria-label="Every AI service"></section>
 </main>
+<p id="said" class="vh" role="status"></p>
 
 <section id="pages" class="pages" hidden aria-label="Company details">
   <div id="track" class="track"></div>
@@ -112,6 +108,7 @@
     </div>
     <button type="button" class="link" id="editor-reset">Reset to the default list</button>
   </div>
+  <p id="ed-said" class="vh" role="status"></p>
 </div>
 
 <div id="tip" class="tip" role="tooltip" hidden></div>

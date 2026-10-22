@@ -70,7 +70,7 @@ function hero(c, p) {
       <p class="cp-kicker">${iconHtml(c, 'ico tiny')}<span>${esc(CATEGORY[c.category] ?? '')}</span></p>
       <h1 class="cp-name">${esc(c.name)}</h1>
       ${val != null
-        ? `<p class="cp-big dot-num" aria-label="${esc(pctText(val))} uptime"><span class="cp-roll" data-v="${esc(pctText(val))}">${dotText(pctText(val))}</span></p>`
+        ? `<p class="cp-big dot-num"><span class="cp-roll" data-v="${esc(pctText(val))}">${dotText(pctText(val))}</span></p>`
         : c.level === 'no-page' && c.officialUrl
           ? `<p class="cp-big open"><a class="cp-open" href="${esc(c.officialUrl)}" target="_blank" rel="noopener">Open ${esc(c.name)}'s status page<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17L17 7M9 7h8v8"/></svg></a></p>`
           : `<p class="cp-big icon">${wxImg(c.level, 'wx hero')}</p>`}
@@ -240,7 +240,7 @@ function shells() {
   const frag = document.createDocumentFragment();
   for (const id of ids) {
     let el = pages.get(id);
-    if (!el) { el = document.createElement('article'); el.className = 'cp'; el.dataset.id = id; el.tabIndex = -1; pages.set(id, el); io.observe(el); }
+    if (!el) { el = document.createElement('article'); el.className = 'cp'; el.dataset.id = id; el.tabIndex = -1; el.inert = true; pages.set(id, el); io.observe(el); }
     frag.append(el);
   }
   track.replaceChildren(frag);
@@ -256,9 +256,14 @@ function renderDots() {
     const c = state.companies.get(order[i]);
     html += `<button type="button" class="dot${i === current ? ' on' : ''}${edge ? ' small' : ''}" data-i="${i}" aria-label="${esc(c?.name ?? '')}"${i === current ? ' aria-current="true"' : ''}></button>`;
   }
+  // focus stays where the keyboard is: on the dots as they redraw, and on the page when an arrow runs out of pages
+  const onDot = dotsEl.contains(document.activeElement);
   dotsEl.innerHTML = html;
-  $('#pg-prev').disabled = current <= 0;
-  $('#pg-next').disabled = current >= n - 1;
+  if (onDot) dotsEl.querySelector('.dot.on')?.focus({ preventScroll: true });
+  for (const [b, off] of [[$('#pg-prev'), current <= 0], [$('#pg-next'), current >= n - 1]]) {
+    if (off && b === document.activeElement) pages.get(order[current])?.focus({ preventScroll: true });
+    b.disabled = off;
+  }
 }
 
 /** The big number rolls up from zero, like the old pages did. */
@@ -272,9 +277,13 @@ function rollHero(id) {
 let skyTimer = 0;
 function settle() {
   const idx = Math.max(0, Math.min(order.length - 1, Math.round(track.scrollLeft / Math.max(1, track.clientWidth))));
+  const id = order[idx], page = pages.get(id), left = current >= 0 ? pages.get(order[current]) : null;
+  const follow = !!left && left !== page && left.contains(document.activeElement);
+  // only the page in view can be read out and tabbed into (the ones either side are built ahead, off screen)
+  for (const el of track.children) { const off = el !== page; if (el.inert !== off) el.inert = off; }
+  if (follow) page?.focus({ preventScroll: true }); // the keyboard goes along to the new page
   if (idx === current) return;
   current = idx;
-  const id = order[idx];
   renderDots();
   if (location.pathname !== `/${id}`) history.replaceState({ id }, '', `/${id}`);
   document.title = `${state.companies.get(id)?.name ?? 'aiweather'} · aiweather`;

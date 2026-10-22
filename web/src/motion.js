@@ -53,12 +53,13 @@ export function pop(el, to = 1.18) {
  * columns was thousands of elements to restyle every time a page opened or closed).
  */
 const DIGITS = '0123456789'.split('').map(d => `<span>${d}</span>`).join('');
-const restHtml = text => [...text].map(c => `<span class="rc${c === '.' ? ' dp' : ''}" aria-hidden="true">${c}</span>`).join('');
+// the digits are drawn for the eye and hidden from screen readers, which read the whole number from one plain text
+const said = text => `<span class="vh">${text}</span>`;
+const restHtml = text => [...text].map(c => `<span class="rc${c === '.' ? ' dp' : ''}" aria-hidden="true">${c}</span>`).join('') + said(text);
 export function rollNumber(el, text) {
   const prev = el.dataset.value ?? '';
   if (prev === text) return;
   el.dataset.value = text;
-  el.setAttribute('aria-label', text);
   clearTimeout(el._rest);
   if (reduced()) { el.innerHTML = restHtml(text); return; }
   const chars = [...text];
@@ -67,12 +68,12 @@ export function rollNumber(el, text) {
   if (!same || !el.querySelector('.rd-col')) {
     el.innerHTML = chars.map(c => /\d/.test(c)
       ? `<span class="rd" aria-hidden="true"><span class="rd-col">${DIGITS}</span></span>`
-      : `<span class="rc${c === '.' ? ' dp' : ''}" aria-hidden="true">${c}</span>`).join('');
+      : `<span class="rc${c === '.' ? ' dp' : ''}" aria-hidden="true">${c}</span>`).join('') + said(text);
     // a number of the same shape rolls on from its old digits; a new one rolls up from zero
     const from = same ? [...prev].filter(c => /\d/.test(c)) : [];
     el.querySelectorAll('.rd-col').forEach((c, i) => { c.style.transition = 'none'; c.style.transform = `translateY(${-(+from[i] || 0) * 10}%)`; });
     void el.offsetWidth;
-  }
+  } else el.querySelector('.vh').textContent = text;
   const digits = chars.filter(c => /\d/.test(c)), cols = el.querySelectorAll('.rd-col');
   cols.forEach((col, i) => {
     col.style.transition = `transform var(--dur-select) var(--ease-select) ${i * 28}ms`;

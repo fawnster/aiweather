@@ -17,7 +17,7 @@ function row(c, on) {
     ${iconHtml(c)}
     <span class="ed-name">${esc(c.name)}</span>
     <span class="ed-cond">${wxImg(c.level, 'wx ed')}<span>${esc(c.level === 'operational' ? 'Clear' : lv.sky === 'Unknown' ? 'Unknown' : lv.sky)}</span></span>
-    <button type="button" class="ed-toggle" role="switch" aria-checked="${on}" aria-label="${on ? 'Hide' : 'Show'} ${esc(c.name)}"><i></i></button>`;
+    <button type="button" class="ed-toggle" role="switch" aria-checked="${on}" aria-label="Show ${esc(c.name)}"><i></i></button>`;
   return li;
 }
 
@@ -60,9 +60,11 @@ function flip(mutate) {
 
 function toggle(li) {
   const on = li.parentElement === onList;
+  const keys = li.contains(document.activeElement); // the row is rebuilt: a keyboard stays on its switch
+  let fresh;
   flip(() => {
     const c = state.companies.get(li.dataset.id);
-    const fresh = row(c, !on);
+    fresh = row(c, !on);
     li.replaceWith(fresh);
     if (on) {
       const after = [...offList.children].find(x => state.companies.get(x.dataset.id)?.name.localeCompare(c.name) > 0);
@@ -70,6 +72,7 @@ function toggle(li) {
     } else onList.append(fresh);
     counts();
   });
+  if (keys) fresh.querySelector('.ed-toggle').focus();
   commit();
 }
 
@@ -121,13 +124,24 @@ function keyMove(li, dir) {
   if (!sib) return;
   flip(() => onList.insertBefore(li, dir < 0 ? sib : sib.nextSibling));
   li.querySelector('.ed-grip').focus();
+  $('#ed-said').textContent = `${state.companies.get(li.dataset.id)?.name ?? ''}: ${[...onList.children].indexOf(li) + 1} of ${onList.children.length}`;
   commit();
+}
+
+// while the list is open, only the list can be reached: everything behind it is inert (the weather line still speaks)
+let madeInert = [];
+function holdPage(on) {
+  if (on) {
+    madeInert = [...document.body.children].filter(el => el !== root && el.id !== 'said' && !el.inert);
+    madeInert.forEach(el => { el.inert = true; });
+  } else { madeInert.forEach(el => { el.inert = false; }); madeInert = []; }
 }
 
 export function openEditor() {
   lastFocus = document.activeElement;
   render();
   root.hidden = false;
+  holdPage(true);
   document.body.classList.add('editing');
   // appears where it sits (a small zoom and fade), the dimmed page behind it fades in: nothing slides up
   if (!reduced()) {
@@ -144,8 +158,12 @@ export async function closeEditor() {
     await root.querySelector('.editor-sheet').animate([{ transform: 'none', opacity: 1 }, { transform: 'scale(.97)', opacity: 0 }], { duration: 180, easing: 'ease-in', fill: 'forwards' }).finished.catch(() => {});
   }
   root.hidden = true;
+  holdPage(false);
+  $('#ed-said').textContent = '';
   root.getAnimations({ subtree: true }).forEach(x => x.cancel()); // drop the held fade so the next open starts clean
-  lastFocus?.focus?.({ preventScroll: true });
+  // back to what opened it; "Edit list" sits in the menu, which closed behind the list, so then the Menu button
+  const back = lastFocus?.isConnected && !lastFocus.closest('[inert]') ? lastFocus : $('#menu-toggle');
+  back?.focus?.({ preventScroll: true });
 }
 export const editorOpen = () => !root.hidden;
 

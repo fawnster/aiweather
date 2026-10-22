@@ -266,6 +266,7 @@ export class Sky {
     this.wx = { rain: 0, fog: 0, flash: 0 };
     this.dots = true;
     this.videoPool = new Map(); // one <video> per clip, reused across weather changes
+    this.stills = new Map(); // each clip's first-frame still, asked for once
     this.raw = false;          // Video mode
     this.grade = [1, 1, 1];    // set by the weather controller
     this.tint = 0;
@@ -339,6 +340,12 @@ export class Sky {
       v.addEventListener('error', () => done(false), { once: true });
     });
   }
+  /** A clip's still, asked for once and kept (a few kB each). main.js asks for the first sky's while it builds the board. */
+  still(url) {
+    let im = this.stills.get(url);
+    if (!im) { im = new Image(); im.fetchPriority = 'high'; im.src = url; this.stills.set(url, im); }
+    return im;
+  }
   /** Fetch clips in the background so a later weather change never waits on the network. */
   preload(urls) { if (!this.noVideo) for (const u of urls) this.video(u); }
 
@@ -348,10 +355,13 @@ export class Sky {
     // A clip that can already play is drawn as it is. Otherwise its still (the clip's own first frame, a few kB) is drawn
     // at once and the clip takes over in place as soon as it plays (uploadVideo): the sky never waits on the clip, and
     // the switch can't be seen because the frames match.
+    // The still is asked for first and the clip only once it's in: on a slow line the clip (about 250 kB) would share
+    // the connection with the still (about 10 kB) and hold the first sky back.
+    const loaded = scene.video && !this.noVideo ? this.videoPool.get(scene.video) : null;
+    let src = loaded && loaded.readyState >= 2 ? loaded : null;
+    if (!src && scene.img) { const im = this.still(scene.img); try { await im.decode(); src = im; } catch {} }
     const video = scene.video && !this.noVideo ? this.video(scene.video) : null;
     video?.play().catch(() => {}); // low-power mode can refuse autoplay; the still, then the clip's first frame, still show
-    let src = video && video.readyState >= 2 ? video : null;
-    if (!src && scene.img) { const im = new Image(); im.src = scene.img; try { await im.decode(); src = im; } catch {} }
     if (!src && video) src = await this.clip(scene.video); // no still: wait for the clip itself
     if (!src) return { scene, tex: this.dummy, size: [1, 1], video };
     // create + bind the texture only now: the render loop binds other textures during the awaits above

@@ -1,0 +1,25 @@
+# aiweather
+
+> The live status of every AI, as weather. aiweather reads the official status pages of 48 AI companies (the model
+> labs, the clouds that serve their models, coding tools and creative tools) and draws them as one live sky: clear
+> when everything works, clouds, rain and storms as things break.
+
+- Official sources only: each company's own status page, read with an honest User-Agent. Nothing behind bot
+  protection is bypassed.
+- Nothing made up: a page that can't be read shows "couldn't check", never "clear". Uptime figures are the ones the
+  companies publish; where a page publishes only incident history, the figure is worked out from the official
+  incident times and labelled that way.
+- Each company is checked about once a minute. No accounts, no tracking, no database.
+
+## API
+
+- [Snapshot](https://aiweather.synteq.app/api/snapshot): every company's current state, as JSON
+- [Uptime](https://aiweather.synteq.app/api/uptime): official daily history and uptime figures (`/api/uptime/{id}` for one company)
+- [News](https://aiweather.synteq.app/api/news): each company's latest official news (`/api/news/{id}` for one company)
+- [Health](https://aiweather.synteq.app/api/health): readiness, and each source's last success, error and latency
+- `wss://aiweather.synteq.app/ws`: a snapshot on connect, then each change as it happens
+
+## Source
+
+- [Code (MIT)](https://github.com/fawnster/aiweather)
+- [Source coverage](https://github.com/fawnster/aiweather/blob/main/server/SOURCES.md): the official page each company is read from
