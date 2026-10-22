@@ -74,8 +74,9 @@ Live state is in memory, so a redeploy starts with an empty "Latest changes" lis
 - `GET /api/news`, `GET /api/news/:id`: each company's latest official news.
 - `GET /api/health`: readiness, uptime, and each source's last success, error and latency. `ok: true` does **not**
   mean every upstream is healthy.
-- `GET /ws` (upgrade): a snapshot on connect, then event and company changes; a JSON ping every 25 s, answered with
-  `{"t":"pong"}`. Unresponsive or backlogged clients are disconnected.
+- `GET /ws` (upgrade): a snapshot on connect, then event and company changes; a JSON ping every 25 s, carrying each
+  company's last good read (`fetched`, by id) and answered with `{"t":"pong"}`. Unresponsive or backlogged clients are
+  disconnected.
 
 ## Operations
 
