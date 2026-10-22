@@ -469,7 +469,9 @@ canvas.bars { display: block; } .bars.big { --bar-gap: 2.5; } .bars.mini { --bar
   /* (the fallbacks are the header's real height, so nothing moves when main.js measures it: the old 120 px dropped the
      headline 84 px on a slow first load, then jumped it up) */
   .forecast { min-height: 0; justify-content: flex-start; align-items: center; text-align: center; padding-top: calc(var(--top-h, calc(env(safe-area-inset-top) + 36px)) + 56px); }
-  .subline:empty { min-height: 141px; } /* the count's own height, held until the first reading fills it */
+  /* the count's own height, held until the first reading fills it: its margins, the number (the same clamp as below)
+     and one line of words (two under 375 px, where "AI services report problems right now." wraps) */
+  .subline:empty { min-height: calc(37.5px + clamp(84px, 25vw, 112px)); }
   .headline { font: 600 clamp(26px, 7.6vw, 32px)/1.15 Manrope; letter-spacing: -.02em; max-width: 13em; }
   .subline { margin-top: 0; font-size: 19px; font-weight: 600; }
   .sub-big { display: flex; justify-content: center; align-items: baseline; gap: 8px; margin: 6px 0 4px; }
@@ -527,6 +529,7 @@ canvas.bars { display: block; } .bars.big { --bar-gap: 2.5; } .bars.mini { --bar
   .ed-cond span { display: none; }
   .ed-cond { display: none; }
 }
+@media (max-width: 374px) { .subline:empty { min-height: calc(65px + clamp(84px, 25vw, 112px)); } }
 /* narrow phones (360 px, most Androids): the strip and figure give a little room so every name fits whole */
 @media (max-width: 370px) {
   .row { grid-template-columns: 26px minmax(0, 1fr) 36px 92px; }

@@ -118,12 +118,15 @@ function renderStations(cs) {
   // their new places instead of jumping: measured before the move, then animated from there
   const was = !fresh && !reduced() && [...host.children].map(e => e.dataset.id).join() !== ids
     ? new Map([...host.children].map(el => [el, el.getBoundingClientRect()])) : null;
+  const entering = fresh && !reduced() ? [] : null;
   cs.forEach((c, i) => {
     const el = stationFor(c);
     if (host.children[i] !== el) host.insertBefore(el, host.children[i] || null);
-    if (fresh && !reduced()) { el.style.animationDelay = `${Math.min(i, 30) * 12}ms`; el.classList.remove('enter'); void el.offsetWidth; el.classList.add('enter'); }
+    if (entering) { el.style.animationDelay = `${Math.min(i, 30) * 12}ms`; el.classList.remove('enter'); entering.push(el); }
     if (uptime.has(c.id)) paintUptime(c.id);
   });
+  // the fade-in restarts on every tile after one layout for all of them (one per tile was 48 layouts on a phone)
+  if (entering?.length) { void host.offsetWidth; entering.forEach(el => el.classList.add('enter')); }
   while (host.children.length > cs.length) host.lastElementChild.remove();
   if (was) for (const el of host.children) {
     const a = was.get(el); if (!a) continue;

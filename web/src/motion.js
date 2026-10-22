@@ -65,6 +65,15 @@ export function rollNumber(el, text) {
   const chars = [...text];
   const shape = s => [...s].map(c => (/\d/.test(c) ? '9' : c)).join('');
   const same = !!prev && shape(prev) === shape(text);
+  const go = () => {
+    if (el.dataset.value !== text) return; // a newer number took over before this one started
+    const digits = chars.filter(c => /\d/.test(c)), cols = el.querySelectorAll('.rd-col');
+    cols.forEach((col, i) => {
+      col.style.transition = `transform var(--dur-select) var(--ease-select) ${i * 28}ms`;
+      col.style.transform = `translateY(${-(+digits[i]) * 10}%)`;
+    });
+    el._rest = setTimeout(() => { if (el.dataset.value === text) el.innerHTML = restHtml(text); }, (S.select?.ms ?? 400) + cols.length * 28 + 80);
+  };
   if (!same || !el.querySelector('.rd-col')) {
     el.innerHTML = chars.map(c => /\d/.test(c)
       ? `<span class="rd" aria-hidden="true"><span class="rd-col">${DIGITS}</span></span>`
@@ -72,14 +81,17 @@ export function rollNumber(el, text) {
     // a number of the same shape rolls on from its old digits; a new one rolls up from zero
     const from = same ? [...prev].filter(c => /\d/.test(c)) : [];
     el.querySelectorAll('.rd-col').forEach((c, i) => { c.style.transition = 'none'; c.style.transform = `translateY(${-(+from[i] || 0) * 10}%)`; });
-    void el.offsetWidth;
-  } else el.querySelector('.vh').textContent = text;
-  const digits = chars.filter(c => /\d/.test(c)), cols = el.querySelectorAll('.rd-col');
-  cols.forEach((col, i) => {
-    col.style.transition = `transform var(--dur-select) var(--ease-select) ${i * 28}ms`;
-    col.style.transform = `translateY(${-(+digits[i]) * 10}%)`;
-  });
-  el._rest = setTimeout(() => { if (el.dataset.value === text) el.innerHTML = restHtml(text); }, (S.select?.ms ?? 400) + cols.length * 28 + 80);
+    starting.push(go); // it rolls once its start is laid out, together with every other number that arrived with it
+    if (starting.length === 1) queueMicrotask(startRolls);
+  } else { el.querySelector('.vh').textContent = text; go(); }
+}
+// The board's 48 numbers arrive together: one layout lays out all their starting digits (one per number was 48
+// layouts in a row on a phone), then they all roll.
+let starting = [];
+function startRolls() {
+  const list = starting; starting = [];
+  void document.body.offsetWidth;
+  list.forEach(go => go());
 }
 
 /** Run DOM updates inside a View Transition when the browser supports it (the matched-geometry morph). */
