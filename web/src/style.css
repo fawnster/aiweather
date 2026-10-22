@@ -461,6 +461,9 @@ canvas.bars { display: block; } .bars.big { --bar-gap: 2.5; } .bars.mini { --bar
   .pg-back { top: calc(env(safe-area-inset-top) + 4px); }
   .cp-col { padding-top: calc(env(safe-area-inset-top) + 56px); }
   .top-right { gap: 14px; }
+  /* the middle column is only space: at least 12 px of it, instead of two fixed 28 px gaps that pushed Menu off a
+     narrow phone as soon as the status said more than Live */
+  .top { column-gap: 0; grid-template-columns: auto minmax(12px, 1fr) auto; }
   .home { padding: 0 14px 40px; gap: 22px; }
   /* the Weather app's top: where the weather is, the big count under it, centred; Latest changes stays at the bottom of the screen */
   /* (the fallbacks are the header's real height, so nothing moves when main.js measures it: the old 120 px dropped the
@@ -530,11 +533,13 @@ canvas.bars { display: block; } .bars.big { --bar-gap: 2.5; } .bars.mini { --bar
   .row .pct { font-size: 18px; }
   .row .strip { width: 92px; } .row .strip-bars { --bar-gap: 1; }
 }
-/* the narrowest (320 px): the weather icon goes and its words come back, so a name never has to be cut short */
+/* the narrowest (320 px): the weather icon goes, so a name or a status never has to be cut short (the status word and
+   its colour carry the row); the header's mark, name and status get a little smaller so Reconnecting and Menu fit */
 @media (max-width: 340px) {
   .row { grid-template-columns: 26px minmax(0, 1fr) 92px; }
   .row-wx { display: none; }
-  .row .cond-sky { display: inline; }
+  .brand .word { font-size: 19px; } .brand .mark { width: 31px; height: 26px; }
+  .live { font-size: 13px; } .top-right { gap: 12px; }
   /* a scrolled page's top bar: the name and the figure (the sky made a third line, which ran into the page) */
   .cp-mini span + span { display: none; }
 }

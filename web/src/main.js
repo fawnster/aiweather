@@ -324,7 +324,7 @@ function render() {
 function renderUpdated() {
   const el = $('#updated');
   $('.live').classList.toggle('off', !state.connected); // the dot is green only while the live connection is up
-  if (!state.connected) { el.textContent = state.lastMessage ? 'reconnecting' : 'connecting'; return; }
+  if (!state.connected) { el.textContent = state.lastMessage ? 'Reconnecting' : 'Connecting'; return; }
   // scripted data says so in the header instead of a floating badge over the content
   if (state.demo) { el.innerHTML = 'Demo<span class="ago"> · not live data</span>'; return; }
   const newest = [...state.companies.values()].reduce((m, c) => Math.max(m, seen(c.fetchedAt) ? Date.parse(c.fetchedAt) : 0), 0);
