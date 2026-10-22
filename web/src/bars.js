@@ -5,9 +5,11 @@
 const CODE = { operational: 'o', maintenance: 'm', degraded: 'd', partial: 'p', major: 'x', unknown: 'u' };
 const LEVEL_OF = Object.fromEntries(Object.entries(CODE).map(([k, v]) => [v, k]));
 // the same colours as LEVEL in common.js (a canvas can't read CSS variables, so the clear-day colours are read once)
-const COLOUR = { m: '#7FA8F5', d: '#F2B33D', p: '#FF8A3D', x: '#E5484D', u: '#8A8F98' };
-// page charts step their heights by how bad the day was; the board's strips are flat
-const HEIGHT = { o: .62, m: .8, d: .8, p: 1, x: 1, u: 1 };
+const COLOUR = { m: '#7FA8F5', d: '#F2B33D', p: '#FF8A3D', x: '#E5484D' };
+// page charts step their heights by how bad the day was; the board's strips are flat. A day with no published data
+// (a part that's only a few weeks old) is a faint ghost of a clear day: the quietest bar, never a grey wall.
+const HEIGHT = { o: .62, m: .8, d: .8, p: 1, x: 1, u: .62 };
+const NO_DATA = { page: 'rgba(244, 241, 234, .09)', strip: 'rgba(241, 238, 230, .12)' };
 // per kind: [largest gap, smallest gap, corner radius] in CSS px (times --k)
 const KIND = { big: [2.5, .5, 2], mini: [1.5, .5, 2], strip: [1.5, .5, 1] };
 
@@ -42,7 +44,7 @@ function paint(cv, w = cv.clientWidth, h = cv.clientHeight) {
   g.clearRect(0, 0, W, H);
   for (let i = 0; i < n; i++) {
     const c = code[i], bh = flat ? H : H * HEIGHT[c];
-    g.fillStyle = c === 'o' ? (flat ? 'rgba(241,238,230,.32)' : okPage) : COLOUR[c];
+    g.fillStyle = c === 'o' ? (flat ? 'rgba(241,238,230,.32)' : okPage) : c === 'u' ? NO_DATA[flat ? 'strip' : 'page'] : COLOUR[c];
     g.beginPath(); g.roundRect(i * (bw + gap), H - bh, bw, bh, r); g.fill();
   }
 }
