@@ -388,6 +388,33 @@ function releaseHero(hero) {
 }
 const landed = (me, then) => Promise.all(me.anims.map(a => a.finished.catch(() => {}))).then(() => { if (flight === me) { flight = null; then?.(); } });
 
+// A flight's first frame is the heavy one: the page is shown, laid out and drawn, the list behind it goes inert. Started
+// in that same frame, a flight's clock ran on while it was drawn, and on a phone it then showed up half-way there. So
+// that frame is drawn still, everything in it already on its own layer, and the flight starts on the frame after, from
+// its very beginning.
+const afterNextFrame = fn => requestAnimationFrame(() => requestAnimationFrame(fn));
+/** An animation shown at its first frame and held there, not started (play() starts it). Created and then paused,
+ *  Safari ran it for a frame first, and the name jumped out of place and back. */
+function held(el, keyframes, options) {
+  const a = new Animation(new KeyframeEffect(el, keyframes, options), document.timeline);
+  a.currentTime = 0;
+  return a;
+}
+function layer(parts) {
+  document.body.classList.add('flight');
+  for (const el of parts) el.classList.add('fading');
+}
+let unlayerTimer = 0;
+/** A moment after a flight, the layers go back (a frame of drawing while nothing moves). */
+function unlayerSoon() {
+  clearTimeout(unlayerTimer);
+  unlayerTimer = setTimeout(() => {
+    if (flight) return;
+    document.body.classList.remove('flight');
+    for (const el of document.querySelectorAll('.fading')) el.classList.remove('fading');
+  }, 300);
+}
+
 /** Builds a company's page and its neighbours ahead of a tap (on press, or after a short hover), so opening has
  *  nothing left to build and the flight starts on the very next frame. */
 export function prepare(id) {
@@ -409,8 +436,8 @@ export function open(id, { push = true } = {}) {
   if (push && location.pathname !== `/${id}`) history.pushState({ id }, '', `/${id}`);
   const wasOpen = isOpen() && !wasClosing;
   root.hidden = false;
-  document.body.classList.add('paging');
   $('#home').inert = true;
+  document.body.classList.add('held'); // the list behind holds still
   for (const k of [i - 1, i, i + 1]) if (order[k] && !built.has(order[k])) build(order[k]); // built pages are kept (live data marks them stale)
   if (!turning) {
     current = -1;
@@ -420,8 +447,13 @@ export function open(id, { push = true } = {}) {
   const c = state.companies.get(id);
   clearTimeout(skyTimer);
   api.weather.previewing = false;
-  api.weather.set(condForCompany(c), { origin: [.5, .55] });
   let numberFlew = false;
+  // the list fades out, the sky turns to this company's weather, and a number that didn't fly rolls up
+  const begin = (hide = true) => {
+    if (hide) document.body.classList.add('paging');
+    api.weather.set(condForCompany(c), { origin: [.5, .55] });
+    if (!numberFlew) rollHero(id);
+  };
   showTileParts();
   if (!wasOpen && !reduced()) {
     const page = pages.get(id);
@@ -432,30 +464,47 @@ export function open(id, { push = true } = {}) {
     for (const [from, to, text] of pairs) {
       const k = over(from, to, text), was = back?.look.get(to), color = colorOf(to);
       lift(to, k.transformOrigin);
-      anims.push(to.animate([{ transform: was ? was.transform : k.transform }, { transform: 'none' }], { duration: ms, easing: ease }));
-      anims.push(to.animate([{ color: was ? was.color : colorOf(from) }, { color }], { duration: ms, easing: ease }));
+      anims.push(held(to, [{ transform: was ? was.transform : k.transform }, { transform: 'none' }], { duration: ms, easing: ease }));
+      anims.push(held(to, [{ color: was ? was.color : colorOf(from) }, { color }], { duration: ms, easing: ease }));
       // it starts exactly on the tile's own text (same place, size and colour), so the two swap in one frame
-      if (was && was.opacity < 1) anims.push(to.animate([{ opacity: was.opacity }, { opacity: 1 }], { duration: 90, easing: 'linear' }));
+      if (was && was.opacity < 1) anims.push(held(to, [{ opacity: was.opacity }, { opacity: 1 }], { duration: 90, easing: 'linear' }));
       if (to.classList.contains('cp-roll')) numberFlew = true;
     }
     hideTileParts(pairs.map(p => p[0])); // it left the tile
     // the hero's small lines wait for the flying name and number to land; the cards below come in sooner
     for (const el of parts) {
       const was = back?.look.get(el);
-      anims.push(was ? el.animate([{ opacity: was.opacity }, { opacity: 1 }], { duration: 200, easing: 'ease-out' })
-        : el.animate([{ opacity: 0 }, { opacity: 1 }], { duration: 300, delay: el.closest('.cp-hero') ? 260 : 110, easing: 'ease-out', fill: 'backwards' }));
+      anims.push(was ? held(el, [{ opacity: was.opacity }, { opacity: 1 }], { duration: 200, easing: 'ease-out' })
+        : held(el, [{ opacity: 0 }, { opacity: 1 }], { duration: 300, delay: el.closest('.cp-hero') ? 260 : 110, easing: 'ease-out', fill: 'backwards' }));
     }
     const rootWas = back?.look.get(root)?.opacity ?? 1;
-    if (rootWas < 1) anims.push(root.animate([{ opacity: rootWas }, { opacity: 1 }], { duration: 200, easing: 'ease-out' }));
-    const me = flight = { dir: 'open', id, anims, watch: [...fliers, ...parts, root], timer: 0, hero: null, fliers };
-    if (!turning) {
+    if (rootWas < 1) anims.push(held(root, [{ opacity: rootWas }, { opacity: 1 }], { duration: 200, easing: 'ease-out' }));
+    const me = flight = { dir: 'open', id, anims, watch: [...fliers, ...parts, root, $('#home'), $('.top')], timer: 0, hero: null, fliers };
+    const fly = () => {
+      if (flight !== me) return;
+      // the list and the header fade out with the flight, on its clock. Their hidden state (paging) comes in once they
+      // have faded: switched while the fade ran, a phone showed the switch first and the list vanished at once
+      const fades = [[$('#home'), 220], [$('.top'), 160]].map(([el, ms]) => {
+        const o = css(el).opacity;
+        el.style.transition = 'none'; // a fade-in still running from a close would win over this one
+        return el.animate({ opacity: [o, 0] }, { duration: ms, easing: 'cubic-bezier(.2, .6, .4, 1)', fill: 'forwards' });
+      });
+      anims.push(...fades);
+      const undo = () => { $('#home').style.transition = ''; $('.top').style.transition = ''; };
+      Promise.all(fades.map(a => a.finished)).then(() => { document.body.classList.add('paging'); fades.forEach(a => a.cancel()); undo(); }, undo);
+      begin(false);
+      anims.forEach(a => a.play());
       // the arrows, dots bar and Back fade in (CSS) once the flight is under way
+      afterNextFrame(() => { if (flight === me) root.classList.remove('leaving'); });
+    };
+    if (turning) fly(); // it's on screen and moving already: it turns round at once
+    else {
       root.classList.add('leaving');
-      requestAnimationFrame(() => requestAnimationFrame(() => { if (flight === me) root.classList.remove('leaving'); }));
+      layer(parts);
+      afterNextFrame(fly);
     }
-    landed(me, () => { settleFliers(fliers, true); if (isOpen() && !built.has(id)) build(id); }); // news that came in while it flew
-  }
-  if (!numberFlew) rollHero(id);
+    landed(me, () => { settleFliers(fliers, true); unlayerSoon(); if (isOpen() && !built.has(id)) build(id); }); // news that came in while it flew
+  } else { begin(); unlayerSoon(); }
   pages.get(id)?.focus({ preventScroll: true });
   return true;
 }
@@ -484,7 +533,6 @@ export async function close({ push = true } = {}) {
     // then does the copy go, so the text never dims the way a crossfade of two half-clear copies does
     const MOVE = 340, SHOW = 60, FADE = 90;
     const anims = [];
-    root.classList.add('leaving'); // arrows, dots bar, Back and the bottom shade fade out (CSS)
     for (const [from, to, text] of pairs) {
       const k = over(from, to, text), was = back?.look.get(to), color = was ? was.color : colorOf(to);
       let move = was ? was.transform : 'translate(0px, 0px) scale(1)';
@@ -495,17 +543,33 @@ export async function close({ push = true } = {}) {
       }
       lift(to, k.transformOrigin);
       const glide = { duration: MOVE, easing: 'cubic-bezier(.32, .72, 0, 1)', fill: 'forwards' };
-      anims.push(to.animate([{ transform: move }, { transform: k.transform }], glide));
-      anims.push(to.animate([{ color }, { color: colorOf(from) }], glide));
-      if (was && was.opacity < 1) anims.push(to.animate([{ opacity: was.opacity }, { opacity: 1 }], { duration: 90, easing: 'linear', fill: 'forwards' }));
-      anims.push(to.animate([{ opacity: 1 }, { opacity: 0 }], { duration: FADE, delay: MOVE + SHOW, easing: 'linear', fill: 'forwards' }));
-      anims.push(from.animate([{ opacity: 0 }, { opacity: 1 }], { duration: SHOW, delay: MOVE, easing: 'linear', fill: 'both' }));
+      anims.push(held(to, [{ transform: move }, { transform: k.transform }], glide));
+      anims.push(held(to, [{ color }, { color: colorOf(from) }], glide));
+      if (was && was.opacity < 1) anims.push(held(to, [{ opacity: was.opacity }, { opacity: 1 }], { duration: 90, easing: 'linear', fill: 'forwards' }));
+      anims.push(held(to, [{ opacity: 1 }, { opacity: 0 }], { duration: FADE, delay: MOVE + SHOW, easing: 'linear', fill: 'forwards' }));
+      anims.push(held(from, [{ opacity: 0 }, { opacity: 1 }], { duration: SHOW, delay: MOVE, easing: 'linear', fill: 'both' }));
     }
-    for (const el of parts) anims.push(el.animate([{ opacity: back?.look.get(el)?.opacity ?? 1 }, { opacity: 0 }], { duration: 120, easing: 'ease-in', fill: 'forwards' }));
-    if (hero && pairs.length) anims.push(hero.animate([{ opacity: +hero.style.opacity }, { opacity: 1 }], { duration: 160, easing: 'ease-out', fill: 'forwards' }));
-    if (!pairs.length) anims.push(root.animate([{ opacity: 1 }, { opacity: 0 }], { duration: 220, easing: 'ease-in', fill: 'forwards' }));
+    for (const el of parts) anims.push(held(el, [{ opacity: back?.look.get(el)?.opacity ?? 1 }, { opacity: 0 }], { duration: 120, easing: 'ease-in', fill: 'forwards' }));
+    // an open turned round before the list had faded out: the list and header fade back from where they got to
+    if (back && !document.body.classList.contains('paging')) for (const el of [$('#home'), $('.top')]) {
+      const o = back.look.get(el)?.opacity;
+      if (o != null && o < 1) anims.push(held(el, { opacity: [o, 1] }, { duration: 220, easing: 'ease-out' }));
+    }
+    if (hero && pairs.length) anims.push(held(hero, [{ opacity: +hero.style.opacity }, { opacity: 1 }], { duration: 160, easing: 'ease-out', fill: 'forwards' }));
+    if (!pairs.length) anims.push(held(root, [{ opacity: 1 }, { opacity: 0 }], { duration: 220, easing: 'ease-in', fill: 'forwards' }));
     // the list fades in once the page's cards are nearly gone, so the two never sit on top of each other
-    const me = flight = { dir: 'close', id, anims, watch: [...fliers, ...parts, root], timer: setTimeout(() => document.body.classList.remove('paging'), 100), hero, fliers };
+    const me = flight = { dir: 'close', id, anims, watch: [...fliers, ...parts, root], timer: 0, hero, fliers };
+    const fly = () => {
+      if (flight !== me) return;
+      root.classList.add('leaving'); // arrows, dots bar, Back and the bottom shade fade out (CSS)
+      anims.forEach(a => a.play());
+      me.timer = setTimeout(() => document.body.classList.remove('paging'), 100);
+    };
+    if (back) fly(); // turning round an open: at once
+    else {
+      layer(parts);
+      afterNextFrame(fly);
+    }
     await Promise.all(anims.map(x => x.finished.catch(() => {})));
     if (flight !== me) return; // turned round (or replaced) meanwhile
     flight = null;
@@ -515,7 +579,8 @@ export async function close({ push = true } = {}) {
     settleFliers(fliers);
     releaseHero(hero);
   }
-  document.body.classList.remove('paging');
+  unlayerSoon();
+  document.body.classList.remove('paging', 'held');
   root.hidden = true;
   current = -1;
   document.title = HOME_TITLE;

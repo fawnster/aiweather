@@ -59,8 +59,10 @@ body.paging .veil::after { opacity: 1; }
 .top { position: fixed; z-index: 20; top: 0; left: 0; right: 0; display: grid; grid-template-columns: auto 1fr auto; align-items: center; gap: calc(28px * var(--k));
   padding: calc(env(safe-area-inset-top) + calc(18px * var(--k))) var(--pad) 0; transition: opacity .2s; }
 body.paging .top, body.editing .top { opacity: 0; pointer-events: none; }
-/* the page behind a company page or the list editor doesn't scroll */
-html:has(body.paging), html:has(body.editing), body.paging, body.editing { overflow: hidden; }
+body.paging .top { transition: none; } /* fades out with the flight too (pages.js) */
+/* the page behind a company page or the list editor doesn't scroll (its own class: switching the root's overflow is
+   heavy, so pages.js does it in a frame where nothing moves) */
+html:has(body.held), html:has(body.editing), body.held, body.editing { overflow: hidden; }
 /* once the page scrolls, the header gets a solid backing so the list never runs under the logo */
 .top::before { content: ''; position: absolute; z-index: -1; left: 0; right: 0; top: 0; bottom: -28px; pointer-events: none; opacity: 0; transition: opacity .2s;
   background: linear-gradient(180deg, #050A1E 0, #050A1E calc(100% - 28px), rgba(5, 10, 30, 0) 100%); }
@@ -119,7 +121,12 @@ body.demo-data .live { color: var(--warn); }
 /* ── home ───────────────────────────────────────────────────────────────── */
 .home { position: relative; z-index: 2; min-height: 100vh; display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, calc(620px * var(--k)));
   gap: clamp(calc(24px * var(--k)), 4vw, calc(72px * var(--k))); align-items: start; padding: calc(104px * var(--k)) var(--pad) calc(48px * var(--k)); transition: opacity .25s, transform .25s; }
-body.paging .home, body.editing .home { opacity: 0; pointer-events: none; transition-duration: .14s; }
+body.editing .home { opacity: 0; pointer-events: none; transition-duration: .14s; }
+/* behind a company page the list is inert, which already ignores taps (pointer-events is inherited: setting it too made
+   every element on the board restyle at the start of each open and close). It fades out with the flight (pages.js:
+   its opacity switched under a running fade showed on a phone as the list vanishing at once, so this applies once
+   the fade is done); it fades back in on its own transition when the page closes. */
+body.paging .home { opacity: 0; transition: none; }
 .forecast { max-width: calc(640px * var(--k)); padding-bottom: calc(4px * var(--k));
   /* sticks exactly where it starts, so it never moves while the list scrolls; main.js lowers --fc-top only when the
      column holds more than fits, so then it scrolls up just far enough to show its end */
@@ -235,6 +242,10 @@ body.arranging .st, body.arranging .row { cursor: grab; }
 .cp-hero .dp::after { box-shadow: var(--sky-shadow); } /* the same shadow the digits cast on the sky */
 /* a name or number in flight between its tile and its page has no glow: redrawing one each frame made phones stutter */
 .flying, .flying * { text-shadow: none !important; } .flying .dp::after { box-shadow: none !important; }
+/* everything a flight moves or fades is on its own layer from the flight's first, still frame (pages.js), so the motion
+   itself never waits on drawing */
+.flying { will-change: transform; } .fading { will-change: opacity; }
+body.flight .home { will-change: opacity; } /* (not the sky's shade: Safari then stopped drawing it, and the sky flashed bright) */
 
 /* ── latest changes ─────────────────────────────────────────────────────── */
 .feed { margin-top: calc(28px * var(--k)); max-width: calc(560px * var(--k)); padding: calc(14px * var(--k)) calc(18px * var(--k)) calc(4px * var(--k)); border-radius: calc(18px * var(--k)); background: var(--surface); box-shadow: inset 0 0 0 1px rgba(255, 255, 255, .06); text-shadow: none; }
