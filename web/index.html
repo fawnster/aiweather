@@ -39,6 +39,7 @@
 window.__snapshot = fetch('/api/snapshot', { cache: 'no-store' }).then(function (r) { return r.ok ? r.json() : null; }).catch(function () { return null; });
 </script>
 <link rel="stylesheet" href="/src/style.css">
+<noscript><style>.live, .subline, .feed, .brand .mark, .menu-toggle { display: none; }</style></noscript>
 </head>
 <body data-weather="clear" data-view="grid">
 <canvas id="sky" aria-hidden="true"></canvas>
@@ -70,6 +71,7 @@ window.__snapshot = fetch('/api/snapshot', { cache: 'no-store' }).then(function 
 <main id="home" class="home">
   <section class="forecast">
     <h1 id="headline" class="headline">Reading the sky</h1>
+    <noscript><p class="footnote">aiweather draws its live board with JavaScript, which is off in this browser. The same readings are at <a href="/api/snapshot">/api/snapshot</a>.</p></noscript>
     <p id="subline" class="subline"></p>
     <p id="footnote" class="footnote"></p>
     <div id="affected" class="affected"></div>
