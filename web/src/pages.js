@@ -42,6 +42,8 @@ function partsOf(u, p, c) {
 }
 
 
+// a level as the end of "OpenAI reports …" ("reports degraded." read like a typo)
+const REPORTS = { degraded: 'degraded performance', partial: 'a partial outage', major: 'a major outage', maintenance: 'maintenance under way' };
 /** One plain sentence, built only from what the official source says. */
 function summary(c, u, p) {
   const lv = LEVEL[c.level] ?? LEVEL.unknown;
@@ -53,7 +55,7 @@ function summary(c, u, p) {
     const i = c.openIncidents[0], more = c.openIncidents.length - 1;
     return `Happening now: “${i.title}” (${i.status || lv.word.toLowerCase()}), started ${ago(i.startedAt)}.${more > 0 ? ` ${more} more open.` : ''}`;
   }
-  if (c.level !== 'operational') return `${c.name} reports ${lv.word.toLowerCase()}.`;
+  if (c.level !== 'operational') return `${c.name} reports ${REPORTS[c.level] ?? lv.word.toLowerCase()}.`;
   const days = p?.days ?? [];
   for (let k = days.length - 1; k >= 0; k--) {
     const d = days[k];
