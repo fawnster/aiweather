@@ -174,6 +174,15 @@ function placeLine(cs) {
 }
 
 function renderForecast(cs, cond) {
+  // every company hidden: say so and offer the way back, instead of "all 0 services report normal operation"
+  $('.feed').hidden = !cs.length;
+  if (!cs.length) {
+    setHeadline('Your list is empty');
+    put($('#subline'), '<span class="sub-rest">Every company is hidden. <button type="button" class="sub-edit">Edit your list</button> to bring some back.</span>');
+    put($('#footnote'), ''); put($('#affected'), '');
+    say('empty', 'Your list is empty.');
+    return;
+  }
   const readable = cs.filter(c => c.sourceKind !== 'none' && c.level !== 'unknown');
   const hurt = readable.filter(c => ['degraded', 'partial', 'major'].includes(c.level));
   const names = arr => arr.map(c => c.name);
@@ -243,6 +252,7 @@ function feedRow(e) {
   return li;
 }
 $('#feed').addEventListener('click', e => { const b = e.target.closest('.feed-row'); if (b) openCompany(b.dataset.id); });
+$('#subline').addEventListener('click', e => { if (e.target.closest('.sub-edit')) openEditor(); });
 // Right after a deploy the server has seen no changes yet, so the list fills up with the official incidents of
 // the last 24 hours (open ones, and ones resolved), newest first. All of it is the companies' own posts.
 function incidentItems(cs) {

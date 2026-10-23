@@ -34,6 +34,7 @@ svg { display: block; }
 .vh { position: absolute; width: 1px; height: 1px; margin: -1px; padding: 0; border: 0; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
 .num { font-family: Doto, Manrope, monospace; font-weight: 900; letter-spacing: 0; font-variant-numeric: tabular-nums; white-space: nowrap; }
 .subline .num { font-size: 1.18em; line-height: 1; }
+.sub-edit { font: inherit; color: var(--ink); text-decoration: underline; text-underline-offset: .2em; text-decoration-thickness: 1px; }
 .dot-num { font-family: Doto, Manrope, monospace; font-weight: 900; letter-spacing: 0; font-variant-numeric: tabular-nums; white-space: nowrap; }
 .wx { display: block; width: calc(30px * var(--k)); height: calc(30px * var(--k)); flex: none; pointer-events: none; user-select: none; }
 :root { --sky-shadow: 0 1px 2px rgba(2, 4, 12, .55), 0 0 22px rgba(3, 6, 18, .95); }
