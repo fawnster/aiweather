@@ -379,7 +379,8 @@ function react(e) {
 // --- header: display controls, colours, your list, hide menu -----------------------------------
 function placeRule(group) {
   const on = group.querySelector(`[data-value="${group.dataset.pref === 'view' ? viewNow() : prefs[group.dataset.pref]}"]`);
-  group.querySelectorAll('[role=radio]').forEach(b => b.setAttribute('aria-checked', String(b === on)));
+  // one stop for Tab (the chosen option); the arrow keys move between options, like any radio group
+  group.querySelectorAll('[role=radio]').forEach(b => { b.setAttribute('aria-checked', String(b === on)); b.tabIndex = b === on ? 0 : -1; });
   const rule = group.querySelector('.rule');
   if (on) { rule.style.width = `${on.offsetWidth}px`; rule.style.transform = `translateX(${on.offsetLeft}px)`; }
 }
@@ -390,6 +391,14 @@ function switchView(val) {
 }
 document.querySelectorAll('.opt').forEach(group => {
   placeRule(group);
+  group.addEventListener('keydown', e => {
+    const opts = [...group.querySelectorAll('[role=radio]')], i = opts.indexOf(document.activeElement);
+    const to = { ArrowRight: i + 1, ArrowDown: i + 1, ArrowLeft: i - 1, ArrowUp: i - 1, Home: 0, End: opts.length - 1 }[e.key];
+    if (i < 0 || to == null) return;
+    e.preventDefault();
+    const next = opts[(to + opts.length) % opts.length];
+    next.focus(); next.click(); // the choice follows the focus
+  });
   group.addEventListener('click', e => {
     const b = e.target.closest('[data-value]'); if (!b) return;
     const key = group.dataset.pref, val = b.dataset.value;
