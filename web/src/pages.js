@@ -23,6 +23,7 @@ const dayLabel = (date, i) => (i === 0 ? 'Today' : new Date(`${date}T12:00:00Z`)
 const DAY_WORD = { unknown: '–', degraded: 'Cloudy' }; // short enough for a day's column; the icon says the rest
 const dayWord = d => (d.level === 'operational' ? 'OK' : d.downMinutes ? fmtMin(d.downMinutes).replace(' min', 'm') : DAY_WORD[d.level] ?? LEVEL[d.level]?.sky ?? '');
 // how many days a part's bars cover: the same window as its figure (a page that only publishes 30 days shows 30)
+const NEW_TAB = '<span class="vh"> (opens in a new tab)</span>'; // said after a link that leaves for another site
 const spanOf = x => (x.pct90 == null && x.pct30 != null ? 30 : 90);
 // A company's parts, most important first: the one the headline uses, then any with a problem right now, then the
 // ones people use (the API, the app, the chat, the site itself), then the rest in the status page's own order, with
@@ -73,7 +74,7 @@ function hero(c, p) {
       ${val != null
         ? `<p class="cp-big dot-num"><span class="cp-roll" data-v="${esc(pctText(val))}">${dotText(pctText(val))}</span></p>`
         : c.level === 'no-page' && c.officialUrl
-          ? `<p class="cp-big open"><a class="cp-open" href="${esc(c.officialUrl)}" target="_blank" rel="noopener">Open ${esc(c.name)}'s status page<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17L17 7M9 7h8v8"/></svg></a></p>`
+          ? `<p class="cp-big open"><a class="cp-open" href="${esc(c.officialUrl)}" target="_blank" rel="noopener">Open ${esc(c.name)}'s status page<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17L17 7M9 7h8v8"/></svg>${NEW_TAB}</a></p>`
           : `<p class="cp-big icon">${wxImg(c.level, 'wx hero')}</p>`}
       <p class="cp-cond">${esc(c.level === 'operational' ? 'Clear' : lv.sky === 'Unknown' || c.level === 'no-page' ? lv.word : `${lv.sky} · ${lv.word}`)}</p>
       <p class="cp-hl">${esc(hl || (c.sourceKind === 'none' ? (/^https:\/\/status\./.test(c.officialUrl || '') ? '' : 'No status page') : 'No uptime published'))}</p>
@@ -92,7 +93,7 @@ function openIncidents(c) {
   return `<ol class="incidents">${c.openIncidents.slice(0, 3).map(i => `
     <li style="--c:${LEVEL[i.level]?.color ?? 'var(--unk)'}">
       <p class="i-title">${esc(i.title)}</p>
-      <p class="i-meta">${esc(i.status ? i.status[0].toUpperCase() + i.status.slice(1) : 'Open')} · started ${esc(ago(i.startedAt))}${i.url ? ` · <a href="${esc(i.url)}" target="_blank" rel="noopener">Official post</a>` : ''}</p>
+      <p class="i-meta">${esc(i.status ? i.status[0].toUpperCase() + i.status.slice(1) : 'Open')} · started ${esc(ago(i.startedAt))}${i.url ? ` · <a href="${esc(i.url)}" target="_blank" rel="noopener">Official post${NEW_TAB}</a>` : ''}</p>
       ${i.latestUpdate ? `<p class="i-update">${esc(i.latestUpdate)}</p>` : ''}
     </li>`).join('')}</ol>${c.openIncidents.length > 3 ? `<p class="i-more">${c.openIncidents.length - 3} more open on the official page.</p>` : ''}`;
 }
@@ -133,7 +134,7 @@ function newsCard(c) {
       ${items.length ? `<ol class="news">${items.map(it => `
         <li><a href="${esc(it.url)}" target="_blank" rel="noopener">
           <span class="n-date">${it.publishedAt ? esc(newsDate(it.publishedAt)) : ''}</span>
-          <span class="n-title">${esc(it.title)}</span>
+          <span class="n-title">${esc(it.title)}</span>${NEW_TAB}
           <svg class="n-go" viewBox="0 0 24 24" aria-hidden="true"><path d="M9 6l6 6-6 6"/></svg>
         </a></li>`).join('')}</ol>`
         : `<p class="card-note">${esc(/\b40[13]\b|blocked/i.test(n.note || '') ? `${c.name}'s news page blocks other sites from reading it.` : n.note || `No official news feed found for ${c.name}.`)}</p>`}
@@ -181,7 +182,7 @@ function srcText(c) {
 function foot(c) {
   return `
     <footer class="cp-foot">
-      ${c.officialUrl ? `<a class="official" href="${esc(c.officialUrl)}" target="_blank" rel="noopener"><span>Official status page</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17L17 7M9 7h8v8"/></svg></a>` : ''}
+      ${c.officialUrl ? `<a class="official" href="${esc(c.officialUrl)}" target="_blank" rel="noopener"><span>Official status page</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17L17 7M9 7h8v8"/></svg>${NEW_TAB}</a>` : ''}
       <p class="src">${esc(srcText(c))}</p>
     </footer>`;
 }
