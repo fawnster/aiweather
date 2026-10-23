@@ -6,6 +6,7 @@ import { S, reduced } from './motion.js';
 const root = $('#editor'), onList = $('#ed-on'), offList = $('#ed-off');
 let changed = () => {};
 let lastFocus = null;
+let calmReset = () => {}; // puts the Reset button back if it was waiting for its second tap
 
 const grip = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 8h14M5 12h14M5 16h14"/></svg>';
 function row(c, on) {
@@ -159,6 +160,7 @@ export async function closeEditor() {
   }
   root.hidden = true;
   holdPage(false);
+  calmReset();
   $('#ed-said').textContent = '';
   root.getAnimations({ subtree: true }).forEach(x => x.cancel()); // drop the held fade so the next open starts clean
   // back to what opened it; "Edit list" sits in the menu, which closed behind the list, so then the Menu button
@@ -171,7 +173,20 @@ export function initEditor({ onChange }) {
   changed = onChange;
   $('#editor-done').addEventListener('click', closeEditor);
   root.addEventListener('click', e => { if (e.target === root) closeEditor(); });
-  $('#editor-reset').addEventListener('click', () => { prefs.order = null; prefs.hidden = []; savePrefs(); flip(render); changed(); });
+  // a reset throws away the viewer's own order and hidden companies, so it asks once: a second tap within 3 s does it
+  const reset = $('#editor-reset'), label = reset.textContent;
+  calmReset = () => { clearTimeout(reset._undo); delete reset.dataset.sure; reset.textContent = label; };
+  reset.addEventListener('click', () => {
+    if (!prefs.order && !prefs.hidden?.length) return; // already the default list
+    if (!reset.dataset.sure) {
+      reset.dataset.sure = '1'; reset.textContent = 'Tap again to reset'; $('#ed-said').textContent = 'Tap again to reset your list';
+      reset._undo = setTimeout(calmReset, 3000);
+      return;
+    }
+    calmReset();
+    prefs.order = null; prefs.hidden = []; savePrefs(); flip(render); changed();
+    $('#ed-said').textContent = 'Reset to the default list';
+  });
   root.addEventListener('click', e => {
     const t = e.target.closest('.ed-toggle'); if (t) toggle(t.closest('.ed-row'));
   });
