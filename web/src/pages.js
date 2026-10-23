@@ -289,8 +289,9 @@ function shells() {
 }
 
 function renderDots() {
-  const n = order.length, max = 9;
-  const start = Math.max(0, Math.min(current - 4, n - max)), end = Math.min(n, start + max);
+  // as many dots as fit at full tap size: the pill stays as wide on a phone as it was with nine smaller ones
+  const n = order.length, max = innerWidth <= 340 ? 5 : innerWidth < 400 ? 7 : 9;
+  const start = Math.max(0, Math.min(current - (max >> 1), n - max)), end = Math.min(n, start + max);
   let html = '';
   for (let i = start; i < end; i++) {
     const edge = (i === start && start > 0) || (i === end - 1 && end < n);

@@ -405,10 +405,15 @@ canvas.bars { display: block; } .bars.big { --bar-gap: 2.5; } .bars.mini { --bar
 #pg-list svg circle { fill: currentColor; stroke: none; }
 .pg-bar { position: absolute; left: 0; right: 0; bottom: calc(env(safe-area-inset-bottom) + 16px); display: flex; justify-content: center; align-items: center; gap: calc(12px * var(--k)); pointer-events: none; }
 .pg-bar > * { pointer-events: auto; }
-.dots { height: calc(50px * var(--k)); padding: 0 calc(18px * var(--k)); display: flex; align-items: center; gap: calc(9px * var(--k)); }
-.dot { width: calc(8px * var(--k)); height: calc(8px * var(--k)); border-radius: 50%; background: rgba(244, 241, 234, .34); transition: background-color .2s, transform .2s; }
-.dot.on { background: var(--ink); }
-.dot.small { transform: scale(.6); }
+.dots { height: calc(50px * var(--k)); padding: 0 calc(6px * var(--k)); display: flex; align-items: stretch; }
+/* each dot is a 24 px wide target as tall as the pill (an 8 px button was a hard tap on a phone); the dot itself is
+   drawn in its middle */
+.dot { width: calc(24px * var(--k)); display: grid; place-items: center; }
+.dot::before { content: ''; width: calc(8px * var(--k)); height: calc(8px * var(--k)); border-radius: 50%; background: rgba(244, 241, 234, .34); transition: background-color .2s, transform .2s; }
+.dot.on::before { background: var(--ink); }
+.dot.small::before { transform: scale(.6); }
+.dot:focus-visible { outline: none; }
+.dot:focus-visible::before { outline: 2px solid var(--ink); outline-offset: 3px; }
 .side { position: absolute; top: 50%; margin-top: calc(-26px * var(--k)); width: calc(52px * var(--k)); height: calc(52px * var(--k)); border-radius: 50%; display: grid; place-items: center; background: rgba(10, 16, 44, .7); box-shadow: inset 0 0 0 1px rgba(255, 255, 255, .12); color: var(--ink); transition: opacity .2s; }
 .side.prev { left: var(--pad); }
 .side.next { right: var(--pad); }
