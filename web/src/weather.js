@@ -22,6 +22,8 @@ export function conditionOf(companies) {
   else if (score >= 2) id = 'overcast';
   else if (score > .5) id = 'fair';
   else if (maint.length) id = 'fog';
+  // nothing on the board can be read right now: fog (as an unreadable company's own page shows), never a clear sky
+  else if (companies.length && companies.every(c => c.level === 'unknown' || c.level === 'no-page')) id = 'fog';
   else id = 'clear';
   const intensity = Math.min(1, score / 9); // 0..1 within the condition, for rain density / wind
   return { id, score, intensity, majors, partial, degraded, maint };

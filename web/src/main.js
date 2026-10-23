@@ -193,12 +193,19 @@ function renderForecast(cs, cond) {
     fair: () => 'Mostly clear',
     fog: () => `Fog over ${list(names(cond.maint))}`,
   }[cond.id]?.() ?? 'Clear skies';
-  const headText = phoneQ.matches ? placeLine(cs) : head;
+  // nothing in the list can be read right now: no weather to claim (the sky would otherwise say "clear")
+  const blind = !readable.length;
+  const headText = blind ? 'No readings right now' : phoneQ.matches ? placeLine(cs) : head;
   setHeadline(headText);
   const scope = customised() ? 'services in your list' : 'AI services';
-  const subText = hurt.length ? `${hurt.length} of ${readable.length} ${scope} report problems right now.` : `All ${readable.length} ${scope} report normal operation.`;
+  // a list of one is that company by name ("All 1 services ..." read wrong)
+  const one = readable.length === 1 ? readable[0].name : null;
+  const subText = blind ? 'No status page in your list is answering right now.'
+    : one ? `${one} reports ${hurt.length ? 'problems right now' : 'normal operation'}.`
+    : hurt.length ? `${hurt.length} of ${readable.length} ${scope} report problems right now.` : `All ${readable.length} ${scope} report normal operation.`;
   // every live update re-renders the board, so each part is only rewritten when what it says has changed
-  put($('#subline'), hurt.length
+  put($('#subline'), blind || one ? `<span class="sub-rest">${esc(subText)}</span>`
+    : hurt.length
     ? `<span class="sub-big"><span class="num">${hurt.length}</span> <span class="of">of</span> <span class="num">${readable.length}</span></span> <span class="sub-rest">${scope} report problems right now.</span>`
     : `<span class="sub-big"><span class="of">All</span> <span class="num">${readable.length}</span></span> <span class="sub-rest">${scope} report normal operation.</span>`);
   const noPage = cs.filter(c => c.sourceKind === 'none').map(c => c.name);
