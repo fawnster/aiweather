@@ -11,6 +11,23 @@ import type { SourceHealth } from './poller.js';
 import { UptimeService } from './uptime.js';
 import { NewsService } from './news.js';
 import { sources } from './registry.js';
+// The page's Content Security Policy: only this site's own scripts (and the page's two inline ones, by hash), its own
+// API and WebSocket plus xAI's open status JSON (read in the browser, see web/src/browser-sources.js), data: images
+// (the company marks and the favicon), inline styles (style attributes), and nothing else. Hashes are worked out once
+// per build of index.html.
+let cspFor: { etag: string; scripts: string } | null = null;
+function contentSecurityPolicy(file: string, etag: string, host: string | undefined): string {
+  if (cspFor?.etag !== etag) {
+    const html = readFileSync(file, 'utf8');
+    const scripts = [...html.matchAll(/<script(?![^>]*\bsrc=)[^>]*>([\s\S]*?)<\/script>/g)]
+      .map(m => `'sha256-${createHash('sha256').update(m[1]).digest('base64')}'`).join(' ');
+    cspFor = { etag, scripts };
+  }
+  const ws = host && /^[a-z0-9.-]+(:\d+)?$/i.test(host) ? ` ws://${host} wss://${host}` : '';
+  return [`default-src 'self'`, `script-src 'self' ${cspFor.scripts}`.trim(), `style-src 'self' 'unsafe-inline'`, `img-src 'self' data:`,
+    `font-src 'self'`, `media-src 'self'`, `connect-src 'self'${ws} https://data.x.ai`, `object-src 'none'`, `base-uri 'none'`, `form-action 'none'`].join('; ');
+}
+
 const mime: Record<string, string> = { '.html': 'text/html; charset=utf-8', '.js': 'text/javascript; charset=utf-8', '.css': 'text/css; charset=utf-8', '.json': 'application/json; charset=utf-8', '.svg': 'image/svg+xml', '.png': 'image/png', '.jpg': 'image/jpeg', '.webp': 'image/webp', '.ico': 'image/x-icon', '.woff2': 'font/woff2', '.txt': 'text/plain; charset=utf-8', '.mp4': 'video/mp4', '.webm': 'video/webm' };
 // Compression: the bulk uptime JSON is ~3 MB raw and ~10x smaller compressed. Each compressed body is made once and
 // reused until its content changes, so a burst of visitors costs one compression, not one each (the host has 0.25 vCPU).
@@ -111,6 +128,7 @@ export function createApp(state: State, health: () => SourceHealth[], staticRoot
     res.setHeader('etag', etag);
     if (req.headers['if-none-match'] === etag) { res.writeHead(304); res.end(); return; }
     res.setHeader('content-type', mime[extname(path)] ?? 'application/octet-stream');
+    if (path.endsWith('.html')) res.setHeader('content-security-policy', contentSecurityPolicy(path, etag, req.headers.host));
     res.setHeader('accept-ranges', 'bytes');
     // Safari/iOS only plays <video> when the server answers byte-range requests with 206
     const range = /^bytes=(\d*)-(\d*)$/.exec(String(req.headers.range ?? ''));

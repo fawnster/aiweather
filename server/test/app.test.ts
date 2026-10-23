@@ -1,3 +1,4 @@
+import { createHash } from 'node:crypto';
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import { mkdtemp, mkdir, writeFile, rm } from 'node:fs/promises';
@@ -8,9 +9,12 @@ import { WebSocket } from 'ws';
 import { createApp } from '../src/app.js';
 import { State } from '../src/state.js';
 import { sources } from '../src/registry.js';
+
+// the fixture page carries one inline script, so its hash must show up in the page's Content Security Policy
+const FIXTURE_HTML = '<html>fixture sky<script>window.k = 1</script></html>';
 test('HTTP snapshot/health, SPA/static caching, websocket snapshot/fanout/heartbeat', { timeout: 35_000 }, async t => {
   const root = await mkdtemp(join(tmpdir(), 'aiweather-static-'));
-  await mkdir(join(root, 'assets')); await writeFile(join(root, 'index.html'), '<html>fixture sky</html>'); await writeFile(join(root, 'assets', 'sky-1234abcd.js'), 'console.log("sky")');
+  await mkdir(join(root, 'assets')); await writeFile(join(root, 'index.html'), FIXTURE_HTML); await writeFile(join(root, 'assets', 'sky-1234abcd.js'), 'console.log("sky")');
   await mkdir(join(root, 's-0123456789', 'wx'), { recursive: true }); await writeFile(join(root, 's-0123456789', 'wx', 'rain.svg'), '<svg>rain</svg>');
   let app: ReturnType<typeof createApp>;
   const state = new State([sources[0]], false, m => app.broadcast(m));
@@ -20,13 +24,17 @@ test('HTTP snapshot/health, SPA/static caching, websocket snapshot/fanout/heartb
   const address = app.server.address(); assert.ok(address && typeof address === 'object'); const base = `http://127.0.0.1:${address.port}`;
   assert.equal((await (await fetch(base + '/api/snapshot')).json()).demo, false);
   assert.deepEqual(Object.keys(await (await fetch(base + '/api/health')).json()), ['ok', 'uptimeSec', 'sources']);
-  const index = await fetch(base + '/route'); assert.equal(await index.text(), '<html>fixture sky</html>'); assert.equal(index.headers.get('cache-control'), 'no-cache');
+  const index = await fetch(base + '/route'); assert.equal(await index.text(), FIXTURE_HTML); assert.equal(index.headers.get('cache-control'), 'no-cache');
+  const csp = index.headers.get('content-security-policy') ?? '';
+  assert.match(csp, /default-src 'self'/); assert.match(csp, /object-src 'none'/); assert.match(csp, /base-uri 'none'/);
+  assert.ok(csp.includes(`'sha256-${createHash('sha256').update('window.k = 1').digest('base64')}'`), 'the inline script is allowed by its hash');
+  assert.ok(csp.includes(`connect-src 'self' ws://${new URL(base).host} wss://${new URL(base).host} https://data.x.ai`), 'its own WebSocket and xAI status JSON');
   const asset = await fetch(base + '/assets/sky-1234abcd.js'); assert.match(asset.headers.get('cache-control')!, /immutable/);
   // an icon asked for by a page from an older build is answered from the live build (not as index.html), briefly cached
   const stale = await fetch(base + '/s-abcdefabcd/wx/rain.svg'); assert.equal(await stale.text(), '<svg>rain</svg>');
   assert.match(stale.headers.get('content-type')!, /svg/); assert.equal(stale.headers.get('cache-control'), 'public, max-age=300');
   assert.match((await fetch(base + '/s-0123456789/wx/rain.svg')).headers.get('cache-control')!, /immutable/);
-  assert.equal(await (await fetch(base + '/s-abcdefabcd/wx/missing.svg')).text(), '<html>fixture sky</html>');
+  assert.equal(await (await fetch(base + '/s-abcdefabcd/wx/missing.svg')).text(), FIXTURE_HTML);
   assert.equal((await fetch(base + '/assets/sky-1234abcd.js', { headers: { 'if-none-match': asset.headers.get('etag')! } })).status, 304);
   assert.equal((await fetch(base + '/route', { method: 'POST' })).status, 405);
   assert.equal((await fetch(base + '/.env')).status, 400);
