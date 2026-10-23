@@ -22,6 +22,11 @@ const fmtMin = v => { const m = Math.max(1, Math.round(v)); return m >= 60 ? `${
 const dayLabel = (date, i) => (i === 0 ? 'Today' : new Date(`${date}T12:00:00Z`).toLocaleDateString([], { weekday: 'short', timeZone: 'UTC' }));
 const DAY_WORD = { unknown: '–', degraded: 'Cloudy' }; // short enough for a day's column; the icon says the rest
 const dayWord = d => (d.level === 'operational' ? 'OK' : d.downMinutes ? fmtMin(d.downMinutes).replace(' min', 'm') : DAY_WORD[d.level] ?? LEVEL[d.level]?.sky ?? '');
+// the same day in words for a screen reader ("31m" was read as 31 metres)
+const plural = (n, w) => `${n} ${w}${n === 1 ? '' : 's'}`;
+const spokenMin = v => { const m = Math.max(1, Math.round(v)), h = Math.floor(m / 60); return h ? `${plural(h, 'hour')}${m % 60 ? ` ${plural(m % 60, 'minute')}` : ''}` : plural(m, 'minute'); };
+const daySaid = d => (d.level === 'operational' ? 'no incidents' : d.level === 'unknown' ? 'no data'
+  : `${LEVEL[d.level]?.word ?? ''}${d.downMinutes ? `, ${spokenMin(d.downMinutes)}` : ''}`);
 // how many days a part's bars cover: the same window as its figure (a page that only publishes 30 days shows 30)
 const NEW_TAB = '<span class="vh"> (opens in a new tab)</span>'; // said after a link that leaves for another site
 const spanOf = x => (x.pct90 == null && x.pct30 != null ? 30 : 90);
@@ -107,7 +112,7 @@ function nowCard(c, u, p) {
       ${!open && c.summary && !/all systems operational|^demo:/i.test(c.summary) && c.sourceKind !== 'none' ? `<p class="cp-quote">“${esc(c.summary.length > 170 ? `${c.summary.slice(0, 167)}…` : c.summary)}”</p>` : ''}
       ${days.length ? `<div class="days" role="list">${days.map((d, i) => `
         <div class="day" role="listitem" data-i="${days.length - 1 - i}" style="--c:${LEVEL[d.level]?.color}">
-          <span class="d-label">${esc(dayLabel(d.date, i))}</span>${wxImg(d.level, 'wx day', { night: false })}<span class="d-val${d.level === 'operational' ? ' ok' : ''}">${esc(dayWord(d))}</span>
+          <span class="d-label">${esc(dayLabel(d.date, i))}</span>${wxImg(d.level, 'wx day', { night: false })}<span class="d-val${d.level === 'operational' ? ' ok' : ''}" aria-hidden="true">${esc(dayWord(d))}</span><span class="vh">${esc(daySaid(d))}</span>
         </div>`).join('')}</div>` : ''}
     </section>`;
 }
