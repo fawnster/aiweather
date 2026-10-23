@@ -15,10 +15,20 @@ const KIND = { big: [2.5, .5, 2], mini: [1.5, .5, 2], strip: [1.5, .5, 1] };
 
 export const levelAt = (canvas, i) => LEVEL_OF[canvas.dataset.l?.[i]] ?? 'unknown';
 
+/** What the bars show, in words, for a screen reader: how many days had incidents and how bad the worst was. */
+const WORST = { major: 'a major outage', partial: 'a partial outage', degraded: 'degraded service' };
+function said(days) {
+  const hurt = days.filter(d => WORST[d.level]).length, blank = days.filter(d => !CODE[d.level] || d.level === 'unknown').length;
+  const worst = Object.keys(WORST).find(l => days.some(d => d.level === l));
+  const parts = [hurt ? `${hurt} with incidents, the worst ${WORST[worst]}` : 'no incidents'];
+  if (blank) parts.push(`${blank} without data`);
+  return `Last ${days.length} days: ${parts.join('; ')}`;
+}
+
 /** The markup for a chart: `kind` is 'big', 'mini' or 'strip'. */
 export function barsHtml(days, kind, attrs = '') {
   const code = days.map(d => CODE[d.level] ?? 'u').join('');
-  return `<canvas class="${kind === 'strip' ? 'strip-bars' : `bars ${kind}`}" data-kind="${kind}" data-l="${code}" ${attrs} role="img" aria-label="Daily status for the last ${days.length} days"></canvas>`;
+  return `<canvas class="${kind === 'strip' ? 'strip-bars' : `bars ${kind}`}" data-kind="${kind}" data-l="${code}" ${attrs} role="img" aria-label="${said(days)}"></canvas>`;
 }
 
 let k = 1, okPage = 'rgba(241,238,230,.22)';
