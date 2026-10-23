@@ -201,7 +201,7 @@ function renderForecast(cs, cond) {
   if ($('#footnote').textContent !== foot) $('#footnote').textContent = foot;
   const aff = $('#affected');
   if (put(aff, viewNow() === 'calm'
-    ? cs.filter(c => LEVEL_RANK[c.level] >= 2).map(c => `<button class="aff" data-id="${esc(c.id)}" data-level="${esc(c.level)}">${iconHtml(c)}<span>${esc(c.name)}</span></button>`).join('')
+    ? cs.filter(c => LEVEL_RANK[c.level] >= 2).map(c => `<button class="aff" data-id="${esc(c.id)}" data-level="${esc(c.level)}" title="${esc(LEVEL[c.level]?.word ?? '')}">${iconHtml(c)}<span>${esc(c.name)}</span><span class="vh">: ${esc((LEVEL[c.level]?.word ?? '').toLowerCase())}</span></button>`).join('')
     : '')) aff.querySelectorAll('.aff').forEach(b => b.addEventListener('click', () => openCompany(b.dataset.id)));
   // heard only when which companies are in trouble changes (not when the wording does, like phone and desktop's)
   say(readable.filter(c => LEVEL_RANK[c.level] >= 2).map(c => `${c.id}:${c.level}`).join(), `${headText}. ${subText}`);
